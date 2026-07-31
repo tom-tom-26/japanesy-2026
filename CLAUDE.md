@@ -29,6 +29,19 @@ The `README.md` states the operating rule for this repo: **"NO SLOP"** — every
 - When adding a new Tokyo day plan, follow the existing Kyoto pattern: neighborhood-grouped days, flag heavy-walking days, note booking-required venues (seats/reservation limits) explicitly, and add a sources file/section if introducing new venues.
 - **Always check travel times to locations**. There must be reasonable accommodation/travel time to each location you suggest.
 
+## Checking live accommodation prices (do this efficiently)
+
+When the task needs real hotel/apartment prices, don't guess or reuse stale figures — pull them live and **timestamp them** ("checked <date>"), and paste the dated search link so they can be re-verified (NO SLOP applies to prices too).
+
+Fastest path that worked:
+- Use the in-app **Browser** (`mcp__Claude_Browser__navigate` + `get_page_text`). Build a Booking.com search-results URL directly — no clicking through forms. Template:
+  `https://www.booking.com/searchresults.en-gb.html?ss=<AREA>&checkin=YYYY-MM-DD&checkout=YYYY-MM-DD&group_adults=3&no_rooms=1&group_children=0&selected_currency=GBP&order=price&nflt=review_score%3D80%3Bprivacy_type%3D3`
+  - `order=price` = cheapest first; `nflt=review_score%3D80` = 8+ reviews; add `%3Bprivacy_type%3D3` for **entire apartments** only.
+- Read results with `get_page_text` (NOT screenshot — the Browser pane often isn't composited, so screenshots time out; text extraction works). Prices show as "N nights, 3 adults £X" per card.
+- **Key finding for this group (3 adults + en-suite):** 3 adults in **1 room fails** in central Kabukicho — Booking either throws results to the suburbs or forces 2 rooms (£2,300–3,000/9 nights). For a trio, **search entire apartments** (`privacy_type=3`); they sleep 3 (double + sofa/futon), have en-suite, and are far cheaper. The cheap high-review ones cluster in **Okubo/Shin-Okubo** (~10-min walk to Kabukicho, one Yamanote stop to Shinjuku).
+- Favour listings with a **real review count** (24+), not just a 9.9 score from 1–3 reviews.
+- Providing the **dated search-results URL** is a more durable "link" than a per-property URL (Booking property URLs carry an expiring `sid`).
+
 ## Regenerating the .ics calendars
 
 Don't start an `.ics` from scratch and don't hand-fold lines. Write a small generator that reuses `scripts/ics_common.py`:
