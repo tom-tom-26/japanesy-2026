@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Japan Holiday · Nov 2026</title>
+<style>
+  :root{
+    --red:#bc002d; --ink:#1a1a2e; --slate:#5c6b7a; --paper:#fbf7f2;
+    --card:#ffffff; --line:#ece4da; --gold:#c8a04f; --green:#2f7d5b;
+    --blue:#2b5c8a; --soft:#f4eee6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
+  a{color:inherit}
+
+  /* Hero */
+  .hero{position:relative;background:linear-gradient(135deg,#bc002d 0%,#8a0020 100%);color:#fff;padding:56px 24px 68px;text-align:center;overflow:hidden}
+  .hero::after{content:"";position:absolute;top:-40px;right:-40px;width:220px;height:220px;background:rgba(255,255,255,.08);border-radius:50%}
+  .hero::before{content:"";position:absolute;bottom:-60px;left:-30px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%}
+  .sun{width:70px;height:70px;background:#fff;border-radius:50%;margin:0 auto 18px;box-shadow:0 0 0 10px rgba(255,255,255,.15)}
+  .hero h1{font-size:2.5rem;letter-spacing:.5px;font-weight:700}
+  .hero .jp{font-size:1.1rem;opacity:.85;margin-top:4px;letter-spacing:4px}
+  .hero p{margin-top:14px;font-size:1.05rem;opacity:.92}
+  .badge{display:inline-block;margin-top:18px;background:rgba(255,255,255,.18);padding:8px 18px;border-radius:40px;font-size:.9rem;backdrop-filter:blur(4px)}
+
+  .wrap{max-width:960px;margin:-36px auto 60px;padding:0 18px;position:relative;z-index:2}
+
+  /* Nav */
+  .nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:var(--card);padding:12px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.08);margin-bottom:30px}
+  .nav button{border:none;background:var(--soft);color:var(--slate);padding:9px 16px;border-radius:30px;font-size:.9rem;cursor:pointer;font-weight:600;transition:.2s;min-height:40px}
+  .nav button:hover{background:#efe4d6}
+  .nav button.active{background:var(--red);color:#fff}
+  .nav button.todaybtn{background:#fff3d6;color:#7a5b00}
+  .nav button.todaybtn:hover{background:#ffe9b8}
+
+  section{display:none;animation:fade .35s ease}
+  section.show{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  h2.sec{font-size:1.6rem;margin-bottom:6px;color:var(--red);display:flex;align-items:center;gap:10px}
+  h2.sec span.k{font-size:1rem;color:var(--slate);font-weight:400}
+  .sub{color:var(--slate);margin-bottom:22px}
+  .hint{color:var(--slate);font-size:.82rem;margin:-14px 0 20px;font-style:italic}
+
+  /* Cards */
+  .card{background:var(--card);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.06);border:1px solid var(--line);margin-bottom:18px;overflow:hidden;display:block;width:100%}
+  .card-head{padding:16px 20px;background:linear-gradient(90deg,var(--red),#9c0025);color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .card-head small{font-weight:400;opacity:.85;font-size:.85rem;display:block;margin-top:2px}
+  .card-body{padding:8px 0}
+
+  /* Day accordions (native details/summary elements — works with no JS) */
+  details.daycard{cursor:default}
+  details.daycard > summary.card-head{cursor:pointer;list-style:none;-webkit-tap-highlight-color:rgba(255,255,255,.15);min-height:44px}
+  details.daycard > summary.card-head::-webkit-details-marker{display:none}
+  details.daycard > summary.card-head::marker{content:""}
+  details.daycard > summary.card-head .titlewrap{flex:1 1 auto}
+  details.daycard > summary.card-head .chev{flex:0 0 auto;font-size:1.1rem;opacity:.85;transition:transform .25s}
+  details.daycard[open] > summary.card-head .chev{transform:rotate(90deg)}
+
+  /* Timeline rows -> event accordions */
+  .ev{border-bottom:1px solid var(--line)}
+  .ev:last-child{border-bottom:none}
+  .ev > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:96px 1fr 18px;gap:14px;padding:14px 20px;align-items:start;-webkit-tap-highlight-color:rgba(188,0,45,.08);min-height:44px}
+  .ev > summary::-webkit-details-marker{display:none}
+  .ev > summary::marker{content:""}
+  .ev > summary:active{background:var(--soft)}
+  .ev > summary .chev{color:var(--slate);font-size:1rem;transition:transform .2s;margin-top:2px;text-align:right}
+  .ev[open] > summary .chev{transform:rotate(90deg)}
+  .time{font-weight:700;color:var(--red);font-size:.92rem}
+  .dur{display:block;color:var(--slate);font-weight:400;font-size:.78rem;margin-top:2px}
+  .place{font-weight:600;font-size:1.02rem}
+  .ev-detail{padding:0 20px 18px 110px}
+  .notes{color:var(--slate);font-size:.9rem;margin-top:4px}
+  .travel{display:inline-block;margin-top:8px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:3px 10px;border-radius:20px}
+  .food{display:inline-block;margin-top:8px;margin-right:6px;font-size:.8rem;background:#fdf1ec;color:var(--red);padding:3px 10px;border-radius:20px}
+  .bar{display:inline-block;margin-top:8px;font-size:.8rem;background:#eef4f0;color:var(--green);padding:3px 10px;border-radius:20px}
+  .alt{margin-top:12px;background:#eef4ee;border-left:3px solid var(--green);padding:10px 12px;border-radius:8px;font-size:.87rem;color:#33463a}
+  .alt b{color:var(--green)}
+
+  /* Maps */
+  .maprow{margin-top:10px}
+  .mapbtn{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:7px 12px;border-radius:20px;font-weight:600;text-decoration:none;min-height:32px}
+  .mapbtn:active{background:#e4dccb}
+  .mapframe{margin-top:10px;border-radius:12px;overflow:hidden;border:1px solid var(--line);min-height:190px;background:var(--soft)}
+  .mapframe iframe{width:100%;height:190px;border:0;display:block}
+
+  /* Flights */
+  .flight{display:grid;grid-template-columns:1fr;gap:0}
+  .fcard{padding:18px 20px;border-bottom:1px solid var(--line)}
+  .fcard:last-child{border-bottom:none}
+  .who{font-weight:700;font-size:1.1rem;margin-bottom:10px;color:var(--ink)}
+  .leg{display:flex;gap:10px;align-items:baseline;font-size:.92rem;padding:5px 0}
+  .leg .lbl{width:110px;color:var(--slate);font-size:.8rem;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}
+  .leg .val{font-weight:500}
+  .note-line{margin-top:8px;font-size:.85rem;color:var(--slate);font-style:italic}
+
+  /* Key dates */
+  .keydates{background:var(--card);border-radius:16px;border:1px solid var(--line);padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+  .kd{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .kd:last-child{border-bottom:none}
+  .kd .d{font-weight:700;color:var(--red);width:90px;flex-shrink:0}
+
+  /* Static summary rows (Overview "at a glance" / accommodation cards — like .ev but not clickable) */
+  .ov-row{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
+  .ov-row:last-child{border-bottom:none}
+
+  /* Day-strip calendars (tap a pill to jump to that day) */
+  .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:20px}
+  .cal .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04);cursor:pointer;-webkit-tap-highlight-color:rgba(188,0,45,.1);min-height:44px}
+  .cal .day:active{background:var(--soft)}
+  .cal .day .num{font-size:1.4rem;font-weight:700;color:var(--ink)}
+  .cal .day .lab{font-size:.72rem;color:var(--slate);margin-top:4px;min-height:28px}
+  .cal .day.leave{border-color:var(--red);background:#fdf1ec}
+  .cal .day.leave .lab{color:var(--red);font-weight:600}
+  .cal .day.today{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
+
+  footer{text-align:center;color:var(--slate);font-size:.82rem;padding:30px 20px 10px}
+  .tag{display:inline-block;background:var(--soft);color:var(--slate);padding:3px 10px;border-radius:20px;font-size:.75rem;margin-left:8px}
+  @media(max-width:560px){
+    .hero h1{font-size:1.9rem}
+    .ev > summary{grid-template-columns:72px 1fr 16px;gap:8px;padding:12px 14px}
+    .ev-detail{padding:0 14px 16px 14px}
+    .leg{flex-direction:column;gap:2px}
+    .leg .lbl{width:auto}
+  }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="sun"></div>
+    <h1>Japan Holiday</h1>
+    <div class="jp">日本旅行</div>
+    <p>Kyoto &amp; Tokyo · 8–21 November 2026</p>
+    <div class="badge">Mandeep · Tom · Jai</div>
+  </div>
+
+  <div class="wrap">
+    <div class="nav">
+      <button class="active" data-t="overview">Overview</button>
+      <button data-t="flights">✈️ Flights</button>
+      <button data-t="kyoto">⛩️ Kyoto</button>
+      <button data-t="tokyo">🗼 Tokyo</button>
+      <button id="todayBtn" class="todaybtn" type="button">📍 Today</button>
+    </div>
+
+    <!-- OVERVIEW -->
+    <section id="overview" class="show">
+      <h2 class="sec">Trip Overview</h2>
+      <p class="sub">Two weeks across Kyoto and Tokyo. Everyone meets in Tokyo on Sun 8 Nov, then the plan runs south to Kyoto and back.</p>
+
+      <div class="keydates" style="margin-bottom:18px">
+        <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom (A&amp;C) arrive Narita 7:00 PM. Everyone stays in Tokyo overnight.</div></div>
+        <div class="kd"><div class="d">Mon 9 Nov</div><div>Travel to Kyoto (Shinkansen from Tokyo ~12pm). Drop luggage south, explore Fushimi &amp; Gion.</div></div>
+        <div class="kd"><div class="d">9–12 Nov</div><div>Kyoto — south &amp; Gion, Arashiyama &amp; NW temples, dawn Fushimi &amp; Higashiyama upper, central.</div></div>
+        <div class="kd"><div class="d">12–19 Nov</div><div>Tokyo &amp; onward exploring.</div></div>
+        <div class="kd"><div class="d">Fri 20 Nov</div><div>Jai departs Haneda 13:15 → London Heathrow 19:10.</div></div>
+        <div class="kd"><div class="d">Sat 21 Nov</div><div>Mandeep &amp; Tom depart Narita 19:30 → Shanghai → London Gatwick (arr. Sun 22, 6:55).</div></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">At a glance</div>
+        <div class="card-body">
+          <div class="ov-row"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
+          <div class="ov-row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Thu 12 – Sat 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
+          <div class="ov-row"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <div class="card-head">Accommodation (booked — Tokyo still provisional)</div>
+        <div class="card-body">
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Arrival night · Sun 8 – Mon 9 Nov · Hotel House Lee</div><div class="notes">2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.</div></div></div>
+          <div class="ov-row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 Nov · Airbnb</div><div class="notes">4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — ~10 min walk to Kiyomizu-dera, ~15 min to Gion.</div></div></div>
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Main stay · Thu 12 – Sat 21 Nov · <em>name TBC</em></div><div class="notes">2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan. Provisional — not yet re-verified against a live listing.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLIGHTS -->
+    <section id="flights">
+      <h2 class="sec">Flights &amp; Logistics <span class="k">✈️</span></h2>
+      <p class="sub">Full routing for both parties, plus the key handover dates.</p>
+
+      <div class="card">
+        <div class="card-head">Flight details</div>
+        <div class="flight">
+          <div class="fcard">
+            <div class="who">Mandeep &amp; Tom <span class="tag">2 people · Narita</span></div>
+            <div class="leg"><span class="lbl">Outbound</span><span class="val">Sat 7 Nov · LHR 17:40 → PEK 11:25 (arr. Sun 8 Nov)</span></div>
+            <div class="leg"><span class="lbl">Layover</span><span class="val">Sun 8 Nov · PEK 11:25 → NRT 19:00</span></div>
+            <div class="leg"><span class="lbl">Arrives</span><span class="val">NRT (Narita) · Sun 8 Nov, 19:00</span></div>
+            <div class="leg"><span class="lbl">Return</span><span class="val">Sat 21 Nov · NRT 19:30 → PVG 22:15 · then Sun 22 Nov · PVG 2:25 → LGW 6:55</span></div>
+            <div class="note-line">Arrive late evening Sun 8th into Narita.</div>
+          </div>
+          <div class="fcard">
+            <div class="who">Jai <span class="tag">1 person · Haneda</span></div>
+            <div class="leg"><span class="lbl">Outbound</span><span class="val">Sat 7 Nov · LHR 11:45 (direct)</span></div>
+            <div class="leg"><span class="lbl">Transfer</span><span class="val">Direct flight</span></div>
+            <div class="leg"><span class="lbl">Arrives</span><span class="val">HND (Haneda) · Sun 8 Nov, 10:25</span></div>
+            <div class="leg"><span class="lbl">Return</span><span class="val">Fri 20 Nov · HND 13:15 → LHR 19:10</span></div>
+            <div class="note-line">Arrives ~9 hours before Mandeep &amp; Tom on Sunday.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="keydates">
+        <div style="font-weight:700;color:var(--red);margin-bottom:10px;font-size:1.05rem">Key dates</div>
+        <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom arrive Narita 7:00 PM. All stay in Tokyo overnight.</div></div>
+        <div class="kd"><div class="d">Mon 9 Nov</div><div>Shinkansen Tokyo → Kyoto ~12pm. Drop luggage south.</div></div>
+        <div class="kd"><div class="d">Fri 20 Nov</div><div>Jai leaves (Haneda).</div></div>
+        <div class="kd"><div class="d">Sat 21 Nov</div><div>Mandeep &amp; Tom leave (Narita).</div></div>
+      </div>
+    </section>
+
+    <!-- KYOTO -->
+    <section id="kyoto">
+      <h2 class="sec">Kyoto <span class="k">{{KYOTO_K}}</span></h2>
+      <p class="sub">{{KYOTO_SUB}}</p>
+      <p class="hint">{{KYOTO_HINT}}</p>
+
+      <div class="cal">
+        {{KYOTO_PILLS}}
+      </div>
+
+{{KYOTO_DAYS}}
+    </section>
+
+    <!-- TOKYO -->
+    <section id="tokyo">
+      <h2 class="sec">Tokyo <span class="k">{{TOKYO_K}}</span></h2>
+      <p class="sub">{{TOKYO_SUB}}</p>
+      <p class="hint">{{TOKYO_HINT}}</p>
+
+      <div class="cal">
+        {{TOKYO_PILLS}}
+      </div>
+
+{{TOKYO_DAYS}}
+    </section>
+
+    <footer>Built from japan_plan · Nov 2026 · Times &amp; details from your spreadsheet, cross-checked against Kyoto_Itinerary_Sources / Tokyo_Itinerary_Sources · Tap a day, tap a stop, tap a map</footer>
+  </div>
+
+<script>
+(function(){
+  const btns=document.querySelectorAll('.nav button[data-t]');
+  const secs=document.querySelectorAll('section');
+
+  function showTab(id){
+    btns.forEach(x=>x.classList.toggle('active', x.dataset.t===id));
+    secs.forEach(x=>x.classList.toggle('show', x.id===id));
+  }
+  btns.forEach(b=>b.addEventListener('click',()=>{
+    showTab(b.dataset.t);
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+
+  // Lazy-load Google Maps embeds (no API key needed) + wire up "Open in Google Maps" links
+  document.querySelectorAll('.ev[data-map]').forEach(function(ev){
+    const q = ev.dataset.map;
+    const enc = encodeURIComponent(q);
+    const link = ev.querySelector('.mapbtn');
+    if(link) link.href = 'https://www.google.com/maps/search/?api=1&query='+enc;
+    ev.addEventListener('toggle', function(){
+      if(!ev.open) return;
+      const box = ev.querySelector('.mapframe');
+      if(box && !box.dataset.loaded){
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://maps.google.com/maps?q='+enc+'&output=embed';
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = 'no-referrer-when-downgrade';
+        iframe.allowFullscreen = true;
+        box.appendChild(iframe);
+        box.dataset.loaded = '1';
+      }
+    });
+  });
+
+  // Tap a day-strip pill to open + scroll to that day within its section
+  function activateDay(day){
+    const sec = day.closest('section');
+    showTab(sec.id);
+    sec.querySelectorAll('.daycard').forEach(d=>{ if(d!==day) d.open=false; });
+    day.open = true;
+    setTimeout(()=>day.scrollIntoView({behavior:'smooth',block:'start'}), 60);
+  }
+  document.querySelectorAll('.cal .day[data-day]').forEach(function(pill){
+    pill.addEventListener('click', function(){
+      const sec = pill.closest('section');
+      const day = sec.querySelector('.daycard[data-day="'+pill.dataset.day+'"]');
+      if(day) activateDay(day);
+    });
+  });
+
+  // "Today" button + auto-open: matches the device's local date against each day card's data-date
+  function pad(n){ return n<10 ? '0'+n : ''+n; }
+  function todayStr(){
+    const d=new Date();
+    return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+  }
+  function jumpToToday(){
+    const today = todayStr();
+    const day = document.querySelector('.daycard[data-date="'+today+'"]');
+    if(!day) return false;
+    activateDay(day);
+    return true;
+  }
+  const todayBtn = document.getElementById('todayBtn');
+  if(todayBtn){
+    todayBtn.addEventListener('click', function(){
+      if(!jumpToToday()) todayBtn.textContent = '📍 Not on the trip today';
+    });
+  }
+  jumpToToday(); // silently auto-opens today's day if this is viewed during the trip (8–21 Nov 2026)
+})();
+</script>
+</body>
+</html>

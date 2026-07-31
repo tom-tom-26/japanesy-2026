@@ -101,6 +101,10 @@
   .kd:last-child{border-bottom:none}
   .kd .d{font-weight:700;color:var(--red);width:90px;flex-shrink:0}
 
+  /* Static summary rows (Overview "at a glance" / accommodation cards — like .ev but not clickable) */
+  .ov-row{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
+  .ov-row:last-child{border-bottom:none}
+
   /* Day-strip calendars (tap a pill to jump to that day) */
   .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:20px}
   .cal .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04);cursor:pointer;-webkit-tap-highlight-color:rgba(188,0,45,.1);min-height:44px}
@@ -157,19 +161,19 @@
       <div class="card">
         <div class="card-head">At a glance</div>
         <div class="card-body">
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🗼 Tokyo</div><div><div class="place">Thu 12 – Sat 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
+          <div class="ov-row"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
+          <div class="ov-row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Thu 12 – Sat 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
+          <div class="ov-row"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
         </div>
       </div>
 
       <div class="card" style="margin-top:18px">
         <div class="card-head">Accommodation (booked — Tokyo still provisional)</div>
         <div class="card-body">
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🗼 Tokyo</div><div><div class="place">Arrival night · Sun 8 – Mon 9 Nov · Hotel House Lee</div><div class="notes">2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.</div></div></div>
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 Nov · Airbnb</div><div class="notes">4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — ~10 min walk to Kiyomizu-dera, ~15 min to Gion.</div></div></div>
-          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px"><div class="time">🗼 Tokyo</div><div><div class="place">Main stay · Thu 12 – Sat 21 Nov · <em>name TBC</em></div><div class="notes">2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan. Provisional — not yet re-verified against a live listing.</div></div></div>
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Arrival night · Sun 8 – Mon 9 Nov · Hotel House Lee</div><div class="notes">2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.</div></div></div>
+          <div class="ov-row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 Nov · Airbnb</div><div class="notes">4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — ~10 min walk to Kiyomizu-dera, ~15 min to Gion.</div></div></div>
+          <div class="ov-row"><div class="time">🗼 Tokyo</div><div><div class="place">Main stay · Thu 12 – Sat 21 Nov · <em>name TBC</em></div><div class="notes">2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan. Provisional — not yet re-verified against a live listing.</div></div></div>
         </div>
       </div>
     </section>

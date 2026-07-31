@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Japanesy 2026//Kyoto Itinerary//EN
+PRODID:-//Japanesy 2026//Kyoto Itinerary – Nov 2026//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Kyoto Itinerary – Nov 2026
@@ -21,10 +21,11 @@ DTSTART;TZID=Asia/Tokyo:20261109T120000
 DTEND;TZID=Asia/Tokyo:20261109T123000
 SUMMARY:Arrive Kyoto Station — drop luggage
 LOCATION:Kyoto Station\, Hachijo Exit\, Shimogyo-ku\, Kyoto
-DESCRIPTION:Coin lockers: ¥700 (large)\, Hachijo Exit.\nAlt: Crosta Kyoto 
- same-day luggage delivery to hotel\, ~¥1\,000/bag — drop off by 2pm.\nM
- ap: https://www.google.com/maps/search/?api=1&query=Kyoto+Station+Hachijo+
- Exit
+DESCRIPTION:Coin lockers: ¥700 (large)\, Hachijo Exit.\nDrop bags at the A
+ irbnb (4-chōme-432-6 Gojobashihigashi\, Higashiyama Ward\, Kyoto 605-0846
+  — message host ahead) or Crosta Kyoto same-day delivery\, ~¥1\,000/bag
+ \, drop off by 2pm.\nMap: https://www.google.com/maps/search/?api=1&query=
+ Kyoto+Station+Hachijo+Exit
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Arrive Kyoto Station — drop luggage
