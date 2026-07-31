@@ -1,0 +1,3 @@
+# Python bytecode cache from the scripts/ generators
+__pycache__/
+*.pyc
