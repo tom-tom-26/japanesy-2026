@@ -30,6 +30,9 @@ Every restaurant, bar, temple, and logistics claim in `Kyoto_Itinerary_Plan` was
 - **Bar Rocking Chair** — machiya cocktail bar, bartender Kenji Tsubokura (World Bartender of the Year, IBA). [50 Best Discovery](https://www.theworlds50best.com/discovery/Establishments/Japan/Kyoto/Bar-Rocking-Chair.html)
 - **Nokishita711** — reservation-only "liquid cuisine" tasting bar, seats 4. [Atlas Obscura](https://www.atlasobscura.com/places/nokishita711-liquid-cuisine-kyoto), [50 Best Discovery](https://www.theworlds50best.com/discovery/Establishments/Japan/Kyoto/Nokishita-711.html)
 
+## Accommodation
+- **Booked Airbnb** — 4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan (address as provided by the traveller, booking confirmed). Location verified against transit needs: [Kiyomizu-Gojō Station – Wikipedia](https://en.wikipedia.org/wiki/Kiyomizu-Goj%C5%8D_Station), [Keihan Main Line station order](https://www.kyotostation.com/the-keihan-main-line-keihan-electric-railway/), [Gojōzaka – Wikipedia](https://en.wikipedia.org/wiki/Goj%C5%8Dzaka) (10-min walk to Kiyomizu-dera), [Kiyomizu-Gojo to Kyoto Station transit times](https://www.trip.com/transport/station/kiyomizu-gojo-station-to-kyoto-station.html).
+
 ## Corrections made from the original draft plan
 1. **"Ramen Sen-no-Kaze"** was listed as a quick lunch near Fushimi Inari/Kyoto Station — it's actually located in Kawaramachi/Shinkyogoku, a different part of the city, so it didn't fit the arrival-day lunch logistically. Replaced with **Kyoto Ramen Koji** at the station itself. [Tabelog Sen no Kaze listing](https://tabelog.com/en/kyoto/A2601/A260202/26016307/)
 2. **"Gion Tanto"** was tagged as a ramen dinner option — Tabelog classifies it as okonomiyaki, not ramen. Label corrected.

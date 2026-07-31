@@ -2,6 +2,10 @@
 
 Built for Mandeep, Tom & Jai. Base is **Shinjuku / Kabukicho** (per the accommodation guide), so every day is grouped to lean on the **JR Yamanote Line** and the Shinjuku hubs to cut transit time. Heavy-walking days are flagged; every restaurant/bar/attraction below is verified as a real, currently-operating, specialty venue (see the companion **Tokyo_Itinerary_Sources** file for citations on every claim). Follows the same **"NO SLOP" / zero-hallucination rule** as the Kyoto plan — nothing invented.
 
+**Accommodation (booked, provisional — see `Tokyo_Accommodation_Guide.md`):**
+- **8→9 Nov (arrival night):** Hotel House Lee, 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.
+- **12→21 Nov (main stay, "the apartment" below):** 2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan.
+
 **Dates (confirmed from the flight details in `japan_holiday_updated.html`):** the group returns from Kyoto on the Shinkansen **Thu 12 Nov** (arrival evening) and departs **staggered — Jai flies out Fri 20 Nov (Haneda 13:15), Mandeep & Tom fly out Sat 21 Nov (Narita 19:30)**. That gives **8 full shared days (Thu 12 arrival + Fri 13 – Thu 19)**, then a lighter Fri 20 (Jai's airport run + a relaxed day for the other two) and a departure half-day Sat 21.
 
 **Two timing things baked in up front (both real):**

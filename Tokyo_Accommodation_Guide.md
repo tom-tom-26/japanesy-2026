@@ -4,6 +4,17 @@ Same brief as before, but **budget-first**: cheapest viable options in the picke
 
 > **Live prices checked:** 31 July 2026 · Booking.com · currency GBP · **3 adults** · prices are the **whole room/apartment total** incl. taxes for the stated nights.
 
+## Booked (provisional — addresses as given, not yet re-verified against a live listing)
+
+| Booking | Property | Address |
+|---|---|---|
+| **1 — Arrival night (8→9 Nov)** | Hotel House Lee | 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan |
+| **2 — Main stay (12→21 Nov)** | *(name not yet confirmed)* | 2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan |
+
+- **Hotel House Lee matches this guide's own recommended pick below** (§ Booking 1) — same property, so the £70/8.5★/773-review numbers checked 31 Jul 2026 should hold. Hyakunincho is the Okubo-adjacent block just west of Kabukicho, consistent with this guide's "cheap + high-review clusters in Okubo/Shin-Okubo" finding.
+- **The main-stay address is a new find, not one of the shortlisted apartments above** — it's central Kabukicho itself (2-chome), one block from Godzilla Road, so it fits the "in Kabukicho" profile but wasn't priced/review-checked in the search that produced the shortlist. As given, the postcode carried a stray trailing "23" (`160-0021 23`) which looks like a leftover unit/room number rather than part of the postcode — worth confirming the exact unit against the booking confirmation before this goes in the `.ics`.
+- **Still provisional per the traveller** — treat both as booked-in-principle rather than final until confirmed. Re-check the listing name, review score, and cancellation terms directly on the booking confirmation rather than assuming the shortlist figures apply to the second one.
+
 ---
 
 ## Trip details (corrected dates)
@@ -66,6 +77,8 @@ You land on the 8th (Jai HND 10:25; Mandeep & Tom NRT ~19:00) and Shinkansen to 
 | 大久保SSI f (same as main-stay pick) | 8.5 (25) | double + sofa bed | £91 |
 
 **Pick: HOTEL HOUSE LEE — £70 total (£23pp)**, a genuine triple room, 773 reviews, top location score. Ideal for a one-nighter before Kyoto. (Avoid the capsule/dorm options that show up here — they breach the "no shared bathrooms / no dorms" rule.)
+
+**✅ Booked (provisional):** 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.
 
 ---
 

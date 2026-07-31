@@ -2,6 +2,8 @@
 
 Built for Mandeep & Tom. Grouped strictly by neighbourhood to cut down transit time; heavy-walking days flagged; every restaurant/bar verified as a real, currently-operating, specialty venue (see the companion **Kyoto_Itinerary_Sources** file for citations on every claim below).
 
+**Accommodation (booked):** Airbnb, 4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — one stop from Gion-Shijo and on the same line as Fushimi Inari, i.e. directly on the Day 1/Day 3 transit backbone. ~10 min uphill walk to Kiyomizu-dera, ~15 min walk to Gion/Kenninji, ~2.5 km (taxi ~10 min) to Kyoto Station.
+
 **Two corrections to the existing plan, both due to real opening-hours conflicts:**
 - Kenninji closes at 16:30 (last entry) — it can't follow an afternoon Fushimi Inari visit and still be reached in time, so it's been moved to Day 3 late morning instead.
 - Kyoto International Manga Museum is **closed every Wednesday** — Wed 11 Nov (the day it was implicitly grouped with Nishiki Market) doesn't work. Moved to Day 4 (Thursday, open) as an optional swap.
@@ -9,7 +11,7 @@ Built for Mandeep & Tom. Grouped strictly by neighbourhood to cut down transit t
 ---
 
 ### Day 1: Arrival — Fushimi Inari & Southern Higashiyama
-*   **Midday (~12:00):** Arrive Kyoto Station, drop luggage — coin lockers (¥700, large, Hachijo Exit) or Crosta Kyoto same-day delivery to your hotel (~¥1,000/bag, drop off by 2pm).
+*   **Midday (~12:00):** Arrive Kyoto Station, drop luggage — coin lockers (¥700, large, Hachijo Exit) or Crosta Kyoto same-day delivery to the Airbnb (~¥1,000/bag, drop off by 2pm; message the host ahead since Airbnb check-in isn't a staffed front desk).
 *   **Lunch:** Kyoto Ramen Koji / 京都拉麺小路 (10th floor, Kyoto Station) | *Specialty: regional ramen — 8 stalls (Sapporo miso, Hakata tonkotsu, Kyoto shoyu, etc.)* | *Review note: a curated lineup of branch stores from famous regional ramen-ya; buy tickets from the vending machine outside each stall. Convenient for an arrival-day lunch with zero detour.*
 *   **Afternoon (13:30):** Fushimi Inari Taisha / 伏見稲荷大社 — lower loop up to the Yotsutsuji viewpoint (~1.5–2 hrs round trip). Free entry, open 24 hrs. *(You'll return at dawn on Day 3 for the quieter full hike to the summit — doing the lower loop now on arrival day, and the demanding upper hike when jet lag has worn off, is the better split.)*
 *   **Late afternoon (~16:00):** Kiyomizu-dera / 清水寺 (¥500, open 6:00–18:00) + wander the Sannenzaka/Ninenzaka slopes below it for matcha sweets shops.

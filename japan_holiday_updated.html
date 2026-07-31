@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <title>Japan Holiday · Nov 2026</title>
 <style>
   :root{
@@ -11,7 +11,7 @@
     --blue:#2b5c8a; --soft:#f4eee6;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
   a{color:inherit}
 
   /* Hero */
@@ -28,9 +28,11 @@
 
   /* Nav */
   .nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:var(--card);padding:12px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.08);margin-bottom:30px}
-  .nav button{border:none;background:var(--soft);color:var(--slate);padding:9px 16px;border-radius:30px;font-size:.9rem;cursor:pointer;font-weight:600;transition:.2s}
+  .nav button{border:none;background:var(--soft);color:var(--slate);padding:9px 16px;border-radius:30px;font-size:.9rem;cursor:pointer;font-weight:600;transition:.2s;min-height:40px}
   .nav button:hover{background:#efe4d6}
   .nav button.active{background:var(--red);color:#fff}
+  .nav button.todaybtn{background:#fff3d6;color:#7a5b00}
+  .nav button.todaybtn:hover{background:#ffe9b8}
 
   section{display:none;animation:fade .35s ease}
   section.show{display:block}
@@ -39,23 +41,49 @@
   h2.sec{font-size:1.6rem;margin-bottom:6px;color:var(--red);display:flex;align-items:center;gap:10px}
   h2.sec span.k{font-size:1rem;color:var(--slate);font-weight:400}
   .sub{color:var(--slate);margin-bottom:22px}
+  .hint{color:var(--slate);font-size:.82rem;margin:-14px 0 20px;font-style:italic}
 
   /* Cards */
-  .card{background:var(--card);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.06);border:1px solid var(--line);margin-bottom:18px;overflow:hidden}
-  .card-head{padding:16px 20px;background:linear-gradient(90deg,var(--red),#9c0025);color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center}
-  .card-head small{font-weight:400;opacity:.85;font-size:.85rem}
+  .card{background:var(--card);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.06);border:1px solid var(--line);margin-bottom:18px;overflow:hidden;display:block;width:100%}
+  .card-head{padding:16px 20px;background:linear-gradient(90deg,var(--red),#9c0025);color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .card-head small{font-weight:400;opacity:.85;font-size:.85rem;display:block;margin-top:2px}
   .card-body{padding:8px 0}
 
-  /* Timeline rows */
-  .row{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
-  .row:last-child{border-bottom:none}
+  /* Day accordions (native details/summary elements — works with no JS) */
+  details.daycard{cursor:default}
+  details.daycard > summary.card-head{cursor:pointer;list-style:none;-webkit-tap-highlight-color:rgba(255,255,255,.15);min-height:44px}
+  details.daycard > summary.card-head::-webkit-details-marker{display:none}
+  details.daycard > summary.card-head::marker{content:""}
+  details.daycard > summary.card-head .titlewrap{flex:1 1 auto}
+  details.daycard > summary.card-head .chev{flex:0 0 auto;font-size:1.1rem;opacity:.85;transition:transform .25s}
+  details.daycard[open] > summary.card-head .chev{transform:rotate(90deg)}
+
+  /* Timeline rows -> event accordions */
+  .ev{border-bottom:1px solid var(--line)}
+  .ev:last-child{border-bottom:none}
+  .ev > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:96px 1fr 18px;gap:14px;padding:14px 20px;align-items:start;-webkit-tap-highlight-color:rgba(188,0,45,.08);min-height:44px}
+  .ev > summary::-webkit-details-marker{display:none}
+  .ev > summary::marker{content:""}
+  .ev > summary:active{background:var(--soft)}
+  .ev > summary .chev{color:var(--slate);font-size:1rem;transition:transform .2s;margin-top:2px;text-align:right}
+  .ev[open] > summary .chev{transform:rotate(90deg)}
   .time{font-weight:700;color:var(--red);font-size:.92rem}
   .dur{display:block;color:var(--slate);font-weight:400;font-size:.78rem;margin-top:2px}
   .place{font-weight:600;font-size:1.02rem}
+  .ev-detail{padding:0 20px 18px 110px}
   .notes{color:var(--slate);font-size:.9rem;margin-top:4px}
   .travel{display:inline-block;margin-top:8px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:3px 10px;border-radius:20px}
   .food{display:inline-block;margin-top:8px;margin-right:6px;font-size:.8rem;background:#fdf1ec;color:var(--red);padding:3px 10px;border-radius:20px}
   .bar{display:inline-block;margin-top:8px;font-size:.8rem;background:#eef4f0;color:var(--green);padding:3px 10px;border-radius:20px}
+  .alt{margin-top:12px;background:#eef4ee;border-left:3px solid var(--green);padding:10px 12px;border-radius:8px;font-size:.87rem;color:#33463a}
+  .alt b{color:var(--green)}
+
+  /* Maps */
+  .maprow{margin-top:10px}
+  .mapbtn{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:7px 12px;border-radius:20px;font-weight:600;text-decoration:none;min-height:32px}
+  .mapbtn:active{background:#e4dccb}
+  .mapframe{margin-top:10px;border-radius:12px;overflow:hidden;border:1px solid var(--line);min-height:190px;background:var(--soft)}
+  .mapframe iframe{width:100%;height:190px;border:0;display:block}
 
   /* Flights */
   .flight{display:grid;grid-template-columns:1fr;gap:0}
@@ -73,19 +101,22 @@
   .kd:last-child{border-bottom:none}
   .kd .d{font-weight:700;color:var(--red);width:90px;flex-shrink:0}
 
-  /* Calendar */
-  .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px}
-  .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04)}
-  .day .num{font-size:1.4rem;font-weight:700;color:var(--ink)}
-  .day .lab{font-size:.72rem;color:var(--slate);margin-top:4px;min-height:28px}
-  .day.leave{border-color:var(--red);background:#fdf1ec}
-  .day.leave .lab{color:var(--red);font-weight:600}
+  /* Day-strip calendars (tap a pill to jump to that day) */
+  .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:20px}
+  .cal .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04);cursor:pointer;-webkit-tap-highlight-color:rgba(188,0,45,.1);min-height:44px}
+  .cal .day:active{background:var(--soft)}
+  .cal .day .num{font-size:1.4rem;font-weight:700;color:var(--ink)}
+  .cal .day .lab{font-size:.72rem;color:var(--slate);margin-top:4px;min-height:28px}
+  .cal .day.leave{border-color:var(--red);background:#fdf1ec}
+  .cal .day.leave .lab{color:var(--red);font-weight:600}
+  .cal .day.today{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
 
   footer{text-align:center;color:var(--slate);font-size:.82rem;padding:30px 20px 10px}
   .tag{display:inline-block;background:var(--soft);color:var(--slate);padding:3px 10px;border-radius:20px;font-size:.75rem;margin-left:8px}
   @media(max-width:560px){
     .hero h1{font-size:1.9rem}
-    .row{grid-template-columns:72px 1fr;gap:8px;padding:12px 14px}
+    .ev > summary{grid-template-columns:72px 1fr 16px;gap:8px;padding:12px 14px}
+    .ev-detail{padding:0 14px 16px 14px}
     .leg{flex-direction:column;gap:2px}
     .leg .lbl{width:auto}
   }
@@ -106,6 +137,7 @@
       <button data-t="flights">✈️ Flights</button>
       <button data-t="kyoto">⛩️ Kyoto</button>
       <button data-t="tokyo">🗼 Tokyo</button>
+      <button id="todayBtn" class="todaybtn" type="button">📍 Today</button>
     </div>
 
     <!-- OVERVIEW -->
@@ -125,10 +157,19 @@
       <div class="card">
         <div class="card-head">At a glance</div>
         <div class="card-body">
-          <div class="row"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
-          <div class="row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
-          <div class="row"><div class="time">🗼 Tokyo</div><div><div class="place">Thu 12 – Sat 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
-          <div class="row"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🗼 Tokyo</div><div><div class="place">Thu 12 – Sat 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:18px">
+        <div class="card-head">Accommodation (booked — Tokyo still provisional)</div>
+        <div class="card-body">
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">🗼 Tokyo</div><div><div class="place">Arrival night · Sun 8 – Mon 9 Nov · Hotel House Lee</div><div class="notes">2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 Nov · Airbnb</div><div class="notes">4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — ~10 min walk to Kiyomizu-dera, ~15 min to Gion.</div></div></div>
+          <div class="ev" style="display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px"><div class="time">🗼 Tokyo</div><div><div class="place">Main stay · Thu 12 – Sat 21 Nov · <em>name TBC</em></div><div class="notes">2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan. Provisional — not yet re-verified against a live listing.</div></div></div>
         </div>
       </div>
     </section>
@@ -173,517 +214,885 @@
     <section id="kyoto">
       <h2 class="sec">Kyoto <span class="k">京都 · 4 days</span></h2>
       <p class="sub">Grouped by neighbourhood to minimise transit. Day 2 is the heavy-walking day — expect 15,000+ steps. Full sourcing for every venue below is in the Kyoto_Itinerary_Sources file.</p>
+      <p class="hint">Tap a day to open it, tap any stop for its map and a backup option if you're not up for it.</p>
+
+      <div class="cal">
+        <div class="day" data-day="1"><div class="num">9</div><div class="lab">Mon · Fushimi</div></div>
+        <div class="day" data-day="2"><div class="num">10</div><div class="lab">Tue · Arashiyama</div></div>
+        <div class="day" data-day="3"><div class="num">11</div><div class="lab">Wed · Higashiyama</div></div>
+        <div class="day" data-day="4"><div class="num">12</div><div class="lab">Thu · Central + depart</div></div>
+      </div>
 
       <!-- DAY 1 -->
-      <div class="card">
-        <div class="card-head">Day 1 · Mon 9 Nov <small>Arrive Kyoto — Fushimi &amp; Southern Higashiyama</small></div>
+      <details class="card daycard" data-day="1" data-date="2026-11-09" open>
+        <summary class="card-head"><span class="titlewrap">Day 1 · Mon 9 Nov <small>Arrive Kyoto — Fushimi &amp; Southern Higashiyama</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">~12:00<span class="dur">30 min</span></div>
-            <div>
-              <div class="place">🧳 Drop luggage — Kyoto Station</div>
-              <div class="notes">Drop bags at Airbnb (message host ahead) or Crosta Kyoto at station (¥1000/bag delivery to hotel, drop off by 2pm). Coin lockers: ¥700 large, Hachijo Exit.</div>
+          <details class="ev" data-map="Kyoto Station">
+            <summary>
+              <span class="time">~12:00<span class="dur">30 min</span></span>
+              <span class="place">🧳 Drop luggage — Kyoto Station</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
+              <div class="notes">Drop bags at the Airbnb — 4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846 (message host ahead) — or Crosta Kyoto at station (¥1000/bag delivery, drop off by 2pm). Coin lockers: ¥700 large, Hachijo Exit.</div>
               <span class="travel">🚄 Shinkansen from Tokyo ~12pm</span>
+              <div class="alt"><b>Not up for it?</b> Skip the Crosta delivery (needs drop-off by 2pm) and just use the station coin lockers instead — no advance planning needed.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">12:30 pm<span class="dur">45 min</span></div>
-            <div>
-              <div class="place">Kyoto Ramen Koji / 京都拉麺小路 (lunch)</div>
+          </details>
+          <details class="ev" data-map="Kyoto Ramen Koji, Kyoto Station">
+            <summary>
+              <span class="time">12:30 pm<span class="dur">45 min</span></span>
+              <span class="place">Kyoto Ramen Koji / 京都拉麺小路 (lunch)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">10th floor of Kyoto Station — 8 regional ramen shops (Sapporo, Hakata, Kyoto shoyu and more). Buy a ticket from the vending machine outside your pick. Zero-detour lunch on arrival day.</div>
               <span class="travel">📍 Kyoto Station, 10F</span>
+              <div class="alt"><b>Not up for it?</b> Kyoto Station's Isetan department store basement food hall (opposite side of the station) has bento and other quick options with zero extra transit.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">1:30 pm<span class="dur">~2 hrs</span></div>
-            <div>
-              <div class="place">Fushimi Inari Taisha — lower loop</div>
+          </details>
+          <details class="ev" data-map="Fushimi Inari Taisha, Kyoto">
+            <summary>
+              <span class="time">1:30 pm<span class="dur">~2 hrs</span></span>
+              <span class="place">Fushimi Inari Taisha — lower loop</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Iconic thousand red torii gates. Do the lower loop up to the Yotsutsuji viewpoint today; save the full summit hike for dawn on Day 3 when it's quieter and you're over jet lag. Open 24hrs, free entry.</div>
               <span class="travel">📍 JR Nara Line, Kyoto Stn → Inari, 5 min (local trains only)</span>
+              <div class="alt"><b>Not up for it?</b> Just walk the first few hundred metres of torii gates up to Okusha and turn back — that's the classic photo, no need to push on to Yotsutsuji if legs are tired from the flight.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">4:00 pm<span class="dur">~1.5 hrs</span></div>
-            <div>
-              <div class="place">Kiyomizu-dera + Sannenzaka/Ninenzaka</div>
+          </details>
+          <details class="ev" data-map="Kiyomizu-dera, Kyoto">
+            <summary>
+              <span class="time">4:00 pm<span class="dur">~1.5 hrs</span></span>
+              <span class="place">Kiyomizu-dera + Sannenzaka/Ninenzaka</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">¥500 admission, open till 18:00 — easy timing after Fushimi Inari. Wander the old sloped streets below the temple for matcha sweets shops.</div>
               <span class="travel">📍 Keihan: Fushimi-Inari → Gion-Shijo, ~15 min direct</span>
               <span class="food">🍵 Matcha sweets shops on Sannenzaka</span>
+              <div class="alt"><b>Not up for it?</b> Rainy or templed-out already? Kyoto National Museum is right next door and fully covered.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Check in · Dinner &amp; explore Gion</div>
-              <div class="notes">Settle into the hotel, then wander Gion for dinner and nightlife.</div>
+          </details>
+          <details class="ev" data-map="Gion Duck Noodles, Kyoto">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Check in · Dinner &amp; explore Gion</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
+              <div class="notes">Settle into the Airbnb, then wander Gion for dinner and nightlife.</div>
               <span class="food">🦆 Gion Duck Noodles — duck tsukemen, 4.5★ Tripadvisor (queue likely)</span>
               <span class="bar">🍸 L'Escamoteur (magic-show cocktails) or Bee's Knees (Asia's 50 Best Bars #76, walk-in only)</span>
+              <div class="alt"><b>Not up for it?</b> Big queue at Gion Duck Noodles? Gion Tanto's okonomiyaki counter nearby always has a line too, but it moves fast.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 2 -->
-      <div class="card">
-        <div class="card-head">Day 2 · Tue 10 Nov <small>Arashiyama &amp; NW Kyoto</small></div>
+      <details class="card daycard" data-day="2" data-date="2026-11-10">
+        <summary class="card-head"><span class="titlewrap">Day 2 · Tue 10 Nov <small>Arashiyama &amp; NW Kyoto</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">07:30<span class="dur">10:00</span></div>
-            <div>
-              <div class="place">%Arabica Arashiyama + Bamboo Grove</div>
+          <details class="ev" data-map="%Arabica Kyoto Arashiyama">
+            <summary>
+              <span class="time">07:30<span class="dur">10:00</span></span>
+              <span class="place">%Arabica Arashiyama + Bamboo Grove</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Go early to beat the crowds — this is Arabica's global flagship store, riverside just upstream of Togetsu-kyo Bridge. Walk the famous bamboo path straight after.</div>
               <span class="food">☕ %Arabica Kyoto Arashiyama</span>
+              <div class="alt"><b>Not up for it?</b> Skip the bamboo walk itself (it's just a path) and go straight into Tenryu-ji — you see bamboo groves from inside the temple grounds too, and it's covered if it's raining.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">08:30<span class="dur">1.5 hrs</span></div>
-            <div>
-              <div class="place">Tenryu-ji Sogenchi Garden</div>
+          </details>
+          <details class="ev" data-map="Tenryu-ji Kyoto">
+            <summary>
+              <span class="time">08:30<span class="dur">1.5 hrs</span></span>
+              <span class="place">Tenryu-ji Sogenchi Garden</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">¥500 garden-only, opens 8:30. One of Kyoto's finest Zen gardens, right in Arashiyama.</div>
               <span class="food">🍲 Sagano / ゆどうふ 嵯峨野 (yudofu lunch, no reservations — go right at opening)</span>
+              <div class="alt"><b>Not up for it?</b> Another garden feeling repetitive? The hall's veranda view covers the highlight in about 10 minutes without the full walk-through.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">13:00<span class="dur">1 hr</span></div>
-            <div><div class="place">Kinkaku-ji (Golden Pavilion) / 金閣寺</div><div class="notes">¥500, 9:00–17:00. The gold-leaf temple reflected in its pond — one of Kyoto's signature sights.</div><span class="travel">📍 Northwest Kyoto</span></div>
-          </div>
-          <div class="row">
-            <div class="time">14:30<span class="dur">45 min</span></div>
-            <div><div class="place">Ryoan-ji / 龍安寺</div><div class="notes">¥600, 8:00–17:00. Famous Zen rock garden. 18-min walk (or 5-min bus) from Kinkaku-ji.</div><span class="travel">📍 Northwest Kyoto</span></div>
-          </div>
-          <div class="row">
-            <div class="time">18:00<span class="dur">21:00</span></div>
-            <div>
-              <div class="place">Dinner / nightlife — Pontocho, Central Kyoto</div>
+          </details>
+          <details class="ev" data-map="Kinkaku-ji Golden Pavilion, Kyoto">
+            <summary>
+              <span class="time">13:00<span class="dur">1 hr</span></span>
+              <span class="place">Kinkaku-ji (Golden Pavilion) / 金閣寺</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
+              <div class="notes">¥500, 9:00–17:00. The gold-leaf temple reflected in its pond — one of Kyoto's signature sights.</div>
+              <span class="travel">📍 Northwest Kyoto</span>
+              <div class="alt"><b>Not up for it?</b> Short on energy? The viewing path alone is a 20-minute loop — you don't need long here to get the classic view.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
+            </div>
+          </details>
+          <details class="ev" data-map="Ryoan-ji Temple, Kyoto">
+            <summary>
+              <span class="time">14:30<span class="dur">45 min</span></span>
+              <span class="place">Ryoan-ji / 龍安寺</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
+              <div class="notes">¥600, 8:00–17:00. Famous Zen rock garden. 18-min walk (or 5-min bus) from Kinkaku-ji.</div>
+              <span class="travel">📍 Northwest Kyoto</span>
+              <div class="alt"><b>Not up for it?</b> This is the most skippable stop of the day — if you've already done Tenryu-ji's garden this morning, feel free to head straight to dinner instead.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
+            </div>
+          </details>
+          <details class="ev" data-map="Pontocho Alley, Kyoto">
+            <summary>
+              <span class="time">18:00<span class="dur">21:00</span></span>
+              <span class="place">Dinner / nightlife — Pontocho, Central Kyoto</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Head back to the centre for dinner and drinks along the lantern-lit alley.</div>
               <span class="food">🍢 Pontocho Alley (various yakitori/kappo counters)</span>
               <span class="bar">🍸 Bar Rocking Chair (machiya cocktail bar) or Nokishita711 <span class="tag">Book ahead — 4 seats/sitting</span></span>
+              <div class="alt"><b>Not up for it?</b> Didn't book Nokishita711 weeks ahead (it's reservation-only)? Bar Rocking Chair is walk-in friendly on the same stretch.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 3 -->
-      <div class="card">
-        <div class="card-head">Day 3 · Wed 11 Nov <small>Dawn Fushimi, Higashiyama Upper &amp; Gion</small></div>
+      <details class="card daycard" data-day="3" data-date="2026-11-11">
+        <summary class="card-head"><span class="titlewrap">Day 3 · Wed 11 Nov <small>Dawn Fushimi, Higashiyama Upper &amp; Gion</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">07:00<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Fushimi Inari — full hike to the summit</div>
+          <details class="ev" data-map="Fushimi Inari Taisha, Kyoto">
+            <summary>
+              <span class="time">07:00<span class="dur">2 hrs</span></span>
+              <span class="place">Fushimi Inari — full hike to the summit</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">The deep, quiet version this time — dawn light, well past the crowded lower gates from Day 1.</div>
+              <div class="alt"><b>Not up for it?</b> Not up for a 2-hour dawn summit hike? Sleep in and just re-walk the lower loop from Day 1 instead — this is the one skippable early start of the trip.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">09:00<span class="dur">1 hr</span></div>
-            <div>
-              <div class="place">Vermillion Cafe (brunch)</div>
+          </details>
+          <details class="ev" data-map="Vermillion Cafe, Fushimi Inari Kyoto">
+            <summary>
+              <span class="time">09:00<span class="dur">1 hr</span></span>
+              <span class="place">Vermillion Cafe (brunch)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Espresso bar tucked right by the shrine, open 8:30am–3pm. Praised for coffee quality and avocado/poached-egg toast; blankets provided for outdoor seating.</div>
               <span class="food">☕ Vermillion Cafe</span>
+              <div class="alt"><b>Not up for it?</b> If it's full, any of the small coffee stalls along the Fushimi Inari approach road cover the same coffee-and-a-snack basics.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">10:30<span class="dur">45 min</span></div>
-            <div>
-              <div class="place">Kenninji Temple / 建仁寺</div>
+          </details>
+          <details class="ev" data-map="Kenninji Temple, Kyoto">
+            <summary>
+              <span class="time">10:30<span class="dur">45 min</span></span>
+              <span class="place">Kenninji Temple / 建仁寺</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">¥800, opens 10:00, last entry 16:30 — comfortably fits here. Kyoto's oldest Zen temple; the Twin Dragons ceiling painting (108 tatami mats) is the highlight.</div>
               <span class="travel">📍 Keihan: Fushimi-Inari → Gion-Shijo, ~15 min direct</span>
+              <div class="alt"><b>Not up for it?</b> Temple fatigue setting in? The Twin Dragons ceiling is the only must-see — a 15-minute look is enough if you're pressed for energy.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">11:15<span class="dur">45 min</span></div>
-            <div>
-              <div class="place">Shogunzuka Seiryuden / 将軍塚青龍殿</div>
+          </details>
+          <details class="ev" data-map="Shogunzuka Seiryuden, Kyoto">
+            <summary>
+              <span class="time">11:15<span class="dur">45 min</span></span>
+              <span class="place">Shogunzuka Seiryuden / 将軍塚青龍殿</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">¥500. A short taxi from Chion-in/Higashiyama — arguably the best panoramic view over Kyoto, and far less crowded than Kiyomizu-dera's platform.</div>
+              <div class="alt"><b>Not up for it?</b> Don't fancy the taxi out? The standard Kiyomizu-dera viewing platform from Day 1 covers similar ground if you didn't linger there.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Dinner — Gion</div>
+          </details>
+          <details class="ev" data-map="Kichi Kichi Omurice, Kyoto">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Dinner — Gion</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Kichi Kichi's tableside omurice theatre by Chef Motokichi Yukimura is the headline pick — only 14 seats, so it needs an early reservation.</div>
               <span class="food">🍳 Kichi Kichi Omurice <span class="tag">Book weeks ahead — 14 seats</span></span>
               <span class="food">🦆 Fallback: Gion Duck Noodles or Gion Tanto (okonomiyaki, walk-in queue)</span>
+              <div class="alt"><b>Not up for it?</b> No reservation at Kichi Kichi (it books out weeks ahead)? Fall back to Gion Duck Noodles again, or Gion Tanto's always-busy okonomiyaki counter.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 4 -->
-      <div class="card">
-        <div class="card-head">Day 4 · Thu 12 Nov <small>Central Kyoto &amp; Departure</small></div>
+      <details class="card daycard" data-day="4" data-date="2026-11-12">
+        <summary class="card-head"><span class="titlewrap">Day 4 · Thu 12 Nov <small>Central Kyoto &amp; Departure</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">08:30<span class="dur">1 hr</span></div>
-            <div>
-              <div class="place">Nishiki Market / 錦市場</div>
+          <details class="ev" data-map="Nishiki Market, Kyoto">
+            <summary>
+              <span class="time">08:30<span class="dur">1 hr</span></span>
+              <span class="place">Nishiki Market / 錦市場</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">"Kyoto's Kitchen" — many individual stalls close Sundays/Wednesdays, so Thursday works well. Arrive before 10–11am while everything's open.</div>
               <span class="food">🍢 Street food stalls</span>
+              <div class="alt"><b>Not up for it?</b> Feels like one market too many? A slow hotel breakfast plus the coffee stop next door is a fine lighter substitute on a travel-day morning.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">10:00<span class="dur">30 min</span></div>
-            <div>
-              <div class="place">Ogawa Coffee / 小川珈琲</div>
+          </details>
+          <details class="ev" data-map="Ogawa Coffee Kyoto">
+            <summary>
+              <span class="time">10:00<span class="dur">30 min</span></span>
+              <span class="place">Ogawa Coffee / 小川珈琲</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Kyoto's own roastery, founded 1952 — one of the city's three historic coffee houses.</div>
               <span class="travel">🔁 Optional swap: Kyoto Int'l Manga Museum (open Thu, ¥900) instead of lingering at the market — needs ~1.5 hrs, so only if you're trimming something else</span>
+              <div class="alt"><b>Not up for it?</b> Swap this stretch for the Kyoto International Manga Museum (¥900, open Thursdays) if someone would rather sit and browse — just needs ~1.5 hrs, so only if trimming Nishiki Market short.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">11:00<span class="dur">1 hr</span></div>
-            <div>
-              <div class="place">🚄 Head to Kyoto Station — Shinkansen to Tokyo</div>
+          </details>
+          <details class="ev" data-map="Kyoto Station">
+            <summary>
+              <span class="time">11:00<span class="dur">1 hr</span></span>
+              <span class="place">🚄 Head to Kyoto Station — Shinkansen to Tokyo</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Keep this morning genuinely light — it's a travel day, and Day 2 already used up the trip's heavy-walking budget.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
     </section>
 
     <!-- TOKYO -->
     <section id="tokyo">
       <h2 class="sec">Tokyo <span class="k">東京 · 8 days + departures</span></h2>
       <p class="sub">Base is Shinjuku/Kabukicho, so every day leans on the Yamanote Line to cut transit. Day 4 (Asakusa/Ueno/Akihabara) is the heavy-walking day. Full sourcing for every venue below is in the Tokyo_Itinerary_Sources file.</p>
+      <p class="hint">Tap a day to open it, tap any stop for its map and a backup option if you're not up for it.</p>
 
       <div class="cal">
-        <div class="day"><div class="num">12</div><div class="lab">Thu · arrive</div></div>
-        <div class="day"><div class="num">13</div><div class="lab">Fri · Shibuya</div></div>
-        <div class="day"><div class="num">14</div><div class="lab">Sat · Tsukiji</div></div>
-        <div class="day"><div class="num">15</div><div class="lab">Sun · Asakusa</div></div>
-        <div class="day"><div class="num">16</div><div class="lab">Mon · Hakone</div></div>
-        <div class="day"><div class="num">17</div><div class="lab">Tue · Shimokita</div></div>
-        <div class="day"><div class="num">18</div><div class="lab">Wed · Shinjuku</div></div>
-        <div class="day"><div class="num">19</div><div class="lab">Thu · teamLab</div></div>
-        <div class="day leave"><div class="num">20</div><div class="lab">Fri · Jai leaves ✈️</div></div>
-        <div class="day leave"><div class="num">21</div><div class="lab">Sat · M&amp;T leave ✈️</div></div>
+        <div class="day" data-day="1"><div class="num">12</div><div class="lab">Thu · arrive</div></div>
+        <div class="day" data-day="2"><div class="num">13</div><div class="lab">Fri · Shibuya</div></div>
+        <div class="day" data-day="3"><div class="num">14</div><div class="lab">Sat · Tsukiji</div></div>
+        <div class="day" data-day="4"><div class="num">15</div><div class="lab">Sun · Asakusa</div></div>
+        <div class="day" data-day="5"><div class="num">16</div><div class="lab">Mon · Hakone</div></div>
+        <div class="day" data-day="6"><div class="num">17</div><div class="lab">Tue · Shimokita</div></div>
+        <div class="day" data-day="7"><div class="num">18</div><div class="lab">Wed · Shinjuku</div></div>
+        <div class="day" data-day="8"><div class="num">19</div><div class="lab">Thu · teamLab</div></div>
+        <div class="day leave" data-day="9"><div class="num">20</div><div class="lab">Fri · Jai leaves ✈️</div></div>
+        <div class="day leave" data-day="10"><div class="num">21</div><div class="lab">Sat · M&amp;T leave ✈️</div></div>
       </div>
 
       <!-- DAY 1 -->
-      <div class="card" style="margin-top:20px">
-        <div class="card-head">Day 1 · Thu 12 Nov <small>Arrive from Kyoto — Shinjuku home turf</small></div>
+      <details class="card daycard" data-day="1" data-date="2026-11-12" open>
+        <summary class="card-head"><span class="titlewrap">Day 1 · Thu 12 Nov <small>Arrive from Kyoto — Shinjuku home turf</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">Late PM<span class="dur">~2.5 hrs</span></div>
-            <div>
-              <div class="place">🚄 Shinkansen Kyoto → Tokyo → drop bags in Shinjuku</div>
-              <div class="notes">~2h15 on the Nozomi to Tokyo Station, then ~15 min to Shinjuku (JR Chuo Rapid or Yamanote). Drop bags, then a first orientation walk through Kabukicho past the Godzilla head.</div>
+          <details class="ev" data-map="Shinjuku Station, Tokyo">
+            <summary>
+              <span class="time">Late PM<span class="dur">~2.5 hrs</span></span>
+              <span class="place">🚄 Shinkansen Kyoto → Tokyo → drop bags in Shinjuku</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
+              <div class="notes">~2h15 on the Nozomi to Tokyo Station, then ~15 min to Shinjuku (JR Chuo Rapid or Yamanote). Drop bags at the apartment — 2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021 (provisional) — then a first orientation walk through Kabukicho past the Godzilla head.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Dinner + first night out — Omoide Yokocho</div>
+          </details>
+          <details class="ev" data-map="Omoide Yokocho, Shinjuku Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Dinner + first night out — Omoide Yokocho</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Ease in on home turf — everything tonight is on foot from the apartment. Trains stop ~00:30, so you walk home.</div>
               <span class="food">🍢 Omoide Yokocho ("Memory Lane") — tiny yakitori/motsu counters, no reservations</span>
               <span class="bar">🍸 Optional: Golden Gai — start at Albatross (foreigner-friendly, ¥500 cover w/ snack)</span>
+              <div class="alt"><b>Not up for it?</b> Want to stay dry or keep it low-key? The restaurant floors inside Shinjuku Station (Lumine/NEWoMan) are a covered, no-fuss first dinner.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 2 -->
-      <div class="card">
-        <div class="card-head">Day 2 · Fri 13 Nov <small>Shibuya, Harajuku &amp; Meiji Jingu</small></div>
+      <details class="card daycard" data-day="2" data-date="2026-11-13">
+        <summary class="card-head"><span class="titlewrap">Day 2 · Fri 13 Nov <small>Shibuya, Harajuku &amp; Meiji Jingu</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">08:30<span class="dur">1.5 hrs</span></div>
-            <div>
-              <div class="place">Meiji Jingu / 明治神宮</div>
+          <details class="ev" data-map="Meiji Jingu, Tokyo">
+            <summary>
+              <span class="time">08:30<span class="dur">1.5 hrs</span></span>
+              <span class="place">Meiji Jingu / 明治神宮</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Free. Opens at sunrise (~06:20 in Nov), closes ~16:20. Tokyo's grandest shrine in a forest of 100,000 donated trees — go early for empty gravel approaches.</div>
               <span class="travel">📍 Shinjuku → Harajuku, 2 stops / ~4 min on the Yamanote</span>
+              <div class="alt"><b>Not up for it?</b> Tired from the early start? Yoyogi Park right next door gives similar forest calm with a lot less walking.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">10:00<span class="dur">1.5 hrs</span></div>
-            <div>
-              <div class="place">Takeshita-dori + Cat Street (Harajuku)</div>
+          </details>
+          <details class="ev" data-map="Takeshita Street, Harajuku Tokyo">
+            <summary>
+              <span class="time">10:00<span class="dur">1.5 hrs</span></span>
+              <span class="place">Takeshita-dori + Cat Street (Harajuku)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Takeshita's teen-fashion gauntlet, then the calmer, better Ura-Harajuku back lanes for streetwear and vintage.</div>
               <span class="food">🍜 Lunch: Fuunji (Yoyogi) — chicken-niboshi tsukemen, queue by noon, large size free; before 11:00 or after 14:00</span>
+              <div class="alt"><b>Not up for it?</b> Not in the mood for shopping streets? Head to Shibuya early instead and use the spare time at Shibuya Sky.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">13:30<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Shibuya Scramble + Hachiko + Shibuya Sky</div>
+          </details>
+          <details class="ev" data-map="Shibuya Sky, Tokyo">
+            <summary>
+              <span class="time">13:30<span class="dur">2 hrs</span></span>
+              <span class="place">Shibuya Scramble + Hachiko + Shibuya Sky</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Shibuya Sky rooftop (229 m): ¥2,700 before 15:00 / ¥3,400 from 15:00, open 10:00–22:30, last entry 21:20. Book a ~15:30–16:00 slot for daylight → sunset → city lights in one visit.</div>
               <span class="travel">📍 Timed-entry — book online, slots sell out</span>
+              <div class="alt"><b>Not up for it?</b> If the rooftop deck is weather-closed (or you'd rather save the ¥2,700+), Shibuya Parco's Nintendo/Pokémon/Jump flagship stores and Miyashita Park are covered alternatives close by.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Dinner + drinks — Nonbei Yokocho</div>
+          </details>
+          <details class="ev" data-map="Nonbei Yokocho, Shibuya Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Dinner + drinks — Nonbei Yokocho</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Tiny two-storey bars/yakitori counters beside the Shibuya train tracks — a smaller, more local Golden Gai.</div>
               <span class="food">🍢 Nonbei Yokocho ("Drunkard's Alley")</span>
               <span class="bar">🍸 Nightcap: The SG Club (Asia's 50 Best; casual "Guzzle" floor is walk-in friendly)</span>
+              <div class="alt"><b>Not up for it?</b> Nonbei Yokocho is tiny and fills up fast — if there's no room, the bigger izakaya chains around Shibuya Center Gai are a 5-minute walk away.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 3 -->
-      <div class="card">
-        <div class="card-head">Day 3 · Sat 14 Nov <small>Tsukiji, Ginza &amp; Tokyo Station</small></div>
+      <details class="card daycard" data-day="3" data-date="2026-11-14">
+        <summary class="card-head"><span class="titlewrap">Day 3 · Sat 14 Nov <small>Tsukiji, Ginza &amp; Tokyo Station</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">08:00<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Tsukiji Outer Market / 築地場外市場</div>
+          <details class="ev" data-map="Tsukiji Outer Market, Tokyo">
+            <summary>
+              <span class="time">08:00<span class="dur">2 hrs</span></span>
+              <span class="place">Tsukiji Outer Market / 築地場外市場</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">460+ stalls. Best window 08:00–10:00 — half the top stalls sell out by ~11:00. Closed Sundays &amp; scattered Wednesdays, so Saturday is the safe call. Graze across stalls: tamagoyaki, uni, grilled seafood, standing sushi.</div>
               <span class="food">🍣 Breakfast-grazing across the market</span>
+              <div class="alt"><b>Not up for it?</b> Missed the early window or stalls already sold out? Toyosu Market (Day 8) covers similar fresh-seafood ground later in the trip.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">10:30<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Ginza — flagship stores</div>
+          </details>
+          <details class="ev" data-map="Ginza, Tokyo">
+            <summary>
+              <span class="time">10:30<span class="dur">2 hrs</span></span>
+              <span class="place">Ginza — flagship stores</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">~15-min walk from Tsukiji. Ginza Six, the Uniqlo &amp; Muji flagships (Muji has a bakery), the Itoya stationery megastore.</div>
               <span class="travel">🌳 Optional: Imperial Palace East Gardens (free, open Sat — closed Mon &amp; Fri)</span>
+              <div class="alt"><b>Not up for it?</b> Not a shopping crowd? Skip straight to the free Imperial Palace East Gardens for green space instead (open today, closed Mon &amp; Fri).</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">13:00<span class="dur">1.5 hrs</span></div>
-            <div>
-              <div class="place">Tokyo Station Marunouchi</div>
+          </details>
+          <details class="ev" data-map="Tokyo Station Marunouchi">
+            <summary>
+              <span class="time">13:00<span class="dur">1.5 hrs</span></span>
+              <span class="place">Tokyo Station Marunouchi</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">The restored 1914 red-brick facade, then the basement Character Street / Ramen Street if you're peckish.</div>
+              <div class="alt"><b>Not up for it?</b> Feet done for the day? Skip Character Street and just photograph the red-brick facade from Marunouchi Square — five minutes, no queue.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Cocktails — Ginza</div>
+          </details>
+          <details class="ev" data-map="Bar High Five, Ginza Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Cocktails — Ginza</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Do an early casual bite in Ginza first, then Bar High Five as a destination.</div>
               <span class="bar">🍸 Bar High Five — Hidetsugu Ueno's no-menu omakase cocktails <span class="tag">Reserve ahead · cover · smart dress</span></span>
+              <div class="alt"><b>Not up for it?</b> No reservation at Bar High Five? Do the casual Ginza dinner and call it a night, or find any open-door cocktail bar nearby instead.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 4 -->
-      <div class="card">
-        <div class="card-head">Day 4 · Sun 15 Nov <small>Asakusa, Ueno &amp; Akihabara — heavy-walking day</small></div>
+      <details class="card daycard" data-day="4" data-date="2026-11-15">
+        <summary class="card-head"><span class="titlewrap">Day 4 · Sun 15 Nov <small>Asakusa, Ueno &amp; Akihabara — heavy-walking day</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">08:30<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Senso-ji / 浅草寺 + Nakamise-dori</div>
+          <details class="ev" data-map="Sensoji Temple, Asakusa Tokyo">
+            <summary>
+              <span class="time">08:30<span class="dur">2 hrs</span></span>
+              <span class="place">Senso-ji / 浅草寺 + Nakamise-dori</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Free; grounds 24h, main hall 06:30–17:00. Enter via the Kaminarimon giant lantern; go before 10:00 to beat the crush.</div>
               <span class="food">🍙 Lunch: Onigiri Asakusa Yadoroku — Tokyo's oldest onigiri shop (1954), Michelin Bib Gourmand; can sell out. Or Asakusa Imahan for century-old sukiyaki.</span>
+              <div class="alt"><b>Not up for it?</b> Onigiri Yadoroku sold out or the queue's too long? Asakusa Imahan (century-old sukiyaki) is a bigger sit-down alternative nearby.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">13:00<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Ueno — Park museums or Ameyoko market</div>
+          </details>
+          <details class="ev" data-map="Ueno Park, Tokyo">
+            <summary>
+              <span class="time">13:00<span class="dur">2 hrs</span></span>
+              <span class="place">Ueno — Park museums or Ameyoko market</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Choose your lane: Tokyo National Museum, or the Ameyoko market street under the train tracks for cheap eats and chaos.</div>
               <span class="travel">📍 Asakusa → Ueno ~5 min (Ginza Line); Ueno → Akihabara 3 min (Yamanote)</span>
+              <div class="alt"><b>Not up for it?</b> Not a museum day? Just do Ameyoko market instead (or vice versa) — the plan already treats these as pick-one, not both.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">15:30<span class="dur">2.5 hrs</span></div>
-            <div>
-              <div class="place">Akihabara / 秋葉原 — Electric Town</div>
+          </details>
+          <details class="ev" data-map="Akihabara, Tokyo">
+            <summary>
+              <span class="time">15:30<span class="dur">2.5 hrs</span></span>
+              <span class="place">Akihabara / 秋葉原 — Electric Town</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Multi-floor arcades (GiGO, Taito Station), retro games at Super Potato, anime/figures on Chuo-dori — car-free Sun 13:00–17:00 (Oct–Mar). Kanda Myojin shrine is a 7-min walk.</div>
+              <div class="alt"><b>Not up for it?</b> Not into arcades or anime shopping? Kanda Myojin shrine (7-min walk) is a quieter, shorter stop that still covers the district.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Dinner — Ebisu Yokocho</div>
+          </details>
+          <details class="ev" data-map="Ebisu Yokocho, Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Dinner — Ebisu Yokocho</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">20+ izakaya packed into one indoor alley — yakitori, oden, fresh fish, wine. Rowdy, group-friendly, ~¥2,000+/head, no bookings. Ebisu is 2 stops south of Shibuya, easy loop home after.</div>
               <span class="food">🍢 Ebisu Yokocho</span>
+              <div class="alt"><b>Not up for it?</b> Too rowdy or completely full? Any of the standing izakaya bars right outside Ebisu Station's East Exit serve the same style without the wait.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 5 -->
-      <div class="card">
-        <div class="card-head">Day 5 · Mon 16 Nov <small>Day trip — Hakone (onsen, Lake Ashi &amp; Mt Fuji)</small></div>
+      <details class="card daycard" data-day="5" data-date="2026-11-16">
+        <summary class="card-head"><span class="titlewrap">Day 5 · Mon 16 Nov <small>Day trip — Hakone (onsen, Lake Ashi &amp; Mt Fuji)</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">07:30<span class="dur">~85 min</span></div>
-            <div>
-              <div class="place">Odakyu Romancecar — Shinjuku → Hakone-Yumoto</div>
+          <details class="ev" data-map="Shinjuku Station, Tokyo">
+            <summary>
+              <span class="time">07:30<span class="dur">~85 min</span></span>
+              <span class="place">Odakyu Romancecar — Shinjuku → Hakone-Yumoto</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Direct limited express. Reserve seats (right side, C/D, for Mt Fuji). Buy the Hakone Freepass digitally (EMot app / Klook) to skip the morning queue — it covers the whole loop.</div>
               <span class="travel">🎟️ Reserve Romancecar seats + Freepass ahead</span>
+              <div class="alt"><b>Not up for it?</b> Missed booking a reserved seat? Odakyu also runs cheaper non-reserved trains to Odawara with a local connection to Hakone-Yumoto — slower, and no guaranteed Fuji-side seat.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Day<span class="dur">the loop</span></div>
-            <div>
-              <div class="place">Gora → Owakudani → Lake Ashi → Moto-Hakone</div>
+          </details>
+          <details class="ev" data-map="Owakudani, Hakone">
+            <summary>
+              <span class="time">Day<span class="dur">the loop</span></span>
+              <span class="place">Gora → Owakudani → Lake Ashi → Moto-Hakone</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Mountain railway to Gora, cablecar to Sounzan, ropeway over the Owakudani volcanic valley (black eggs boiled in the hot springs), then a pirate-ship cruise across Lake Ashi to the Hakone Shrine lake torii. Peak autumn foliage in November.</div>
               <span class="food">🥚 Owakudani black eggs · soba around Gora/Yumoto</span>
+              <div class="alt"><b>Not up for it?</b> If the ropeway is closed (high wind/volcanic gas does happen), the Freepass substitute buses cover the same route, and the Hakone Open-Air Museum (indoor, Picasso pavilion) is a solid all-weather anchor near Gora.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Late PM<span class="dur"></span></div>
-            <div>
-              <div class="place">Onsen, then Romancecar back</div>
+          </details>
+          <details class="ev" data-map="Hakone Yuryo">
+            <summary>
+              <span class="time">Late PM<span class="dur"></span></span>
+              <span class="place">Onsen, then Romancecar back</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Hakone Yuryo near Yumoto has private-rental baths (good for a group — sidesteps the no-visible-tattoos rule of public baths). Easy dinner near home after.</div>
               <span class="travel">☔ Backup if the ropeway is wind/gas-closed: substitute buses + Hakone Open-Air Museum</span>
+              <div class="alt"><b>Not up for it?</b> Not fussed about an onsen? Skip straight to an early dinner near Hakone-Yumoto station before the Romancecar back.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 6 -->
-      <div class="card">
-        <div class="card-head">Day 6 · Tue 17 Nov <small>Shimokitazawa &amp; Nakameguro — lighter, browse-paced</small></div>
+      <details class="card daycard" data-day="6" data-date="2026-11-17">
+        <summary class="card-head"><span class="titlewrap">Day 6 · Tue 17 Nov <small>Shimokitazawa &amp; Nakameguro — lighter, browse-paced</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">10:30<span class="dur">3 hrs</span></div>
-            <div>
-              <div class="place">Shimokitazawa / 下北沢</div>
+          <details class="ev" data-map="Shimokitazawa, Tokyo">
+            <summary>
+              <span class="time">10:30<span class="dur">3 hrs</span></span>
+              <span class="place">Shimokitazawa / 下北沢</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">7 min from Shinjuku. Tokyo's indie/vintage capital — no chain stores on the main lanes. Chicago, Flamingo, New York Joe Exchange (vintage inside a former bathhouse). Graze the cafés/curry spots for lunch.</div>
+              <div class="alt"><b>Not up for it?</b> Vintage shopping not your thing today? Just spend the extra time in Nakameguro instead — no need to do both at full length.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">14:30<span class="dur">3 hrs</span></div>
-            <div>
-              <div class="place">Nakameguro / 中目黒</div>
+          </details>
+          <details class="ev" data-map="Nakameguro, Tokyo">
+            <summary>
+              <span class="time">14:30<span class="dur">3 hrs</span></span>
+              <span class="place">Nakameguro / 中目黒</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">The cool-but-calmer canal neighbourhood. Stroll the Meguro River promenade, design shops and galleries, and the multi-floor Starbucks Reserve Roastery flagship.</div>
+              <div class="alt"><b>Not up for it?</b> Rainy or not up for a riverside walk? The indoor multi-floor Starbucks Reserve Roastery alone covers the neighbourhood's main draw.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Dinner + drinks</div>
+          </details>
+          <details class="ev" data-map="Nakameguro, Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Dinner + drinks</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Nakameguro riverside izakaya/yakitori, then optionally back toward Shibuya, or a proper Golden Gai round now you know the lay of the land.</div>
               <span class="food">🍢 Nakameguro riverside izakaya</span>
               <span class="bar">🍸 Golden Gai — Bar Plastic Model / Cambiare (English-friendly)</span>
+              <div class="alt"><b>Not up for it?</b> Not another late night? Skip Golden Gai and head straight back to Shinjuku for an early night — it isn't going anywhere.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 7 -->
-      <div class="card">
-        <div class="card-head">Day 7 · Wed 18 Nov <small>West Shinjuku, Shinjuku Gyoen &amp; a big cocktail night</small></div>
+      <details class="card daycard" data-day="7" data-date="2026-11-18">
+        <summary class="card-head"><span class="titlewrap">Day 7 · Wed 18 Nov <small>West Shinjuku, Shinjuku Gyoen &amp; a big cocktail night</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">09:30<span class="dur">1 hr</span></div>
-            <div>
-              <div class="place">Tokyo Metropolitan Gov Building — free observation decks</div>
+          <details class="ev" data-map="Tokyo Metropolitan Government Building">
+            <summary>
+              <span class="time">09:30<span class="dur">1 hr</span></span>
+              <span class="place">Tokyo Metropolitan Gov Building — free observation decks</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Nishi-Shinjuku, 202 m, free — a no-cost rival to the paid towers. Nightly "Tokyo Night &amp; Light" projection show on the facade if you come back after dark.</div>
+              <div class="alt"><b>Not up for it?</b> Energy low? It's free and skippable — the nightly light show on the building's facade can be seen from outside without going up at all.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">11:00<span class="dur">2 hrs</span></div>
-            <div>
-              <div class="place">Shinjuku Gyoen / 新宿御苑</div>
+          </details>
+          <details class="ev" data-map="Shinjuku Gyoen, Tokyo">
+            <summary>
+              <span class="time">11:00<span class="dur">2 hrs</span></span>
+              <span class="place">Shinjuku Gyoen / 新宿御苑</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">¥500. Closed Mondays — open today. One of Tokyo's best gardens (Japanese/English/French sections), with autumn foliage in mid-to-late November. 10 min from the apartment.</div>
               <span class="food">🍜 Lunch: Shinjuku ramen — Ichiran Kabukicho (solo-booth tonkotsu) or any West-Exit shop</span>
+              <div class="alt"><b>Not up for it?</b> Not a garden day? The Metro Gov observation deck (previous stop) or extra time browsing Don Quijote covers the same slot.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur">the crawl</span></div>
-            <div>
-              <div class="place">Cocktail crawl — Nishi-Shinjuku (all walkable from home)</div>
+          </details>
+          <details class="ev" data-map="Bar Zoetrope, Shinjuku Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur">the crawl</span></span>
+              <span class="place">Cocktail crawl — Nishi-Shinjuku (all walkable from home)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">All three are Sunday-closed, so a Wednesday works. Benfiddich &amp; Zoetrope are tiny (9–15 seats) — arrive at opening with a group of three.</div>
               <span class="bar">🥃 Bar Zoetrope — 300+ Japanese whiskies (from 17:00)</span>
               <span class="bar">🌿 Bar Benfiddich — foraged-botanical cocktails, 9 seats (from 18:00)</span>
               <span class="bar">🎷 Optional: New York Bar, Park Hyatt 52F <span class="tag">Cover after 20:00 · smart dress</span></span>
+              <div class="alt"><b>Not up for it?</b> Benfiddich/Zoetrope are tiny (9–15 seats) and can turn away groups without warning — New York Bar at the Park Hyatt (cover charge, smart dress) is a reservation-friendly backup with guaranteed seating.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 8 -->
-      <div class="card">
-        <div class="card-head">Day 8 · Thu 19 Nov <small>teamLab Planets + Toyosu / Odaiba, last big night</small></div>
+      <details class="card daycard" data-day="8" data-date="2026-11-19">
+        <summary class="card-head"><span class="titlewrap">Day 8 · Thu 19 Nov <small>teamLab Planets + Toyosu / Odaiba, last big night</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">~10:00<span class="dur">booked slot</span></div>
-            <div>
-              <div class="place">teamLab Planets TOKYO / チームラボプラネッツ (Toyosu)</div>
+          <details class="ev" data-map="teamLab Planets Tokyo, Toyosu">
+            <summary>
+              <span class="time">~10:00<span class="dur">booked slot</span></span>
+              <span class="place">teamLab Planets TOKYO / チームラボプラネッツ (Toyosu)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Barefoot, wade-through digital-art rooms; open 08:30–22:00, last entry 60 min before close. You get wet to the knee — bring shorts/roll-up trousers. Expanded in 2026; runs to end of 2027.</div>
               <span class="travel">🎟️ Timed tickets from ¥3,800, on sale ~late-Aug for Nov and SELL OUT — book first</span>
+              <div class="alt"><b>Not up for it?</b> No tickets left (they sell out back in August)? Toyosu Market's tuna-auction viewing decks right next door are a solid non-ticketed substitute for the morning slot.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">PM<span class="dur">3 hrs</span></div>
-            <div>
-              <div class="place">Toyosu Market or Odaiba waterfront</div>
+          </details>
+          <details class="ev" data-map="Toyosu Market, Tokyo">
+            <summary>
+              <span class="time">PM<span class="dur">3 hrs</span></span>
+              <span class="place">Toyosu Market or Odaiba waterfront</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Toyosu Market (tuna-auction viewing decks + fresh sushi) is a short walk, or hop the Yurikamome to Odaiba: the Unicorn Gundam statue at DiverCity and Rainbow Bridge views.</div>
               <span class="travel">📍 teamLab is ~10 min from Shin-Toyosu on the Yurikamome; Odaiba chains off the same line</span>
+              <div class="alt"><b>Not up for it?</b> These are already an either/or choice — if Toyosu's market smells aren't your thing, just take the Yurikamome straight on to Odaiba's waterfront instead.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Final big night — Kabukicho</div>
+          </details>
+          <details class="ev" data-map="Kabukicho, Shinjuku Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Final big night — Kabukicho</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Last night all three together. Yakiniku/izakaya group dinner, a Golden Gai farewell round, karaoke (Karaoke Kan / Big Echo) or a Kabukicho club — blow it out; tomorrow Jai flies.</div>
               <span class="bar">🎤 Karaoke / 🍸 Golden Gai / 🥩 yakiniku</span>
+              <div class="alt"><b>Not up for it?</b> Not up for a big blowout? An easy Kabukicho izakaya dinner and an early night works just as well as a send-off.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 9 -->
-      <div class="card">
-        <div class="card-head">Day 9 · Fri 20 Nov <small>Jai flies home + a relaxed day for two</small></div>
+      <details class="card daycard" data-day="9" data-date="2026-11-20">
+        <summary class="card-head"><span class="titlewrap">Day 9 · Fri 20 Nov <small>Jai flies home + a relaxed day for two</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">~10:00<span class="dur">✈️</span></div>
-            <div>
-              <div class="place">Jai → Haneda (13:15 flight → London Heathrow 19:10)</div>
+          <details class="ev" data-map="Haneda Airport, Tokyo">
+            <summary>
+              <span class="time">~10:00<span class="dur">✈️</span></span>
+              <span class="place">Jai → Haneda (13:15 flight → London Heathrow 19:10)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Leave Shinjuku by ~10:00 — Toei/Keikyu via Shinagawa or the Airport Limousine bus from Shinjuku (~45–75 min). Sort checkout/bags the night before.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Day<span class="dur">Mandeep &amp; Tom</span></div>
-            <div>
-              <div class="place">Relaxed day for two — pick one</div>
+          </details>
+          <details class="ev" data-map="Yanaka Ginza, Tokyo">
+            <summary>
+              <span class="time">Day<span class="dur">Mandeep &amp; Tom</span></span>
+              <span class="place">Relaxed day for two — pick one</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes"><b>Option A:</b> Yanaka / Yanesen old town — Nippori → Yanaka Ginza street food → Nezu Shrine's red-torii corridor → Sendagi. Low-key half-day, mostly walking.<br><b>Option B:</b> Kamakura day trip — JR Yokosuka Line ~1 hr; the Great Buddha at Kotoku-in (enter for ¥50) + Hase-dera. Only if legs are fresh after Hakone.</div>
+              <div class="alt"><b>Not up for it?</b> Already an either/or — if Kamakura (Option B) feels like too much after Hakone, Yanaka (Option A) is the deliberately lower-key choice, mostly on foot.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">Eve<span class="dur"></span></div>
-            <div>
-              <div class="place">Last night as a pair</div>
+          </details>
+          <details class="ev" data-map="Kabukicho, Shinjuku Tokyo">
+            <summary>
+              <span class="time">Eve<span class="dur"></span></span>
+              <span class="place">Last night as a pair</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">An easy Kabukicho izakaya + a final Golden Gai round.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
 
       <!-- DAY 10 -->
-      <div class="card">
-        <div class="card-head">Day 10 · Sat 21 Nov <small>Departure (Mandeep &amp; Tom)</small></div>
+      <details class="card daycard" data-day="10" data-date="2026-11-21">
+        <summary class="card-head"><span class="titlewrap">Day 10 · Sat 21 Nov <small>Departure (Mandeep &amp; Tom)</small></span><span class="chev">›</span></summary>
         <div class="card-body">
-          <div class="row">
-            <div class="time">AM<span class="dur"></span></div>
-            <div>
-              <div class="place">Light morning — last souvenirs</div>
+          <details class="ev" data-map="Don Quijote Kabukicho, Tokyo">
+            <summary>
+              <span class="time">AM<span class="dur"></span></span>
+              <span class="place">Light morning — last souvenirs</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">Don Quijote Kabukicho (24h, 2 min from home), a final coffee/ramen, anything the week missed within Shinjuku.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
-          <div class="row">
-            <div class="time">~15:30<span class="dur">✈️</span></div>
-            <div>
-              <div class="place">🚄 Narita Express → Narita (19:30 flight → Shanghai → London Gatwick)</div>
+          </details>
+          <details class="ev" data-map="Narita Airport">
+            <summary>
+              <span class="time">~15:30<span class="dur">✈️</span></span>
+              <span class="place">🚄 Narita Express → Narita (19:30 flight → Shanghai → London Gatwick)</span>
+              <span class="chev">›</span>
+            </summary>
+            <div class="ev-detail">
               <div class="notes">N'EX direct from Shinjuku (~80 min) or Keisei via Nippori. Leave the apartment ~15:30–16:00 (~3.5 hrs before departure + the train). Pre-book the N'EX seat.</div>
+              <div class="alt"><b>Not up for it?</b> No N'EX seat booked? The cheaper Keisei route via Nippori covers the same journey without a reservation, just slower.</div>
+              <div class="maprow"><a class="mapbtn" target="_blank" rel="noopener">🗺️ Open in Google Maps</a></div>
+              <div class="mapframe"></div>
             </div>
-          </div>
+          </details>
         </div>
-      </div>
+      </details>
     </section>
 
-    <footer>Built from japan_plan · Nov 2026 · Times &amp; details from your spreadsheet, cross-checked against Kyoto_Itinerary_Sources</footer>
+    <footer>Built from japan_plan · Nov 2026 · Times &amp; details from your spreadsheet, cross-checked against Kyoto_Itinerary_Sources / Tokyo_Itinerary_Sources · Tap a day, tap a stop, tap a map</footer>
   </div>
 
 <script>
-  const btns=document.querySelectorAll('.nav button');
+(function(){
+  const btns=document.querySelectorAll('.nav button[data-t]');
   const secs=document.querySelectorAll('section');
+
+  function showTab(id){
+    btns.forEach(x=>x.classList.toggle('active', x.dataset.t===id));
+    secs.forEach(x=>x.classList.toggle('show', x.id===id));
+  }
   btns.forEach(b=>b.addEventListener('click',()=>{
-    btns.forEach(x=>x.classList.remove('active'));
-    secs.forEach(x=>x.classList.remove('show'));
-    b.classList.add('active');
-    document.getElementById(b.dataset.t).classList.add('show');
+    showTab(b.dataset.t);
     window.scrollTo({top:0,behavior:'smooth'});
   }));
+
+  // Lazy-load Google Maps embeds (no API key needed) + wire up "Open in Google Maps" links
+  document.querySelectorAll('.ev[data-map]').forEach(function(ev){
+    const q = ev.dataset.map;
+    const enc = encodeURIComponent(q);
+    const link = ev.querySelector('.mapbtn');
+    if(link) link.href = 'https://www.google.com/maps/search/?api=1&query='+enc;
+    ev.addEventListener('toggle', function(){
+      if(!ev.open) return;
+      const box = ev.querySelector('.mapframe');
+      if(box && !box.dataset.loaded){
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://maps.google.com/maps?q='+enc+'&output=embed';
+        iframe.loading = 'lazy';
+        iframe.referrerPolicy = 'no-referrer-when-downgrade';
+        iframe.allowFullscreen = true;
+        box.appendChild(iframe);
+        box.dataset.loaded = '1';
+      }
+    });
+  });
+
+  // Tap a day-strip pill to open + scroll to that day within its section
+  function activateDay(day){
+    const sec = day.closest('section');
+    showTab(sec.id);
+    sec.querySelectorAll('.daycard').forEach(d=>{ if(d!==day) d.open=false; });
+    day.open = true;
+    setTimeout(()=>day.scrollIntoView({behavior:'smooth',block:'start'}), 60);
+  }
+  document.querySelectorAll('.cal .day[data-day]').forEach(function(pill){
+    pill.addEventListener('click', function(){
+      const sec = pill.closest('section');
+      const day = sec.querySelector('.daycard[data-day="'+pill.dataset.day+'"]');
+      if(day) activateDay(day);
+    });
+  });
+
+  // "Today" button + auto-open: matches the device's local date against each day card's data-date
+  function pad(n){ return n<10 ? '0'+n : ''+n; }
+  function todayStr(){
+    const d=new Date();
+    return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+  }
+  function jumpToToday(){
+    const today = todayStr();
+    const day = document.querySelector('.daycard[data-date="'+today+'"]');
+    if(!day) return false;
+    activateDay(day);
+    return true;
+  }
+  const todayBtn = document.getElementById('todayBtn');
+  if(todayBtn){
+    todayBtn.addEventListener('click', function(){
+      if(!jumpToToday()) todayBtn.textContent = '📍 Not on the trip today';
+    });
+  }
+  jumpToToday(); // silently auto-opens today's day if this is viewed during the trip (8–21 Nov 2026)
+})();
 </script>
 </body>
 </html>

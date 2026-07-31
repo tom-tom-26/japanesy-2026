@@ -20,11 +20,12 @@ DTSTAMP:20260731T000000Z
 DTSTART;TZID=Asia/Tokyo:20261112T163000
 DTEND;TZID=Asia/Tokyo:20261112T173000
 SUMMARY:Arrive Tokyo — Shinkansen from Kyoto\, drop bags
-LOCATION:Shinjuku / Kabukicho\, Tokyo
+LOCATION:2-Chome-2-11 Kabukicho\, Shinjuku City\, Tokyo 160-0021
 DESCRIPTION:~2h15 Nozomi Kyoto -> Tokyo Station\, then ~15 min to Shinjuku 
- (JR Chuo Rapid or Yamanote).\nDrop bags at the apartment\, then an orienta
- tion walk through Kabukicho past the Godzilla head.\nMap: https://www.goog
- le.com/maps/search/?api=1&query=Shinjuku+Station+Tokyo
+ (JR Chuo Rapid or Yamanote).\nDrop bags at the apartment (booked\, provisi
+ onal - address not yet re-verified against a live listing).\nThen an orien
+ tation walk through Kabukicho past the Godzilla head.\nMap: https://www.go
+ ogle.com/maps/search/?api=1&query=Shinjuku+Station+Tokyo
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Arrive Tokyo — Shinkansen from Kyoto\, drop bags

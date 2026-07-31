@@ -47,6 +47,9 @@ Every restaurant, bar, attraction, and logistics claim in `Tokyo_Itinerary_Plan`
 - **Yanaka / Yanesen (Yanaka–Nezu–Sendagi)** — surviving shitamachi old-town district; walk Nippori Station → Yanaka Ginza shopping street → Nezu Shrine (red-torii corridor) → Sendagi; Nippori is ~5 min on the JR Yamanote, so it's an easy low-key half-day. [Magical Trip — Yanaka Ginza guide 2026](https://www.magical-trip.com/media/yanaka-ginza-guide-experience-the-local-life-in-tokyos-old-neighborhood/)
 - **Kamakura day trip** — JR Yokosuka Line direct from Tokyo Station, ~1 hr, ~¥920 one way; **Great Buddha at Kotoku-in** (11.3 m bronze, cast 1252, enter the statue for ¥50) + **Hase-dera** (5-min walk apart, reached via the Enoden line from Kamakura Station). [Truly Tokyo — Kamakura day-trip itinerary](https://trulytokyo.com/kamakura-day-trip-itinerary/), [Japan Specialty Traveler — Kamakura/Kotoku-in access](https://japanspecialtraveler.com/guides/kanagawa-kamakura-guide/)
 
+## Accommodation
+- **Booked (provisional)** — arrival night: Hotel House Lee, 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan (matches this guide's own vetted pick in `Tokyo_Accommodation_Guide.md`). Main stay: 2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan (address as given by the traveller; not yet cross-checked against a live listing — flagged in the accommodation guide).
+
 ## Airport transfers
 - **Narita Express (N'EX)** — direct Shinjuku ↔ Narita, ~80 min; reserved seating. **Haneda** — Toei/Keikyu via Shinagawa, or Airport Limousine bus from Shinjuku (~45–75 min). [JR East — Narita Express](https://www.jreast.co.jp/multi/en/nex/), [Tokyo Airport Limousine — official](https://webservice.limousinebus.co.jp/web/en/)
 

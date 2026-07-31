@@ -17,9 +17,10 @@ EVENTS = [
     # DAY 1 — Thu 12 Nov
     (1, 1, "20261112", "163000", "173000",
      "Arrive Tokyo — Shinkansen from Kyoto, drop bags",
-     "Shinjuku / Kabukicho, Tokyo",
+     "2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021",
      ["~2h15 Nozomi Kyoto -> Tokyo Station, then ~15 min to Shinjuku (JR Chuo Rapid or Yamanote).",
-      "Drop bags at the apartment, then an orientation walk through Kabukicho past the Godzilla head.",
+      "Drop bags at the apartment (booked, provisional - address not yet re-verified against a live listing).",
+      "Then an orientation walk through Kabukicho past the Godzilla head.",
       "Map: " + maps("Shinjuku Station Tokyo")]),
     (1, 2, "20261112", "190000", "210000",
      "Dinner: Omoide Yokocho",
