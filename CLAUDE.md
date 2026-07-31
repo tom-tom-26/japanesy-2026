@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Trip-planning content for a Japan holiday (Kyoto & Tokyo, 8–21 November 2026, travellers: Mandeep, Tom, Jai). There is no build system, package manager, test suite, or app to run — everything here is static content: a self-contained itinerary webpage, planning docs, and a spreadsheet. Treat every task as document/content editing, not software engineering. 
 
-The `README.md` states the operating rule for this repo: **"NO SLOP"** — every claim (opening hours, prices, transit times, restaurant/bar recommendations) must be real, verifiable, and current. Do not invent venues, prices, or logistics.
+The `README.md` states the operating rule for this repo: **"NO SLOP"** — every claim (opening hours, prices, transit times, restaurant/bar recommendations) must be real, verifiable, current and authentic. Do not invent venues, prices, or logistics. Recommend resturants that japanese locals would frequent
 
 ## File map
 
