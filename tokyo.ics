@@ -1,0 +1,652 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Japanesy 2026//Tokyo Itinerary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tokyo Itinerary – Nov 2026
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d1-e1-20261112@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T163000
+DTEND;TZID=Asia/Tokyo:20261112T173000
+SUMMARY:Arrive Tokyo — Shinkansen from Kyoto\, drop bags
+LOCATION:Shinjuku / Kabukicho\, Tokyo
+DESCRIPTION:~2h15 Nozomi Kyoto -> Tokyo Station\, then ~15 min to Shinjuku 
+ (JR Chuo Rapid or Yamanote).\nDrop bags at the apartment\, then an orienta
+ tion walk through Kabukicho past the Godzilla head.\nMap: https://www.goog
+ le.com/maps/search/?api=1&query=Shinjuku+Station+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arrive Tokyo — Shinkansen from Kyoto\, drop bags
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e2-20261112@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T190000
+DTEND;TZID=Asia/Tokyo:20261112T210000
+SUMMARY:Dinner: Omoide Yokocho
+LOCATION:1 Chome Nishishinjuku\, Shinjuku City\, Tokyo
+DESCRIPTION:Specialty: charcoal yakitori & grilled offal at tiny standing/c
+ ounter stalls.\nLantern-lit alley 5 min from Shinjuku West Exit. No reserv
+ ations - walk the lane and grab stools.\nMap: https://www.google.com/maps/
+ search/?api=1&query=Omoide+Yokocho+Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Omoide Yokocho
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e3-20261112@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T210000
+DTEND;TZID=Asia/Tokyo:20261112T230000
+SUMMARY:OPTIONAL: Golden Gai (start at Albatross)
+LOCATION:1 Chome Kabukicho\, Shinjuku City\, Tokyo
+DESCRIPTION:~200 micro-bars across six alleys\; liveliest after 20:00.\nAlb
+ atross: 3 floors\, chandelier-lit\, foreigner-friendly\, ¥500 cover with 
+ a snack - good first-night pick.\nMap: https://www.google.com/maps/search/
+ ?api=1&query=Golden+Gai+Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL: Golden Gai (start at Albatross)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e1-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T083000
+DTEND;TZID=Asia/Tokyo:20261113T100000
+SUMMARY:Meiji Jingu
+LOCATION:1-1 Yoyogikamizonocho\, Shibuya City\, Tokyo 151-8557
+DESCRIPTION:Free. Opens at sunrise (~06:20 in Nov)\, closes ~16:20.\nTokyo'
+ s grandest shrine in a forest of 100\,000 donated trees. Go early for empt
+ y gravel approaches.\nRoute: Shinjuku -> Harajuku\, 2 stops / ~4 min on th
+ e Yamanote.\nMap: https://www.google.com/maps/search/?api=1&query=Meiji+Ji
+ ngu+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meiji Jingu
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e2-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T100000
+DTEND;TZID=Asia/Tokyo:20261113T113000
+SUMMARY:Takeshita-dori + Cat Street (Harajuku)
+LOCATION:Takeshita St\, Jingumae\, Shibuya City\, Tokyo
+DESCRIPTION:Takeshita's teen-fashion gauntlet\, then the calmer Ura-Harajuk
+ u back lanes for streetwear & vintage.\nMap: https://www.google.com/maps/s
+ earch/?api=1&query=Takeshita+Street+Harajuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Takeshita-dori + Cat Street (Harajuku)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e3-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T113000
+DTEND;TZID=Asia/Tokyo:20261113T123000
+SUMMARY:Lunch: Fuunji (tsukemen)
+LOCATION:2-14-3 Yoyogi\, Shibuya City\, Tokyo 151-0053
+DESCRIPTION:Specialty: chicken-and-niboshi (dried sardine) tsukemen. Large 
+ noodle size free.\nAmong Tokyo's best tsukemen\; huge queue by noon - arri
+ ve before 11:00 or after 14:00. Cash-friendly\, tiny counter.\nMap: https:
+ //www.google.com/maps/search/?api=1&query=Fuunji+Tokyo+tsukemen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Fuunji (tsukemen)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e4-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T133000
+DTEND;TZID=Asia/Tokyo:20261113T160000
+SUMMARY:Shibuya Scramble + Hachiko + Shibuya Sky
+LOCATION:Shibuya Scramble Square\, 2-24-12 Shibuya\, Shibuya City\, Tokyo
+DESCRIPTION:Shibuya Sky rooftop (229 m): ¥2\,700 before 15:00 / ¥3\,400 f
+ rom 15:00. Open 10:00-22:30\, last entry 21:20.\nBOOK a ~15:30-16:00 timed
+  slot for daylight -> sunset -> city lights. Slots sell out.\nMap: https:/
+ /www.google.com/maps/search/?api=1&query=Shibuya+Sky+Scramble+Square
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shibuya Scramble + Hachiko + Shibuya Sky
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e5-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T190000
+DTEND;TZID=Asia/Tokyo:20261113T210000
+SUMMARY:Dinner: Nonbei Yokocho
+LOCATION:1 Chome Shibuya\, Shibuya City\, Tokyo
+DESCRIPTION:Tiny two-storey bars & yakitori counters beside the Shibuya tra
+ in tracks - a smaller\, local Golden Gai.\nMap: https://www.google.com/map
+ s/search/?api=1&query=Nonbei+Yokocho+Shibuya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Nonbei Yokocho
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e6-20261113@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261113T210000
+DTEND;TZID=Asia/Tokyo:20261113T230000
+SUMMARY:OPTIONAL: The SG Club
+LOCATION:1-7-8 Jinnan\, Shibuya City\, Tokyo 150-0041
+DESCRIPTION:Shingo Gokan bar\; 9 consecutive years on Asia's 50 Best Bars.\
+ nCasual 'Guzzle' upstairs is walk-in friendly\; 'Sip' speakeasy below is d
+ ressier. ~10-15 min walk from Shibuya Station.\nMap: https://www.google.co
+ m/maps/search/?api=1&query=The+SG+Club+Shibuya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL: The SG Club
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e1-20261114@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261114T080000
+DTEND;TZID=Asia/Tokyo:20261114T100000
+SUMMARY:Tsukiji Outer Market
+LOCATION:4 Chome Tsukiji\, Chuo City\, Tokyo 104-0045
+DESCRIPTION:Specialty: tamagoyaki\, uni\, grilled seafood skewers\, standin
+ g sushi. 460+ stalls.\nBest window 08:00-10:00 - half the top stalls sell 
+ out by ~11:00. Closed Sundays & scattered Weds (Sat is safe).\nGraze acros
+ s several stalls rather than one sit-down meal.\nMap: https://www.google.c
+ om/maps/search/?api=1&query=Tsukiji+Outer+Market+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tsukiji Outer Market
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e2-20261114@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261114T103000
+DTEND;TZID=Asia/Tokyo:20261114T123000
+SUMMARY:Ginza — flagship stores
+LOCATION:Ginza\, Chuo City\, Tokyo
+DESCRIPTION:~15-min walk from Tsukiji. Ginza Six\, the Uniqlo & Muji flagsh
+ ips (Muji has a bakery)\, Itoya stationery megastore.\nOptional: Imperial 
+ Palace East Gardens (free\; open Sat - closed Mon & Fri)\, ~10 min from To
+ kyo Station.\nMap: https://www.google.com/maps/search/?api=1&query=Ginza+T
+ okyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ginza — flagship stores
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e3-20261114@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261114T130000
+DTEND;TZID=Asia/Tokyo:20261114T143000
+SUMMARY:Tokyo Station Marunouchi
+LOCATION:1 Chome Marunouchi\, Chiyoda City\, Tokyo
+DESCRIPTION:Photograph the restored 1914 red-brick facade\, then the baseme
+ nt Character Street / Ramen Street if peckish.\nMap: https://www.google.co
+ m/maps/search/?api=1&query=Tokyo+Station+Marunouchi
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tokyo Station Marunouchi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e4-20261114@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261114T190000
+DTEND;TZID=Asia/Tokyo:20261114T210000
+SUMMARY:Cocktails: Bar High Five (Ginza)
+LOCATION:Efu Bldg B1F\, 7-2-14 Ginza\, Chuo City\, Tokyo 104-0061
+DESCRIPTION:Specialty: bartender's-choice omakase cocktails\, no printed me
+ nu - legendary bartender Hidetsugu Ueno.\nIntimate & world-renowned. RESER
+ VATION ADVISED\; cover charge\; dress smart-ish. Do an early casual bite f
+ irst.\nMap: https://www.google.com/maps/search/?api=1&query=Bar+High+Five+
+ Ginza
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cocktails: Bar High Five (Ginza)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e1-20261115@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261115T083000
+DTEND;TZID=Asia/Tokyo:20261115T103000
+SUMMARY:Senso-ji + Nakamise-dori
+LOCATION:2-3-1 Asakusa\, Taito City\, Tokyo 111-0032
+DESCRIPTION:Free\; grounds 24h\, main hall 06:30-17:00. Enter via the Kamin
+ arimon giant lantern.\nGo before 10:00 to beat the crush. HEAVY-WALKING DA
+ Y today (Asakusa + Ameyoko + Akihabara).\nMap: https://www.google.com/maps
+ /search/?api=1&query=Senso-ji+Asakusa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Senso-ji + Nakamise-dori
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e2-20261115@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261115T110000
+DTEND;TZID=Asia/Tokyo:20261115T120000
+SUMMARY:Lunch: Onigiri Asakusa Yadoroku
+LOCATION:3-9-10 Asakusa\, Taito City\, Tokyo 111-0032
+DESCRIPTION:Specialty: hand-formed onigiri. Tokyo's oldest onigiri speciali
+ st (since 1954)\, Michelin Bib Gourmand.\nTiny counter\, limited hours\, c
+ an sell out - arrive early. Alt: Asakusa Imahan for century-old sukiyaki.\
+ nMap: https://www.google.com/maps/search/?api=1&query=Onigiri+Asakusa+Yado
+ roku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Onigiri Asakusa Yadoroku
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e3-20261115@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261115T130000
+DTEND;TZID=Asia/Tokyo:20261115T150000
+SUMMARY:Ueno — Park museums or Ameyoko
+LOCATION:Ueno Park / Ameyoko\, Taito City\, Tokyo
+DESCRIPTION:Choose a lane: Tokyo National Museum (closed Mon\; open Sun)\, 
+ or the Ameyoko market street under the JR tracks.\nRoute: Asakusa -> Ueno 
+ ~5 min (Ginza Line)\; Ueno -> Akihabara 3 min (Yamanote).\nMap: https://ww
+ w.google.com/maps/search/?api=1&query=Ameyoko+Ueno
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ueno — Park museums or Ameyoko
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e4-20261115@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261115T153000
+DTEND;TZID=Asia/Tokyo:20261115T180000
+SUMMARY:Akihabara — Electric Town
+LOCATION:Akihabara\, Chiyoda/Taito City\, Tokyo
+DESCRIPTION:Multi-floor arcades (GiGO\, Taito Station)\, retro games at Sup
+ er Potato\, anime/figures on Chuo-dori.\nChuo-dori is car-free Sun 13:00-1
+ 7:00 (Oct-Mar). Kanda Myojin shrine is a 7-min walk uphill.\nMap: https://
+ www.google.com/maps/search/?api=1&query=Akihabara+Electric+Town
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Akihabara — Electric Town
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e5-20261115@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261115T193000
+DTEND;TZID=Asia/Tokyo:20261115T213000
+SUMMARY:Dinner: Ebisu Yokocho
+LOCATION:1-7-4 Ebisu\, Shibuya City\, Tokyo 150-0013
+DESCRIPTION:Specialty: 20+ independent izakaya in one indoor alley - yakito
+ ri\, oden\, fresh fish\, wine.\nRowdy\, group-friendly\, ~¥2\,000+/head\,
+  no bookings. ~2 min from Ebisu Station East Exit\; easy loop home.\nMap: 
+ https://www.google.com/maps/search/?api=1&query=Ebisu+Yokocho
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Ebisu Yokocho
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5-e1-20261116@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261116T073000
+DTEND;TZID=Asia/Tokyo:20261116T090000
+SUMMARY:Odakyu Romancecar: Shinjuku -> Hakone-Yumoto
+LOCATION:Odakyu Shinjuku Station\, Tokyo
+DESCRIPTION:Direct limited express\, ~85 min. RESERVE seats (right side C/D
+  for Mt Fuji).\nBuy the Hakone Freepass digitally (EMot app / Klook) to sk
+ ip the morning queue - it covers the whole loop.\nMap: https://www.google.
+ com/maps/search/?api=1&query=Odakyu+Shinjuku+Station
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Odakyu Romancecar: Shinjuku -> Hakone-Yumoto
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5-e2-20261116@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261116T093000
+DTEND;TZID=Asia/Tokyo:20261116T160000
+SUMMARY:Hakone loop: Gora / Owakudani / Lake Ashi
+LOCATION:Hakone\, Kanagawa
+DESCRIPTION:Mountain railway to Gora -> cablecar to Sounzan -> ropeway over
+  Owakudani (black eggs) -> pirate ship across Lake Ashi to Moto-Hakone (la
+ ke torii).\nPeak autumn foliage in November. Lunch on the loop: soba aroun
+ d Gora/Yumoto or the Owakudani black eggs.\nBackup if ropeway is wind/gas-
+ closed: substitute buses + Hakone Open-Air Museum (all-weather).\nMap: htt
+ ps://www.google.com/maps/search/?api=1&query=Owakudani+Hakone
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hakone loop: Gora / Owakudani / Lake Ashi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5-e3-20261116@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261116T160000
+DTEND;TZID=Asia/Tokyo:20261116T173000
+SUMMARY:Onsen: Hakone Yuryo
+LOCATION:4 Tonosawa\, Hakone\, Ashigarashimo District\, Kanagawa 250-0315
+DESCRIPTION:Near Hakone-Yumoto. Private-rental baths good for a group - sid
+ esteps the no-visible-tattoos rule of public baths.\nMap: https://www.goog
+ le.com/maps/search/?api=1&query=Hakone+Yuryo+onsen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Onsen: Hakone Yuryo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5-e4-20261116@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261116T173000
+DTEND;TZID=Asia/Tokyo:20261116T190000
+SUMMARY:Romancecar back to Shinjuku
+LOCATION:Hakone-Yumoto Station\, Kanagawa
+DESCRIPTION:~85 min back to Shinjuku. Easy dinner near home after.\nMap: ht
+ tps://www.google.com/maps/search/?api=1&query=Hakone-Yumoto+Station
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Romancecar back to Shinjuku
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d6-e1-20261117@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261117T103000
+DTEND;TZID=Asia/Tokyo:20261117T133000
+SUMMARY:Shimokitazawa
+LOCATION:Kitazawa\, Setagaya City\, Tokyo
+DESCRIPTION:7 min from Shinjuku (Odakyu / Keio Inokashira). Tokyo's indie/v
+ intage capital - no chain stores on the main lanes.\nChicago\, Flamingo\, 
+ New York Joe Exchange (vintage inside a former bathhouse). Graze cafés/cu
+ rry for lunch.\nMap: https://www.google.com/maps/search/?api=1&query=Shimo
+ kitazawa+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shimokitazawa
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d6-e2-20261117@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261117T143000
+DTEND;TZID=Asia/Tokyo:20261117T173000
+SUMMARY:Nakameguro
+LOCATION:Nakameguro\, Meguro City\, Tokyo
+DESCRIPTION:The cool-but-calmer canal neighbourhood. Meguro River promenade
+ \, design shops/galleries.\nMulti-floor Starbucks Reserve Roastery flagshi
+ p on the river.\nMap: https://www.google.com/maps/search/?api=1&query=Naka
+ meguro+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nakameguro
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d6-e3-20261117@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261117T190000
+DTEND;TZID=Asia/Tokyo:20261117T210000
+SUMMARY:Dinner + drinks: Nakameguro / Golden Gai
+LOCATION:Nakameguro / Shinjuku\, Tokyo
+DESCRIPTION:Nakameguro riverside izakaya & yakitori\, then optionally back 
+ toward Shibuya - or a proper Golden Gai round.\nGolden Gai English-friendl
+ y picks: Bar Plastic Model\, Cambiare.\nMap: https://www.google.com/maps/s
+ earch/?api=1&query=Nakameguro+izakaya
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner + drinks: Nakameguro / Golden Gai
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7-e1-20261118@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261118T093000
+DTEND;TZID=Asia/Tokyo:20261118T103000
+SUMMARY:Tokyo Metropolitan Gov Building (free decks)
+LOCATION:2-8-1 Nishishinjuku\, Shinjuku City\, Tokyo 163-8001
+DESCRIPTION:Nishi-Shinjuku\, 202 m\, FREE - a no-cost rival to the paid tow
+ ers.\nNightly 'Tokyo Night & Light' projection show on the facade if you r
+ eturn after dark.\nMap: https://www.google.com/maps/search/?api=1&query=To
+ kyo+Metropolitan+Government+Building
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tokyo Metropolitan Gov Building (free decks)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7-e2-20261118@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261118T110000
+DTEND;TZID=Asia/Tokyo:20261118T130000
+SUMMARY:Shinjuku Gyoen
+LOCATION:11 Naitomachi\, Shinjuku City\, Tokyo 160-0014
+DESCRIPTION:¥500. CLOSED Mondays - open today (Wed). Japanese/English/Fren
+ ch garden sections.\nAutumn foliage in mid-to-late November. ~10 min from 
+ the apartment.\nMap: https://www.google.com/maps/search/?api=1&query=Shinj
+ uku+Gyoen+National+Garden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shinjuku Gyoen
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7-e3-20261118@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261118T130000
+DTEND;TZID=Asia/Tokyo:20261118T140000
+SUMMARY:Lunch: Ichiran Kabukicho (ramen)
+LOCATION:1-22-7 Kabukicho\, Shinjuku City\, Tokyo
+DESCRIPTION:Solo-booth tonkotsu\; accepts cards/IC/PayPay. Some branches op
+ en late/24h.\nOr any Shinjuku West-Exit ramen shop.\nMap: https://www.goog
+ le.com/maps/search/?api=1&query=Ichiran+Kabukicho+Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Ichiran Kabukicho (ramen)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7-e4-20261118@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261118T190000
+DTEND;TZID=Asia/Tokyo:20261118T230000
+SUMMARY:Cocktail crawl: Zoetrope / Benfiddich / New York Bar
+LOCATION:Nishi-Shinjuku\, Shinjuku City\, Tokyo
+DESCRIPTION:All three are SUNDAY-CLOSED\, so a Wednesday works. Benfiddich 
+ & Zoetrope are tiny (9-15 seats) - arrive at opening.\nBar Zoetrope: 300+ 
+ Japanese whiskies\, from 17:00. 7-10-14 Nishishinjuku.\nBar Benfiddich: fo
+ raged-botanical cocktails\, 9 seats\, from 18:00. 1-13-7 Nishishinjuku.\nO
+ ptional: New York Bar\, Park Hyatt 52F - cover after 20:00\, smart dress.\
+ nMap: https://www.google.com/maps/search/?api=1&query=Bar+Benfiddich+Nishi
+ -Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cocktail crawl: Zoetrope / Benfiddich / New York Bar
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8-e1-20261119@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261119T100000
+DTEND;TZID=Asia/Tokyo:20261119T120000
+SUMMARY:teamLab Planets TOKYO (booked slot)
+LOCATION:6-1-16 Toyosu\, Koto City\, Tokyo 135-0061
+DESCRIPTION:Barefoot\, wade-through digital-art rooms. Open 08:30-22:00\, l
+ ast entry 60 min before close.\nTIMED tickets from ¥3\,800\, on sale ~lat
+ e-Aug for Nov and SELL OUT - book first. You get wet to the knee: bring sh
+ orts/roll-ups.\n~10 min from Shin-Toyosu on the Yurikamome.\nMap: https://
+ www.google.com/maps/search/?api=1&query=teamLab+Planets+Toyosu+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:teamLab Planets TOKYO (booked slot)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8-e2-20261119@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261119T123000
+DTEND;TZID=Asia/Tokyo:20261119T153000
+SUMMARY:Toyosu Market or Odaiba waterfront
+LOCATION:Toyosu / Odaiba\, Koto City\, Tokyo
+DESCRIPTION:Toyosu Market (tuna-auction viewing decks + fresh sushi) is a s
+ hort walk\, or Yurikamome to Odaiba.\nOdaiba: Unicorn Gundam statue at Div
+ erCity\, Rainbow Bridge views\, Odaiba Seaside Park.\nMap: https://www.goo
+ gle.com/maps/search/?api=1&query=Odaiba+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Toyosu Market or Odaiba waterfront
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8-e3-20261119@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261119T190000
+DTEND;TZID=Asia/Tokyo:20261119T230000
+SUMMARY:Final big night — Kabukicho
+LOCATION:Kabukicho\, Shinjuku City\, Tokyo
+DESCRIPTION:Last night all three together. Yakiniku/izakaya group dinner\, 
+ a Golden Gai farewell round\, karaoke (Karaoke Kan / Big Echo) or a Kabuki
+ cho club.\nMap: https://www.google.com/maps/search/?api=1&query=Kabukicho+
+ Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Final big night — Kabukicho
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9-e1-20261120@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261120T100000
+DTEND;TZID=Asia/Tokyo:20261120T110000
+SUMMARY:Jai -> Haneda (13:15 flight -> London Heathrow)
+LOCATION:Shinjuku Station\, Tokyo
+DESCRIPTION:Leave Shinjuku by ~10:00 - Toei/Keikyu via Shinagawa or the Air
+ port Limousine bus from Shinjuku (~45-75 min).\nSort checkout/bags the nig
+ ht before so the morning is clean.\nMap: https://www.google.com/maps/searc
+ h/?api=1&query=Haneda+Airport+Tokyo
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jai -> Haneda (13:15 flight -> London Heathrow)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9-e2-20261120@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261120T113000
+DTEND;TZID=Asia/Tokyo:20261120T160000
+SUMMARY:Mandeep & Tom: Yanaka old town OR Kamakura
+LOCATION:Yanaka (Nippori) / Kamakura
+DESCRIPTION:Option A - Yanaka/Yanesen old town: Nippori -> Yanaka Ginza str
+ eet food -> Nezu Shrine red-torii corridor -> Sendagi. Low-key half-day\, 
+ mostly walking.\nOption B - Kamakura day trip: JR Yokosuka Line ~1 hr\, ~
+ ¥920\; Great Buddha at Kotoku-in (enter for ¥50) + Hase-dera. Only if le
+ gs are fresh after Hakone.\nMap A: https://www.google.com/maps/search/?api
+ =1&query=Yanaka+Ginza+Tokyo\nMap B: https://www.google.com/maps/search/?ap
+ i=1&query=Kotoku-in+Great+Buddha+Kamakura
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mandeep & Tom: Yanaka old town OR Kamakura
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9-e3-20261120@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261120T190000
+DTEND;TZID=Asia/Tokyo:20261120T210000
+SUMMARY:Last night as a pair
+LOCATION:Kabukicho\, Shinjuku City\, Tokyo
+DESCRIPTION:An easy Kabukicho izakaya + a final Golden Gai round.\nMap: htt
+ ps://www.google.com/maps/search/?api=1&query=Golden+Gai+Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last night as a pair
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d10-e1-20261121@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261121T100000
+DTEND;TZID=Asia/Tokyo:20261121T120000
+SUMMARY:Light morning + last souvenirs
+LOCATION:Kabukicho\, Shinjuku City\, Tokyo
+DESCRIPTION:Don Quijote Kabukicho (24h\, 2 min from home)\, a final coffee/
+ ramen\, anything the week missed within Shinjuku.\nMap: https://www.google
+ .com/maps/search/?api=1&query=Don+Quijote+Kabukicho+Shinjuku
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Light morning + last souvenirs
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d10-e2-20261121@tokyo-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261121T153000
+DTEND;TZID=Asia/Tokyo:20261121T170000
+SUMMARY:Narita Express -> Narita (19:30 flight)
+LOCATION:Shinjuku Station (Narita Express)\, Tokyo
+DESCRIPTION:Mandeep & Tom: N'EX direct from Shinjuku (~80 min) or Keisei vi
+ a Nippori. 19:30 flight -> Shanghai -> London Gatwick.\nLeave the apartmen
+ t ~15:30-16:00 (~3.5 hrs before departure + the train). PRE-BOOK the N'EX 
+ seat.\nMap: https://www.google.com/maps/search/?api=1&query=Narita+Airport
+ +Terminal
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Narita Express -> Narita (19:30 flight)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
