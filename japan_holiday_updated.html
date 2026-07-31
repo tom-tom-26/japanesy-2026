@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Holiday · Nov 2026</title>
+<style>
+  :root{
+    --red:#bc002d; --ink:#1a1a2e; --slate:#5c6b7a; --paper:#fbf7f2;
+    --card:#ffffff; --line:#ece4da; --gold:#c8a04f; --green:#2f7d5b;
+    --blue:#2b5c8a; --soft:#f4eee6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  a{color:inherit}
+
+  /* Hero */
+  .hero{position:relative;background:linear-gradient(135deg,#bc002d 0%,#8a0020 100%);color:#fff;padding:56px 24px 68px;text-align:center;overflow:hidden}
+  .hero::after{content:"";position:absolute;top:-40px;right:-40px;width:220px;height:220px;background:rgba(255,255,255,.08);border-radius:50%}
+  .hero::before{content:"";position:absolute;bottom:-60px;left:-30px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%}
+  .sun{width:70px;height:70px;background:#fff;border-radius:50%;margin:0 auto 18px;box-shadow:0 0 0 10px rgba(255,255,255,.15)}
+  .hero h1{font-size:2.5rem;letter-spacing:.5px;font-weight:700}
+  .hero .jp{font-size:1.1rem;opacity:.85;margin-top:4px;letter-spacing:4px}
+  .hero p{margin-top:14px;font-size:1.05rem;opacity:.92}
+  .badge{display:inline-block;margin-top:18px;background:rgba(255,255,255,.18);padding:8px 18px;border-radius:40px;font-size:.9rem;backdrop-filter:blur(4px)}
+
+  .wrap{max-width:960px;margin:-36px auto 60px;padding:0 18px;position:relative;z-index:2}
+
+  /* Nav */
+  .nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:var(--card);padding:12px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.08);margin-bottom:30px}
+  .nav button{border:none;background:var(--soft);color:var(--slate);padding:9px 16px;border-radius:30px;font-size:.9rem;cursor:pointer;font-weight:600;transition:.2s}
+  .nav button:hover{background:#efe4d6}
+  .nav button.active{background:var(--red);color:#fff}
+
+  section{display:none;animation:fade .35s ease}
+  section.show{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  h2.sec{font-size:1.6rem;margin-bottom:6px;color:var(--red);display:flex;align-items:center;gap:10px}
+  h2.sec span.k{font-size:1rem;color:var(--slate);font-weight:400}
+  .sub{color:var(--slate);margin-bottom:22px}
+
+  /* Cards */
+  .card{background:var(--card);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.06);border:1px solid var(--line);margin-bottom:18px;overflow:hidden}
+  .card-head{padding:16px 20px;background:linear-gradient(90deg,var(--red),#9c0025);color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center}
+  .card-head small{font-weight:400;opacity:.85;font-size:.85rem}
+  .card-body{padding:8px 0}
+
+  /* Timeline rows */
+  .row{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:none}
+  .time{font-weight:700;color:var(--red);font-size:.92rem}
+  .dur{display:block;color:var(--slate);font-weight:400;font-size:.78rem;margin-top:2px}
+  .place{font-weight:600;font-size:1.02rem}
+  .notes{color:var(--slate);font-size:.9rem;margin-top:4px}
+  .travel{display:inline-block;margin-top:8px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:3px 10px;border-radius:20px}
+  .food{display:inline-block;margin-top:8px;margin-right:6px;font-size:.8rem;background:#fdf1ec;color:var(--red);padding:3px 10px;border-radius:20px}
+  .bar{display:inline-block;margin-top:8px;font-size:.8rem;background:#eef4f0;color:var(--green);padding:3px 10px;border-radius:20px}
+
+  /* Flights */
+  .flight{display:grid;grid-template-columns:1fr;gap:0}
+  .fcard{padding:18px 20px;border-bottom:1px solid var(--line)}
+  .fcard:last-child{border-bottom:none}
+  .who{font-weight:700;font-size:1.1rem;margin-bottom:10px;color:var(--ink)}
+  .leg{display:flex;gap:10px;align-items:baseline;font-size:.92rem;padding:5px 0}
+  .leg .lbl{width:110px;color:var(--slate);font-size:.8rem;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}
+  .leg .val{font-weight:500}
+  .note-line{margin-top:8px;font-size:.85rem;color:var(--slate);font-style:italic}
+
+  /* Key dates */
+  .keydates{background:var(--card);border-radius:16px;border:1px solid var(--line);padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+  .kd{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .kd:last-child{border-bottom:none}
+  .kd .d{font-weight:700;color:var(--red);width:90px;flex-shrink:0}
+
+  /* Calendar */
+  .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px}
+  .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04)}
+  .day .num{font-size:1.4rem;font-weight:700;color:var(--ink)}
+  .day .lab{font-size:.72rem;color:var(--slate);margin-top:4px;min-height:28px}
+  .day.leave{border-color:var(--red);background:#fdf1ec}
+  .day.leave .lab{color:var(--red);font-weight:600}
+
+  footer{text-align:center;color:var(--slate);font-size:.82rem;padding:30px 20px 10px}
+  .tag{display:inline-block;background:var(--soft);color:var(--slate);padding:3px 10px;border-radius:20px;font-size:.75rem;margin-left:8px}
+  @media(max-width:560px){
+    .hero h1{font-size:1.9rem}
+    .row{grid-template-columns:72px 1fr;gap:8px;padding:12px 14px}
+    .leg{flex-direction:column;gap:2px}
+    .leg .lbl{width:auto}
+  }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="sun"></div>
+    <h1>Japan Holiday</h1>
+    <div class="jp">日本旅行</div>
+    <p>Kyoto &amp; Tokyo · 8–21 November 2026</p>
+    <div class="badge">Mandeep · Tom · Jai</div>
+  </div>
+
+  <div class="wrap">
+    <div class="nav">
+      <button class="active" data-t="overview">Overview</button>
+      <button data-t="flights">✈️ Flights</button>
+      <button data-t="kyoto">⛩️ Kyoto</button>
+      <button data-t="tokyo">🗼 Tokyo</button>
+    </div>
+
+    <!-- OVERVIEW -->
+    <section id="overview" class="show">
+      <h2 class="sec">Trip Overview</h2>
+      <p class="sub">Two weeks across Kyoto and Tokyo. Everyone meets in Tokyo on Sun 8 Nov, then the plan runs south to Kyoto and back.</p>
+
+      <div class="keydates" style="margin-bottom:18px">
+        <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom (A&amp;C) arrive Narita 7:00 PM. Everyone stays in Tokyo overnight.</div></div>
+        <div class="kd"><div class="d">Mon 9 Nov</div><div>Travel to Kyoto (Shinkansen from Tokyo ~12pm). Drop luggage south, explore Fushimi &amp; Gion.</div></div>
+        <div class="kd"><div class="d">9–12 Nov</div><div>Kyoto — south &amp; Gion, Arashiyama &amp; NW temples, dawn Fushimi &amp; Higashiyama upper, central.</div></div>
+        <div class="kd"><div class="d">12–19 Nov</div><div>Tokyo &amp; onward exploring.</div></div>
+        <div class="kd"><div class="d">Thu 20 Nov</div><div>Jai departs Haneda 13:15 → London Heathrow 19:10.</div></div>
+        <div class="kd"><div class="d">Fri 21 Nov</div><div>Mandeep &amp; Tom depart Narita 19:30 → Shanghai → London Gatwick (arr. Sun 22, 6:55).</div></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">At a glance</div>
+        <div class="card-body">
+          <div class="row"><div class="time">🛬 Arrive</div><div><div class="place">Sunday 8 November — Tokyo</div><div class="notes">Jai lands Haneda mid-morning; Mandeep &amp; Tom land Narita in the evening. First night together in Tokyo.</div></div></div>
+          <div class="row"><div class="time">⛩️ Kyoto</div><div><div class="place">Mon 9 – Thu 12 November</div><div class="notes">4 packed days: temples, bamboo grove, torii gates, Gion nightlife.</div></div></div>
+          <div class="row"><div class="time">🗼 Tokyo</div><div><div class="place">Wed 12 – Fri 21 November</div><div class="notes">Return to Tokyo for the second half of the trip.</div></div></div>
+          <div class="row"><div class="time">🛫 Home</div><div><div class="place">20th (Jai) &amp; 21st (Mandeep &amp; Tom)</div><div class="notes">Staggered departures from Haneda and Narita.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLIGHTS -->
+    <section id="flights">
+      <h2 class="sec">Flights &amp; Logistics <span class="k">✈️</span></h2>
+      <p class="sub">Full routing for both parties, plus the key handover dates.</p>
+
+      <div class="card">
+        <div class="card-head">Flight details</div>
+        <div class="flight">
+          <div class="fcard">
+            <div class="who">Mandeep &amp; Tom <span class="tag">2 people · Narita</span></div>
+            <div class="leg"><span class="lbl">Outbound</span><span class="val">Sat 7 Nov · LHR 17:40 → PEK 11:25 (arr. Sun 8 Nov)</span></div>
+            <div class="leg"><span class="lbl">Layover</span><span class="val">Sun 8 Nov · PEK 11:25 → NRT 19:00</span></div>
+            <div class="leg"><span class="lbl">Arrives</span><span class="val">NRT (Narita) · Sun 8 Nov, 19:00</span></div>
+            <div class="leg"><span class="lbl">Return</span><span class="val">Sat 21 Nov · NRT 19:30 → PVG 22:15 · then Sun 22 Nov · PVG 2:25 → LGW 6:55</span></div>
+            <div class="note-line">Arrive late evening Sun 8th into Narita.</div>
+          </div>
+          <div class="fcard">
+            <div class="who">Jai <span class="tag">1 person · Haneda</span></div>
+            <div class="leg"><span class="lbl">Outbound</span><span class="val">Sat 7 Nov · LHR 11:45 (direct)</span></div>
+            <div class="leg"><span class="lbl">Transfer</span><span class="val">Direct flight</span></div>
+            <div class="leg"><span class="lbl">Arrives</span><span class="val">HND (Haneda) · Sun 8 Nov, 10:25</span></div>
+            <div class="leg"><span class="lbl">Return</span><span class="val">Thu 20 Nov · HND 13:15 → LHR 19:10</span></div>
+            <div class="note-line">Arrives ~9 hours before Mandeep &amp; Tom on Sunday.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="keydates">
+        <div style="font-weight:700;color:var(--red);margin-bottom:10px;font-size:1.05rem">Key dates</div>
+        <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom arrive Narita 7:00 PM. All stay in Tokyo overnight.</div></div>
+        <div class="kd"><div class="d">Mon 9 Nov</div><div>Shinkansen Tokyo → Kyoto ~12pm. Drop luggage south.</div></div>
+        <div class="kd"><div class="d">Thu 20 Nov</div><div>Jai leaves (Haneda).</div></div>
+        <div class="kd"><div class="d">Fri 21 Nov</div><div>Mandeep &amp; Tom leave (Narita).</div></div>
+      </div>
+    </section>
+
+    <!-- KYOTO -->
+    <section id="kyoto">
+      <h2 class="sec">Kyoto <span class="k">京都 · 4 days</span></h2>
+      <p class="sub">Grouped by neighbourhood to minimise transit. Day 2 is the heavy-walking day — expect 15,000+ steps. Full sourcing for every venue below is in the Kyoto_Itinerary_Sources file.</p>
+
+      <!-- DAY 1 -->
+      <div class="card">
+        <div class="card-head">Day 1 · Mon 9 Nov <small>Arrive Kyoto — Fushimi &amp; Southern Higashiyama</small></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="time">~12:00<span class="dur">30 min</span></div>
+            <div>
+              <div class="place">🧳 Drop luggage — Kyoto Station</div>
+              <div class="notes">Drop bags at Airbnb (message host ahead) or Crosta Kyoto at station (¥1000/bag delivery to hotel, drop off by 2pm). Coin lockers: ¥700 large, Hachijo Exit.</div>
+              <span class="travel">🚄 Shinkansen from Tokyo ~12pm</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">12:30 pm<span class="dur">45 min</span></div>
+            <div>
+              <div class="place">Kyoto Ramen Koji / 京都拉麺小路 (lunch)</div>
+              <div class="notes">10th floor of Kyoto Station — 8 regional ramen shops (Sapporo, Hakata, Kyoto shoyu and more). Buy a ticket from the vending machine outside your pick. Zero-detour lunch on arrival day.</div>
+              <span class="travel">📍 Kyoto Station, 10F</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">1:30 pm<span class="dur">~2 hrs</span></div>
+            <div>
+              <div class="place">Fushimi Inari Taisha — lower loop</div>
+              <div class="notes">Iconic thousand red torii gates. Do the lower loop up to the Yotsutsuji viewpoint today; save the full summit hike for dawn on Day 3 when it's quieter and you're over jet lag. Open 24hrs, free entry.</div>
+              <span class="travel">📍 JR Nara Line, Kyoto Stn → Inari, 5 min (local trains only)</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">4:00 pm<span class="dur">~1.5 hrs</span></div>
+            <div>
+              <div class="place">Kiyomizu-dera + Sannenzaka/Ninenzaka</div>
+              <div class="notes">¥500 admission, open till 18:00 — easy timing after Fushimi Inari. Wander the old sloped streets below the temple for matcha sweets shops.</div>
+              <span class="travel">📍 Keihan: Fushimi-Inari → Gion-Shijo, ~15 min direct</span>
+              <span class="food">🍵 Matcha sweets shops on Sannenzaka</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">Eve<span class="dur"></span></div>
+            <div>
+              <div class="place">Check in · Dinner &amp; explore Gion</div>
+              <div class="notes">Settle into the hotel, then wander Gion for dinner and nightlife.</div>
+              <span class="food">🦆 Gion Duck Noodles — duck tsukemen, 4.5★ Tripadvisor (queue likely)</span>
+              <span class="bar">🍸 L'Escamoteur (magic-show cocktails) or Bee's Knees (Asia's 50 Best Bars #76, walk-in only)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 2 -->
+      <div class="card">
+        <div class="card-head">Day 2 · Tue 10 Nov <small>Arashiyama &amp; NW Kyoto</small></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="time">07:30<span class="dur">10:00</span></div>
+            <div>
+              <div class="place">%Arabica Arashiyama + Bamboo Grove</div>
+              <div class="notes">Go early to beat the crowds — this is Arabica's global flagship store, riverside just upstream of Togetsu-kyo Bridge. Walk the famous bamboo path straight after.</div>
+              <span class="food">☕ %Arabica Kyoto Arashiyama</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">08:30<span class="dur">1.5 hrs</span></div>
+            <div>
+              <div class="place">Tenryu-ji Sogenchi Garden</div>
+              <div class="notes">¥500 garden-only, opens 8:30. One of Kyoto's finest Zen gardens, right in Arashiyama.</div>
+              <span class="food">🍲 Sagano / ゆどうふ 嵯峨野 (yudofu lunch, no reservations — go right at opening)</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">13:00<span class="dur">1 hr</span></div>
+            <div><div class="place">Kinkaku-ji (Golden Pavilion) / 金閣寺</div><div class="notes">¥500, 9:00–17:00. The gold-leaf temple reflected in its pond — one of Kyoto's signature sights.</div><span class="travel">📍 Northwest Kyoto</span></div>
+          </div>
+          <div class="row">
+            <div class="time">14:30<span class="dur">45 min</span></div>
+            <div><div class="place">Ryoan-ji / 龍安寺</div><div class="notes">¥600, 8:00–17:00. Famous Zen rock garden. 18-min walk (or 5-min bus) from Kinkaku-ji.</div><span class="travel">📍 Northwest Kyoto</span></div>
+          </div>
+          <div class="row">
+            <div class="time">18:00<span class="dur">21:00</span></div>
+            <div>
+              <div class="place">Dinner / nightlife — Pontocho, Central Kyoto</div>
+              <div class="notes">Head back to the centre for dinner and drinks along the lantern-lit alley.</div>
+              <span class="food">🍢 Pontocho Alley (various yakitori/kappo counters)</span>
+              <span class="bar">🍸 Bar Rocking Chair (machiya cocktail bar) or Nokishita711 <span class="tag">Book ahead — 4 seats/sitting</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 3 -->
+      <div class="card">
+        <div class="card-head">Day 3 · Wed 11 Nov <small>Dawn Fushimi, Higashiyama Upper &amp; Gion</small></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="time">07:00<span class="dur">2 hrs</span></div>
+            <div>
+              <div class="place">Fushimi Inari — full hike to the summit</div>
+              <div class="notes">The deep, quiet version this time — dawn light, well past the crowded lower gates from Day 1.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">09:00<span class="dur">1 hr</span></div>
+            <div>
+              <div class="place">Vermillion Cafe (brunch)</div>
+              <div class="notes">Espresso bar tucked right by the shrine, open 8:30am–3pm. Praised for coffee quality and avocado/poached-egg toast; blankets provided for outdoor seating.</div>
+              <span class="food">☕ Vermillion Cafe</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">10:30<span class="dur">45 min</span></div>
+            <div>
+              <div class="place">Kenninji Temple / 建仁寺</div>
+              <div class="notes">¥800, opens 10:00, last entry 16:30 — comfortably fits here. Kyoto's oldest Zen temple; the Twin Dragons ceiling painting (108 tatami mats) is the highlight.</div>
+              <span class="travel">📍 Keihan: Fushimi-Inari → Gion-Shijo, ~15 min direct</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">11:15<span class="dur">45 min</span></div>
+            <div>
+              <div class="place">Shogunzuka Seiryuden / 将軍塚青龍殿</div>
+              <div class="notes">¥500. A short taxi from Chion-in/Higashiyama — arguably the best panoramic view over Kyoto, and far less crowded than Kiyomizu-dera's platform.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">Eve<span class="dur"></span></div>
+            <div>
+              <div class="place">Dinner — Gion</div>
+              <div class="notes">Kichi Kichi's tableside omurice theatre by Chef Motokichi Yukimura is the headline pick — only 14 seats, so it needs an early reservation.</div>
+              <span class="food">🍳 Kichi Kichi Omurice <span class="tag">Book weeks ahead — 14 seats</span></span>
+              <span class="food">🦆 Fallback: Gion Duck Noodles or Gion Tanto (okonomiyaki, walk-in queue)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DAY 4 -->
+      <div class="card">
+        <div class="card-head">Day 4 · Thu 12 Nov <small>Central Kyoto &amp; Departure</small></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="time">08:30<span class="dur">1 hr</span></div>
+            <div>
+              <div class="place">Nishiki Market / 錦市場</div>
+              <div class="notes">"Kyoto's Kitchen" — many individual stalls close Sundays/Wednesdays, so Thursday works well. Arrive before 10–11am while everything's open.</div>
+              <span class="food">🍢 Street food stalls</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">10:00<span class="dur">30 min</span></div>
+            <div>
+              <div class="place">Ogawa Coffee / 小川珈琲</div>
+              <div class="notes">Kyoto's own roastery, founded 1952 — one of the city's three historic coffee houses.</div>
+              <span class="travel">🔁 Optional swap: Kyoto Int'l Manga Museum (open Thu, ¥900) instead of lingering at the market — needs ~1.5 hrs, so only if you're trimming something else</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="time">11:00<span class="dur">1 hr</span></div>
+            <div>
+              <div class="place">🚄 Head to Kyoto Station — Shinkansen to Tokyo</div>
+              <div class="notes">Keep this morning genuinely light — it's a travel day, and Day 2 already used up the trip's heavy-walking budget.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOKYO -->
+    <section id="tokyo">
+      <h2 class="sec">Tokyo <span class="k">東京</span></h2>
+      <p class="sub">The second half of the trip, back in Tokyo. Day-by-day plans still to be filled in — here's the framework.</p>
+
+      <div class="cal">
+        <div class="day"><div class="num">12</div><div class="lab">Wed</div></div>
+        <div class="day"><div class="num">13</div><div class="lab">Thu</div></div>
+        <div class="day"><div class="num">14</div><div class="lab">Fri</div></div>
+        <div class="day"><div class="num">15</div><div class="lab">Sat</div></div>
+        <div class="day"><div class="num">16</div><div class="lab">Sun</div></div>
+        <div class="day"><div class="num">17</div><div class="lab">Mon</div></div>
+        <div class="day"><div class="num">18</div><div class="lab">Tue</div></div>
+        <div class="day"><div class="num">19</div><div class="lab">Wed</div></div>
+        <div class="day leave"><div class="num">20</div><div class="lab">Jai leaves ✈️</div></div>
+        <div class="day leave"><div class="num">21</div><div class="lab">Mandeep &amp; Tom leave ✈️</div></div>
+      </div>
+
+      <div class="card" style="margin-top:20px">
+        <div class="card-head">Notes</div>
+        <div class="card-body">
+          <div class="row"><div class="time">📝</div><div><div class="place">Itinerary to be planned</div><div class="notes">The Tokyo tab is currently a date skeleton (12th–21st). Add activities, restaurants and bookings here as they're decided.</div></div></div>
+          <div class="row"><div class="time">🛫</div><div><div class="place">Departures</div><div class="notes">Jai flies out Thu 20 Nov (Haneda 13:15). Mandeep &amp; Tom fly out Fri 21 Nov (Narita 19:30).</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Built from japan_plan · Nov 2026 · Times &amp; details from your spreadsheet, cross-checked against Kyoto_Itinerary_Sources</footer>
+  </div>
+
+<script>
+  const btns=document.querySelectorAll('.nav button');
+  const secs=document.querySelectorAll('section');
+  btns.forEach(b=>b.addEventListener('click',()=>{
+    btns.forEach(x=>x.classList.remove('active'));
+    secs.forEach(x=>x.classList.remove('show'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.t).classList.add('show');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+</script>
+</body>
+</html>
