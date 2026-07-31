@@ -1,176 +1,98 @@
-# Tokyo Accommodation Guide — Shinjuku / Kabukicho
+# Tokyo Accommodation Guide — Shinjuku / Kabukicho (budget-friendly, revised)
 
-## Why Shinjuku?
+Same brief as before, but **budget-first**: cheapest viable options in the picked area (Shinjuku / Kabukicho) that still hold a high review score, priced against your **actual** dates. Follows the repo's **"NO SLOP" rule** — every price below was pulled live from Booking.com for the exact dates and group size, and is **timestamped**. Prices move, so treat them as "as of the check date" and confirm on the link before booking.
 
-Shinjuku is the #1 pick for nightlife + commutability in Tokyo. Here's why:
-
-- **Nightlife epicenter**: Kabukicho (Tokyo's biggest entertainment district), Golden Gai (200+ tiny bars in narrow alleys), countless izakayas, karaoke spots, and clubs — all walkable from your door.
-- **Best-connected station in Japan**: Shinjuku Station serves JR Yamanote Line, Chuo Line, Marunouchi Line, Oedo Line, Odakyu, Keio, and more. You can reach Shibuya in 5 min, Tokyo Station in 15 min, Akihabara in 20 min.
-- **Last train buffer**: Trains stop ~midnight. Staying *in* Kabukicho means you walk home instead of paying ¥5,000+ for a taxi.
-
-Target area: **East Shinjuku / Kabukicho / Higashi-Shinjuku** — the sweet spot between the station and the nightlife.
+> **Live prices checked:** 31 July 2026 · Booking.com · currency GBP · **3 adults** · prices are the **whole room/apartment total** incl. taxes for the stated nights.
 
 ---
 
-## Airbnb Listings
+## Trip details (corrected dates)
 
-### 1. Kabukicho Modern City Apartment — 3 min to Station
-- **Rating**: 4.94/5 (71 reviews)
-- **Location**: Shinjuku Kabukicho, 12-storey building
-- **Highlights**: Overhead city views, 50-inch HDTV with Netflix, spacious balcony, 3-min walk to Higashi-Shinjuku Station
-- **Link**: [Browse Kabukicho Apartments on Airbnb](https://www.airbnb.com/kabukicho-shinjuku-city-japan/stays)
+The old version of this guide assumed one continuous **8–21 Nov (13 nights)** block. That's wrong for how the trip actually runs — nights **9, 10, 11 Nov are spent in Kyoto**, so you'd be paying for an empty Tokyo room those nights. You need **two separate Tokyo bookings**:
 
-### 2. [K11] Shinjuku Kabukicho | Golden Gai Apartment
-- **Rating**: 5.0/5 (15 reviews) — Guest Favorite
-- **Location**: Right by Golden Gai and Kabukicho
-- **Highlights**: Perfect for nightlife — steps from the action
-- **Link**: [Browse Shinjuku Apartments on Airbnb](https://www.airbnb.com/shinjuku-shinjuku-city-japan/stays)
+| Booking | Dates | Nights | Who |
+|---|---|---|---|
+| **1 — Arrival night** | Sun 8 Nov → Mon 9 Nov | 1 | All 3 (then Shinkansen to Kyoto on the 9th) |
+| **2 — Main stay** | Thu 12 Nov → Sat 21 Nov | 9 | All 3 (Jai checks out Fri 20; Mandeep & Tom stay to Sat 21) |
 
-### 3. Shinjuku Cosy Room (via VRBO)
-- **Price**: ~$122/night
-- **Sleeps**: 4 (1 king bed, 1 sofa bed)
-- **Highlights**: Efficient Japanese design, heart of Shinjuku, next to Golden Gai. Guest quote: *"AMAZING location, next to Golden Gai, trains, and great food. I will 100% be back!"*
-- **Link**: [Shinjuku Cosy Room on VRBO](https://fave.co/3xdHSsl)
-
-### 4. Shinjuku Party House
-- **Price**: From $666/night
-- **Sleeps**: 11 (4 bedrooms, 8 beds)
-- **Highlights**: Soundproofed, grand piano, projector, 5-min walk to station, 12 min to Shinjuku. In Koreatown.
-- **Link**: [Shinjuku Party House on Airbnb](https://www.airbnb.jp/rooms/14767582)
-
-### 5. New York Café Style Apartment
-- **Price**: From $126/night
-- **Sleeps**: 4 (1 bedroom)
-- **Highlights**: Café-bar seating, high ceilings, piano, 2-min walk from Hatagaya Station (2 stops from Shinjuku)
-- **Link**: [New York Café Style on Airbnb](https://www.airbnb.co.uk/rooms/24565067)
-
-### 6. PDO Inn — Boutique Hotel on Airbnb
-- **Price**: From $185/night
-- **Sleeps**: 2 (1 bedroom)
-- **Highlights**: Solid wood floors, Aesop toiletries, rooftop open-air bath next to a cypress tree. 1-min walk from Kanemecho Station, 18 min walk from Ikebukuro.
-- **Link**: [PDO Inn on Airbnb](https://creators.pvxt.net/PzrG7z)
-
-> **Quick search tip**: For the latest Shinjuku/Kabukicho listings, use these direct Airbnb search links:
-> - [All Kabukicho stays](https://www.airbnb.com/kabukicho-shinjuku-city-japan/stays)
-> - [Shinjuku Station area apartments](https://www.airbnb.com/shinjuku-station-japan/stays/apartments)
-> - [Shinjuku 5-star rated stays](https://www.airbnb.com/shinjuku-shinjuku-city-japan/stays)
+- **Travellers:** 3 males, 26, from the UK.
+- **Budget:** max **£450 per person** for the whole Tokyo portion (~£1,350 for the group).
+- **Requirements:** private/entire accommodation (no hostels), en-suite/private bathroom, 3 beds (or 2 beds + sofa bed), easy Yamanote/Metro access, close to nightlife & transport.
 
 ---
 
-## Booking.com Listings
+## The key finding: for 3 people, book an **apartment**, not a hotel
 
-### 1. HOTEL GROOVE SHINJUKU, A PARKROYAL Hotel ⭐
-- **Rating**: 9.0/10 (Kayak, 1,364 reviews) | #1 hotel in Kabukicho on TripAdvisor
-- **Price**: From ~$130/night
-- **Location**: Inside the Tokyu Kabukicho Tower — cinema, arcade, restaurants, and music hall in the same building
-- **Highlights**: High-floor rooms with incredible views, 538 rooms, 10-min walk from Shinjuku Station. Modern, immaculate facilities.
-- **Link**: [Hotel Groove on Booking.com](https://www.booking.com/hotel/jp/groove-shinjuku-a-parkroyal.html)
+Searching the exact dates exposed the real constraint: **3 adults in one room is very hard in central Kabukicho.** Standard Japanese hotel rooms cap at 2 people, so a trio either splits across **two rooms** (which pushes central hotels like AMANEK Kabukicho / La'gent / WPÜ to **£2,300–£3,000** for the 9 nights) or gets pushed out to the suburbs.
 
-### 2. Hotel Gracery Shinjuku (The Godzilla Hotel)
-- **Rating**: 9.2/10 for couples | 4.5/5 TripAdvisor
-- **Price**: From ~$130/night (can go as low as $57 off-season)
-- **Location**: Kabukicho — the building with the giant Godzilla head on top
-- **Highlights**: Iconic landmark, rooftop Godzilla terrace, right in the middle of the action. One of the most popular hotels in Shinjuku.
-- **Link**: [Hotel Gracery on Booking.com](https://www.booking.com/hotel/jp/gracery-shinjuku.html)
-
-### 3. Tokyu Stay Shinjuku Eastside
-- **Rating**: 8.7/10 (3,583 verified Booking.com reviews)
-- **Price**: Mid-range
-- **Location**: Kabukicho area, 3-min walk to Higashi-Shinjuku Station
-- **Highlights**: In-room washing machine (huge for longer stays), spacious for Tokyo, buffet breakfast, excellent staff. Great value.
-- **Link**: [Tokyu Stay Eastside on Booking.com](https://www.booking.com/hotel/jp/dong-ji-suteixin-su-isutosaido.html)
-
-### 4. APA Hotel Shinjuku Kabukicho Chuo
-- **Rating**: 8.6/10 on Booking.com
-- **Price**: Budget-friendly (~$50-80/night)
-- **Location**: Heart of Kabukicho, 10-min walk from Shinjuku Station
-- **Highlights**: Clean, reliable chain. Thai cuisine breakfast option. Compact rooms but great location-to-price ratio.
-- **Link**: [APA Kabukicho Chuo on Booking.com](https://www.booking.com/hotel/jp/apa-shinjuku-kabukicho-chuo.html)
-
-### 5. Shinjuku Granbell Hotel
-- **Rating**: 8.5/10 couples rating
-- **Price**: From ~$63/night
-- **Location**: Kabukicho
-- **Highlights**: Design-forward rooms, 13th floor rooftop terrace bar with views. Great for nightlife — you're already in Kabukicho.
-- **Link**: [Shinjuku Granbell on Booking.com](https://www.booking.com/hotel/jp/shinjuku-granbell.html)
-
-### 6. Play House Tokyo (also on Airbnb)
-- **Price**: From $232/night
-- **Sleeps**: 8 (3 bedrooms)
-- **Location**: Koenji — a creative neighborhood just west of Shinjuku, full of vintage shops and izakayas
-- **Highlights**: Huge by Tokyo standards, kotatsu, full kitchen. Better price often on Booking.com.
-- **Link**: [Play House on Booking.com](https://www.booking.com/hotel/jp/katupurunu-zi-hui-da-huan-ying-jin-dakechao-ode-nazhui-ze-yi-dong-dai-qie-gao-yu.en.html)
+**Entire apartments solve it** — one shared space, en-suite, sleeping 3 (typically a double + sofa bed/futon), and they come in **well under half** the two-room hotel price. That's the budget play, so this guide leads with apartments.
 
 ---
 
-## Agoda Picks
+## Booking 2 — Main stay (12–21 Nov · 9 nights) · apartment shortlist
 
-### 1. HOTEL GROOVE SHINJUKU (also on Booking.com above)
-- Often cheaper on Agoda — compare prices
-- **Link**: [Search on Agoda](https://www.agoda.com/search?city=14097&area=68&checkIn=&checkOut=)
+Entire apartments in the Shinjuku area, review score 8+, cheapest first. All sleep 3.
 
-### 2. Toyoko Inn Tokyo Shinjuku Kabuki-cho
-- **Rating**: 7.9/10 on Agoda
-- **Price**: Budget (~$40-60/night)
-- **Highlights**: No-frills, reliable, quiet side street in Kabukicho. Free breakfast. Perfect for those who just need a clean bed and spend all their time outside.
-- **Link**: [Toyoko Inn Kabukicho on Agoda](https://www.agoda.com/en-gb/toyoko-inn-tokyo-shinjuku-kabuki-cho/hotel/tokyo-jp.html)
+🔗 **Live search link (exact dates baked in):** [Booking.com — Shinjuku entire apartments, 12–21 Nov, 3 adults, review 8+, cheapest first](https://www.booking.com/searchresults.en-gb.html?ss=Shinjuku%2C+Tokyo&checkin=2026-11-12&checkout=2026-11-21&group_adults=3&no_rooms=1&group_children=0&selected_currency=GBP&order=price&nflt=review_score%3D80%3Bprivacy_type%3D3)
 
-### 3. Sotetsu Fresa Inn Higashi Shinjuku
-- **Price**: Budget-mid (~$50-80/night)
-- **Highlights**: Quiet side of Shinjuku, metro station nearby, clean and compact. Polite staff.
-- **Link**: [Search on Agoda](https://www.agoda.com/search?city=14097&area=68)
+| Apartment (search the exact name) | Score (reviews) | Beds | Area | **9-night total** | Per person |
+|---|---|---|---|---|---|
+| **大久保SSI f** ⭐ *best value* | 8.5 (25) | double + sofa bed | Okubo (metro) | **£644** | £215 |
+| **ookubo … 201** ⭐ *most reviews* | 8.4 (38) | double + futon | Okubo, 7-min walk | £846 (£766 signed-in) | £282 |
+| **Z97 Shinjuku Kabukicho 5 min, Max 3P** | 10 (1) | double + sofa bed | **Kabukicho, central** | £872 | £291 |
+| **新宿市中心歌舞伎町東新宿駅3分** *closest w/ reviews* | 8.0 (24) | single + double | Higashi-Shinjuku, 3 min | £957 | £319 |
+| **B5-Shinjuku center, Max 3P** | 9.9 (7) | double + futon | Okubo/Shin-Okubo | £990 (£990) | £330 |
 
----
+**Recommendation:**
+- **Best value overall — 大久保SSI f (£644, 8.5 from 25 reviews).** In Okubo, ~10-min walk to Kabukicho / one stop to Shinjuku. £215pp leaves loads of budget headroom.
+- **Most review confidence — ookubo … 201 (8.4 from 38 reviews, £766–846).** Most-reviewed of the cheap apartments.
+- **If you want to be *in* Kabukicho with a real review base — 新宿市中心歌舞伎町東新宿駅3分 (8.0 from 24 reviews, £957).** Higashi-Shinjuku, 3-min walk, still only ~£319pp.
+- ⚠️ Several 9.9–10 scored apartments (Z97, B5, Midori Sumi House) look great and are cheap, but have **1–7 reviews** — high score, low confidence. Fine if you accept the risk; otherwise favour the ones with 24+ reviews.
 
-## Hostelworld — Budget / Social Options
-
-### 1. UNPLAN Shinjuku
-- **Rating**: 8.8/10 (238 reviews)
-- **Price**: From ~$66/night
-- **Highlights**: Free beer at 6 PM daily, terrace bar, lounge, shared kitchen. Modern and clean. Great for solo travelers looking to meet people.
-- **Link**: [UNPLAN Shinjuku on Hostelworld](https://www.hostelworld.com/hostels/p/294428/unplan-shinjuku/)
-
-### 2. Imano Tokyo Hostel
-- **Rating**: 8.0/10 (3,174 reviews on Kayak) | #4 specialty lodging in Shinjuku
-- **Price**: From ~$50/night
-- **Location**: Near Shinjuku-Sanchome Station
-- **Highlights**: Friendly staff, 24-hour check-in, central location. Walking distance to Kabukicho and Golden Gai.
-- **Link**: [Imano Tokyo on Hostelworld](https://www.hostelworld.com/hostels/p/272023/imano-tokyo-hostel/)
-
-### 3. Ace Inn Shinjuku
-- **Price**: Budget
-- **Location**: Central Shinjuku
-- **Highlights**: On-site café & bar, rooftop terrace with city views. Affordable and social.
-- **Link**: [Ace Inn on Hostelworld](https://www.hostelworld.com/hostels/p/20457/ace-inn-shinjuku/)
-
-### 4. WPÜ Hotel Shinjuku
-- **Location**: 5-min walk from Shinjuku Station
-- **Highlights**: Modern, well-located, good for budget travelers
-- **Link**: [WPÜ Hotel on Hostelworld](https://www.hostelworld.com/hostels/p/327787/wpu-hotel-shinjuku/)
+*Note:* Okubo / Shin-Okubo (where the cheapest high-review apartments cluster) is the Koreatown just north of Kabukicho — lively, cheap eats, ~10-min walk to the nightlife, one stop on the Yamanote to Shinjuku. It's the budget-smart trade-off vs paying central-Kabukicho prices.
 
 ---
 
-## Quick Comparison
+## Booking 1 — Arrival night (8→9 Nov · 1 night)
 
-| Place | Platform | Rating | Price/Night | Best For |
-|---|---|---|---|---|
-| Hotel Groove Shinjuku | Booking/Agoda | 9.0 | ~$130+ | Best overall hotel |
-| Hotel Gracery (Godzilla) | Booking | 9.2 couples | ~$130 | Iconic, central |
-| Tokyu Stay Eastside | Booking | 8.7 | Mid | Longer stays (washer) |
-| Shinjuku Granbell | Booking | 8.5 | ~$63+ | Budget + rooftop bar |
-| APA Kabukicho Chuo | Booking | 8.6 | ~$50-80 | Budget, reliable |
-| Toyoko Inn Kabukicho | Agoda | 7.9 | ~$40-60 | Cheapest hotel |
-| Kabukicho Apartment | Airbnb | 4.94/5 | Varies | Self-catering, views |
-| UNPLAN Shinjuku | Hostelworld | 8.8 | ~$66 | Solo / social |
-| Imano Tokyo Hostel | Hostelworld | 8.0 | ~$50 | Budget, central |
+You land on the 8th (Jai HND 10:25; Mandeep & Tom NRT ~19:00) and Shinkansen to Kyoto around midday on the 9th, so you just need one clean, cheap night near a station.
+
+🔗 **Live search link:** [Booking.com — Shinjuku, 8–9 Nov, 3 adults, review 8+, cheapest first](https://www.booking.com/searchresults.en-gb.html?ss=Shinjuku%2C+Tokyo&checkin=2026-11-08&checkout=2026-11-09&group_adults=3&no_rooms=1&group_children=0&selected_currency=GBP&order=price&nflt=review_score%3D80)
+
+| Property | Score (reviews) | Beds | **1-night total** |
+|---|---|---|---|
+| **HOTEL HOUSE LEE** ⭐ *pick* | 8.5 (773) · Location 9.4 | **Triple Room, 3 futons** | **£70** |
+| TokyoShinjuk Station 800m Kabukicho 2min 101 | 8.8 (12) | 2 double beds | £103 |
+| 大久保SSI f (same as main-stay pick) | 8.5 (25) | double + sofa bed | £91 |
+
+**Pick: HOTEL HOUSE LEE — £70 total (£23pp)**, a genuine triple room, 773 reviews, top location score. Ideal for a one-nighter before Kyoto. (Avoid the capsule/dorm options that show up here — they breach the "no shared bathrooms / no dorms" rule.)
 
 ---
 
-## Booking Tips
+## If you'd rather have a hotel (not an apartment)
 
-1. **Book 2-3 months ahead** for the best Airbnb selection — Shinjuku is competitive.
-2. **Compare prices** across Booking.com, Agoda, and direct hotel sites — Agoda is often cheapest for Asian hotels.
-3. **All Airbnbs in Tokyo must have a license** — check the listing description for the license number.
-4. **Pocket WiFi** is included with most Airbnbs. Hotels usually have free in-room WiFi.
-5. **Noise warning**: Kabukicho is loud at night. Request higher floors or bring earplugs if you're a light sleeper.
-6. **Trains stop at midnight**. Staying in Kabukicho means you can party until the first train at 5 AM and just walk home.
+Doable but pricier for 3, because you'll book **two rooms**:
+- **APA Hotel Shinjuku Kabukicho Chuo**, **Shinjuku Granbell**, **Tokyu Stay Shinjuku Eastside** — all reliable, en-suite, 8.5+ and right in Kabukicho, but two rooms × 9 nights lands well above the apartment totals above. Use the [main Booking.com Kabukicho search](https://www.booking.com/searchresults.en-gb.html?ss=Kabukicho%2C+Shinjuku%2C+Tokyo&checkin=2026-11-12&checkout=2026-11-21&group_adults=3&no_rooms=2&group_children=0&selected_currency=GBP&nflt=review_score%3D80) with **2 rooms** to compare.
+- Trade-off vs an apartment: you lose the shared living space and a kitchen, and pay more — but you get daily housekeeping and a front desk.
+
+---
+
+## Booking tips
+
+1. **Book early** — November is autumn-foliage peak; the cheap high-review apartments go first.
+2. **Filter for free cancellation** (most above have it) so you can lock a price now and re-book if something better appears.
+3. **Check the licence number** in the listing — all legal Tokyo short-stays must display one.
+4. **Kabukicho is loud at night** — request a higher floor or bring earplugs.
+5. **Trains stop ~00:30–01:00** — staying in/near Kabukicho means you walk home instead of paying for a taxi.
+6. **Prices here are a snapshot (31 Jul 2026)** — click the link and re-confirm the current figure and the exact bed configuration before paying.
+
+## Budget summary (using the recommended combo)
+
+| Item | Choice | Group total | Per person |
+|---|---|---|---|
+| Arrival night (8–9 Nov) | HOTEL HOUSE LEE | £70 | £23 |
+| Main stay (12–21 Nov) | 大久保SSI f | £644 | £215 |
+| **Total (cheapest sensible)** | | **£714** | **£238** |
+| Total if you take the central Kabukicho apartment | + 新宿…東新宿3分 | £1,027 | £342 |
+
+Either way you're **comfortably under the £450pp cap** — even the most central high-review apartment leaves ~£100pp of headroom.
