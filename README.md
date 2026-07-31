@@ -1,2 +1,2 @@
-# japanesy-2026
+# JAPAN TRIP 2026
 NO SLOP

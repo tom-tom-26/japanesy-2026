@@ -1,0 +1,417 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Japanesy 2026//Kyoto Itinerary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kyoto Itinerary – Nov 2026
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d1-e1-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T120000
+DTEND;TZID=Asia/Tokyo:20261109T123000
+SUMMARY:Arrive Kyoto Station — drop luggage
+LOCATION:Kyoto Station\, Hachijo Exit\, Shimogyo-ku\, Kyoto
+DESCRIPTION:Coin lockers: ¥700 (large)\, Hachijo Exit.\nAlt: Crosta Kyoto 
+ same-day luggage delivery to hotel\, ~¥1\,000/bag — drop off by 2pm.\nM
+ ap: https://www.google.com/maps/search/?api=1&query=Kyoto+Station+Hachijo+
+ Exit
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Arrive Kyoto Station — drop luggage
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e2-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T123000
+DTEND;TZID=Asia/Tokyo:20261109T133000
+SUMMARY:Lunch: Kyoto Ramen Koji
+LOCATION:10F Kyoto Station\, Higashishiokoji Kamadonocho\, Shimogyo-ku\, Ky
+ oto
+DESCRIPTION:Specialty: regional ramen — 8 stalls (Sapporo miso\, Hakata t
+ onkotsu\, Kyoto shoyu\, etc).\nBuy tickets from the vending machine outsid
+ e each stall. No reservation needed.\nMap: https://www.google.com/maps/sea
+ rch/?api=1&query=Kyoto+Ramen+Koji+Kyoto+Station
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Kyoto Ramen Koji
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e3-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T133000
+DTEND;TZID=Asia/Tokyo:20261109T153000
+SUMMARY:Fushimi Inari Taisha (lower loop)
+LOCATION:68 Fukakusa Yabunouchicho\, Fushimi-ku\, Kyoto 612-0882
+DESCRIPTION:Lower loop up to the Yotsutsuji viewpoint (~1.5–2 hrs round t
+ rip).\nPrice: free. Open 24 hrs.\nRoute: JR Nara Line\, Kyoto Station → 
+ Inari Station\, 5 min (local trains only — not express).\nYou'll return 
+ at dawn on Day 3 for the full hike to the summit.\nMap: https://www.google
+ .com/maps/search/?api=1&query=Fushimi+Inari+Taisha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fushimi Inari Taisha (lower loop)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e4-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T160000
+DTEND;TZID=Asia/Tokyo:20261109T180000
+SUMMARY:Kiyomizu-dera + Sannenzaka/Ninenzaka
+LOCATION:1-294 Kiyomizu\, Higashiyama-ku\, Kyoto 605-0862
+DESCRIPTION:Price: ¥500. Open 6:00–18:00.\nWander the Sannenzaka/Ninenza
+ ka slopes below for matcha sweets shops.\nMap: https://www.google.com/maps
+ /search/?api=1&query=Kiyomizu-dera+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kiyomizu-dera + Sannenzaka/Ninenzaka
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e5-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T190000
+DTEND;TZID=Asia/Tokyo:20261109T203000
+SUMMARY:Dinner: Gion Duck Noodles
+LOCATION:329 Gionmachi Kitagawa\, 1F unit D\, Higashiyama-ku\, Kyoto 605-00
+ 73
+DESCRIPTION:Specialty: duck tsukemen/ramen — Kishu duck\, handmade German
+ -rye noodles.\n4.5/5 Tripadvisor\, ranked among Kyoto's top restaurants.\n
+ Small and hidden with a regular queue even in winter — go right at openi
+ ng or expect a wait. No reservation.\n4 min walk from Gion-Shijo Station.\
+ nMap: https://www.google.com/maps/search/?api=1&query=Gion+Duck+Noodles+Ky
+ oto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Gion Duck Noodles
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-e6-20261109@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261109T203000
+DTEND;TZID=Asia/Tokyo:20261109T223000
+SUMMARY:OPTIONAL: Gion bar-hopping
+LOCATION:Gion / Kiyamachi-dori\, Kyoto
+DESCRIPTION:Option A — L'Escamoteur: magic-themed cocktail bar\, opens 8p
+ m. 138-9 Saitocho\, Shimogyo-ku\, Kyoto.\nMap: https://www.google.com/maps
+ /search/?api=1&query=L%27Escamoteur+Kyoto\nOption B — Bee's Knees: Prohi
+ bition-style speakeasy\, Asia's 50 Best Bars #76\, walk-in only. 364 Kamiy
+ acho\, Nakagyo-ku\, Kyoto 604-0961.\nMap: https://www.google.com/maps/sear
+ ch/?api=1&query=Bee%27s+Knees+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL: Gion bar-hopping
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e1-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T073000
+DTEND;TZID=Asia/Tokyo:20261110T083000
+SUMMARY:Coffee + Bamboo Grove (Sagano)
+LOCATION:%Arabica Kyoto Arashiyama\, 3-47 Saga Tenryuji Susukinobabacho\, U
+ kyo-ku\, Kyoto 616-8385
+DESCRIPTION:Coffee at %Arabica (global flagship\, riverside)\, then the Bam
+ boo Grove.\nGo before 8:30 to beat tour groups.\nNote: heaviest walking da
+ y of the trip — expect 15\,000+ steps today.\nMap: https://www.google.co
+ m/maps/search/?api=1&query=%25Arabica+Kyoto+Arashiyama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Coffee + Bamboo Grove (Sagano)
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e2-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T083000
+DTEND;TZID=Asia/Tokyo:20261110T100000
+SUMMARY:Tenryu-ji Sogenchi Garden
+LOCATION:68 Saga Tenryuji Susukinobabacho\, Ukyo-ku\, Kyoto 616-8385
+DESCRIPTION:Price: ¥500 (garden only). Opens 8:30\, last entry 16:50.\nOne
+  of Kyoto's finest Zen gardens.\nMap: https://www.google.com/maps/search/?
+ api=1&query=Tenryu-ji+Arashiyama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tenryu-ji Sogenchi Garden
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e3-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T113000
+DTEND;TZID=Asia/Tokyo:20261110T123000
+SUMMARY:Lunch: Yudofu Sagano
+LOCATION:45 Saga Tenryuji Susukinobabacho\, Ukyo-ku\, Kyoto 616-8385
+DESCRIPTION:Specialty: yudofu (simmered hot tofu) kaiseki-style set\, priva
+ te tatami rooms.\nOn Tabelog's curated "Best Tofu/Yuba" list for the area.
+ \nNo reservations — arrive right at opening for lunch.\nMap: https://www
+ .google.com/maps/search/?api=1&query=Yudofu+Sagano+Arashiyama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lunch: Yudofu Sagano
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e4-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T123000
+DTEND;TZID=Asia/Tokyo:20261110T133000
+SUMMARY:OPTIONAL: Tea Ceremony Kyoto Nagomi
+LOCATION:26 Setogawa\, Saga Tenryuji\, Ukyo-ku\, Kyoto (Arashiyama branch)
+DESCRIPTION:English-friendly\, prepaid.\nBOOK ONLINE AHEAD if adding this t
+ o the day.\nMap: https://www.google.com/maps/search/?api=1&query=Tea+Cerem
+ ony+Kyoto+Nagomi+Arashiyama
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL: Tea Ceremony Kyoto Nagomi
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e5-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T134500
+DTEND;TZID=Asia/Tokyo:20261110T144500
+SUMMARY:Kinkaku-ji
+LOCATION:1 Kinkakuji-cho\, Kita-ku\, Kyoto 603-8361
+DESCRIPTION:Price: ¥500. Open 9:00–17:00.\nMap: https://www.google.com/m
+ aps/search/?api=1&query=Kinkaku-ji+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kinkaku-ji
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e6-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T150500
+DTEND;TZID=Asia/Tokyo:20261110T160500
+SUMMARY:Ryoan-ji
+LOCATION:13 Goryonoshitamachi\, Ryoanji\, Ukyo-ku\, Kyoto 616-8001
+DESCRIPTION:Price: ¥600. Open 8:00–17:00.\n18-min walk or 5-min bus from
+  Kinkaku-ji.\nMap: https://www.google.com/maps/search/?api=1&query=Ryoan-j
+ i+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ryoan-ji
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e7-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T190000
+DTEND;TZID=Asia/Tokyo:20261110T203000
+SUMMARY:Dinner: Pontocho Alley
+LOCATION:Pontocho-dori\, Nakagyo-ku\, Kyoto
+DESCRIPTION:Various yakitori/kappo counters along the lantern-lit alley (ru
+ ns Sanjo–Shijo\, one block west of the Kamo River).\nNo single reservati
+ on needed — walk the lane and pick a spot with a queue of locals.\nMap: 
+ https://www.google.com/maps/search/?api=1&query=Pontocho+Alley+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Pontocho Alley
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-e8-20261110@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261110T203000
+DTEND;TZID=Asia/Tokyo:20261110T223000
+SUMMARY:OPTIONAL: Evening cocktail bar
+LOCATION:Nakagyo-ku / Shimogyo-ku\, Kyoto
+DESCRIPTION:Option A — Bar Rocking Chair: machiya cocktail bar\, bartende
+ r Kenji Tsubokura (former World Cocktail Champion). 434-2 Tachibanacho\, G
+ okomachi-dori Bukkoji-sagaru\, Shimogyo-ku\, Kyoto.\nMap: https://www.goog
+ le.com/maps/search/?api=1&query=Bar+Rocking+Chair+Kyoto\nOption B — Noki
+ shita711: reservation-only "liquid cuisine" tasting bar\, seats just 4 gue
+ sts per sitting. 235 Sendocho\, Shimogyo-ku\, Kyoto 600-8019.\nBOOK WELL I
+ N ADVANCE — not a walk-in.\nMap: https://www.google.com/maps/search/?api
+ =1&query=Nokishita711+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL: Evening cocktail bar
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e1-20261111@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261111T070000
+DTEND;TZID=Asia/Tokyo:20261111T090000
+SUMMARY:Fushimi Inari Taisha — dawn summit hike
+LOCATION:68 Fukakusa Yabunouchicho\, Fushimi-ku\, Kyoto 612-0882
+DESCRIPTION:Full hike to the summit this time — quiet\, ~2 hrs round trip
+ \, best light of the day.\nPrice: free. Open 24 hrs.\nMap: https://www.goo
+ gle.com/maps/search/?api=1&query=Fushimi+Inari+Taisha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fushimi Inari Taisha — dawn summit hike
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e2-20261111@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261111T090000
+DTEND;TZID=Asia/Tokyo:20261111T100000
+SUMMARY:Brunch: Vermillion Cafe
+LOCATION:5-31 Fukakusa Kaidoguchicho\, Fushimi-ku\, Kyoto 612-0805
+DESCRIPTION:Specialty: avocado/poached-egg toast\, matcha and coffee drinks
+ .\nRun by a Japanese owner who spent 18 years in Australia\; praised for c
+ offee quality\, blankets provided for outdoor seating.\nOpen 8:30am–3pm.
+ \nMap: https://www.google.com/maps/search/?api=1&query=Vermillion+Cafe+Fus
+ himi+Inari
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brunch: Vermillion Cafe
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e3-20261111@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261111T103000
+DTEND;TZID=Asia/Tokyo:20261111T111500
+SUMMARY:Kenninji Temple
+LOCATION:584 Komatsucho\, Higashiyama-ku\, Kyoto 605-0811
+DESCRIPTION:Price: ¥800. Opens 10:00\, last entry 16:30.\nKyoto's oldest Z
+ en temple — the Twin Dragons ceiling painting (108 tatami mats) is the h
+ ighlight.\nMap: https://www.google.com/maps/search/?api=1&query=Kenninji+K
+ yoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kenninji Temple
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e4-20261111@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261111T111500
+DTEND;TZID=Asia/Tokyo:20261111T121500
+SUMMARY:Shogunzuka Seiryuden
+LOCATION:28 Zushiokukacho\, Yamashina-ku\, Kyoto 607-8456
+DESCRIPTION:Price: ¥500.\nArguably the best panoramic view over Kyoto — 
+ far less crowded than Kiyomizu-dera's platform.\nShort taxi from Chion-in/
+ Higashiyama.\nMap: https://www.google.com/maps/search/?api=1&query=Shogunz
+ uka+Seiryuden
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shogunzuka Seiryuden
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-e5-20261111@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261111T190000
+DTEND;TZID=Asia/Tokyo:20261111T203000
+SUMMARY:Dinner: Kichi Kichi Omurice — BOOKED?
+LOCATION:185-4 Zaimokucho\, Sanjo Pontocho-dori Sagaru\, Nakagyo-ku\, Kyoto
+DESCRIPTION:Specialty: theatrical tableside omurice by Chef Motokichi Yukim
+ ura.\nOnly 14 seats — internationally famous\, books out WEEKS IN ADVANC
+ E. RESERVE AS SOON AS DATES ARE LOCKED.\nFallback if you can't get in: Gio
+ n Duck Noodles again\, or okonomiyaki at Gion Tanto (372 Kiyomotocho\, Hig
+ ashiyama-ku\, Gion Shijo — always has a line).\nMap: https://www.google.
+ com/maps/search/?api=1&query=Kichi+Kichi+Omurice+Kyoto\nFallback map: http
+ s://www.google.com/maps/search/?api=1&query=Gion+Tanto+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dinner: Kichi Kichi Omurice — BOOKED?
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e1-20261112@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T083000
+DTEND;TZID=Asia/Tokyo:20261112T100000
+SUMMARY:Nishiki Market
+LOCATION:609 Nishidaimonjicho\, Nakagyo-ku\, Kyoto 604-8054
+DESCRIPTION:"Kyoto's Kitchen" — many individual stalls close Sundays/Wedn
+ esdays\, so Thursday works well.\nArrive before 10–11am while all stalls
+  are open.\nMap: https://www.google.com/maps/search/?api=1&query=Nishiki+M
+ arket+Kyoto
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nishiki Market
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e2-20261112@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T100000
+DTEND;TZID=Asia/Tokyo:20261112T103000
+SUMMARY:Coffee: Ogawa Coffee
+LOCATION:519-1 Kikuyacho\, Nakagyo-ku\, Kyoto 604-8127 (Sakaimachi Nishiki 
+ branch)
+DESCRIPTION:Kyoto's own roaster\, founded 1952 — one of the city's three 
+ historic coffee houses alongside Inoda and Maeda.\nMap: https://www.google
+ .com/maps/search/?api=1&query=Ogawa+Coffee+Sakaimachi+Nishiki
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Coffee: Ogawa Coffee
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e3-20261112@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T103000
+DTEND;TZID=Asia/Tokyo:20261112T120000
+SUMMARY:OPTIONAL SWAP: Kyoto Int'l Manga Museum
+LOCATION:Karasuma-Oike\, Nakagyo-ku\, Kyoto 604-0846
+DESCRIPTION:Price: ¥900. Open 10:00–17:00 (open Thursdays — closed eve
+ ry Wednesday\, which is why this isn't on Day 3).\nWorth it only if you're
+  willing to trim Nishiki Market short — needs ~1.5 hrs on a departure mo
+ rning.\nMap: https://www.google.com/maps/search/?api=1&query=Kyoto+Interna
+ tional+Manga+Museum
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OPTIONAL SWAP: Kyoto Int'l Manga Museum
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4-e4-20261112@kyoto-itinerary.japanesy2026
+DTSTAMP:20260731T000000Z
+DTSTART;TZID=Asia/Tokyo:20261112T110000
+DTEND;TZID=Asia/Tokyo:20261112T120000
+SUMMARY:Depart for Kyoto Station — Shinkansen to Tokyo
+LOCATION:Kyoto Station\, Kyoto
+DESCRIPTION:Head to Kyoto Station for the Shinkansen to Tokyo.\nKeep this m
+ orning genuinely light — it's a travel day.\nMap: https://www.google.com
+ /maps/search/?api=1&query=Kyoto+Station
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Depart for Kyoto Station — Shinkansen to Tokyo
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
