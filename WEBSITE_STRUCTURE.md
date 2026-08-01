@@ -98,7 +98,32 @@ A real November-2026 grid on the Overview tab. Each trip date is a `<button clas
 
 **Add a whole day** — append a day dict to `days` **and** a matching pill to `pills` (same `day` number). The section, day strip, and month calendar all pick it up; no template edit.
 
-**Retheme** — `:root` in `template_shell.html`. Calendar city colours are `.mday.kyoto` / `.mday.tokyo`.
+**Retheme the whole site** — edit **`:root` in `template_shell.html` only**, then regenerate. See "Design system" below.
+
+---
+
+## Design system
+
+The site is a **dark cinematic theme** and every component draws from the same tokens in `:root`, so the look stays consistent automatically and retheming is a handful of lines rather than a sweep through the markup.
+
+| Token | Used for |
+|---|---|
+| `--paper` `--ink` `--slate` | page background, body text, secondary text |
+| `--card` `--line` `--soft` | glass surfaces, borders, subtle fills |
+| `--red` `--rose` `--violet` | primary accent (times, headings, active nav) |
+| `--gold` `--green` `--blue` | Kyoto / "not up for it" alt boxes / travel + maps |
+| `--grad` | the signature red→violet gradient (nav active, card heads, headings) |
+| `--glass` `--shadow` | sticky nav backdrop, elevation |
+| `--serif` `--sans` | display type (headings, day numbers) vs UI type |
+
+**The token names are deliberately unchanged from the original light theme.** Some markup carries inline `style="color:var(--red)"`, so keeping the names means a retheme never touches the HTML — only the values in `:root`. Don't rename tokens; change what they point at.
+
+Conventions worth preserving:
+- **Kyoto = gold, Tokyo = rose/violet, travel & maps = blue, fallbacks = green.** Used by the month calendar, the day strips and the inline tag pills alike.
+- Cards/nav/calendar are **glass**: `var(--card)` + `1px solid var(--line)` + `backdrop-filter: blur()`.
+- Interactive things lift on hover (`translateY(-3px)`) and reset on `:active` so touch doesn't feel sticky.
+- Decorative-only layers (`.bg-fx` orbs, the 日本 watermark, `#petals`, `.scroll-progress`) sit at negative `z-index`, are `aria-hidden`, and are safe to delete — nothing depends on them.
+- Everything is disabled under `@media (prefers-reduced-motion: reduce)`.
 
 ---
 
@@ -124,6 +149,7 @@ Generation is deterministic — running it twice produces an identical file, so 
 - **Two `2026-11-12` day cards exist** (Kyoto 4, Tokyo 1). `querySelector` finds Kyoto's first — intentional, don't "fix" it.
 - `activateDay()` only closes sibling day cards **within the same section**, so a day left open in a hidden tab stays open. Harmless.
 - The map embeds load `maps.google.com` iframes lazily on expand — the only external request the page makes. Everything else is inline and self-contained.
+- **Don't rename the `:root` tokens** — inline `style="…var(--red)"` attributes in the markup depend on the current names.
 - Weekday/date pairings for Nov 2026 are tabulated in `CLAUDE.md` — cross-check against it rather than re-deriving.
 - `scripts/__pycache__/` is gitignored; don't commit it.
 
