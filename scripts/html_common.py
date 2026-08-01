@@ -82,3 +82,91 @@ def render_section(data):
         "PILLS": render_pills(data["pills"]),
         "DAYS": render_days(data["days"]),
     }
+
+
+# ---------------------------------------------------------------------------
+# Overview month calendar
+#
+# A real November-2026 grid on the Overview tab. Each trip day is a button
+# carrying data-date; the page script hands that to the SAME activateDay() the
+# day-strip pills already use, so tapping a date switches to the right city tab,
+# opens that day card and scrolls to it. No new navigation concept.
+#
+# Labels are derived from each city's existing `pills` (so a pill edit flows
+# through automatically) — the weekday is dropped because the grid column
+# already says it.
+# ---------------------------------------------------------------------------
+import calendar as _calendar
+
+DOW_HEADS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+
+
+def _short_label(pill_lab):
+    """'Tue · Arashiyama' -> 'Arashiyama' (the column already shows the weekday)."""
+    return pill_lab.split("·")[-1].strip() if pill_lab else ""
+
+
+def build_date_index(sections):
+    """sections: [(city_id, DATA), ...] -> {date: {city, lab, leave, both}}.
+
+    A date present in two cities (12 Nov: Kyoto morning -> Tokyo evening) keeps the
+    FIRST city for navigation — matching querySelector's first-match behaviour in
+    jumpToToday() — but is flagged `both` so it can be labelled as the handover.
+    """
+    index = {}
+    for city, data in sections:
+        pill_by_day = {p["day"]: p for p in data.get("pills", [])}
+        for day in data["days"]:
+            date = day["date"]
+            pill = pill_by_day.get(day["day"], {})
+            if date in index:
+                index[date]["both"] = True
+                continue
+            index[date] = {
+                "city": city,
+                "lab": _short_label(pill.get("lab", "")),
+                "leave": bool(pill.get("leave")),
+                "both": False,
+            }
+    return index
+
+
+def render_month_calendar(sections, context=(), year=2026, month=11):
+    """Build the Overview month grid.
+
+    context: extra non-itinerary days to show greyed for orientation,
+             as [(day_number, css_class, label), ...] e.g. the outbound flight.
+    """
+    index = build_date_index(sections)
+    context_by_day = {c[0]: c for c in context}
+    weeks = _calendar.Calendar(firstweekday=6).monthdayscalendar(year, month)
+
+    out = ['        <div class="mcal-grid">']
+    out += ['          <div class="mcal-dow">{0}</div>'.format(d) for d in DOW_HEADS]
+    for week in weeks:
+        for daynum in week:
+            if daynum == 0:
+                out.append('          <div class="mday empty"></div>')
+                continue
+            date = "{0}-{1:02d}-{2:02d}".format(year, month, daynum)
+            entry = index.get(date)
+            if entry:
+                label = "Kyoto → Tokyo" if entry["both"] else entry["lab"]
+                classes = "mday trip " + entry["city"] + (" leave" if entry["leave"] else "")
+                out.append(
+                    '          <button type="button" class="{cls}" data-date="{date}" '
+                    'aria-label="{aria}">'
+                    '<span class="mnum">{n}</span><span class="mlab">{label}</span>'
+                    "</button>".format(cls=classes, date=date, n=daynum, label=label,
+                                       aria="{0} November - {1}".format(daynum, label or entry["city"]))
+                )
+            elif daynum in context_by_day:
+                _, cls, label = context_by_day[daynum]
+                out.append(
+                    '          <div class="mday ctx {cls}"><span class="mnum">{n}</span>'
+                    '<span class="mlab">{label}</span></div>'.format(cls=cls, n=daynum, label=label)
+                )
+            else:
+                out.append('          <div class="mday off"><span class="mnum">{0}</span></div>'.format(daynum))
+    out.append("        </div>")
+    return "\n".join(out)

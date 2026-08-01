@@ -115,6 +115,37 @@
   .cal .day.leave .lab{color:var(--red);font-weight:600}
   .cal .day.today{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
 
+  /* Overview month calendar (tap a date -> jumps to that day card in its city tab) */
+  .mcal{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 4px 18px rgba(0,0,0,.06);margin-bottom:18px}
+  .mcal-title{font-weight:700;font-size:1.05rem;color:var(--red);text-align:center}
+  .mcal-hint{text-align:center;color:var(--slate);font-size:.8rem;margin:2px 0 14px}
+  .mcal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .mcal-dow{text-align:center;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);padding-bottom:4px}
+  .mday{aspect-ratio:1/1;border:1px solid var(--line);border-radius:10px;background:#fff;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:1px;padding:3px;text-align:center;font-family:inherit;overflow:hidden}
+  .mday.empty{border:none;background:none}
+  .mday.off{background:var(--soft);opacity:.5}
+  .mday .mnum{font-size:clamp(.9rem,2.3vw,1.15rem);font-weight:700;color:var(--ink);line-height:1.1}
+  .mday .mlab{font-size:clamp(.46rem,1.15vw,.6rem);line-height:1.15;color:var(--slate);max-width:100%;overflow:hidden}
+  .mday.trip{cursor:pointer;-webkit-tap-highlight-color:rgba(188,0,45,.1)}
+  .mday.trip:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.12)}
+  .mday.trip:active{transform:none}
+  .mday.trip:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+  .mday.kyoto{background:#fdf6e8;border-color:#e6cf9a}
+  .mday.kyoto .mlab{color:#8a6a17}
+  .mday.tokyo{background:#fdf1ec;border-color:#f0c3b6}
+  .mday.tokyo .mlab{color:#a3243c}
+  .mday.leave{border-color:var(--red);box-shadow:inset 0 0 0 1px var(--red)}
+  .mday.ctx{background:#eef3f8;border-color:#c9dcec}
+  .mday.ctx .mnum{color:var(--blue)}
+  .mday.ctx .mlab{color:var(--blue)}
+  .mday.today{box-shadow:0 0 0 2px var(--gold)}
+  .mcal-legend{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:14px;font-size:.75rem;color:var(--slate)}
+  .mcal-legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px;border:1px solid}
+  .lg-k{background:#e6cf9a;border-color:#c8a04f}
+  .lg-t{background:#f2b6a6;border-color:#bc002d}
+  .lg-c{background:#c9dcec;border-color:#2b5c8a}
+
   footer{text-align:center;color:var(--slate);font-size:.82rem;padding:30px 20px 10px}
   .tag{display:inline-block;background:var(--soft);color:var(--slate);padding:3px 10px;border-radius:20px;font-size:.75rem;margin-left:8px}
   @media(max-width:560px){
@@ -148,6 +179,17 @@
     <section id="overview" class="show">
       <h2 class="sec">Trip Overview</h2>
       <p class="sub">Two weeks across Kyoto and Tokyo. Everyone meets in Tokyo on Sun 8 Nov, then the plan runs south to Kyoto and back.</p>
+
+      <div class="mcal">
+        <div class="mcal-title">November 2026</div>
+        <div class="mcal-hint">Tap a date to open that day&rsquo;s itinerary</div>
+{{MONTH_CAL}}
+        <div class="mcal-legend">
+          <span><i class="lg-k"></i>Kyoto</span>
+          <span><i class="lg-t"></i>Tokyo</span>
+          <span><i class="lg-c"></i>Flights / arrival</span>
+        </div>
+      </div>
 
       <div class="keydates" style="margin-bottom:18px">
         <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom (A&amp;C) arrive Narita 7:00 PM. Everyone stays in Tokyo overnight.</div></div>
@@ -294,12 +336,25 @@
     });
   });
 
+  // Overview month calendar: tap a date -> open that day card (activateDay switches tab for us).
+  // 12 Nov exists in both cities; querySelector takes the first (Kyoto morning), same as jumpToToday().
+  document.querySelectorAll('.mcal .mday[data-date]').forEach(function(cell){
+    cell.addEventListener('click', function(){
+      const day = document.querySelector('.daycard[data-date="'+cell.dataset.date+'"]');
+      if(day) activateDay(day);
+    });
+  });
+
   // "Today" button + auto-open: matches the device's local date against each day card's data-date
   function pad(n){ return n<10 ? '0'+n : ''+n; }
   function todayStr(){
     const d=new Date();
     return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
   }
+  // Ring today's date on the month calendar (harmless outside the trip window)
+  const todayCell = document.querySelector('.mcal .mday[data-date="'+todayStr()+'"]');
+  if(todayCell) todayCell.classList.add('today');
+
   function jumpToToday(){
     const today = todayStr();
     const day = document.querySelector('.daycard[data-date="'+today+'"]');
