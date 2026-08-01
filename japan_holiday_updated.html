@@ -5,128 +5,241 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <title>Japan Holiday · Nov 2026</title>
 <style>
+  /* ==========================================================================
+     DESIGN SYSTEM — everything on the page derives from these tokens.
+     The token NAMES are deliberately unchanged from the original light theme so
+     inline style="color:var(--red)" attributes and any future code keep working:
+     retheming the whole site is a :root edit, not a markup edit.
+     ========================================================================== */
   :root{
-    --red:#bc002d; --ink:#1a1a2e; --slate:#5c6b7a; --paper:#fbf7f2;
-    --card:#ffffff; --line:#ece4da; --gold:#c8a04f; --green:#2f7d5b;
-    --blue:#2b5c8a; --soft:#f4eee6;
+    /* Core palette */
+    --paper:#070a14; --ink:#eaf0ff; --slate:#93a0bf;
+    --card:rgba(255,255,255,.045); --line:rgba(255,255,255,.10); --soft:rgba(255,255,255,.06);
+    /* Accents */
+    --red:#ff2d55; --rose:#ff5a7a; --violet:#a05bff;
+    --gold:#f2c14e; --green:#3fe0a5; --blue:#5fb0f2;
+    /* Surfaces & effects */
+    --glass:rgba(16,20,34,.55);
+    --grad:linear-gradient(120deg,#ff2d55,#ff5a7a 40%,#a05bff 80%);
+    --shadow:0 18px 50px rgba(0,0,0,.45);
+    --serif:"Yu Mincho","Hiragino Mincho ProN",Georgia,"Times New Roman",serif;
+    --sans:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;-webkit-text-size-adjust:100%}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--sans);color:var(--ink);line-height:1.6;min-height:100vh;overflow-x:hidden;
+    -webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;
+    background:
+      radial-gradient(1200px 700px at 85% -5%, rgba(160,91,255,.16), transparent 60%),
+      radial-gradient(1000px 700px at 5% 15%, rgba(255,45,85,.14), transparent 55%),
+      linear-gradient(180deg,#080b16 0%, #06080f 100%);
+    background-attachment:fixed;
+  }
   a{color:inherit}
+  ::selection{background:rgba(255,45,85,.35);color:#fff}
+  ::-webkit-scrollbar{width:11px}
+  ::-webkit-scrollbar-track{background:#05070e}
+  ::-webkit-scrollbar-thumb{background:linear-gradient(#ff2d55,#a05bff);border-radius:20px;border:2px solid #05070e}
+
+  /* Fixed decorative layers */
+  .bg-fx{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none}
+  .bg-fx .orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.5}
+  .orb1{width:44vw;height:44vw;left:-8vw;top:-6vw;background:radial-gradient(circle,#ff2d55,transparent 65%);animation:drift1 26s ease-in-out infinite}
+  .orb2{width:42vw;height:42vw;right:-10vw;bottom:-8vw;background:radial-gradient(circle,#7b3ff2,transparent 65%);animation:drift2 30s ease-in-out infinite}
+  .bg-fx .kanji{position:absolute;right:1vw;top:50%;transform:translateY(-50%);font-family:var(--serif);font-size:46vh;line-height:.8;color:rgba(255,255,255,.028);font-weight:700;user-select:none}
+  @keyframes drift1{50%{transform:translate(6vw,4vh) scale(1.1)}}
+  @keyframes drift2{50%{transform:translate(-5vw,-4vh) scale(1.08)}}
+  #petals{position:fixed;inset:0;z-index:-1;pointer-events:none}
+  .scroll-progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:60;background:var(--grad);box-shadow:0 0 14px rgba(255,45,85,.7)}
 
   /* Hero */
-  .hero{position:relative;background:linear-gradient(135deg,#bc002d 0%,#8a0020 100%);color:#fff;padding:56px 24px 68px;text-align:center;overflow:hidden}
-  .hero::after{content:"";position:absolute;top:-40px;right:-40px;width:220px;height:220px;background:rgba(255,255,255,.08);border-radius:50%}
-  .hero::before{content:"";position:absolute;bottom:-60px;left:-30px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%}
-  .sun{width:70px;height:70px;background:#fff;border-radius:50%;margin:0 auto 18px;box-shadow:0 0 0 10px rgba(255,255,255,.15)}
-  .hero h1{font-size:2.5rem;letter-spacing:.5px;font-weight:700}
-  .hero .jp{font-size:1.1rem;opacity:.85;margin-top:4px;letter-spacing:4px}
-  .hero p{margin-top:14px;font-size:1.05rem;opacity:.92}
-  .badge{display:inline-block;margin-top:18px;background:rgba(255,255,255,.18);padding:8px 18px;border-radius:40px;font-size:.9rem;backdrop-filter:blur(4px)}
+  .hero{position:relative;z-index:1;text-align:center;padding:clamp(54px,10vh,96px) 24px 100px;overflow:hidden;isolation:isolate}
+  .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
+      radial-gradient(700px 340px at 50% 8%, rgba(255,45,85,.30), transparent 65%),
+      radial-gradient(600px 300px at 50% 100%, rgba(123,63,242,.22), transparent 60%)}
+  .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:150px;z-index:-1;background:linear-gradient(180deg,transparent,var(--paper))}
+  .sun{position:relative;width:clamp(76px,10vw,104px);height:clamp(76px,10vw,104px);margin:0 auto 24px;border-radius:50%;
+    background:radial-gradient(circle at 50% 42%,#fff 0%,#ffe1e7 32%,#ff5a7a 66%,#ff2d55 100%);
+    box-shadow:0 0 50px 8px rgba(255,60,96,.65),0 0 120px 40px rgba(255,45,85,.30);animation:sun-in 1.2s cubic-bezier(.2,.8,.2,1) both}
+  .sun::before{content:"";position:absolute;inset:-64px;border-radius:50%;
+    background:conic-gradient(from 0deg,transparent 0 7deg,rgba(255,220,225,.20) 7deg 9deg,transparent 9deg 20deg);
+    -webkit-mask:radial-gradient(circle,transparent 54%,#000 56%,transparent 78%);mask:radial-gradient(circle,transparent 54%,#000 56%,transparent 78%);
+    animation:spin 26s linear infinite}
+  .hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.4rem,7vw,4.4rem);letter-spacing:.02em;line-height:1;
+    background:linear-gradient(180deg,#fff 0%,#ffd9df 55%,#ff8aa0 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 4px 34px rgba(255,60,96,.45));animation:rise .9s .15s both}
+  .hero .jp{font-family:var(--serif);font-size:clamp(.95rem,2.2vw,1.3rem);opacity:.9;margin-top:12px;letter-spacing:.7em;padding-left:.7em;color:#ffd9df;animation:rise .9s .3s both}
+  .hero p{margin-top:18px;font-size:clamp(.98rem,2vw,1.14rem);color:#cdd6ee;animation:rise .9s .45s both}
+  .badge{display:inline-block;margin-top:20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:9px 22px;border-radius:40px;font-size:.9rem;letter-spacing:.05em;backdrop-filter:blur(8px);animation:rise .9s .6s both}
+  @keyframes sun-in{from{opacity:0;transform:translateY(30px) scale(.6)}to{opacity:1;transform:none}}
+  @keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+  @keyframes spin{to{transform:rotate(360deg)}}
 
-  .wrap{max-width:960px;margin:-36px auto 60px;padding:0 18px;position:relative;z-index:2}
+  .wrap{max-width:1000px;margin:-62px auto 70px;padding:0 18px;position:relative;z-index:2}
 
   /* Nav */
-  .nav{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;background:var(--card);padding:12px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.08);margin-bottom:30px}
-  .nav button{border:none;background:var(--soft);color:var(--slate);padding:9px 16px;border-radius:30px;font-size:.9rem;cursor:pointer;font-weight:600;transition:.2s;min-height:40px}
-  .nav button:hover{background:#efe4d6}
-  .nav button.active{background:var(--red);color:#fff}
-  .nav button.todaybtn{background:#fff3d6;color:#7a5b00}
-  .nav button.todaybtn:hover{background:#ffe9b8}
+  .nav{position:sticky;top:12px;z-index:40;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;
+    background:var(--glass);border:1px solid var(--line);padding:10px;border-radius:999px;box-shadow:var(--shadow);
+    backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);margin-bottom:30px}
+  .nav button{border:1px solid transparent;background:transparent;color:var(--slate);padding:10px 18px;border-radius:999px;font-size:.9rem;cursor:pointer;font-weight:600;font-family:var(--sans);transition:all .25s;min-height:40px}
+  .nav button:hover{color:#fff;background:rgba(255,255,255,.06);transform:translateY(-1px)}
+  .nav button.active{color:#fff;background:var(--grad);box-shadow:0 8px 24px rgba(255,45,85,.4);border-color:rgba(255,255,255,.2)}
+  .nav button.todaybtn{background:rgba(242,193,78,.14);color:var(--gold);border-color:rgba(242,193,78,.4)}
+  .nav button.todaybtn:hover{background:rgba(242,193,78,.24);color:#ffe0a3}
 
-  section{display:none;animation:fade .35s ease}
-  section.show{display:block}
-  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  section{display:none}
+  section.show{display:block;animation:fade .45s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 
-  h2.sec{font-size:1.6rem;margin-bottom:6px;color:var(--red);display:flex;align-items:center;gap:10px}
-  h2.sec span.k{font-size:1rem;color:var(--slate);font-weight:400}
-  .sub{color:var(--slate);margin-bottom:22px}
+  h2.sec{font-family:var(--serif);font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:8px;display:flex;align-items:center;gap:14px;line-height:1.15;
+    background:linear-gradient(120deg,#fff,#ffd9df);-webkit-background-clip:text;background-clip:text;color:transparent}
+  h2.sec::before{content:"";width:6px;height:1.05em;border-radius:6px;background:var(--grad);box-shadow:0 0 16px rgba(255,45,85,.6);flex:none}
+  h2.sec span.k{font-family:var(--sans);font-size:1rem;color:var(--slate);font-weight:500;-webkit-text-fill-color:var(--slate)}
+  .sub{color:var(--slate);margin-bottom:22px;max-width:72ch}
   .hint{color:var(--slate);font-size:.82rem;margin:-14px 0 20px;font-style:italic}
 
   /* Cards */
-  .card{background:var(--card);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.06);border:1px solid var(--line);margin-bottom:18px;overflow:hidden;display:block;width:100%}
-  .card-head{padding:16px 20px;background:linear-gradient(90deg,var(--red),#9c0025);color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center;gap:12px}
-  .card-head small{font-weight:400;opacity:.85;font-size:.85rem;display:block;margin-top:2px}
-  .card-body{padding:8px 0}
+  .card{background:var(--card);border-radius:18px;box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:18px;overflow:hidden;display:block;width:100%;
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:border-color .3s,box-shadow .3s}
+  .card-head{position:relative;padding:16px 20px;background:linear-gradient(100deg,rgba(255,45,85,.92),rgba(160,91,255,.86));color:#fff;font-weight:700;font-size:1.15rem;display:flex;justify-content:space-between;align-items:center;gap:12px;overflow:hidden}
+  .card-head::after{content:"";position:absolute;top:0;left:-60%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.28),transparent);transform:skewX(-20deg);animation:sheen 7s ease-in-out infinite;pointer-events:none}
+  @keyframes sheen{0%,62%{left:-60%}100%{left:130%}}
+  .card-head small{font-weight:400;opacity:.9;font-size:.85rem;display:block;margin-top:2px}
+  .card-body{padding:6px 0}
 
-  /* Day accordions (native details/summary elements — works with no JS) */
+  /* Day accordions (native details/summary — works with no JS) */
   details.daycard{cursor:default}
+  details.daycard[open]{border-color:rgba(255,90,122,.42);box-shadow:0 22px 54px rgba(0,0,0,.5)}
   details.daycard > summary.card-head{cursor:pointer;list-style:none;-webkit-tap-highlight-color:rgba(255,255,255,.15);min-height:44px}
   details.daycard > summary.card-head::-webkit-details-marker{display:none}
   details.daycard > summary.card-head::marker{content:""}
   details.daycard > summary.card-head .titlewrap{flex:1 1 auto}
-  details.daycard > summary.card-head .chev{flex:0 0 auto;font-size:1.1rem;opacity:.85;transition:transform .25s}
+  details.daycard > summary.card-head .chev{flex:0 0 auto;font-size:1.1rem;opacity:.9;transition:transform .25s}
   details.daycard[open] > summary.card-head .chev{transform:rotate(90deg)}
 
-  /* Timeline rows -> event accordions */
-  .ev{border-bottom:1px solid var(--line)}
+  /* Event accordions */
+  .ev{border-bottom:1px solid var(--line);transition:background .25s}
   .ev:last-child{border-bottom:none}
-  .ev > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:96px 1fr 18px;gap:14px;padding:14px 20px;align-items:start;-webkit-tap-highlight-color:rgba(188,0,45,.08);min-height:44px}
+  .ev[open]{background:rgba(255,255,255,.028)}
+  .ev > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:96px 1fr 18px;gap:14px;padding:14px 20px;align-items:start;-webkit-tap-highlight-color:rgba(255,45,85,.14);min-height:44px}
   .ev > summary::-webkit-details-marker{display:none}
   .ev > summary::marker{content:""}
-  .ev > summary:active{background:var(--soft)}
-  .ev > summary .chev{color:var(--slate);font-size:1rem;transition:transform .2s;margin-top:2px;text-align:right}
-  .ev[open] > summary .chev{transform:rotate(90deg)}
-  .time{font-weight:700;color:var(--red);font-size:.92rem}
-  .dur{display:block;color:var(--slate);font-weight:400;font-size:.78rem;margin-top:2px}
-  .place{font-weight:600;font-size:1.02rem}
+  .ev > summary:hover{background:rgba(255,255,255,.04)}
+  .ev > summary:active{background:rgba(255,255,255,.07)}
+  .ev > summary .chev{color:var(--slate);font-size:1rem;transition:transform .2s,color .2s;margin-top:2px;text-align:right}
+  .ev[open] > summary .chev{transform:rotate(90deg);color:var(--rose)}
+  .time{font-weight:800;color:var(--rose);font-size:.92rem}
+  .dur{display:block;color:var(--slate);font-weight:500;font-size:.78rem;margin-top:2px}
+  .place{font-weight:700;font-size:1.02rem;color:#fff}
   .ev-detail{padding:0 20px 18px 110px}
-  .notes{color:var(--slate);font-size:.9rem;margin-top:4px}
-  .travel{display:inline-block;margin-top:8px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:3px 10px;border-radius:20px}
-  .food{display:inline-block;margin-top:8px;margin-right:6px;font-size:.8rem;background:#fdf1ec;color:var(--red);padding:3px 10px;border-radius:20px}
-  .bar{display:inline-block;margin-top:8px;font-size:.8rem;background:#eef4f0;color:var(--green);padding:3px 10px;border-radius:20px}
-  .alt{margin-top:12px;background:#eef4ee;border-left:3px solid var(--green);padding:10px 12px;border-radius:8px;font-size:.87rem;color:#33463a}
+  .notes{color:#b9c3dd;font-size:.9rem;margin-top:4px}
+
+  /* Inline tag pills */
+  .travel,.food,.bar{display:inline-block;margin-top:8px;margin-right:6px;font-size:.8rem;padding:4px 12px;border-radius:999px;border:1px solid;font-weight:500}
+  .travel{background:rgba(95,176,242,.10);color:#9fd0ff;border-color:rgba(95,176,242,.35)}
+  .food{background:rgba(255,90,122,.10);color:#ffb0c0;border-color:rgba(255,90,122,.35)}
+  .bar{background:rgba(63,224,165,.10);color:#8bf2ce;border-color:rgba(63,224,165,.35)}
+  .alt{margin-top:12px;background:rgba(63,224,165,.08);border:1px solid rgba(63,224,165,.28);border-left:3px solid var(--green);padding:10px 13px;border-radius:10px;font-size:.87rem;color:#a9e9cf}
   .alt b{color:var(--green)}
 
   /* Maps */
-  .maprow{margin-top:10px}
-  .mapbtn{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;background:var(--soft);color:var(--blue);padding:7px 12px;border-radius:20px;font-weight:600;text-decoration:none;min-height:32px}
-  .mapbtn:active{background:#e4dccb}
-  .mapframe{margin-top:10px;border-radius:12px;overflow:hidden;border:1px solid var(--line);min-height:190px;background:var(--soft)}
+  .maprow{margin-top:12px}
+  .mapbtn{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;background:linear-gradient(120deg,rgba(95,176,242,.18),rgba(63,224,165,.14));
+    color:#a9d8ff;border:1px solid rgba(95,176,242,.42);padding:8px 15px;border-radius:999px;font-weight:600;text-decoration:none;min-height:34px;transition:.25s}
+  .mapbtn:hover{background:linear-gradient(120deg,rgba(95,176,242,.32),rgba(63,224,165,.24));color:#fff;transform:translateY(-1px)}
+  .mapbtn:active{transform:none}
+  .mapframe{margin-top:10px;border-radius:12px;overflow:hidden;border:1px solid var(--line);min-height:190px;background:rgba(255,255,255,.04)}
   .mapframe iframe{width:100%;height:190px;border:0;display:block}
 
   /* Flights */
   .flight{display:grid;grid-template-columns:1fr;gap:0}
   .fcard{padding:18px 20px;border-bottom:1px solid var(--line)}
   .fcard:last-child{border-bottom:none}
-  .who{font-weight:700;font-size:1.1rem;margin-bottom:10px;color:var(--ink)}
-  .leg{display:flex;gap:10px;align-items:baseline;font-size:.92rem;padding:5px 0}
-  .leg .lbl{width:110px;color:var(--slate);font-size:.8rem;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}
-  .leg .val{font-weight:500}
-  .note-line{margin-top:8px;font-size:.85rem;color:var(--slate);font-style:italic}
+  .who{font-weight:700;font-size:1.1rem;margin-bottom:10px;color:#fff}
+  .leg{display:flex;gap:10px;align-items:baseline;font-size:.92rem;padding:6px 0;border-bottom:1px dashed rgba(255,255,255,.06)}
+  .leg:last-of-type{border-bottom:none}
+  .leg .lbl{width:110px;color:var(--slate);font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;flex-shrink:0}
+  .leg .val{font-weight:600;color:#e7ecfb}
+  .note-line{margin-top:9px;font-size:.85rem;color:var(--slate);font-style:italic}
 
   /* Key dates */
-  .keydates{background:var(--card);border-radius:16px;border:1px solid var(--line);padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
-  .kd{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .keydates{background:var(--card);border-radius:18px;border:1px solid var(--line);padding:20px;box-shadow:var(--shadow);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+  .kd{display:flex;gap:14px;padding:11px 0;border-bottom:1px solid var(--line)}
   .kd:last-child{border-bottom:none}
-  .kd .d{font-weight:700;color:var(--red);width:90px;flex-shrink:0}
+  .kd .d{font-weight:800;color:var(--rose);width:90px;flex-shrink:0}
 
-  /* Static summary rows (Overview "at a glance" / accommodation cards — like .ev but not clickable) */
+  /* Static summary rows (Overview "at a glance" / accommodation) */
   .ov-row{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:14px 20px;border-bottom:1px solid var(--line)}
   .ov-row:last-child{border-bottom:none}
 
-  /* Day-strip calendars (tap a pill to jump to that day) */
+  /* Day-strip calendars */
   .cal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:20px}
-  .cal .day{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.04);cursor:pointer;-webkit-tap-highlight-color:rgba(188,0,45,.1);min-height:44px}
-  .cal .day:active{background:var(--soft)}
-  .cal .day .num{font-size:1.4rem;font-weight:700;color:var(--ink)}
+  .cal .day{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center;cursor:pointer;
+    -webkit-tap-highlight-color:rgba(255,45,85,.16);min-height:44px;backdrop-filter:blur(8px);transition:transform .3s,border-color .3s,box-shadow .3s}
+  .cal .day:hover{transform:translateY(-3px);border-color:rgba(255,90,122,.45);box-shadow:0 14px 30px rgba(0,0,0,.42)}
+  .cal .day:active{transform:none}
+  .cal .day .num{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:#fff}
   .cal .day .lab{font-size:.72rem;color:var(--slate);margin-top:4px;min-height:28px}
-  .cal .day.leave{border-color:var(--red);background:#fdf1ec}
-  .cal .day.leave .lab{color:var(--red);font-weight:600}
-  .cal .day.today{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold)}
+  .cal .day.leave{border-color:rgba(255,45,85,.55);background:linear-gradient(180deg,rgba(255,45,85,.16),rgba(255,45,85,.04))}
+  .cal .day.leave .lab{color:#ff9fb0;font-weight:600}
+  .cal .day.today{border-color:var(--gold);box-shadow:0 0 0 2px rgba(242,193,78,.55)}
 
-  footer{text-align:center;color:var(--slate);font-size:.82rem;padding:30px 20px 10px}
-  .tag{display:inline-block;background:var(--soft);color:var(--slate);padding:3px 10px;border-radius:20px;font-size:.75rem;margin-left:8px}
+  /* Overview month calendar (tap a date -> jumps to that day card in its city tab) */
+  .mcal{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(14px,3vw,22px);box-shadow:var(--shadow);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);margin-bottom:18px}
+  .mcal-title{font-family:var(--serif);font-weight:700;font-size:1.35rem;text-align:center;color:#fff}
+  .mcal-hint{text-align:center;color:var(--slate);font-size:.8rem;margin:3px 0 15px}
+  .mcal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:clamp(5px,1vw,8px)}
+  .mcal-dow{text-align:center;font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);padding-bottom:4px}
+  .mday{aspect-ratio:1/1;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025);display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:1px;padding:3px;text-align:center;font-family:inherit;overflow:hidden;transition:transform .28s,box-shadow .28s,border-color .28s}
+  .mday.empty{border:none;background:none}
+  .mday.off{opacity:.3}
+  .mday .mnum{font-family:var(--serif);font-size:clamp(.92rem,2.3vw,1.25rem);font-weight:700;color:#fff;line-height:1.1}
+  .mday .mlab{font-size:clamp(.46rem,1.15vw,.6rem);line-height:1.15;color:var(--slate);max-width:100%;overflow:hidden}
+  .mday.trip{cursor:pointer;-webkit-tap-highlight-color:rgba(255,45,85,.16)}
+  .mday.trip:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 14px 30px rgba(0,0,0,.5);z-index:2}
+  .mday.trip:active{transform:none}
+  .mday.trip:focus-visible{outline:2px solid var(--rose);outline-offset:2px}
+  .mday.kyoto{border-color:rgba(242,193,78,.42);background:linear-gradient(180deg,rgba(242,160,61,.18),rgba(242,193,78,.04))}
+  .mday.kyoto .mlab{color:#f2cd8a}
+  .mday.tokyo{border-color:rgba(255,90,122,.42);background:linear-gradient(180deg,rgba(255,45,85,.16),rgba(160,91,255,.05))}
+  .mday.tokyo .mlab{color:#ffaebd}
+  .mday.leave{border-color:rgba(255,45,85,.75);box-shadow:inset 0 0 0 1px rgba(255,45,85,.5)}
+  .mday.ctx{border-color:rgba(95,176,242,.4);background:linear-gradient(180deg,rgba(95,176,242,.15),rgba(95,176,242,.03))}
+  .mday.ctx .mnum{color:#bfe0ff}
+  .mday.ctx .mlab{color:#9fd0ff}
+  .mday.today{box-shadow:0 0 0 2px rgba(242,193,78,.65)}
+  .mcal-legend{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:15px;font-size:.75rem;color:var(--slate)}
+  .mcal-legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px;border:1px solid}
+  .lg-k{background:rgba(242,193,78,.5);border-color:var(--gold)}
+  .lg-t{background:rgba(255,90,122,.5);border-color:var(--rose)}
+  .lg-c{background:rgba(95,176,242,.5);border-color:var(--blue)}
+
+  footer{text-align:center;color:var(--slate);font-size:.82rem;padding:34px 20px 14px}
+  .tag{display:inline-block;background:rgba(255,255,255,.08);border:1px solid var(--line);color:#cdd6ee;padding:3px 10px;border-radius:999px;font-size:.75rem;margin-left:8px}
+
   @media(max-width:560px){
-    .hero h1{font-size:1.9rem}
     .ev > summary{grid-template-columns:72px 1fr 16px;gap:8px;padding:12px 14px}
     .ev-detail{padding:0 14px 16px 14px}
     .leg{flex-direction:column;gap:2px}
     .leg .lbl{width:auto}
+    .bg-fx .kanji{font-size:34vh}
+    .mcal{padding:12px}
+    .mday{border-radius:9px}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+    html{scroll-behavior:auto}
   }
 </style>
 </head>
 <body>
+  <div class="bg-fx" aria-hidden="true">
+    <div class="orb orb1"></div><div class="orb orb2"></div><div class="kanji">日本</div>
+  </div>
+  <canvas id="petals" aria-hidden="true"></canvas>
+  <div class="scroll-progress" aria-hidden="true"></div>
   <div class="hero">
     <div class="sun"></div>
     <h1>Japan Holiday</h1>
@@ -148,6 +261,60 @@
     <section id="overview" class="show">
       <h2 class="sec">Trip Overview</h2>
       <p class="sub">Two weeks across Kyoto and Tokyo. Everyone meets in Tokyo on Sun 8 Nov, then the plan runs south to Kyoto and back.</p>
+
+      <div class="mcal">
+        <div class="mcal-title">November 2026</div>
+        <div class="mcal-hint">Tap a date to open that day&rsquo;s itinerary</div>
+        <div class="mcal-grid">
+          <div class="mcal-dow">Sun</div>
+          <div class="mcal-dow">Mon</div>
+          <div class="mcal-dow">Tue</div>
+          <div class="mcal-dow">Wed</div>
+          <div class="mcal-dow">Thu</div>
+          <div class="mcal-dow">Fri</div>
+          <div class="mcal-dow">Sat</div>
+          <div class="mday off"><span class="mnum">1</span></div>
+          <div class="mday off"><span class="mnum">2</span></div>
+          <div class="mday off"><span class="mnum">3</span></div>
+          <div class="mday off"><span class="mnum">4</span></div>
+          <div class="mday off"><span class="mnum">5</span></div>
+          <div class="mday off"><span class="mnum">6</span></div>
+          <div class="mday ctx fly"><span class="mnum">7</span><span class="mlab">Fly out</span></div>
+          <div class="mday ctx arrive"><span class="mnum">8</span><span class="mlab">Land Tokyo</span></div>
+          <button type="button" class="mday trip kyoto" data-date="2026-11-09" aria-label="9 November - Fushimi"><span class="mnum">9</span><span class="mlab">Fushimi</span></button>
+          <button type="button" class="mday trip kyoto" data-date="2026-11-10" aria-label="10 November - Arashiyama"><span class="mnum">10</span><span class="mlab">Arashiyama</span></button>
+          <button type="button" class="mday trip kyoto" data-date="2026-11-11" aria-label="11 November - Higashiyama"><span class="mnum">11</span><span class="mlab">Higashiyama</span></button>
+          <button type="button" class="mday trip kyoto" data-date="2026-11-12" aria-label="12 November - Kyoto → Tokyo"><span class="mnum">12</span><span class="mlab">Kyoto → Tokyo</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-13" aria-label="13 November - Shibuya"><span class="mnum">13</span><span class="mlab">Shibuya</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-14" aria-label="14 November - Tsukiji"><span class="mnum">14</span><span class="mlab">Tsukiji</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-15" aria-label="15 November - Asakusa"><span class="mnum">15</span><span class="mlab">Asakusa</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-16" aria-label="16 November - Hakone"><span class="mnum">16</span><span class="mlab">Hakone</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-17" aria-label="17 November - Shimokita"><span class="mnum">17</span><span class="mlab">Shimokita</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-18" aria-label="18 November - Shinjuku"><span class="mnum">18</span><span class="mlab">Shinjuku</span></button>
+          <button type="button" class="mday trip tokyo" data-date="2026-11-19" aria-label="19 November - teamLab"><span class="mnum">19</span><span class="mlab">teamLab</span></button>
+          <button type="button" class="mday trip tokyo leave" data-date="2026-11-20" aria-label="20 November - Jai leaves ✈️"><span class="mnum">20</span><span class="mlab">Jai leaves ✈️</span></button>
+          <button type="button" class="mday trip tokyo leave" data-date="2026-11-21" aria-label="21 November - M&amp;T leave ✈️"><span class="mnum">21</span><span class="mlab">M&amp;T leave ✈️</span></button>
+          <div class="mday ctx fly"><span class="mnum">22</span><span class="mlab">Land UK</span></div>
+          <div class="mday off"><span class="mnum">23</span></div>
+          <div class="mday off"><span class="mnum">24</span></div>
+          <div class="mday off"><span class="mnum">25</span></div>
+          <div class="mday off"><span class="mnum">26</span></div>
+          <div class="mday off"><span class="mnum">27</span></div>
+          <div class="mday off"><span class="mnum">28</span></div>
+          <div class="mday off"><span class="mnum">29</span></div>
+          <div class="mday off"><span class="mnum">30</span></div>
+          <div class="mday empty"></div>
+          <div class="mday empty"></div>
+          <div class="mday empty"></div>
+          <div class="mday empty"></div>
+          <div class="mday empty"></div>
+        </div>
+        <div class="mcal-legend">
+          <span><i class="lg-k"></i>Kyoto</span>
+          <span><i class="lg-t"></i>Tokyo</span>
+          <span><i class="lg-c"></i>Flights / arrival</span>
+        </div>
+      </div>
 
       <div class="keydates" style="margin-bottom:18px">
         <div class="kd"><div class="d">Sun 8 Nov</div><div>Jai arrives Haneda 10:25 AM. Mandeep &amp; Tom (A&amp;C) arrive Narita 7:00 PM. Everyone stays in Tokyo overnight.</div></div>
@@ -1076,12 +1243,25 @@
     });
   });
 
+  // Overview month calendar: tap a date -> open that day card (activateDay switches tab for us).
+  // 12 Nov exists in both cities; querySelector takes the first (Kyoto morning), same as jumpToToday().
+  document.querySelectorAll('.mcal .mday[data-date]').forEach(function(cell){
+    cell.addEventListener('click', function(){
+      const day = document.querySelector('.daycard[data-date="'+cell.dataset.date+'"]');
+      if(day) activateDay(day);
+    });
+  });
+
   // "Today" button + auto-open: matches the device's local date against each day card's data-date
   function pad(n){ return n<10 ? '0'+n : ''+n; }
   function todayStr(){
     const d=new Date();
     return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
   }
+  // Ring today's date on the month calendar (harmless outside the trip window)
+  const todayCell = document.querySelector('.mcal .mday[data-date="'+todayStr()+'"]');
+  if(todayCell) todayCell.classList.add('today');
+
   function jumpToToday(){
     const today = todayStr();
     const day = document.querySelector('.daycard[data-date="'+today+'"]');
@@ -1096,6 +1276,40 @@
     });
   }
   jumpToToday(); // silently auto-opens today's day if this is viewed during the trip (8–21 Nov 2026)
+
+  // ---- Ambience: scroll progress bar + drifting sakura petals -------------
+  // Purely decorative; both no-op under prefers-reduced-motion and degrade to
+  // nothing if the elements are absent.
+  const bar = document.querySelector('.scroll-progress');
+  if(bar){
+    addEventListener('scroll', function(){
+      const h=document.documentElement, max=(h.scrollHeight-h.clientHeight)||1;
+      bar.style.width=(h.scrollTop/max*100)+'%';
+    }, {passive:true});
+  }
+
+  const canvas = document.getElementById('petals');
+  if(canvas && !matchMedia('(prefers-reduced-motion:reduce)').matches){
+    const ctx=canvas.getContext('2d'); let w,h,ps;
+    function size(){ w=canvas.width=innerWidth; h=canvas.height=innerHeight; }
+    function mk(){ return {x:Math.random()*w, y:Math.random()*-h, r:6+Math.random()*8,
+      s:.4+Math.random()*.9, a:Math.random()*Math.PI*2, sw:Math.random()*6, o:.2+Math.random()*.3}; }
+    function init(){ size(); ps=Array.from({length:Math.min(40,Math.floor(w/34))}, mk); }
+    function frame(){
+      ctx.clearRect(0,0,w,h);
+      ps.forEach(function(p){
+        p.y+=p.s; p.a+=.01; p.x+=Math.sin(p.y*.012+p.sw)*.6;
+        if(p.y-20>h){ p.y=-20; p.x=Math.random()*w; }
+        ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.a);
+        ctx.beginPath(); ctx.moveTo(0,0);
+        ctx.quadraticCurveTo(p.r,-p.r*.6,0,-p.r*1.6);
+        ctx.quadraticCurveTo(-p.r,-p.r*.6,0,0);
+        ctx.fillStyle='rgba(255,190,205,'+p.o+')'; ctx.fill(); ctx.restore();
+      });
+      requestAnimationFrame(frame);
+    }
+    addEventListener('resize', init); init(); frame();
+  }
 })();
 </script>
 </body>
