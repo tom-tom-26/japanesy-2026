@@ -2,6 +2,8 @@
 
 Same brief as before, but **budget-first**: cheapest viable options in the picked area (Shinjuku / Kabukicho) that still hold a high review score, priced against your **actual** dates. Follows the repo's **"NO SLOP" rule** — every price below was pulled live from Booking.com for the exact dates and group size, and is **timestamped**. Prices move, so treat them as "as of the check date" and confirm on the link before booking.
 
+> ⚠️ **Josh has joined, so the group is now 4.** Every price, "3 adults" label and search link below was checked for 3 adults and needs re-checking for 4 before booking.
+>
 > **Live prices checked:** 31 July 2026 · Booking.com · currency GBP · **3 adults** · prices are the **whole room/apartment total** incl. taxes for the stated nights.
 
 ## Booked (provisional — addresses as given, not yet re-verified against a live listing)
@@ -24,7 +26,7 @@ The old version of this guide assumed one continuous **8–21 Nov (13 nights)** 
 | Booking | Dates | Nights | Who |
 |---|---|---|---|
 | **1 — Arrival night** | Sun 8 Nov → Mon 9 Nov | 1 | All 3 (then Shinkansen to Kyoto on the 9th) |
-| **2 — Main stay** | Thu 12 Nov → Sat 21 Nov | 9 | All 3 (Jai checks out Fri 20; Mandeep & Tom stay to Sat 21) |
+| **2 — Main stay** | Thu 12 Nov → Sat 21 Nov | 9 | All 4 (Jai checks out Fri 20; Mandeep, Tom & Josh stay to Sat 21) |
 
 - **Travellers:** 3 males, 26, from the UK.
 - **Budget:** max **£450 per person** for the whole Tokyo portion (~£1,350 for the group).

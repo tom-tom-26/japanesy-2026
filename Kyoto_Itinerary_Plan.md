@@ -1,6 +1,6 @@
 # Kyoto Itinerary — Mon 9 Nov to Thu 12 Nov 2026
 
-Built for Mandeep & Tom. Grouped strictly by neighbourhood to cut down transit time; heavy-walking days flagged; every restaurant/bar verified as a real, currently-operating, specialty venue (see the companion **Kyoto_Itinerary_Sources** file for citations on every claim below).
+Built for Mandeep, Tom, Josh & Jai. Grouped strictly by neighbourhood to cut down transit time; heavy-walking days flagged; every restaurant/bar verified as a real, currently-operating, specialty venue (see the companion **Kyoto_Itinerary_Sources** file for citations on every claim below).
 
 **Accommodation (booked):** Airbnb, 4-chōme-432-6 Gojōbashihigashi, Higashiyama Ward, Kyoto 605-0846, Japan. Right by Kiyomizu-Gojo Station (Keihan Main Line) — one stop from Gion-Shijo and on the same line as Fushimi Inari, i.e. directly on the Day 1/Day 3 transit backbone. ~10 min uphill walk to Kiyomizu-dera, ~15 min walk to Gion/Kenninji, ~2.5 km (taxi ~10 min) to Kyoto Station.
 

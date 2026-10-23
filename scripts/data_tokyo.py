@@ -62,7 +62,7 @@ TOKYO = {
    "day": 10,
    "leave": True,
    "num": "21",
-   "lab": "Sat · M&amp;T leave ✈️"
+   "lab": "Sat · M, T &amp; J leave ✈️"
   }
  ],
  "days": [
@@ -422,7 +422,7 @@ TOKYO = {
      "time": "Eve",
      "dur": "the crawl",
      "place": "Cocktail crawl — Nishi-Shinjuku (all walkable from home)",
-     "notes": "All three are Sunday-closed, so a Wednesday works. Benfiddich &amp; Zoetrope are tiny (9–15 seats) — arrive at opening with a group of three.",
+     "notes": "All three are Sunday-closed, so a Wednesday works. Benfiddich &amp; Zoetrope are tiny (9–15 seats) — arrive at opening with a group of four.",
      "extras": [
       [
        "bar",
@@ -481,7 +481,7 @@ TOKYO = {
      "time": "Eve",
      "dur": "",
      "place": "Final big night — Kabukicho",
-     "notes": "Last night all three together. Yakiniku/izakaya group dinner, a Golden Gai farewell round, karaoke (Karaoke Kan / Big Echo) or a Kabukicho club — blow it out; tomorrow Jai flies.",
+     "notes": "Last night all four together. Yakiniku/izakaya group dinner, a Golden Gai farewell round, karaoke (Karaoke Kan / Big Echo) or a Kabukicho club — blow it out; tomorrow Jai flies.",
      "extras": [
       [
        "bar",
@@ -497,7 +497,7 @@ TOKYO = {
    "date": "2026-11-20",
    "open": False,
    "title_date": "Fri 20 Nov",
-   "title_small": "Jai flies home + a relaxed day for two",
+   "title_small": "Jai flies home + a relaxed day for three",
    "events": [
     {
      "map": "Haneda Airport, Tokyo",
@@ -511,8 +511,8 @@ TOKYO = {
     {
      "map": "Yanaka Ginza, Tokyo",
      "time": "Day",
-     "dur": "Mandeep &amp; Tom",
-     "place": "Relaxed day for two — pick one",
+     "dur": "Mandeep, Tom &amp; Josh",
+     "place": "Relaxed day for three — pick one",
      "notes": "<b>Option A:</b> Yanaka / Yanesen old town — Nippori → Yanaka Ginza street food → Nezu Shrine's red-torii corridor → Sendagi. Low-key half-day, mostly walking.<br><b>Option B:</b> Kamakura day trip — JR Yokosuka Line ~1 hr; the Great Buddha at Kotoku-in (enter for ¥50) + Hase-dera. Only if legs are fresh after Hakone.",
      "extras": [],
      "alt": "Already an either/or — if Kamakura (Option B) feels like too much after Hakone, Yanaka (Option A) is the deliberately lower-key choice, mostly on foot."
@@ -533,7 +533,7 @@ TOKYO = {
    "date": "2026-11-21",
    "open": False,
    "title_date": "Sat 21 Nov",
-   "title_small": "Departure (Mandeep &amp; Tom)",
+   "title_small": "Departure (Mandeep, Tom &amp; Josh)",
    "events": [
     {
      "map": "Don Quijote Kabukicho, Tokyo",

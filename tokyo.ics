@@ -554,10 +554,10 @@ DTSTART;TZID=Asia/Tokyo:20261119T190000
 DTEND;TZID=Asia/Tokyo:20261119T230000
 SUMMARY:Final big night — Kabukicho
 LOCATION:Kabukicho\, Shinjuku City\, Tokyo
-DESCRIPTION:Last night all three together. Yakiniku/izakaya group dinner\, 
- a Golden Gai farewell round\, karaoke (Karaoke Kan / Big Echo) or a Kabuki
- cho club.\nMap: https://www.google.com/maps/search/?api=1&query=Kabukicho+
- Shinjuku
+DESCRIPTION:Last night all four together. Yakiniku/izakaya group dinner\, a
+  Golden Gai farewell round\, karaoke (Karaoke Kan / Big Echo) or a Kabukic
+ ho club.\nMap: https://www.google.com/maps/search/?api=1&query=Kabukicho+S
+ hinjuku
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Final big night — Kabukicho
@@ -586,7 +586,7 @@ UID:d9-e2-20261120@tokyo-itinerary.japanesy2026
 DTSTAMP:20260731T000000Z
 DTSTART;TZID=Asia/Tokyo:20261120T113000
 DTEND;TZID=Asia/Tokyo:20261120T160000
-SUMMARY:Mandeep & Tom: Yanaka old town OR Kamakura
+SUMMARY:Mandeep\, Tom & Josh: Yanaka old town OR Kamakura
 LOCATION:Yanaka (Nippori) / Kamakura
 DESCRIPTION:Option A - Yanaka/Yanesen old town: Nippori -> Yanaka Ginza str
  eet food -> Nezu Shrine red-torii corridor -> Sendagi. Low-key half-day\, 
@@ -597,7 +597,7 @@ DESCRIPTION:Option A - Yanaka/Yanesen old town: Nippori -> Yanaka Ginza str
  i=1&query=Kotoku-in+Great+Buddha+Kamakura
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Mandeep & Tom: Yanaka old town OR Kamakura
+DESCRIPTION:Mandeep\, Tom & Josh: Yanaka old town OR Kamakura
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
@@ -639,11 +639,11 @@ DTSTART;TZID=Asia/Tokyo:20261121T153000
 DTEND;TZID=Asia/Tokyo:20261121T170000
 SUMMARY:Narita Express -> Narita (19:30 flight)
 LOCATION:Shinjuku Station (Narita Express)\, Tokyo
-DESCRIPTION:Mandeep & Tom: N'EX direct from Shinjuku (~80 min) or Keisei vi
- a Nippori. 19:30 flight -> Shanghai -> London Gatwick.\nLeave the apartmen
- t ~15:30-16:00 (~3.5 hrs before departure + the train). PRE-BOOK the N'EX 
- seat.\nMap: https://www.google.com/maps/search/?api=1&query=Narita+Airport
- +Terminal
+DESCRIPTION:Mandeep\, Tom & Josh: N'EX direct from Shinjuku (~80 min) or Ke
+ isei via Nippori. 19:30 flight -> Shanghai -> London Gatwick.\nLeave the a
+ partment ~15:30-16:00 (~3.5 hrs before departure + the train). PRE-BOOK th
+ e N'EX seat.\nMap: https://www.google.com/maps/search/?api=1&query=Narita+
+ Airport+Terminal
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Narita Express -> Narita (19:30 flight)

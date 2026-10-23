@@ -220,7 +220,7 @@ EVENTS = [
     (8, 3, "20261119", "190000", "230000",
      "Final big night — Kabukicho",
      "Kabukicho, Shinjuku City, Tokyo",
-     ["Last night all three together. Yakiniku/izakaya group dinner, a Golden Gai farewell round, karaoke (Karaoke Kan / Big Echo) or a Kabukicho club.",
+     ["Last night all four together. Yakiniku/izakaya group dinner, a Golden Gai farewell round, karaoke (Karaoke Kan / Big Echo) or a Kabukicho club.",
       "Map: " + maps("Kabukicho Shinjuku")]),
 
     # DAY 9 — Fri 20 Nov
@@ -231,7 +231,7 @@ EVENTS = [
       "Sort checkout/bags the night before so the morning is clean.",
       "Map: " + maps("Haneda Airport Tokyo")]),
     (9, 2, "20261120", "113000", "160000",
-     "Mandeep & Tom: Yanaka old town OR Kamakura",
+     "Mandeep, Tom & Josh: Yanaka old town OR Kamakura",
      "Yanaka (Nippori) / Kamakura",
      ["Option A - Yanaka/Yanesen old town: Nippori -> Yanaka Ginza street food -> Nezu Shrine red-torii corridor -> Sendagi. Low-key half-day, mostly walking.",
       "Option B - Kamakura day trip: JR Yokosuka Line ~1 hr, ~¥920; Great Buddha at Kotoku-in (enter for ¥50) + Hase-dera. Only if legs are fresh after Hakone.",
@@ -252,7 +252,7 @@ EVENTS = [
     (10, 2, "20261121", "153000", "170000",
      "Narita Express -> Narita (19:30 flight)",
      "Shinjuku Station (Narita Express), Tokyo",
-     ["Mandeep & Tom: N'EX direct from Shinjuku (~80 min) or Keisei via Nippori. 19:30 flight -> Shanghai -> London Gatwick.",
+     ["Mandeep, Tom & Josh: N'EX direct from Shinjuku (~80 min) or Keisei via Nippori. 19:30 flight -> Shanghai -> London Gatwick.",
       "Leave the apartment ~15:30-16:00 (~3.5 hrs before departure + the train). PRE-BOOK the N'EX seat.",
       "Map: " + maps("Narita Airport Terminal")]),
 ]

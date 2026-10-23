@@ -6,7 +6,7 @@ Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the ac
 - **8→9 Nov (arrival night):** Hotel House Lee, 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.
 - **12→21 Nov (main stay, "the apartment" below):** 2-Chome-2-11 Kabukicho, Shinjuku City, Tokyo 160-0021, Japan.
 
-**Dates (confirmed from the flight details in `japan_holiday_updated.html`):** the group returns from Kyoto on the Shinkansen **Thu 12 Nov** (arrival evening) and departs **staggered — Jai flies out Fri 20 Nov (Haneda 13:15), Mandeep & Tom fly out Sat 21 Nov (Narita 19:30)**. That gives **8 full shared days (Thu 12 arrival + Fri 13 – Thu 19)**, then a lighter Fri 20 (Jai's airport run + a relaxed day for the other two) and a departure half-day Sat 21.
+**Dates (confirmed from the flight details in `japan_holiday_updated.html`):** the group returns from Kyoto on the Shinkansen **Thu 12 Nov** (arrival evening) and departs **staggered — Jai flies out Fri 20 Nov (Haneda 13:15), Mandeep, Tom & Josh fly out Sat 21 Nov (Narita 19:30)**. That gives **8 full shared days (Thu 12 arrival + Fri 13 – Thu 19)**, then a lighter Fri 20 (Jai's airport run + a relaxed day for the other three) and a departure half-day Sat 21.
 
 **Two timing things baked in up front (both real):**
 - **Tsukiji Outer Market** and **teamLab Planets** both close on scattered Wednesdays. Tsukiji is placed on a Saturday and teamLab on a Thursday here to dodge that — double-check the specific dates on their calendars when you lock tickets.
@@ -97,7 +97,7 @@ Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the ac
     *   **Bar Zoetrope** — *Specialty: 300+ Japanese whiskies, silent-film projections; opens 17:00, closed Sun.*
     *   **Bar Benfiddich** — *Specialty: Hiroyasu Kayama's foraged-botanical cocktails made tableside with a pestle and mortar; 9 seats, 18:00–03:00 Mon–Sat, closed Sun.* Regularly on Asia's/World's 50 Best — **get there at opening or expect a wait; no big groups without warning.**
     *   Optional splurge finale: **New York Bar**, Park Hyatt 52nd floor (the *Lost in Translation* bar) — skyline views, live jazz, **¥2,500-ish cover after ~20:00**. Smart dress enforced.
-*   **Transit/Logistics Note:** Everything today is in Shinjuku — near-zero transit. Benfiddich and Zoetrope are both tiny (9–15 seats); with a group of three, arrive right at opening.
+*   **Transit/Logistics Note:** Everything today is in Shinjuku — near-zero transit. Benfiddich and Zoetrope are both tiny (9–15 seats); with a group of four, arrive right at opening.
 
 **Backup / Rainy Day:** Fully rain-proof if you swap Shinjuku Gyoen for indoor time — the Metro Gov observation decks, the ramen, the shopping and the bar crawl are all covered.
 
@@ -113,9 +113,9 @@ Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the ac
 
 ---
 
-### Day 9 (Fri 20 Nov): Jai flies home + a relaxed day for two
+### Day 9 (Fri 20 Nov): Jai flies home + a relaxed day for three
 *   **Morning (Jai):** **Jai → Haneda for the 13:15 flight** (Haneda 13:15 → London Heathrow 19:10). Leave Shinjuku by **~10:00** — Toei/Keikyu via Shinagawa or the Airport Limousine bus from Shinjuku (~45–75 min depending on traffic). Say the goodbyes over an early coffee near home.
-*   **Late morning (Mandeep & Tom) — pick one, both deliberately low-key:**
+*   **Late morning (Mandeep, Tom & Josh) — pick one, both deliberately low-key:**
     *   **Option A — Old-town wander (no trains-heavy day):** **Yanaka / Yanesen** — one of the few districts to survive WWII bombing, so it keeps its shitamachi feel. Walk **Nippori Station → Yanaka Ginza** shopping street (street-food, "cat town") → **Nezu Shrine** (a mini corridor of red torii) → finish at Sendagi. Low-key, ~half a day.
     *   **Option B — Second day-trip:** **Kamakura** — the seaside temple town ~1 hr from Tokyo Station (JR Yokosuka Line, ~¥920). The **Great Buddha at Kotoku-in** (11.3 m bronze, standing since 1252; you can go inside for ¥50) + **Hase-dera** (Kannon hall, sea-view terrace, Benten cave), 5 min apart via the little Enoden line. Only pick this if the group still has day-trip energy after Hakone.
 *   **Evening:** Last night as a pair — an easy Kabukicho izakaya + a final Golden Gai round.
@@ -123,7 +123,7 @@ Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the ac
 
 ---
 
-### Day 10 (Sat 21 Nov): Departure (Mandeep & Tom)
+### Day 10 (Sat 21 Nov): Departure (Mandeep, Tom & Josh)
 *   **Morning:** Genuinely light — last-minute **Don Quijote Kabukicho** souvenir run (open 24h, 2 min from home) and a final coffee/ramen. Anything the week missed within Shinjuku.
 *   **To the airport (Narita, 19:30 flight → Shanghai → London Gatwick):** take the **Narita Express (N'EX)** direct from Shinjuku (~80 min) or the cheaper Keisei route via Nippori. **Leave the apartment by ~15:30–16:00** to clear check-in with margin — that's ~3.5 hrs before departure plus the 80-min train.
 *   **Transit/Logistics Note:** Pre-book the N'EX seat. Dragging suitcases through Shinjuku Station is the one avoidable misery of the trip — mid-afternoon Saturday is calmer than rush hour, so the ~16:00 move is fine.
