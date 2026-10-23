@@ -1,6 +1,6 @@
 # Tokyo Itinerary — Thu 12 Nov to Sat 21 Nov 2026
 
-Built for Mandeep, Tom & Jai. Base is **Shinjuku / Kabukicho** (per the accommodation guide), so every day is grouped to lean on the **JR Yamanote Line** and the Shinjuku hubs to cut transit time. Heavy-walking days are flagged; every restaurant/bar/attraction below is verified as a real, currently-operating, specialty venue (see the companion **Tokyo_Itinerary_Sources** file for citations on every claim). Follows the same **"NO SLOP" / zero-hallucination rule** as the Kyoto plan — nothing invented.
+Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the accommodation guide), so every day is grouped to lean on the **JR Yamanote Line** and the Shinjuku hubs to cut transit time. Heavy-walking days are flagged; every restaurant/bar/attraction below is verified as a real, currently-operating, specialty venue (see the companion **Tokyo_Itinerary_Sources** file for citations on every claim). Follows the same **"NO SLOP" / zero-hallucination rule** as the Kyoto plan — nothing invented.
 
 **Accommodation (booked, provisional — see `Tokyo_Accommodation_Guide.md`):**
 - **8→9 Nov (arrival night):** Hotel House Lee, 2 Chome-11-7 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan.

@@ -66,7 +66,7 @@ Entire apartments in the Shinjuku area, review score 8+, cheapest first. All sle
 
 ## Booking 1 — Arrival night (8→9 Nov · 1 night)
 
-You land on the 8th (Jai HND 10:25; Mandeep & Tom NRT ~19:00) and Shinkansen to Kyoto around midday on the 9th, so you just need one clean, cheap night near a station.
+You land on the 8th (Jai HND 10:25; Mandeep, Tom & Josh HND 19:50) and Shinkansen to Kyoto around midday on the 9th, so you just need one clean, cheap night near a station.
 
 🔗 **Live search link:** [Booking.com — Shinjuku, 8–9 Nov, 3 adults, review 8+, cheapest first](https://www.booking.com/searchresults.en-gb.html?ss=Shinjuku%2C+Tokyo&checkin=2026-11-08&checkout=2026-11-09&group_adults=3&no_rooms=1&group_children=0&selected_currency=GBP&order=price&nflt=review_score%3D80)
 
