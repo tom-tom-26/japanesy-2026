@@ -1,0 +1,363 @@
+[
+ {
+  "id": "naka-yakitori-suehirogari",
+  "verdict": "wrong",
+  "issues": [
+   "Hours conflict. Official site (food-architect-lab.com, 焼鳥スエヒロガリ 中目黒) gives 17:00-24:00, L.O. 23:00, open Sundays, irregular closures (不定休). Sample has 13:00-23:30 (Fri 14:00) which matches Tabelog only.",
+   "Official site and Tabelog disagree; the operator page is the more authoritative source. Confirm by phone before trip.",
+   "Coordinates confirmed: Google Maps pin 35.6434096,139.6977617 is about 3 m from sample 35.643414,139.697784.",
+   "Reservation 'required' confirmed: official says fully reservation-only (完全予約制・二部制) via booking link."
+  ],
+  "corrected": {
+   "hours": {"mon": [["17:00","24:00"]], "tue": [["17:00","24:00"]], "wed": [["17:00","24:00"]], "thu": [["17:00","24:00"]], "fri": [["17:00","24:00"]], "sat": [["17:00","24:00"]], "sun": [["17:00","24:00"]]},
+   "notes": "L.O. 23:00. Fully reservation-only, two seatings. Sunday open; irregular closures (不定休). Hours per official site; Tabelog shows 13:00-23:30 - verify."
+  },
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1317/A131701/13180172/",
+   "https://food-architect-lab.com/lp/suehirogari_nakameguro/",
+   "https://goo.gl/maps/bUq7HTxhbK9AAHUR9"
+  ]
+ },
+ {
+  "id": "shimo-yuzuki",
+  "verdict": "wrong",
+  "issues": [
+   "Out of radius. Address is Kitazawa 2-33-6, Shimokitazawa, about 3.4 km straight line from Naka-Meguro station, far beyond a 20-minute walk of the Nakameguro anchor.",
+   "Tabelog hours, score (3.46 / 303) and budget match sample. No non-Tabelog source reachable, so hours are unconfirmed."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1318/A131802/13233925/"]
+ },
+ {
+  "id": "naka-trasparente",
+  "verdict": "minor",
+  "issues": [
+   "Existence supported by official site notice (trasparente.info, 2024 notice naming TRASPARENTE 中目黒店 パン屋), but the official site has no hours or address.",
+   "Hours match Tabelog (Tue 9-17, other days 9-18). Not confirmed on a second source.",
+   "Coordinates not verified (no map pin reachable)."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1317/A131701/13187231/",
+   "http://trasparente.info/"
+  ]
+ },
+ {
+  "id": "shimo-sunday-brunch",
+  "verdict": "wrong",
+  "issues": [
+   "Out of radius. Address is Kitazawa 2-29-2, Shimokitazawa, about 3.6 km from Naka-Meguro station.",
+   "Hours (11:00-19:30, L.O. food 18:15) match Tabelog. Official site lists no branch hours. Reservation field ambiguous (Tabelog says both 'unavailable' and 'reserve online')."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1318/A131802/13004596/",
+   "http://www.sundaybrunch.co.jp/"
+  ]
+ },
+ {
+  "id": "shimo-tetra-tokyo",
+  "verdict": "wrong",
+  "issues": [
+   "Out of radius. Daizawa 5-29-9 is about 3.3 km from Naka-Meguro station.",
+   "Hours confirmed on official site (tetora-tokyo.com): Mon-Fri 17:00-23:00 (L.O. 22:00), Sat/Sun/holidays 16:00-23:00, Thursday closed. Matches sample.",
+   "Coordinates suspect: official page's embedded Google map centre is 35.658433, 139.664887, about 200 m west of sample lng 139.667084. Re-check pin."
+  ],
+  "corrected": {"notes": "Coordinates to re-check against Google pin (embed centre 35.658433,139.664887)."},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1318/A131802/13260580/",
+   "https://tetora-tokyo.com/"
+  ]
+ },
+ {
+  "id": "naka-teuchi-asama",
+  "verdict": "minor",
+  "issues": [
+   "Hours (Mon-Wed, Fri-Sun 11:30-15:00, Thu closed) match Tabelog. No official site or non-Tabelog source reachable.",
+   "Tabelog gives no last-order time (says 'open until sold out'). Reservation policy 'walk-in-queue' is consistent with 'reservations unavailable'."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1317/A131701/13302326/"]
+ },
+ {
+  "id": "naka-bar-portillo",
+  "verdict": "ok",
+  "issues": [
+   "Official site confirms hours: Tue-Fri lunch 12:00-15:00 (L.O. 14:00), dinner 17:00-22:30 (L.O. 21:30); Sat/Sun dinner 17:00-22:00; Monday closed (moves to Tue after a Monday holiday). Matches sample.",
+   "Coordinates confirmed: Google Maps pin 35.6472042,139.6976594 is within about 1 m of sample.",
+   "Reservation via TableCheck confirmed."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1317/A131701/13232995/",
+   "https://www.vandk.jp/restaurant/barportillo/",
+   "https://maps.app.goo.gl/zMeGCwuFAJDtEb3M6"
+  ]
+ },
+ {
+  "id": "naka-kunsei-apartment",
+  "verdict": "ok",
+  "issues": [
+   "Official site confirms hours: 17:00-23:30 daily, L.O. 23:00. No closed days. Matches sample.",
+   "Address 中目黒1-1-52 confirmed on official site.",
+   "Coordinates NOT verified: only a Google Maps search link without coordinates was available."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1317/A131701/13146060/",
+   "https://kunsei-nakameguro-apartment.com"
+  ]
+ },
+ {
+  "id": "naka-kushi-wakamaro",
+  "verdict": "wrong",
+  "issues": [
+   "Price tier wrong. Tabelog listed average is JPY 3,000-3,999 (reviewer average JPY 6,000-7,999), which is tier 3. Sample says 2.",
+   "Hours (Mon-Fri 17:00-23:00, Sat/Sun 16:30-23:00) match Tabelog. No official site or non-Tabelog source reachable.",
+   "Reservation conflict on Tabelog (phone-only vs online), phone line closed."
+  ],
+  "corrected": {"price": 3, "price_note": "dinner average JPY 3,000-3,999 (Tabelog); reviewers JPY 6,000-7,999"},
+  "sources": ["https://tabelog.com/en/tokyo/A1317/A131701/13003193/"]
+ },
+ {
+  "id": "shimo-mixture-bakery",
+  "verdict": "wrong",
+  "issues": [
+   "Out of radius. Kitazawa 3-31-5, Shimokitazawa, about 3.7 km from Naka-Meguro station.",
+   "Hours (07:30-20:00 daily, L.O. 19:30) match Tabelog. Budget on Tabelog is a placeholder (JPY 999). No non-Tabelog source reachable."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1318/A131802/13024853/"]
+ },
+ {
+  "id": "shimo-shone-soba",
+  "verdict": "closed-or-nonexistent",
+  "issues": [
+   "Tabelog page states 'This restaurant is permanently closed' (opened 2014.3.10). Drop from pool.",
+   "Also out of radius (about 3.6 km from Naka-Meguro station). Sample hours are not valid."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1318/A131802/13166303/"]
+ },
+ {
+  "id": "naka-miyabi-an",
+  "verdict": "minor",
+  "issues": [
+   "Existence and hours confirmed on official site (菓匠 みやび庵 目黒東山, wagashi-miyabian.com): Mon and Wed-Sat 10:00-18:00, Sun/holidays 10:00-17:00, Tuesday closed. Matches sample.",
+   "Price tier: Tabelog review-based average is JPY 1,000-1,999 (tier 2). Sample says 1. Listed JPY 999 is a placeholder.",
+   "Reservation field conflicting on Tabelog ('unavailable' but also 'reserve online'). Tabelog remarks also cite 8:00-22:00 hours, which contradicts its own daily table."
+  ],
+  "corrected": {"price": 2, "price_note": "wagashi/cafe, Tabelog reviewer average JPY 1,000-1,999"},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1317/A131701/13073813/",
+   "http://www.wagashi-miyabian.com/index.html"
+  ]
+ },
+ {
+  "id": "shimo-rakumi",
+  "verdict": "wrong",
+  "issues": [
+   "Hours error. Tabelog says closed Mondays AND on the 1st and 3rd Sunday of each month. Sample shows Sunday open 16:30-23:00. Nov 2026: 1 Nov and 15 Nov (a Sunday on the trip) are closed.",
+   "Out of radius (about 3.35 km from Naka-Meguro station).",
+   "Tabelog score (3.58 / 130) and budget (JPY 6,000-7,999) match sample. No official or non-Tabelog source reachable."
+  ],
+  "corrected": {
+   "hours": {"mon": [], "tue": [["16:30","23:00"]], "wed": [["16:30","23:00"]], "thu": [["16:30","23:00"]], "fri": [["16:30","23:00"]], "sat": [["16:30","23:00"]], "sun": [["16:30","23:00"]]},
+   "notes": "Closed Mondays and the 1st and 3rd Sundays of each month (15 Nov 2026 closed). L.O. food 22:00."
+  },
+  "sources": ["https://tabelog.com/en/tokyo/A1318/A131802/13007052/"]
+ },
+ {
+  "id": "shimo-pizzeria-eight",
+  "verdict": "wrong",
+  "issues": [
+   "Out of radius. Kitazawa 2-11-15, Shimokitazawa, about 3.3 km from Naka-Meguro station.",
+   "Hours (11:00-23:00 daily, L.O. 22:30) match Tabelog. No non-Tabelog source reachable."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1318/A131802/13268127/"]
+ },
+ {
+  "id": "hakone-manju-nanohana",
+  "verdict": "minor",
+  "issues": [
+   "Existence supported by official site (nanohana.co.jp) listing まんじゅう屋 菜の花 at Hakone Yumoto. Official page does not give hours, so hours are Tabelog-only.",
+   "Tabelog hours (Mon-Fri 08:30-17:30, Sat/Sun 08:30-18:00) match sample. Score 3.21 / 280 matches."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14005175/",
+   "http://www.nanohana.co.jp/"
+  ]
+ },
+ {
+  "id": "hakone-godai-fukuan",
+  "verdict": "ok",
+  "issues": [
+   "Official site confirms hours 11:00-18:00 (L.O. 17:00), regular closure every Tuesday. Matches sample.",
+   "Address (Gora 1300-276) confirmed. Official notes seasonal winter closures; no 2026 notice seen.",
+   "Coordinates NOT verified."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14092084/",
+   "https://godai-fukuan.com/index.html"
+  ]
+ },
+ {
+  "id": "hakone-cha-no-chimoto",
+  "verdict": "minor",
+  "issues": [
+   "Official site chanochimoto.com cannot be reached (TLS error on both hostnames). Hours (Mon-Fri 10:00-16:30, Sat/Sun 10:00-17:30) are Tabelog-only and match sample.",
+   "Tabelog score 3.64 / 487 matches. Sample says 'recommended' reservations; Tabelog says seating limited to 40 min."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kanagawa/A1410/A141001/14036099/"]
+ },
+ {
+  "id": "haneda-nanrinka",
+  "verdict": "minor",
+  "issues": [
+   "Location and operation confirmed on official site (nangokusyuka.co.jp): Haneda Terminal 3, 4F, EDO MARKET PLACE. Notice dated 13 Oct 2026 is on the page.",
+   "Official says shortened hours are in effect 11:00-21:30 (L.O. 21:00), 'until further notice' since 25 Apr 2025. Normal hours are 10:00-23:00 (L.O. 22:30). Sample uses the shortened hours without a note, so Nov 2026 may differ.",
+   "Tabelog score 3.30 / 125 matches sample. Weekday lunch 11:30-15:30 (per official) is not in sample."
+  ],
+  "corrected": {"notes": "Shortened hours 11:00-21:30 (L.O. 21:00) in effect per official site; normal 10:00-23:00 (L.O. 22:30). Confirm before trip. Weekday lunch 11:30-15:30."},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1315/A131504/13117658/",
+   "https://nangokusyuka.co.jp/store/nanrinka.html"
+  ]
+ },
+ {
+  "id": "hakone-suzuka",
+  "verdict": "minor",
+  "issues": [
+   "No official site or non-Tabelog source reachable. Hours (Mon/Tue/Fri-Sun 17:00-23:00, Wed/Thu closed) and score 3.41 / 72 match Tabelog.",
+   "Reservation field: sample says 'none' but Tabelog says reservations available online."
+  ],
+  "corrected": {"reservation": "recommended", "res_note": "Tabelog: reservations via website; phone line listed closed"},
+  "sources": ["https://tabelog.com/en/kanagawa/A1410/A141001/14026460/"]
+ },
+ {
+  "id": "hakone-watanabe-bakery",
+  "verdict": "wrong",
+  "issues": [
+   "Hours error. Official site (watanabebakery.jp) gives regular closed days as Wednesday AND the 1st, 3rd and 5th Tuesday of each month. Sample shows all Tuesdays open. In Nov 2026, Tuesday 3 Nov (1st) and 17 Nov (3rd) are closed.",
+   "Operating status confirmed: official news dated 2026.09.28 and an October 2026 schedule post.",
+   "Hours 09:30-17:00 match official and Tabelog. Tabelog 'Bread EAST 100 2026' award not verified."
+  ],
+  "corrected": {
+   "hours": {"mon": [["09:30","17:00"]], "tue": [["09:30","17:00"]], "wed": [], "thu": [["09:30","17:00"]], "fri": [["09:30","17:00"]], "sat": [["09:30","17:00"]], "sun": [["09:30","17:00"]]},
+   "notes": "Closed Wednesdays and the 1st, 3rd and 5th Tuesday of each month (3 Nov and 17 Nov 2026 closed). Temporary closures possible."
+  },
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14003548/",
+   "https://watanabebakery.jp/"
+  ]
+ },
+ {
+  "id": "motohakone-cheese-terrace",
+  "verdict": "ok",
+  "issues": [
+   "Official site (hakone-cheese-terrace.com) confirms 箱根チーズテラス 元箱根店, 元箱根54, hours 10:00-16:00 daily. Matches sample.",
+   "Official says closed days are irregular (定休日不定休), so check ahead. Sample does not record this.",
+   "Coordinates NOT verified."
+  ],
+  "corrected": {"notes": "Irregular closing days (不定休); check official site or call 0460-83-9007 before visiting."},
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14076578/",
+   "https://hakone-cheese-terrace.com/"
+  ]
+ },
+ {
+  "id": "hakone-akatsukian",
+  "verdict": "minor",
+  "issues": [
+   "Official site (akatsukian.jp) confirms the shop exists but gives no daily hours. Tabelog hours (11:00-20:00 daily, L.O. 19:30) match sample.",
+   "Reservation conflict. Official says book by phone at each shop; Tabelog says online, evenings only. Sample 'none' is inaccurate.",
+   "Phone number conflicts on official site (0460-85-6763 vs 0460-85-7330). Confirm before calling."
+  ],
+  "corrected": {"reservation": "recommended", "res_note": "Evenings only per Tabelog; book by phone at shop (0460-85-6763 or 0460-85-7330, confirm)"},
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14008090/",
+   "https://akatsukian.jp/"
+  ]
+ },
+ {
+  "id": "haneda-katsusen",
+  "verdict": "minor",
+  "issues": [
+   "Official site (wako-group.co.jp/shop/detail/3165) returned HTTP 503, so it could not be confirmed. Hours 09:00-23:00 daily and score 3.45 / 229 match Tabelog only.",
+   "Location (Haneda Terminal 3 4F, Edo Koji) matches the Haneda terminal source; no hours check from Haneda site."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/tokyo/A1315/A131504/13117600/"]
+ },
+ {
+  "id": "hakone-kinosuke",
+  "verdict": "wrong",
+  "issues": [
+   "Dinner close wrong. Official site (kinosuke.co.jp) gives dinner 17:30-22:00 (L.O. 21:30); sample says 21:00.",
+   "Closed Monday unsupported. Official and Tabelog list no closed day; sample has Monday closed.",
+   "Price tier wrong. Tabelog average (reviewers) is JPY 2,000-2,999, which is tier 2. Sample says 3.",
+   "Reservation: official dedicated line 050-5263-9277 supports 'recommended'."
+  ],
+  "corrected": {
+   "price": 2,
+   "hours": {"mon": [["11:30","14:30"],["17:30","22:00"]], "tue": [["11:30","14:30"],["17:30","22:00"]], "wed": [["11:30","14:30"],["17:30","22:00"]], "thu": [["11:30","14:30"],["17:30","22:00"]], "fri": [["11:30","14:30"],["17:30","22:00"]], "sat": [["11:30","14:30"],["17:30","22:00"]], "sun": [["11:30","14:30"],["17:30","22:00"]]},
+   "notes": "Lunch L.O. 14:00; dinner L.O. 21:30. No closed day listed. Reserve via 050-5263-9277."
+  },
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14066693/",
+   "https://www.kinosuke.co.jp/"
+  ]
+ },
+ {
+  "id": "haneda-suginoko",
+  "verdict": "minor",
+  "issues": [
+   "Tabelog lists 'Open 24 hours' every day. No Haneda terminal or official-site source confirmed this (tokyo-haneda.com restaurant search returned no entry). Treat 24h as unverified and suspicious for a terminal izakaya until confirmed.",
+   "Score 3.42 / 209 and budget (JPY 2,000-2,999) match Tabelog."
+  ],
+  "corrected": {},
+  "sources": [
+   "https://tabelog.com/en/tokyo/A1315/A131504/13117655/",
+   "https://tokyo-haneda.com/shop_and_dine/search_r.html"
+  ]
+ },
+ {
+  "id": "hakone-cu-mo",
+  "verdict": "minor",
+  "issues": [
+   "Official site hostname (hakoneropeway.co.jp) could not be resolved, so hours are Tabelog-only (9:30-16:45 daily, matches sample).",
+   "Tabelog notes possible winter closure due to snow. Sample does not mention it.",
+   "Price tier 1 rests on a placeholder (JPY 999). No real budget band found."
+  ],
+  "corrected": {"notes": "Winter closure possible (snow). Tabelog hours 09:30-16:45 daily."},
+  "sources": ["https://tabelog.com/en/kanagawa/A1410/A141001/14080168/"]
+ },
+ {
+  "id": "narita-saboten",
+  "verdict": "minor",
+  "issues": [
+   "No Tabelog entry (tabelog: null) and no non-Tabelog source confirmed existence or hours. saboten.co.jp unreachable, narita-airport.jp restaurant page 404.",
+   "Treat as unverified under NO SLOP. Drop unless a source confirms it."
+  ],
+  "corrected": {},
+  "sources": []
+ },
+ {
+  "id": "hakone-tenku-no-terrace",
+  "verdict": "minor",
+  "issues": [
+   "Tabelog hours (Mon, Tue, Thu-Sun 10:00-17:00, Wed closed) and score 3.43 / 154 match sample.",
+   "Tabelog lists a former name (銀かつ工房) under the current name. The former-name site ginkatsutei.jp has a certificate error, so current operation is not confirmed.",
+   "Price tier 1 rests on a placeholder (JPY 999)."
+  ],
+  "corrected": {"notes": "Former name 銀かつ工房 (Ginkatsu Koubou) per Tabelog. Confirm current name and operation."},
+  "sources": [
+   "https://tabelog.com/en/kanagawa/A1410/A141001/14015682/",
+   "http://www.ginkatsutei.jp/"
+  ]
+ }
+]

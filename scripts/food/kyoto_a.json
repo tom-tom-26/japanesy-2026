@@ -1,0 +1,8696 @@
+{
+ "anchors": [
+  {
+   "id": "kyoto_station",
+   "name": "Kyoto Station (Hachijo/Karasuma side)",
+   "jp": "京都駅",
+   "lat": 34.9856,
+   "lng": 135.7585,
+   "note": "Midpoint of OSM station node (34.9846,135.7584) and Karasuma-side station forecourt (34.9867,135.7585); includes Kyoto Ramen Koji on 10F"
+  },
+  {
+   "id": "fushimi_inari",
+   "name": "Fushimi Inari Taisha main approach",
+   "jp": "伏見稲荷大社 楼門",
+   "lat": 34.96708,
+   "lng": 135.77254,
+   "note": "OSM node for the Romon gate; Keihan Fushimi-Inari (34.9685,135.7691) and JR Inari (34.9680,135.7705) stations are 0.2-0.4 km west"
+  },
+  {
+   "id": "kiyomizu",
+   "name": "Kiyomizu-dera / Gojozaka (Kiyomizu-Gojo side)",
+   "jp": "五条坂・清水寺周辺",
+   "lat": 34.99535,
+   "lng": 135.77837,
+   "note": "OSM node Gojozaka (34.9954,135.7784); Kiyomizu-dera 0.7 km, Ninenzaka 0.45 km, Keihan Kiyomizu-Gojo station (34.9956,135.7684) 0.9 km; group Airbnb near Gojobashi-higashi"
+  },
+  {
+   "id": "gion",
+   "name": "Gion Shijo / Hanamikoji",
+   "jp": "祇園四条・花見小路",
+   "lat": 35.0039,
+   "lng": 135.7752,
+   "note": "Hanamikoji at Shijo-dori (OSM Hanamikoji street nodes 35.0045,135.7751); Gion-Shijo stn 0.3 km, Kenninji 0.45 km, Shirakawa 0.4 km"
+  }
+ ],
+ "venues": [
+  {
+   "id": "kyoto-aje-matsubara",
+   "name": "Aje Matsubara honten",
+   "jp": "アジェ 松原本店",
+   "lat": 34.99917,
+   "lng": 135.768262,
+   "address": "京都府京都市下京区西木屋町通松原上ル東側 美松会館　１Ｆ",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26000080/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 717,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000080/",
+    "award": "Tabelog Grill WEST Hyakumeiten (2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26000080/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100000731240/"
+   ],
+   "why": "Specialist for small-intestine (hoso) and salt hormone yakiniku; 45 seats, evening crowd.",
+   "notes": "Closed Wed and Thu; closes early when sold out; Retty: card acceptance unclear; 36 seats; Closes early when sold out",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-komori",
+   "name": "Gion Komori",
+   "jp": "甘味どころ ぎをん小森",
+   "lat": 35.005848,
+   "lng": 135.774572,
+   "address": "京都府京都市東山区新橋通大和大路東入元吉町61",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26000280/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1591,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000280/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26000280/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000064313/"
+   ],
+   "why": "Warabi-mochi, parfait and shaved-ice sweets room in an old Gion townhouse; 100 seats incl. tatami rooms.",
+   "notes": "Closed Mondays and occasionally Sundays; Tabelog last order 18:30 (Retty 11:00-20:00): using Tabelog; cash only; Tabelog closed days: Closed on Mondays and occasionally on Sundays. Please check our social media and website for updates.; 124 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-fukuei-do",
+   "name": "Fukuei Do",
+   "jp": "福栄堂",
+   "lat": 35.003941,
+   "lng": 135.773029,
+   "address": "京都府京都市東山区大和大路通四条上る廿一軒町226",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26000564/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 169,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000564/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26000564/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000734901/"
+   ],
+   "why": "Gion wagashi shop open to midnight: kabuki-dango three-colour skewers and matcha anmitsu jelly; small eat-in.",
+   "notes": "Open every day, to 22:00 on Sun/holidays; PayPay ok",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-gion-negiyaki-kana-higashi",
+   "name": "Gion Negiyaki Kana Higashi ten",
+   "jp": "祇園ねぎ焼 かな 東店",
+   "lat": 35.001396,
+   "lng": 135.777429,
+   "address": "京都府京都市東山区東大路安井北門通月見町13",
+   "cat": "okonomiyaki-monja",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Popular; reserve via Tabelog/Hamoni",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26000572/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 500,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000572/",
+    "award": "Tabelog Okonomiyaki  Hyakumeiten (2018, 2019, 2022, 2023, 2024, 2025)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26000572/",
+    "https://hamoni.jp/en/shop/kSCRPeCTraf6pqaasOYg"
+   ],
+   "why": "Green-onion-heavy negiyaki (thin okonomiyaki) near Yasaka, Tabelog Okonomiyaki top 100; open past 02:00 on Fri-Sat.",
+   "notes": "Closed Mondays and the 1st/3rd Tuesday; Hamoni lists Saturday 12:00-02:00; Tabelog closed days: The first and third Tuesdays of each month.; 12 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-morikou",
+   "name": "Gion Morikou",
+   "jp": "ぎをん森幸",
+   "lat": 35.007643,
+   "lng": 135.778999,
+   "address": "京都府京都市東山区白川筋知恩院橋上ル西側556",
+   "cat": "other",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26000584/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 325,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000584/",
+    "award": "Tabelog Chinese WEST Hyakumeiten (2021, 2024, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26000584/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000036089/"
+   ],
+   "why": "Cantonese-style Kyoto machi-chuka on Shirakawa since 1955; the lunch bento and light dim sum are the draw.",
+   "notes": "Closed Wednesdays and some irregular days; 37 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kameya-yoshinaga",
+   "name": "Kameya Yoshinaga",
+   "jp": "亀屋良永",
+   "lat": 35.010588,
+   "lng": 135.767151,
+   "address": "京都府京都市中京区寺町通御池下ル本能寺前町504",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog band not listed",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26000644/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 203,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000644/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26000644/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100000779726/"
+   ],
+   "why": "Teramachi wagashi shop (kuri-manju) open from 8:00 - early sweets for the Kyoto walk.",
+   "notes": "Closed Sundays and 1st/3rd Wednesdays (Retty): Wed 4 and 18 Nov closed, Wed 11 Nov open",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kiyamachi-sanboar",
+   "name": "Kiyamachi Sanboar",
+   "jp": "木屋町サンボア",
+   "lat": 35.004936,
+   "lng": 135.770363,
+   "address": "京都府京都市中京区西木屋町通四条上ル紙屋町367",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in; tiny",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26000679/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 87,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000679/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26000679/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100000748962/"
+   ],
+   "why": "1916 Kyoto bar institution on Kiyamachi: classic malt whisky and highball in a narrow bar; Tabelog Bar top 100 per reviewers.",
+   "notes": "Closed Mondays; smoking allowed; small and food-light; Tabelog 17:00-24:00; 15 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-shinpuku-saikan",
+   "name": "Shinpuku Saikan Honten",
+   "jp": "新福菜館 本店",
+   "lat": 34.986757,
+   "lng": 135.762506,
+   "address": "京都府京都市下京区東塩小路向畑町569",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; lunchtime queue",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 4354,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2020, 2021)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000724088/"
+   ],
+   "why": "Black soy-sauce ramen and black fried rice since 1938; hearty, cheap, a Kyoto-local staple near the station.",
+   "notes": "51 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-iroha-karuta-kyoto-ekimae",
+   "name": "Iroha Karuta Kyoto ekimae ten",
+   "jp": "いろはかるた 京都駅前店",
+   "lat": 34.987411,
+   "lng": 135.758751,
+   "address": "京都府京都市下京区京都駅前烏丸中央口正面 法華クラブ京都　１Ｆ",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Tabelog/phone; open daily",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "09:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26000792/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 77,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000792/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26000792/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001161141/"
+   ],
+   "why": "Izakaya in the Kyoto Hotel Hokke Club by the station: Kyoto-style small plates, soba and yakitori, open to midnight.",
+   "notes": "Tabelog also lists 7:00-9:30 breakfast but Retty shows evenings only (17:00-24:00): breakfast not counted; 134 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "kyoto-kissa-kano",
+   "name": "Kissa KANO",
+   "jp": "喫茶KANO",
+   "lat": 34.996353,
+   "lng": 135.767334,
+   "address": "京都府京都市下京区西木屋町通五条上ル西橋詰町785",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ],
+    "fri": [],
+    "sat": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:30",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26000804/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.35,
+    "reviews": 124,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26000804/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26000804/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100001168390/"
+   ],
+   "why": "Kissa on the Takase canal with an early morning set, egg sandwich and hamburger plate; open from 7:30.",
+   "notes": "Closed Fridays; 22 seats; cash only; Sun/holiday opens 9:00 per Retty; 22 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-honke-daiichi-asahi",
+   "name": "Honke Daiichi Asahi Honten",
+   "jp": "本家第一旭 本店",
+   "lat": 34.986705,
+   "lng": 135.762511,
+   "address": "京都府京都市下京区東塩小路向畑町845",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; queues at lunch/dinner, short at 6-8am",
+   "hours": {
+    "mon": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "6:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26000873/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.74,
+    "reviews": 7021,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000873/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2019, 2020, 2021, 2022, 2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26000873/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000170642/"
+   ],
+   "why": "Kyoto-style soy-pork ramen institution by Kyoto Tower, open from 6:00 to 1:00; cheap, huge local following.",
+   "notes": "Closed Thursdays (Tabelog + Retty); cash-leaning, check cards; 31 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-salon-de-the-francois",
+   "name": "Salon de the FRANCOIS",
+   "jp": "フランソア喫茶室",
+   "lat": 35.003292,
+   "lng": 135.770213,
+   "address": "京都府京都市下京区西木屋町通四条下ル船頭町184",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26000900/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1883,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000900/",
+    "award": "Tabelog Kissaten  Hyakumeiten (2021, 2022, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26000900/",
+    "https://retty.me/restaurant/100000032437/"
+   ],
+   "why": "1934 music-cafe turned kissa in a registered cultural property building; Baroque interior, cake and coffee, lunch plates.",
+   "notes": "Cash only (per Retty); open year-round except 31 Dec-2 Jan; Retty lists 10:00-23:00, Tabelog 11:00-22:00 (using Tabelog); 80 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-bar-atlantis-pontochou",
+   "name": "BAR ATLANTIS Pontochou ten",
+   "jp": "Bar Atlantis 先斗町店",
+   "lat": 35.005294,
+   "lng": 135.771119,
+   "address": "京都府京都市中京区松本町161",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26000936/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 167,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000936/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26000936/",
+    "https://retty.me/area/PRE26/ARE108/SUB10803/100000868714/"
+   ],
+   "why": "Pontocho bar with a riverside kawadoko terrace in summer; open nightly to 02:00; Retty 4.3 from 26 reviews.",
+   "notes": "Hours: Tabelog 17:00-25:00 vs Retty 18:00-02:00 (L.O. 01:30): using Tabelog; no regular closing day; 28 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-bar-kya-honkan",
+   "name": "bar Kya Honkan",
+   "jp": "バー K家 本館",
+   "lat": 35.0073,
+   "lng": 135.765855,
+   "address": "京都府京都市中京区六角通御幸町西入ル八百屋町103",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Reserve for the detached room / groups",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26001147/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 401,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26001147/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26001147/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100000028991/"
+   ],
+   "why": "Courtyard cocktail bar in a Kawaramachi machiya with a detached private room; Friday and Saturday to 03:00.",
+   "notes": "Closed Tuesdays; Fri-Sat to 03:00 (Retty); 55 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-kyoto-gion-okaru",
+   "name": "Kyoto Gion Okaru",
+   "jp": "おかる",
+   "lat": 35.004328,
+   "lng": 135.774114,
+   "address": "京都府京都市東山区八坂新地富永町132",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "26:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001282/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1423,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001282/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001282/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000006414/"
+   ],
+   "why": "Gion's late-night udon: soft thin noodles, tempura curry udon, Kyoto pickles; open past 02:00 on weekends.",
+   "notes": "Weekend nights to 03:00/04:00 (Tabelog: Fri 26:30, Sat 27:00); Sun closes after lunch per Tabelog; 37 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-sabou-hanbee",
+   "name": "Sabou Hanbee",
+   "jp": "半兵衛麸と茶房",
+   "lat": 34.99522,
+   "lng": 135.768685,
+   "address": "京都府京都市東山区問屋通五条下ル上人町433",
+   "cat": "cafe-kissaten",
+   "price": 3,
+   "price_note": "lunch ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "required",
+   "res_note": "Lunch course reservation-only per Retty (phone 075-525-0008)",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001283/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 643,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001283/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001283/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100000014535/"
+   ],
+   "why": "300-year-old fu (wheat gluten) maker's tea room: full fu course at lunch; reservations needed.",
+   "notes": "Closed Wednesdays per Tabelog (Retty lists open daily); lunch only to 16:00; Tabelog closed days: Wednesdays | Year-end & New Year Holidays (Dec 29 - Jan 5) | *We will be open on September 23 (Wednesday, Publ; 35 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-uokeya-u",
+   "name": "Gion Uokeya U",
+   "jp": "祇をん う桶や う",
+   "lat": 35.002097,
+   "lng": 135.774372,
+   "address": "京都府京都市東山区祇園西花見小路四条下ル",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "lunch ¥4,000+ / dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Phone/Tabelog; popular at lunch",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001387/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 472,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001387/",
+    "award": "Tabelog Unagi  Hyakumeiten (2018, 2019, 2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001387/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000024984/"
+   ],
+   "why": "Unagi served in a cedar tub (u-oke) over seasoned rice, Edo-style grilled; unagi-don singles also available.",
+   "notes": "Closed Mondays; u-oke is for 3+ people (Retty), single unagi-don also served; Tabelog closed days: Mondays | Other closure dates will be announced on our website.; 24 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kansen-do",
+   "name": "Kansen Do",
+   "jp": "甘泉堂",
+   "lat": 35.004243,
+   "lng": 135.775474,
+   "address": "京都府京都市東山区祇園町344-6",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001392/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 359,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001392/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2017, 2018, 2019, 2020, 2022, 2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001392/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001178303/"
+   ],
+   "why": "Founded 1884; seasonal yokan (chestnut steamed yokan in autumn), takeout only from a Gion alley.",
+   "notes": "Takeout only; closed Sundays; cash only; Retty lists 10:00-22:00 (likely wrong), Tabelog 10:30-19:00: using Tabelog",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-finlandia-bar",
+   "name": "Finlandia Bar",
+   "jp": "フィンランディア・バー",
+   "lat": 35.003382,
+   "lng": 135.774389,
+   "address": "京都府京都市東山区祇園町南側570-123",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in; call for groups of 4",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001395/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 258,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001395/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001395/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000729855/"
+   ],
+   "why": "Quiet 1982 bar in a converted teahouse, Finnish vodka cocktails and martinis; open to 02:00 (last order 01:30).",
+   "notes": "Retty lists to 03:00, Tabelog 02:00: using Tabelog; about 20 seats, private room; card/PayPay ok; 20 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-sambor",
+   "name": "Gion Sambor",
+   "jp": "祇園サンボア",
+   "lat": 35.002637,
+   "lng": 135.776519,
+   "address": "京都府京都市東山区祇園町南側570-186",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; arrive at opening",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001401/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 222,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001401/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001401/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000746791/"
+   ],
+   "why": "Gion bar famous for its no-ice highball; counter only, no reservations (Tabelog Bar top 100 per Retty reviewer).",
+   "notes": "Hours differ by source (Tabelog Tue-Fri 16:00-23:00, Sat 15:00-23:00, Sun 15:00-22:00; Retty 18:00-25:00, closed Mon): using Tabelog; counter only, hard for 4; 20 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-takocho",
+   "name": "Takocho",
+   "jp": "蛸長",
+   "lat": 35.002001,
+   "lng": 135.771599,
+   "address": "京都府京都市東山区宮川筋1-237",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥6,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations not accepted per Retty; line forms before opening",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "20:20"
+     ]
+    ],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "17:30",
+      "20:20"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "20:20"
+     ]
+    ],
+    "sun": [
+     [
+      "17:30",
+      "20:20"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001610/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 256,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001610/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001610/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000146207/"
+   ],
+   "why": "Oden specialist counter in Miyagawacho (since 1882); octopus oden is the signature; light Kyoto-style dashi.",
+   "notes": "15 counter seats; cash only; Tabelog now lists Mon/Fri/Sat/Sun 17:30-20:20 only (Retty older: 18:00-22:00, closed Wed): trust Tabelog but call ahead; 12 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-cafe-don-bai-sfera",
+   "name": "Cafe Don Bai Sfera",
+   "jp": "Cafe DOnG by Sfera",
+   "lat": 35.005994,
+   "lng": 135.772603,
+   "address": "京都府京都市東山区弁財天町17 スフェラ・ビル OF",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001633/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 367,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001633/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2021, 2022, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001633/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000745606/"
+   ],
+   "why": "Riverside wagashi cafe with matcha, limited sweets only Fri-Sun; modern room by the Kamo.",
+   "notes": "Closed Wednesdays; Tabelog 12:00-19:00 (Retty 11:00-20:00): using Tabelog; formerly Seseragi Suhera; 30 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-arata",
+   "name": "Arata",
+   "jp": "お好み焼•鉄板焼 あらた",
+   "lat": 34.982061,
+   "lng": 135.75618,
+   "address": "京都府京都市南区西九条院町24-4",
+   "cat": "okonomiyaki-monja",
+   "price": 3,
+   "price_note": "dinner ¥5,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Phone; Retty reviewers advise booking",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26001641/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 652,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26001641/",
+    "award": "Tabelog Okonomiyaki  Hyakumeiten (2018, 2019, 2022, 2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26001641/",
+    "https://retty.me/area/PRE26/ARE658/SUB47301/100000067667/"
+   ],
+   "why": "Beef-tendon-and-Kujo-negi 'Arata okonomi' thin pancake at the teppan; dinner only, popular, tight counter.",
+   "notes": "Closed Sundays; Retty: no credit cards; 50 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-senmon-gion",
+   "name": "Senmon Ten Gion honten",
+   "jp": "祇園餃子処 泉門天 京都祇園本店",
+   "lat": 35.005316,
+   "lng": 135.775299,
+   "address": "京都府京都市東山区花見小路新橋下ル 竹会館　1F",
+   "cat": "other",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001868/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 723,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001868/",
+    "award": "Tabelog Dumplings  Hyakumeiten (2019, 2024)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001868/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000741785/"
+   ],
+   "why": "Bite-size Kyoto-pork gyoza (10 for 550 yen) and shiso gyoza at a long-running Gion shop, evening until 01:00.",
+   "notes": "Dine-in 17:00-01:00 Mon-Sat (Tabelog also lists takeaway from 12:00); closed Sundays; Retty: no cards, PayPay ok; Tabelog closed days: Sundays; 20 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kagizen-yoshifusa-shijou",
+   "name": "Kagizen Yoshifusa Shijou honten",
+   "jp": "鍵善良房 四条本店",
+   "lat": 35.003979,
+   "lng": 135.774752,
+   "address": "京都府京都市東山区祇園町北側264",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26001887/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.78,
+    "reviews": 1950,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001887/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2017, 2018, 2019, 2020, 2022, 2023, 2026)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26001887/",
+    "https://www.gltjp.com/en/directory/item/15198/"
+   ],
+   "why": "Kuzukiri (arrowroot noodles) in black-sugar syrup at a Gion confectioner open since the 1700s; sit in the cafe or take wagashi away.",
+   "notes": "Closed Mondays (next day if Monday is a holiday); cafe last order 17:30; Tabelog closed days: Mondays (the following day if a public holiday); 62 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-kameya-mutsu",
+   "name": "Kameya Mutsu",
+   "jp": "亀屋陸奥",
+   "lat": 34.989502,
+   "lng": 135.753322,
+   "address": "京都府京都市下京区西中筋通七条上ル菱屋町153",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:30",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26002071/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 252,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26002071/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26002071/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001255610/"
+   ],
+   "why": "600-year-old wagashi shop famed for matsukaze (chewy miso-flavoured cake with poppy seeds); tiny shop, sweets to go.",
+   "notes": "Closed Wednesdays (Retty+Tabelog); tabelog Nishi-Honganji side; Tabelog closed days: January 1 - 3",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-tokuya",
+   "name": "Gion Tokuya",
+   "jp": "ぎおん徳屋",
+   "lat": 35.002492,
+   "lng": 135.774927,
+   "address": "京都府京都市東山区祇園町南側570-127",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; queue of 20-60 min at peak",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26002075/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 2251,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26002075/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2018, 2019, 2020, 2022, 2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26002075/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000744138/"
+   ],
+   "why": "Gion warabi-mochi cafe (nori-rin mochi, matcha shaved ice); small, often a wait; closes when sold out.",
+   "notes": "12:00-18:00, until sold out; irregular holidays announced on the official site; Irregular holidays (check Instagram/phone); 56 seats; Closes early when sold out",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-izakaya-new-ebisu-no",
+   "name": "Izakaya New Ebisu No",
+   "jp": "居酒屋ニューエビスノ",
+   "lat": 34.989379,
+   "lng": 135.756661,
+   "address": "京都府京都市下京区夷之町720",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Walk-ins can struggle at peak; phone",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:30",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26002188/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 161,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26002188/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26002188/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000725481/"
+   ],
+   "why": "Showa-retro izakaya with cheap sashimi and a heaped potato salad; open to 01:00, busy on weekends.",
+   "notes": "",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-nishimura-tei",
+   "name": "Nishimura Tei",
+   "jp": "にしむら亭",
+   "lat": 34.969024,
+   "lng": 135.781607,
+   "address": "京都府京都市伏見区稲荷山官有地四ツ辻",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26002366/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 155,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26002366/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26002366/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100000714392/"
+   ],
+   "why": "Mountain tea house on the Inari trail serving soda soft serve, kakigori and soba; open daily.",
+   "notes": "Located up the mountain trail (about 0.85 km from the main approach, 150 m+ climb); closed 3rd-5th Fridays per Retty; Tabelog: irregular; Irregular holidays (check Instagram/phone); 100 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-gion-kinana",
+   "name": "Gion Kinana Honten",
+   "jp": "祇園きなな 本店",
+   "lat": 35.002337,
+   "lng": 135.774294,
+   "address": "京都府京都市東山区祇園町南側570-119",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26002500/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 1181,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26002500/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2018, 2019, 2020, 2022, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26002500/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000745540/"
+   ],
+   "why": "Specialist for freshly made kinako (roasted soybean) ice cream with hojicha; Tabelog 3.68 from 1,181 reviews.",
+   "notes": "Tabelog 12:00-17:30 closed Thu; Retty lists 11:00-19:00 irregular: using Tabelog; 18 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-marushin-hanten",
+   "name": "Marushin Hanten",
+   "jp": "マルシン飯店",
+   "lat": 35.008988,
+   "lng": 135.777957,
+   "address": "京都府京都市東山区東大路三条下る南西海子町431-3",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "29:45"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26002804/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 2745,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26002804/",
+    "award": "Tabelog Chinese WEST Hyakumeiten (2021, 2024, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26002804/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000725593/"
+   ],
+   "why": "Cheap, huge Higashiyama machi-chuka open from 11:00 until after 05:00; tenshin-han and gyoza.",
+   "notes": "Closed Tuesdays (Retty+Tabelog); cash only; to 05:45 (last order); 29 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-teuchi-udon-kendonya",
+   "name": "Teuchi Udon Kendonya",
+   "jp": "けんどん屋",
+   "lat": 34.968343,
+   "lng": 135.768322,
+   "address": "京都府京都市伏見区深草一ノ坪町41 パールハイツイナリ１Ｆ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26003538/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 323,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26003538/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26003538/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100000568521/"
+   ],
+   "why": "Hand-made udon, curry udon and rice bowls near Fushimi-Inari station; locals queue at 11:00.",
+   "notes": "Closed Wednesdays (+1 irregular day/month); Tabelog 11:00-15:00, Retty to 18:00: using Tabelog; no credit cards (Retty); Irregular holidays (check Instagram/phone); 25 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-nezameya",
+   "name": "Nezameya",
+   "jp": "祢ざめ家",
+   "lat": 34.967843,
+   "lng": 135.770824,
+   "address": "京都府京都市伏見区深草稲荷御前町82-1",
+   "cat": "unagi-tempura",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Reservable via Tabelog/phone",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26003540/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 402,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26003540/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26003540/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100000731487/"
+   ],
+   "why": "Old shrine-front eel and inari-sushi shop (hemp-seed rice); unadon around 3,450 yen, not tourist pricing per reviewers.",
+   "notes": "Irregular holidays; Retty lists to 18:00, Tabelog to 16:30 (using Tabelog); no credit cards; queue at lunch; Irregular holidays (check Instagram/phone); 90 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-el-tesoro",
+   "name": "El Tesoro",
+   "jp": "El Tesoro",
+   "lat": 35.006092,
+   "lng": 135.772531,
+   "address": "京都府京都市東山区大和大路新橋上がる西側 大和ビル 1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥5,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Walk-in possible; private room for 6 on booking",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26004165/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.98,
+    "reviews": 235,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26004165/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26004165/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100000729690/"
+   ],
+   "why": "Compact Gion cocktail bar near Yasaka-dori with desserts and baked sweets from the master; strong local reviews.",
+   "notes": "Tabelog: closed Wed, hours 16:00-01:00 (last drink 00:30); Retty lists 18:00-03:00 irregular holidays: using Tabelog. Charge 1,000 yen; 12 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-warder",
+   "name": "Warder",
+   "jp": "ワルダー",
+   "lat": 35.007025,
+   "lng": 135.765887,
+   "address": "京都府京都市中京区麩屋町六角下ル坂井町452 ハイマート・ふや町 1F",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26004637/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 1226,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26004637/",
+    "award": "Tabelog Bread WEST Hyakumeiten (2017, 2018, 2020, 2022, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26004637/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100000012460/"
+   ],
+   "why": "German-style bread and sandwiches from a small Kawaramachi bakery; sells out in the afternoon.",
+   "notes": "Closed Wed+Thu (Tabelog), Retty says Thursday only; limited items",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-ginjo-ramen-kubota",
+   "name": "Ginjo Ramen Kubota",
+   "jp": "吟醸らーめん久保田",
+   "lat": 34.99292,
+   "lng": 135.755228,
+   "address": "京都府京都市下京区西松屋町563 フジ萬ビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; queue at peak",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26004660/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1799,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26004660/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2019, 2020, 2021, 2022, 2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26004660/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000732295/"
+   ],
+   "why": "Miso tsukemen with flat thick noodles, ~10-seat counter; cold-water-shocked noodles, lunch and dinner service with a break.",
+   "notes": "Tiny: 10 seats, hard for 4",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-sakenoateya-jijibaba",
+   "name": "Sakenoateya Jijibaba",
+   "jp": "酒肴屋じじばば",
+   "lat": 34.989079,
+   "lng": 135.75873,
+   "address": "京都府京都市下京区七条通烏丸西入ル東境町180 リド飲食街内",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Phone; popular counter",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26004778/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 223,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26004778/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26004778/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000002289/"
+   ],
+   "why": "Late-night sake-and-snacks dining bar in the Lido alley; reviewers rave about the tantanmen and blue-cheese potato salad.",
+   "notes": "Closed Sundays and holidays; Retty: no credit cards. Retty 18:00-02:00; 11 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-elephant-factory-coffee",
+   "name": "ELEPHANT FACTORY COFFEE",
+   "jp": "エレファント ファクトリー コーヒー",
+   "lat": 35.00584,
+   "lng": 135.769847,
+   "address": "京都府京都市中京区蛸薬師通木屋町西入ル備前島町309-4 ＨＫビル　２Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ],
+    "tue": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ],
+    "wed": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ],
+    "thu": [
+     [
+      "13:00",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "24:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26005522/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 729,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26005522/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2021, 2022, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26005522/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100000021824/"
+   ],
+   "why": "Second-floor coffee bar open until 24:30; deep-roast coffee, quiet back-alley room, small.",
+   "notes": "Closed Thursdays (Thu 13:00-18:30 per Tabelog); cash only; tiny and often full; 16 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-blue-fir-tree",
+   "name": "BLUE FIR TREE",
+   "jp": "BLUE FIR TREE",
+   "lat": 35.003288,
+   "lng": 135.773115,
+   "address": "京都府京都市東山区大和大路通四条下ル大和町6-1 日宝モア祇園 1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "12:00"
+     ],
+     [
+      "13:30",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26005614/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 355,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26005614/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26005614/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000741228/"
+   ],
+   "why": "Thick (about 4.5 cm) hotcakes and pancakes at the Shijo edge of Gion; morning and lunch sittings.",
+   "notes": "Closed Mondays; Tabelog 9:00-12:00 + 13:30-17:00 (Retty 9:00-19:00): using Tabelog; hotcake takes about 30 min",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kameya-kiyonaga",
+   "name": "Kameya Kiyonaga",
+   "jp": "亀屋清永",
+   "lat": 35.00304,
+   "lng": 135.776946,
+   "address": "京都府京都市東山区祇園石段下南側534",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog band not listed",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ],
+    "tue": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ],
+    "fri": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ],
+    "sat": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "8:30",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26005883/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 173,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26005883/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26005883/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000292599/"
+   ],
+   "why": "Gion Kameya Kiyonaga, maker of the incense-scented seijo kankidan; Kyoto wagashi sold from 8:30.",
+   "notes": "Closed Wednesdays; sweets takeout",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-honke-funahashiya",
+   "name": "Honke Funahashiya",
+   "jp": "本家船はしや",
+   "lat": 35.009099,
+   "lng": 135.771121,
+   "address": "京都府京都市中京区三条大橋西詰112",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26005884/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 220,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26005884/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26005884/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100000012363/"
+   ],
+   "why": "Sanjo-Ohashi shop of colourful gokoku-mame, arare and senbei; hundreds of bean snacks.",
+   "notes": "Closed Tuesdays per Tabelog; Retty says irregular; sweets shop (takeaway); Tabelog closed days: Tuesdays",
+   "near": [
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kyo-ramen-sadakazu",
+   "name": "Kyo Ramen Sadakazu",
+   "jp": "京ラーメンさだかず",
+   "lat": 35.004367,
+   "lng": 135.776276,
+   "address": "京都府京都市東山区祇園町北側281-1-1 祇園ファーストビル　Ｂ１Ｆ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "Opens 22:00, fills at opening; 5 seats",
+   "hours": {
+    "mon": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "22:00",
+      "25:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26006196/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 343,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26006196/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26006196/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000702175/"
+   ],
+   "why": "Late-night only ramen: clear shoyu with back fat and chili, 35 bowls, 22:00-25:00; five seats in a Gion basement.",
+   "notes": "Tiny: 5 seats, hard for 4; closed Sun and holidays; cash/PayPay (sources differ); Tiny: 5 seats, hard for 4",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-dessert-cafe-chourakukan",
+   "name": "Dessert Cafe Chourakukan",
+   "jp": "デザートカフェ長楽館",
+   "lat": 35.003103,
+   "lng": 135.78027,
+   "address": "京都府京都市東山区八坂鳥居前東入円山町604 長楽館",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Afternoon tea needs reservation (2+ guests)",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26006416/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 764,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26006416/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26006416/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001687663/"
+   ],
+   "why": "Meiji-era guesthouse mansion in Maruyama Park used as a cafe; afternoon tea is the draw.",
+   "notes": "Last order 18:00; irregular holidays; Irregular holidays (check Instagram/phone); 100 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-hosen-jr-shinkansen-kyoto-eki",
+   "name": "Hosen JR shinkansen kyoto eki ten",
+   "jp": "宝泉 JR新幹線京都駅店",
+   "lat": 34.98478,
+   "lng": 135.759077,
+   "address": "京都府京都市下京区東塩小路高倉町8-3 新幹線 JR京都駅 2F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26006790/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 1057,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26006790/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2018, 2019, 2020, 2022, 2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26006790/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000060083/"
+   ],
+   "why": "Wagashi cafe by the Shinkansen gate: kuzu and warabi sweets, matcha parfait; open 9:00-19:00/20:00.",
+   "notes": "Inside the JR Shinkansen concourse (2F); Retty lists 10:00-20:00, Tabelog 9:00 start; 30 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-man-in-the-moon-kyoto-eki",
+   "name": "Man in the Moon Kyoto eki ten",
+   "jp": "Man in the Moon 京都駅店",
+   "lat": 34.984534,
+   "lng": 135.755677,
+   "address": "京都府京都市下京区東塩小路釜殿町31-1 近鉄名店街みやこみち",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "24:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "24:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "24:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "24:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "24:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26007160/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.42,
+    "reviews": 120,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26007160/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26007160/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000751954/"
+   ],
+   "why": "Irish pub in Kintetsu Mall Miyakomichi: sports on screens, Guinness curry and burgers; open late.",
+   "notes": "Retty lists to 02:00 (04:00 Fri/Sat) in an older page; Tabelog to 01:00: using Tabelog; 36 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-sir-thomas-lipton-poruta",
+   "name": "Sir Thomas Lipton Poruta ten",
+   "jp": "Sir Thomas LIPTON ポルタ店",
+   "lat": 34.986487,
+   "lng": 135.759399,
+   "address": "京都府京都市下京区東塩小路町902 京都駅前地下街ポルタ",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26007274/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 533,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26007274/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26007274/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000021067/"
+   ],
+   "why": "1930-founded Kyoto tea house in the Porta underground mall: tea, toast sets and cakes from 8:00.",
+   "notes": "Follows Porta mall schedule (irregular closures); Retty and Tabelog agree 8:00-22:00; Irregular holidays (check Instagram/phone); 70 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-hougyoku-dou",
+   "name": "Hougyoku Dou",
+   "jp": "宝玉堂",
+   "lat": 34.968089,
+   "lng": 135.769482,
+   "address": "京都府京都市伏見区深草一ノ坪町27",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog band not listed",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26007338/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 112,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26007338/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26007338/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001109134/"
+   ],
+   "why": "Fox-face senbei grilled to order, open from 7:30 - one of very few early openers at the shrine approach.",
+   "notes": "Open daily; no credit cards; budget snack stop",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-inari-futaba",
+   "name": "Inari Futaba",
+   "jp": "いなりふたば",
+   "lat": 34.968441,
+   "lng": 135.77089,
+   "address": "京都府京都市伏見区深草稲荷仲之町55",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26007559/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 407,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26007559/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26007559/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100000868458/"
+   ],
+   "why": "Mame-daifuku (salty beans in soft mochi) from a branch of Demachi Futaba, two minutes from Fushimi-Inari station; fast turnover.",
+   "notes": "Tabelog closed Wed+Thu, Retty Thursday; Retty hours 9:00-19:30; sells out; takeaway",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-kaiseki-cafe-akichi",
+   "name": "Kaiseki Cafe Akichi",
+   "jp": "懐石カフェ 蛙吉",
+   "lat": 34.968632,
+   "lng": 135.76957,
+   "address": "京都府京都市伏見区深草一ノ坪町20-13",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Lunch reservation advised (phone 075-644-1530)",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26009017/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 126,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26009017/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26009017/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100000061103/"
+   ],
+   "why": "Kaiseki-set cafe with a frog-themed interior, monthly-changing lunch course for about 2,000-3,000 yen.",
+   "notes": "Closed Sundays, holidays and the 1st of each month; no credit cards; lunch 11:30-13:30 per some listings; Tabelog closed days: Tuesdays, Sundays, public holidays, and the first day of each month.; 14 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-miyako-soba-shijou",
+   "name": "Miyako Soba Shijou ten",
+   "jp": "都そば 四条店",
+   "lat": 35.003853,
+   "lng": 135.767454,
+   "address": "京都府京都市下京区四条通寺町東入御旅宮本町5",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26009335/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 115,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26009335/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26009335/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001191144/"
+   ],
+   "why": "Cheap standing-soba counter by Kawaramachi, breakfast bowl with Kujo negi around 500 yen (Retty 2025 review).",
+   "notes": "Cash only (PayPay ok); Retty has no hours - Tabelog 7:30-22:00 used",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-todai-kyoto",
+   "name": "Todai Kyoto ten",
+   "jp": "徳島ラーメン 東大 京都店",
+   "lat": 34.985827,
+   "lng": 135.757422,
+   "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町901 京都駅ビル10Ｆ　京都拉麺小路内",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26014547/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 1110,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26014547/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26014547/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000728963/"
+   ],
+   "why": "Tokushima-style ramen (soy-tonkotsu, sweet pork belly) inside Kyoto Ramen Koji, free raw egg on the table.",
+   "notes": "10F Kyoto Station Building; Retty: no credit cards, PayPay ok; 28 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-the-common-one-bar-kyoto",
+   "name": "The Common One Bar Kyoto",
+   "jp": "The Common One Bar Kyoto",
+   "lat": 35.006069,
+   "lng": 135.773305,
+   "address": "京都府京都市東山区新橋通大和大路東入元吉町46 何生館内",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Private room for up to 4 by booking",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26016560/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 301,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26016560/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26016560/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000876392/"
+   ],
+   "why": "Kyoto-flavoured cocktails (matcha, sansho) in a renovated old tea-master house with a garden; private room for 4.",
+   "notes": "Tabelog daily 18:00-02:00 vs Retty 17:00-02:00 closed Tuesday: using Tabelog (open daily); check first; 25 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-sagan",
+   "name": "SAGAN",
+   "jp": "サガン",
+   "lat": 34.997699,
+   "lng": 135.773823,
+   "address": "京都府京都市東山区松原通大和大路東入2丁目轆轤町93",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26019282/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 225,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26019282/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26019282/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001200061/"
+   ],
+   "why": "Calm Gion cafe near Rokuharamitsu-ji: Japanese breakfast set, banana muffins and tiramisu; open from 8:00.",
+   "notes": "Retty 8:00-20:00 (L.O. 19:00) vs Tabelog to 21:00: using Tabelog; 75 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-noen",
+   "name": "NOEN",
+   "jp": "NOEN",
+   "lat": 35.003692,
+   "lng": 135.774961,
+   "address": "京都府京都市東山区祇園町南側571 四条花見小路西南角",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26020737/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 81,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26020737/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26020737/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001579736/"
+   ],
+   "why": "Gion kissaten with coffee, cream soda, egg sandwich and hotcakes; friendly young owner; opens 9:00.",
+   "notes": "Closed Tuesdays (opens on Tuesday holidays); Retty has no hours - Tabelog hours used; Tabelog closed days: The restaurant is open on Tuesdays that fall on public holidays, and may close on Wednesdays instead.; 38 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-pageone",
+   "name": "pageone",
+   "jp": "ページワン",
+   "lat": 35.000568,
+   "lng": 135.77858,
+   "address": "京都府京都市東山区下河原通八坂鳥居前下ル上弁天町435-4",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26020767/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 195,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26020767/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26020767/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000788483/"
+   ],
+   "why": "Hidden courtyard cafe-bar in Gion: hot sandwiches, shaved ice in ice bowls, open late.",
+   "notes": "Closed Wednesdays; Retty shows 11:00-16:00 + 18:00-24:00 vs Tabelog 13:00-24:00: using Tabelog",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-zen-cafe",
+   "name": "ZEN CAFE",
+   "jp": "ZEN CAFE",
+   "lat": 35.003051,
+   "lng": 135.773572,
+   "address": "京都府京都市東山区祇園町南側570-210",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "Numbered tickets (no booking); 30-min waits reported",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26021305/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 752,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26021305/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2019, 2020, 2021, 2022, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26021305/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000820672/"
+   ],
+   "why": "Modern Japanese cafe run by Kagizen: kuzumochi, fruit sandwiches; numbered tickets to avoid queues.",
+   "notes": "Closed Mondays; Retty 11:30-18:00 (L.O. 17:30), Tabelog 11:00-18:00: using Tabelog; 16 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-ogawa-coffee-kyoto-eki",
+   "name": "OGAWA COFFEE  Kyoto eki ten",
+   "jp": "OGAWA COFFEE 京都駅店",
+   "lat": 34.986409,
+   "lng": 135.759998,
+   "address": "京都府京都市下京区東塩小路町地下鉄京都駅 コトチカ京都",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26021764/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 678,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26021764/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26021764/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000052360/"
+   ],
+   "why": "Kyoto roaster's coffee and morning toast sets inside the station concourse; open 7:00-21:00.",
+   "notes": "Retty: 7:00-21:00 daily, last order 20:30; 32 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-cacao-market-by-mariebelle",
+   "name": "CACAO MARKET by MarieBelle",
+   "jp": "カカオ マーケット バイ マリベル",
+   "lat": 35.005132,
+   "lng": 135.772415,
+   "address": "京都府京都市東山区常盤町165-2",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26022668/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 627,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26022668/",
+    "award": "Tabelog Sweets WEST Hyakumeiten (2023, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26022668/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100000833768/"
+   ],
+   "why": "Chocolate shop with 9 seats and a basement room; parfaits and drinks; one minute from Gion-Shijo.",
+   "notes": "Closed Tuesdays; Retty 11:00-20:00 vs Tabelog 11:00-19:00: using Tabelog; mixed reviews on drinks; 24 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-coffee-shop-nakatani",
+   "name": "Coffee Shop Nakatani",
+   "jp": "コーヒーショップ ナカタニ",
+   "lat": 35.004273,
+   "lng": 135.772737,
+   "address": "京都府京都市東山区廿一軒町236 鴨東ビル 1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26022989/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.37,
+    "reviews": 82,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26022989/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26022989/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100001162764/"
+   ],
+   "why": "Old-style counter kissa one minute from Gion-Shijo; morning set and a maiko-associated egg sandwich; open daily 9:00-17:00.",
+   "notes": "Smoking allowed (Retty); 24 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-arabica-kyoto-higashiyama-higashiyama",
+   "name": "% ARABICA Kyoto  Higashiyama Higashiyama",
+   "jp": "% Arabica Kyoto Higashiyama",
+   "lat": 34.998644,
+   "lng": 135.778303,
+   "address": "京都府京都市東山区星野町87-5",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26024353/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 510,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26024353/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26024353/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100001177758/"
+   ],
+   "why": "Six-seat coffee counter by Yasaka Pagoda: latte art, quick stop on the walk to Kiyomizu.",
+   "notes": "Hours: Tabelog 9:00-18:00 vs Retty 8:00-18:00: using Tabelog; irregular holidays; queues all day; 13 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-new-miyoshi",
+   "name": "New Miyoshi",
+   "jp": "焼肉ホルモン ニューみよし",
+   "lat": 34.98938,
+   "lng": 135.756713,
+   "address": "京都府京都市下京区夷之町720",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in, evenings",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:30",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26026150/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.43,
+    "reviews": 144,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26026150/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26026150/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001274062/"
+   ],
+   "why": "Showa-retro yakiniku/hormon place with mostly under-1,000-yen items and free sanchu refills.",
+   "notes": "17:30-24:00 daily; 35 seats; PayPay ok",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-ramen-hi-wa-mata-noboru-fushimi-inari-ek",
+   "name": "Ramen Hi wa Mata Noboru Fushimi inari ekimae honten",
+   "jp": "ラー麺 陽はまた昇る",
+   "lat": 34.968599,
+   "lng": 135.768632,
+   "address": "京都府京都市伏見区深草一ノ坪38-15",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26026153/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 500,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26026153/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26026153/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001253544/"
+   ],
+   "why": "Chicken-tonkotsu ramen with rare chashu opposite Fushimi-Inari station; karaage too.",
+   "notes": "Closed Wednesdays per Tabelog (Retty says Thursday): check; Tabelog 11:00-21:00 (Retty 22:00); 25 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-ichikawa-ya-coffee",
+   "name": "Ichikawa Ya Coffee",
+   "jp": "市川屋珈琲",
+   "lat": 34.993164,
+   "lng": 135.774211,
+   "address": "京都府京都市東山区鐘鋳町396-2",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26026585/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 777,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26026585/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2021, 2022, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26026585/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100001244021/"
+   ],
+   "why": "Seasonal fruit sandwiches and house-roasted coffee in a former pottery workshop near Kiyomizu-Gojo.",
+   "notes": "Closed Tuesdays and the 2nd and 4th Wednesday (so closed Wed 11 Nov and Wed 25 Nov 2026); Tabelog says 8:00 daily, Retty and a Wakuraku article say 9:00 plus Tue/Wed closures: using the stricter; 25 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kaikado-cafe",
+   "name": "Kaikado Cafe",
+   "jp": "カイカドウ カフェ",
+   "lat": 34.989911,
+   "lng": 135.764407,
+   "address": "京都府京都市下京区河原町通七条上ル住吉町352",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26027350/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 381,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26027350/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26027350/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001280366/"
+   ],
+   "why": "Cafe in a 90-year-old tram depot building run by the Kaikado tea-caddy maker; anko-butter toast set; Cafe WEST top 100.",
+   "notes": "Hours differ: Tabelog 8:00-17:30 daily, Retty 10:30-19:00 closed Thursday: using the stricter overlap; 31 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-vermillion",
+   "name": "Vermillion",
+   "jp": "Vermillion cafe.",
+   "lat": 34.968428,
+   "lng": 135.774161,
+   "address": "京都府京都市伏見区深草開土口町5-31",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "tue": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "wed": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "thu": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "fri": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "sat": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ],
+    "sun": [
+     [
+      "9:00",
+      "15:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26027542/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 171,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26027542/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26027542/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001286629/"
+   ],
+   "why": "Riverside-terrace brunch cafe near the shrine; sources disagree on hours - using the Tabelog 9:00-15:30.",
+   "notes": "Retty 9/10:00-17:30, Rurubu 8:00-14:30, irregular holidays: call/Instagram first; 35 seats; Closes early when sold out",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-nha-vietnam-kyoto",
+   "name": "Nha Vietnam Kyoto ten",
+   "jp": "ニャー・ヴェトナム 京都店",
+   "lat": 34.988727,
+   "lng": 135.759161,
+   "address": "京都府京都市下京区烏丸通七条下る東塩小路町707-2 ダイワロイネットホテル京都駅前 PREMIER 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26027719/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 267,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26027719/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26027719/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001298470/"
+   ],
+   "why": "Vietnamese cafe-dining on the hotel 2F next to the station: pho, bun and banh mi from 6:30 breakfast.",
+   "notes": "Breakfast 6:30-9:40, lunch 11:00-14:00, tea time, dinner to 22:00 (Retty); open daily; 75 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-bar-talisker",
+   "name": "BAR TALISKER",
+   "jp": "BAR TALISKER",
+   "lat": 35.001902,
+   "lng": 135.776654,
+   "address": "京都府京都市東山区祇園町南側570-88 祇園町南側ビル1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Reservations not accepted per a Retty reviewer",
+   "hours": {
+    "mon": [
+     [
+      "16:10",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:10",
+      "24:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "16:10",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:10",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:10",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:10",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26027776/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.88,
+    "reviews": 170,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26027776/",
+    "award": "Tabelog Bar  Hyakumeiten (2022)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26027776/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001323805/"
+   ],
+   "why": "Hidden classic-cocktail bar in Gion Minamigawa run by an ex-Ginza bartender; counter, solo-friendly.",
+   "notes": "Closed Wednesdays and some irregular days; Sunday opens earlier (15:10-23:00); first-timers may be asked about membership; Tabelog closed days: Wednesdays and other irregular days.; 14 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-senboninari",
+   "name": "SENBONINARI",
+   "jp": "伏見稲荷 千本いなり",
+   "lat": 34.96867,
+   "lng": 135.769351,
+   "address": "京都府京都市伏見区深草一ノ坪町33",
+   "cat": "sushi",
+   "price": 1,
+   "price_note": "dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26029668/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.37,
+    "reviews": 60,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26029668/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26029668/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001338684/"
+   ],
+   "why": "Mini inari sushi in six flavours (lotus root and sansho, beef shigure), by the station; grab-and-go.",
+   "notes": "Open daily 10:00-18:00; no credit cards (PayPay ok); in the Keihan store",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-walden-woods-kyoto",
+   "name": "Walden Woods Kyoto",
+   "jp": "Walden Woods Kyoto",
+   "lat": 34.993355,
+   "lng": 135.76317,
+   "address": "京都府京都市下京区栄町508-1",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26030010/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 433,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030010/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030010/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001393461/"
+   ],
+   "why": "Roastery cafe near Gojo (Karasuma) known for coffee and cannele; order downstairs, eat upstairs.",
+   "notes": "Tabelog says 8:00-18:00, Retty 9:00-18:00: using the later opening; irregular holidays",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-inari-saryo",
+   "name": "Inari Saryo",
+   "jp": "稲荷茶寮",
+   "lat": 34.967699,
+   "lng": 135.774151,
+   "address": "京都府京都市伏見区深草藪之内町68 啼鳥菴",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26030122/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 179,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26030122/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26030122/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001398959/"
+   ],
+   "why": "Tea room inside the shrine rest house with a pond terrace: parfait, zenzai, shaved ice with tea sets.",
+   "notes": "Closed Wednesdays (open on holidays); cash/PayPay only; last order 15:30; Tabelog closed days: Wednesdays (open on holidays, closed the following Thursday)",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kyoto-beer-lab",
+   "name": "Kyoto Beer Lab",
+   "jp": "Kyoto Beer Lab",
+   "lat": 34.990673,
+   "lng": 135.7657,
+   "address": "京都府京都市下京区十禅師町201-3",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26030571/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.47,
+    "reviews": 147,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030571/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030571/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001411983/"
+   ],
+   "why": "Brewpub on the Takase canal: eight taps, six house-brewed; flights in half sizes.",
+   "notes": "Hours differ across sources (Retty 15:00-20:00/21:00 weekdays, 13:00-23:00 weekends; Tabelog 13:00-23:00 daily): using the stricter; irregular holidays; 15 seats",
+   "near": [
+    "kyoto_station",
+    "kiyomizu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "kyoto-nakamura-shoten-kyoto-ramen-koji",
+   "name": "Nakamura Shoten Kyoto ramen koji ten",
+   "jp": "中村商店 京都拉麺小路店",
+   "lat": 34.985717,
+   "lng": 135.757919,
+   "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町901 京都駅ビル 10F 京都拉麺小路",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26030811/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 701,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030811/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030811/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001547817/"
+   ],
+   "why": "Chicken-and-seafood shio ramen (the gold-salt bowl) in Kyoto Ramen Koji on the Station Building 10F.",
+   "notes": "10F Kyoto Station Building. Retty lists close at 19:30, Tabelog 22:00: hours follow the 10F Ramen Koji (11:00-22:00) but verify; tiny risk of earlier close; 19 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-bar-gaudi",
+   "name": "Bar Gaudi",
+   "jp": "BAR Gaudi",
+   "lat": 34.996641,
+   "lng": 135.758243,
+   "address": "京都府京都市下京区坂東屋町283 シゲトシビル 1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26030939/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 76,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26030939/",
+    "award": "Tabelog tachinomi  Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26030939/",
+    "https://retty.me/area/PRE26/ARE657/SUB10901/100001412938/"
+   ],
+   "why": "Standing bar near Gojo with cheap Japanese/Spanish small plates and a food case; often full.",
+   "notes": "Closed Mondays; Retty 16:00-23:30 vs Tabelog 15:00: using Retty; walk from Kyoto Station ~1.3 km; 40 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "kyoto-yoshida-yama-seseri",
+   "name": "Yoshida Yama Seseri",
+   "jp": "吉田山せせり",
+   "lat": 34.982788,
+   "lng": 135.756972,
+   "address": "京都府京都市南区東九条室町31",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "dinner ¥5,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "Tiny shop (~8 seats), waits for grilled-to-order skewers",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26030970/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 235,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030970/",
+    "award": "Tabelog yakitori WEST Hyakumeiten (2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030970/",
+    "https://retty.me/area/PRE26/ARE658/SUB47301/100001413330/"
+   ],
+   "why": "Seseri (neck) yakitori, homemade mizu-kimchi; began as a yatai at Yoshida-yama and moved near the station.",
+   "notes": "Closed Sundays; Retty: no credit cards; Tiny: 8 seats, hard for 4",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-fukunaga901",
+   "name": "FUKUNAGA901",
+   "jp": "フクナガ901",
+   "lat": 34.985771,
+   "lng": 135.757844,
+   "address": "京都府京都市下京区烏丸通塩小路下る東塩小路901 京都駅ビル内 8F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26030973/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.63,
+    "reviews": 572,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030973/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030973/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001427757/"
+   ],
+   "why": "Seasonal fruit parfaits on the 8F of the Station Building; a calm break between trains.",
+   "notes": "8F Kyoto Station Building; follows station building schedule; Tabelog closed days: In accordance with Kyoto Station Building's schedule.",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-hiiragi-tei",
+   "name": "Hiiragi Tei",
+   "jp": "地鶏とおばんざい ひいらぎ亭",
+   "lat": 35.006655,
+   "lng": 135.777941,
+   "address": "京都府京都市東山区知恩院前石橋町306-6",
+   "cat": "yakitori-grill",
+   "price": 4,
+   "price_note": "lunch ¥1,000+ / dinner ¥8,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Call ahead; skewers grilled to order, popular",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [],
+    "thu": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26031016/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 150,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26031016/",
+    "award": "Tabelog izakaya WEST Hyakumeiten (2024, 2025, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26031016/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001474299/"
+   ],
+   "why": "Omi jidori yakitori over charcoal plus obanzai at a small counter near Chion-in; locals' pick, last order 22:30.",
+   "notes": "Closed Tuesdays and the 2nd/4th Wednesday (so closed Wed 11 Nov 2026); PayPay ok; 20 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-tsukumo-udon-shiokouji",
+   "name": "Tsukumo Udon Shiokouji honten",
+   "jp": "つくもうどん 塩小路本店",
+   "lat": 34.985902,
+   "lng": 135.760229,
+   "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町901 JR京都駅構内地下2F東口",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26031063/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 1655,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26031063/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26031063/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001429520/"
+   ],
+   "why": "Udon with iriko (dried sardine) broth, open 7:00-22:00; morning sets and quick meals just south of the station.",
+   "notes": "Retty: no credit cards, PayPay ok; about 80 seats; 35 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-gion-duck-noodles",
+   "name": "Gion Duck Noodles",
+   "jp": "Gion Duck Noodles",
+   "lat": 35.004328,
+   "lng": 135.776797,
+   "address": "京都府京都市東山区祇園北側329 1F D号",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; line before opening",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26031755/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 1020,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26031755/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26031755/",
+    "https://retty.me/restaurant/100001470809/"
+   ],
+   "why": "Duck ramen and tsukemen from a hidden Gion alley counter, house-ground noodles with grape-pepper; small and popular.",
+   "notes": "Tiny counter (about 7-9 seats), hard for 4 together; Retty lists a 15:00-17:30 weekday break, Tabelog continuous: hours follow Tabelog; Tiny: 9 seats, hard for 4",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-koe-donuts-kyoto",
+   "name": "koe donuts Kyoto ten",
+   "jp": "koé donuts kyoto",
+   "lat": 35.004246,
+   "lng": 135.767286,
+   "address": "京都府京都市中京区新京極四条上ル中之町557 京都松竹第3ビル 1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26032035/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 1294,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26032035/",
+    "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26032035/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001466170/"
+   ],
+   "why": "Eco-minded donut workshop on Shinkyogoku: mochi-texture donuts eaten with knife and fork, open from 8:00.",
+   "notes": "Irregular holidays; 8:00-11:00 breakfast menu weekdays only (Leaf Kyoto); Irregular holidays (check Instagram/phone); 65 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-menya-inoichi",
+   "name": "Menya Inoichi",
+   "jp": "麺屋猪一",
+   "lat": 35.001324,
+   "lng": 135.766951,
+   "address": "京都府京都市下京区恵美須之町寺町通仏光寺下ル542",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "Queue; no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26032368/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 1150,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26032368/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26032368/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001478663/"
+   ],
+   "why": "Dashi-focused shoyu ramen, Bib Gourmand and Tabelog Ramen WEST top 100; 16 seats, queue at peak.",
+   "notes": "Irregular holidays; the Hanare branch nearby has a shorter queue; Irregular holidays (check Instagram/phone); 16 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-about-us-coffee",
+   "name": "ABOUT US COFFEE",
+   "jp": "about us coffee",
+   "lat": 34.966309,
+   "lng": 135.768741,
+   "address": "京都府京都市伏見区深草稲荷鳥居前22-15",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "lunch ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26033048/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 72,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26033048/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26033048/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001519714/"
+   ],
+   "why": "Light-roast coffee and canele in a quiet cafe on the back side of the shrine, 10:00-18:00.",
+   "notes": "Irregular holidays; PayPay ok; Irregular holidays (check Instagram/phone)",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kamogawa-seimenjo",
+   "name": "Kamogawa Seimenjo",
+   "jp": "鴨川製麺所",
+   "lat": 34.989175,
+   "lng": 135.768431,
+   "address": "京都府京都市東山区七条通り鞘町西入ル日吉町228",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26034220/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.33,
+    "reviews": 107,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26034220/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26034220/",
+    "https://retty.me/area/PRE26/ARE112/SUB11203/100001565128/"
+   ],
+   "why": "Sanuki-style self-service udon near Shichijo: matcha udon bowl with tempura and dashi-maki (about 880 yen).",
+   "notes": "Self-service counter; PayPay ok; Retty has no hours (Tabelog 11:00-21:00 used); 36 seats",
+   "near": [
+    "kyoto_station",
+    "kiyomizu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-yamamoto-mambo",
+   "name": "Yamamoto Mambo",
+   "jp": "山本まんぼ",
+   "lat": 34.987944,
+   "lng": 135.762852,
+   "address": "京都府京都市下京区小稲荷町61-54",
+   "cat": "okonomiyaki-monja",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26034294/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 1452,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26034294/",
+    "award": "Tabelog Okonomiyaki  Hyakumeiten (2022, 2023, 2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26034294/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001547815/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100000725275/"
+   ],
+   "why": "Old-school okonomiyaki shop (mambo-yaki with soba), sweet or dry sauce, sit at the teppan; walk from the station.",
+   "notes": "Closed Wednesdays (Retty); Tabelog: third Thursday closed; Tabelog closed days: The third Thursday of each month.; 23 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-trattoria-m-kyoto",
+   "name": "TRATTORIA M KYOTO",
+   "jp": "TRATTORIA M KYOTO",
+   "lat": 34.988438,
+   "lng": 135.753389,
+   "address": "京都府京都市下京区油小路町288 メルキュール京都ステーション",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ / dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Reservable via Tabelog",
+   "hours": {
+    "mon": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "6:30",
+      "10:00"
+     ],
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26034373/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 119,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26034373/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26034373/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001555693/"
+   ],
+   "why": "Italian trattoria on the ground floor of the Mercure hotel: pizza and pasta lunch and dinner, early breakfast.",
+   "notes": "Hotel restaurant; Tabelog lists 6:30-10:00, 11:30-14:30, 17:30-22:00; Retty has no hours; one Retty review; Irregular holidays (check Instagram/phone); 80 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-tempura-kassen-sakedokoro-heso-kyoto",
+   "name": "Tempura Kassen Sakedokoro Heso Kyoto ten",
+   "jp": "天ぷら・割鮮酒処 へそ 京都店",
+   "lat": 34.989393,
+   "lng": 135.759983,
+   "address": "京都府京都市下京区真苧屋町197 ブーケガルニビル 1F",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26034387/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 128,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26034387/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26034387/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001551343/"
+   ],
+   "why": "Tempura izakaya in front of the station: cheap tempura sets and sake until late (last order 23:30).",
+   "notes": "Retty: weekday dinner only 17:00-24:30, Saturday from 12:00; Tabelog 12:00-24:00: using the stricter weekday dinner hours; 34 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-tachinomi-sharp",
+   "name": "Tachinomi Sharp",
+   "jp": "たち呑み しゃーぷ",
+   "lat": 35.002875,
+   "lng": 135.77064,
+   "address": "京都府京都市下京区斎藤町140-17",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; tiny (about 3 tsubo)",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26034846/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 332,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26034846/",
+    "award": "Tabelog tachinomi  Hyakumeiten (2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26034846/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100001559391/"
+   ],
+   "why": "Tiny triangular standing bar near Shijo-Kawaramachi: seafood small plates from 100 yen, high quality for a stand-up.",
+   "notes": "Tiny standing bar; closed Wed (and 3rd Thu per Retty); Retty hours older (to 02:00); using Tabelog; 11 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-bar-kingdom",
+   "name": "BAR Kingdom",
+   "jp": "キングダム",
+   "lat": 35.000383,
+   "lng": 135.764884,
+   "address": "京都府京都市下京区富小路仏光寺下ル筋屋町151",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Reserve on busy nights (Retty reviewers)",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "19:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26035542/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.81,
+    "reviews": 91,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26035542/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26035542/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001626616/"
+   ],
+   "why": "Machiya-reno cocktail bar near Shijo-Kawaramachi with a Tokyo-trained bartender; consomme starter; Tabelog 3.81 from 91 reviews.",
+   "notes": "Closed Mondays; opens 19:00; Retty page has few hours details so Tabelog hours used; 17 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-menya-yuko-kawaramachi",
+   "name": "Menya Yuko Kawaramachi",
+   "jp": "麺屋 優光 河原町店",
+   "lat": 35.002332,
+   "lng": 135.7691,
+   "address": "京都府京都市下京区稲荷町329 エリッツ四条河原町ビル 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26036485/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 447,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26036485/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26036485/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001595743/"
+   ],
+   "why": "Dashi/shellfish ramen and carbonara-style limited bowls; Tabelog 3.50 from 447 reviews, near Shijo-Kawaramachi.",
+   "notes": "Retty: 11:00-15:00 and 17:00-22:00; Tabelog lists continuous 11:00-24:30 - using the stricter Retty hours; no regular closing day; 11 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-kaidashi-men-kitada",
+   "name": "Kaidashi Men Kitada",
+   "jp": "貝だし麺きた田",
+   "lat": 34.987278,
+   "lng": 135.754764,
+   "address": "京都府京都市下京区北不動堂町570-3",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; queues at peak, 11 seats",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26036754/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 1958,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26036754/",
+    "award": "Tabelog Ramen WEST Hyakumeiten (2024, 2025)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26036754/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001605922/"
+   ],
+   "why": "Clam-dashi shio ramen from a tiny counter; open 7:00-24:00, so a rare real ramen breakfast near the station.",
+   "notes": "Seasonal; Retty lists last order 23:30; Irregular holidays (check Instagram/phone); 11 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-tomikouji-kayu",
+   "name": "Tomikouji Kayu Ten",
+   "jp": "富小路粥店",
+   "lat": 35.002796,
+   "lng": 135.764816,
+   "address": "京都府京都市下京区徳正寺町41-2",
+   "cat": "kaiseki-teishoku",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; line at 7:00-8:00",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "16:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "7:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26037016/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 255,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26037016/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26037016/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001615385/"
+   ],
+   "why": "Chinese congee specialist open from 7:00: chicken congee morning set around 550 yen (2022 price), queues at opening.",
+   "notes": "Closed Wednesdays (Tabelog + Retty); 20 seats; 20 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-spice-gate",
+   "name": "SPICE GATE",
+   "jp": "SPICE GATE",
+   "lat": 35.000698,
+   "lng": 135.767038,
+   "address": "京都府京都市下京区恵美須之町546 しきさい寺町ビル 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26037542/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 850,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26037542/",
+    "award": "Tabelog Curry WEST Hyakumeiten (2024, 2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26037542/",
+    "https://www.mapple.net/spot/26015936/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001642548/"
+   ],
+   "why": "Fish-dashi spice curry shop that opens at 7:30: curry morning plate of many sides, thin soup-like curry.",
+   "notes": "Tabelog lists to 21:00 (cafe 14:00-21:00), Retty lunch to 14:00 and irregular cafe to 16:00: using the stricter 7:30-14:00; 22 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-alkaa",
+   "name": "ALKAA",
+   "jp": "ALKAA",
+   "lat": 34.98301,
+   "lng": 135.760134,
+   "address": "京都府京都市南区東九条西山王町15-7",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "lunch ¥6,000+ / dinner ¥6,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Tiny (13 seats); call 070-9017-1507",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26037554/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 67,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26037554/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26037554/",
+    "https://retty.me/area/PRE26/ARE658/SUB47301/100001656696/"
+   ],
+   "why": "Sommelier-and-patissier wine bar south of the station: canele and desserts plus house pate, 13 seats.",
+   "notes": "Tabelog 15:00-24:00 vs Retty 14:00-24:00: using Tabelog; irregular holidays; 15 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "kyoto-okuno-hidari-kyo-kushiage-to-oden",
+   "name": "Okuno Hidari Kyo Kushiage to Oden",
+   "jp": "京串揚げと煮込み オクノヒダリ",
+   "lat": 34.987514,
+   "lng": 135.754931,
+   "address": "京都府京都市下京区北不動堂町573-4",
+   "cat": "tonkatsu-fry",
+   "price": 3,
+   "price_note": "dinner ¥3,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Phone; popular, smartphone ordering",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26038328/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 158,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26038328/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26038328/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001682553/"
+   ],
+   "why": "Hidden-alley kushiage (fried skewers) and oden izakaya near the station, open to 01:00-02:00 on Retty reviews.",
+   "notes": "Smartphone ordering; Tabelog hours to 01:00; Irregular holidays (check Instagram/phone); 45 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-ramen-koganeya-kyoto-ramen-kouji",
+   "name": "Ramen Koganeya Kyoto ramen kouji ten",
+   "jp": "ラーメン こがね家 京都拉麺小路店",
+   "lat": 34.98579,
+   "lng": 135.758063,
+   "address": "京都府京都市下京区東塩小路町901 京都駅ビル 10F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26038419/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 294,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26038419/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26038419/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001685552/"
+   ],
+   "why": "Thick tonkotsu ramen (triple-chashu bowl) in Kyoto Ramen Koji, 10F of the Station Building.",
+   "notes": "Last order 21:20; 24 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kacto",
+   "name": "Kacto",
+   "jp": "Kacto",
+   "lat": 35.002264,
+   "lng": 135.770494,
+   "address": "京都府京都市下京区斎藤町133",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ / dinner ¥5,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "16:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26038654/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 367,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26038654/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26038654/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100001676908/"
+   ],
+   "why": "Kamo-river-side cafe (pancakes, wagyu burger) open from 8:00 and for dinner; river terrace in season.",
+   "notes": "Hours: Tabelog 8:00-16:30 and 17:30-22:00 daily; Retty lists to 23:00 (L.O. 22:00): using Tabelog; 38 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-honmaguro-nihonshu-bar-ginjo-kuraudo-kyo",
+   "name": "Honmaguro Nihonshu BAR Ginjo Kuraudo Kyoto ekimae ten",
+   "jp": "本鮪×日本酒BAR 吟醸くらうど 京都駅前店",
+   "lat": 34.98699,
+   "lng": 135.753689,
+   "address": "京都府京都市下京区南不動堂町3-2 大道第1ビル B1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Course bookings via Tabelog/Retty",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26038820/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 128,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26038820/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26038820/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001699774/"
+   ],
+   "why": "Tuna and sake bar in a basement near the station: tuna tamatebako course with 120-min drinks around 5,000 yen.",
+   "notes": "Retty has no hours - Tabelog 17:00-23:30 used; chain-style, tourist-leaning; 28 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-eight",
+   "name": "eight",
+   "jp": "eight",
+   "lat": 34.968551,
+   "lng": 135.76949,
+   "address": "京都府京都市伏見区深草一ノ坪町29-4",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog band not listed",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26038881/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 122,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26038881/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26038881/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001718917/"
+   ],
+   "why": "Small bakery by Fushimi-Inari station: hard breads, croissants and anpan-style buns; opens 8:00.",
+   "notes": "Closed Mondays (Tabelog); a second Retty listing at Fujimori shows closed Sun too - treat Sunday as possible closure; sells out; Irregular holidays (check Instagram/phone)",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-menya-kotetsu-kyoto-ramen-koji",
+   "name": "Menya Kotetsu Kyoto ramen koji ten",
+   "jp": "麺や虎鉄 京都拉麺小路店",
+   "lat": 34.985751,
+   "lng": 135.757774,
+   "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町901 京都駅ビル10F 京都拉麺小路",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "lunch ¥999+ / dinner ¥999+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26039596/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 317,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26039596/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26039596/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001708137/"
+   ],
+   "why": "Sapporo miso ramen specialist in Kyoto Ramen Koji; pair with the jumbo zangi; busy with tourists.",
+   "notes": "10F Station Building; last order 21:30; PayPay accepted; 21 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-sono-ba",
+   "name": "Sono Ba",
+   "jp": "そのば",
+   "lat": 34.994438,
+   "lng": 135.764049,
+   "address": "京都府京都市下京区富小路六条上る本塩竈町533-3",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26039638/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 108,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26039638/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26039638/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001710435/"
+   ],
+   "why": "Hand-made soba (about 90% buckwheat) in a machiya with a pottery studio; thick soba-yu; sells out early, lunch only.",
+   "notes": "Closed Wednesdays and Thursdays; 14 seats; sells out before 15:00 some days; PayPay ok; 14 seats",
+   "near": [
+    "kyoto_station",
+    "kiyomizu"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-saikyo-yaki-kyoto-yamaroku",
+   "name": "Saikyo Yaki Kyoto Yamaroku",
+   "jp": "西京焼き 京都やま六",
+   "lat": 34.986211,
+   "lng": 135.758469,
+   "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町 ジェイアール京都伊勢丹 B1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26039724/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 484,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26039724/",
+    "award": "Tabelog Diner  Hyakumeiten (2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26039724/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001709505/"
+   ],
+   "why": "Saikyo-miso grilled fish teishoku from a 90-year Saikyo-zuke maker, in JR Kyoto Isetan basement.",
+   "notes": "Follows Isetan schedule (Isetan has occasional closed days); numbered tickets when full; Tabelog closed days: In accordance with JR Kyoto Isetan's schedule. | *Please note that we issue numbered tickets. If we reach our ; 21 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "kyoto-this-is-ormary-store",
+   "name": "this is ormary store",
+   "jp": "this is ormary store",
+   "lat": 34.994399,
+   "lng": 135.764074,
+   "address": "京都府京都市下京区富小路六条上る本塩竈町533-3",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "lunch ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26040463/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 61,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26040463/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26040463/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001724687/"
+   ],
+   "why": "Stand-up bar with hard breads in a bakery-adjacent shop near Gojo; small plate sets and highballs.",
+   "notes": "Tiny standing bar; Tabelog 12:00-20:00 (closed Tue); Retty has no hours",
+   "near": [
+    "kyoto_station",
+    "kiyomizu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-salmon-noodle-kyoto",
+   "name": "Salmon noodle Kyoto",
+   "jp": "サーモンnoodle京都",
+   "lat": 34.966623,
+   "lng": 135.771026,
+   "address": "京都府京都市伏見区深草稲荷御前町76-2",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260601/26040512/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 94,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260601/26040512/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260601/26040512/",
+    "https://retty.me/area/PRE26/ARE111/SUB47302/100001725474/"
+   ],
+   "why": "Salmon-broth ramen and foamed salmon tantanmen one minute from Inari station; branch of a Tokyo shop.",
+   "notes": "Closes when sold out; irregular holidays; Retty page updated Jan 2025; 26 seats",
+   "near": [
+    "fushimi_inari"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-omofu-roastery-cafe",
+   "name": "OMOFU 【Roastery cafe】",
+   "jp": "OMOFU",
+   "lat": 34.983841,
+   "lng": 135.756332,
+   "address": "京都府京都市南区西九条院町17 都ホテル 京都八条 B1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26041264/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 135,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26041264/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26041264/",
+    "https://retty.me/area/PRE26/ARE658/SUB47301/100001747220/"
+   ],
+   "why": "Roastery cafe in the Miyako Hotel Kyoto Hachijo basement (Fukuoka AIMAI group's first Kyoto shop); early opening.",
+   "notes": "Few reviews; Retty has no hours - Tabelog 7:00-19:00 used; 62 seats",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-wantanmen-no-mangetsu-kyoto-ramen-koji",
+   "name": "Wantanmen no Mangetsu Kyoto ramen koji ten",
+   "jp": "ワンタンメンの満月 京都拉麺小路店",
+   "lat": 34.985666,
+   "lng": 135.758042,
+   "address": "京都府京都市下京区東塩小路町901 京都駅ビル 10F 京都拉麺小路",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26041415/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 358,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26041415/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26041415/",
+    "https://retty.me/area/PRE26/ARE658/SUB11101/100001747255/"
+   ],
+   "why": "Wonton-noodle ramen specialist in Kyoto Ramen Koji, Station Building 10F; light shoyu broth with big wontons.",
+   "notes": "10F Kyoto Station Building; last order 21:30",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-kyo-korean-do-ajoshi-gion",
+   "name": "Kyo Korean Do Ajoshi gion honten",
+   "jp": "京韓堂 アジョシ 祇園本店",
+   "lat": 35.003169,
+   "lng": 135.773293,
+   "address": "京都府京都市東山区4-小松町4-2",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "lunch ¥1,000+ / dinner ¥5,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Dinner booking via Tabelog; lunch walk-in",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26041488/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 183,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26041488/",
+    "award": "Tabelog Asian/Ethnic WEST Hyakumeiten (2026)"
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26041488/",
+    "https://retty.me/area/PRE26/ARE112/SUB11201/100001751256/"
+   ],
+   "why": "Hand-made-to-order cold noodles (reimen) with sudachi, Korean dinner dishes; open to 23:00 near Gion-Shijo.",
+   "notes": "Closed Wednesdays; weekday lunch started recently (Retty); 34 seats",
+   "near": [
+    "kiyomizu",
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-sumizumi-do",
+   "name": "Sumizumi Do",
+   "jp": "炭棲堂",
+   "lat": 34.982782,
+   "lng": 135.760566,
+   "address": "京都府京都市南区東九条西山王町12-7",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "dinner ¥4,000+ (Tabelog band lower bound)",
+   "reservation": "recommended",
+   "res_note": "Reservable via Tabelog/phone",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260101/26042786/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 151,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260101/26042786/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26042786/",
+    "https://retty.me/area/PRE26/ARE658/SUB47301/100001773674/"
+   ],
+   "why": "Charcoal-grill izakaya near Kyoto Station Hachijo side; vegetables and meat grilled at the counter (opened about 2025).",
+   "notes": "Newer shop (few Retty reviews): Retty page lists the name as 炭棲堂",
+   "near": [
+    "kyoto_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-hyakunen-soba-kotobuki",
+   "name": "Hyakunen Soba Kotobuki",
+   "jp": "百年蕎麦 壽",
+   "lat": 35.006578,
+   "lng": 135.766318,
+   "address": "京都府京都市中京区御幸町通蛸薬師上ル伊勢屋町354-1",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥2,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260201/26043374/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 58,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260201/26043374/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26043374/",
+    "https://retty.me/area/PRE26/ARE108/SUB10801/100001796305/"
+   ],
+   "why": "Standing soba and sake bar near Shijo-Kawaramachi, open from 7:00 per Tabelog: self-pour sake, tofu-topped soba.",
+   "notes": "Standing soba bar; Tabelog 7:00-21:00 closed Wed; Retty has no hours (5 reviews)",
+   "near": [
+    "gion"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "kyoto-m-stand-sanjou-kamogawa",
+   "name": "M Stand Sanjou kamogawa ten",
+   "jp": "M Stand Coffee 京都三条鴨川店",
+   "lat": 35.008902,
+   "lng": 135.771116,
+   "address": "京都府京都市中京区中島町110 フォーラム三条ビル 4F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "lunch ¥1,000+ / dinner ¥1,000+ (Tabelog band lower bound)",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations not accepted",
+   "hours": {
+    "mon": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "8:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kyoto/A2601/A260301/26043649/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 120,
+    "url": "https://tabelog.com/en/kyoto/A2601/A260301/26043649/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "listed"
+   },
+   "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260301/26043649/",
+    "https://retty.me/area/PRE26/ARE108/SUB10802/100001804666/"
+   ],
+   "why": "Fourth-floor cafe in Forum Sanjo building above the Kamo river: coffee, cake, 8:00-22:00 daily.",
+   "notes": "Last order 21:30; irregular holidays; 50 seats",
+   "near": [
+    "gion"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  }
+ ]
+}

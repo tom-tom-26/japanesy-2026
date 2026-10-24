@@ -1,0 +1,8113 @@
+{
+ "anchors": [
+  {
+   "id": "meiji_harajuku",
+   "name": "Harajuku Station / Takeshita-dori (Meiji Jingu, Cat Street, Omotesando area)",
+   "jp": "原宿駅・竹下通り",
+   "lat": 35.6705,
+   "lng": 139.70241,
+   "note": "Anchor = JR Harajuku Station (OSM node 35.6705,139.7024). Meiji Jingu main shrine is ~0.9 km north; Cat Street ~0.5 km south; Omotesando crossing ~0.9 km SE."
+  },
+  {
+   "id": "shibuya",
+   "name": "Shibuya Scramble Crossing (Hachiko, Center-gai, Udagawacho, Nonbei Yokocho)",
+   "jp": "渋谷スクランブル交差点",
+   "lat": 35.6595,
+   "lng": 139.7005,
+   "note": "Anchor = Shibuya Scramble Crossing (OSM 35.6595,139.7005); Hachiko ~100 m SW; Nonbei Yokocho ~120 m N-NE."
+  },
+  {
+   "id": "ebisu",
+   "name": "Ebisu Yokocho / Ebisu Station (Daikanyama edge)",
+   "jp": "恵比寿横丁",
+   "lat": 35.64815,
+   "lng": 139.71074,
+   "note": "Anchor = Ebisu Yokocho (OSM 35.6482,139.7107), ~0.2 km N of Ebisu Station. Daikanyama is ~1 km NW."
+  }
+ ],
+ "venues": [
+  {
+   "id": "shibuya-sumibi-yaki-yuji",
+   "name": "Sumibi Yaki Yuji",
+   "jp": "炭火焼 ゆうじ",
+   "lat": 35.662587,
+   "lng": 139.697338,
+   "address": "東京都渋谷区宇田川町11-1 松沼ビル １Ｆ ",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥6,000-¥7,999",
+   "reservation": "required",
+   "res_note": "Phone only 03-3464-6448, call after 15:00; book weeks ahead",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://yakiniku-yuji.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 4.21,
+    "reviews": 2410,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13001794/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001794/",
+    "https://yakiniku-yuji.com/",
+    "https://map.yahoo.co.jp/v3/place/T42FQ5VvG4Q"
+   ],
+   "why": "Shibuya offal/horumon yakiniku institution (30+ yrs); 20+ cuts, each seasoned differently, good value.",
+   "notes": "Last order 22:30. Phone-only booking (call after 15:00), Japanese. Often booked weeks ahead. Smoky.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-ishi-no-hana",
+   "name": "Ishi no Hana",
+   "jp": "石の華",
+   "lat": 35.65799,
+   "lng": 139.705003,
+   "address": "東京都渋谷区渋谷3-6-2 第二矢木ビル Ｂ１Ｆ ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥3,000-¥3,999",
+   "reservation": "recommended",
+   "res_note": "AutoReserve or phone 03-5485-8405",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.timeout.jp/tokyo/ja/%E3%83%90%E3%83%BC/ishinohana",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.9,
+    "reviews": 400,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13004802/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13004802/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%90%E3%83%BC/ishinohana",
+    "https://www.novacircle.com/spots/jp/shibuya/bar-ishinohana-533a9d"
+   ],
+   "why": "Long-running Shibuya basement cocktail bar, seasonal fruit cocktails, serious bartenders.",
+   "notes": "Basement bar; about JPY3-4k per person. Wed/Thu closed. Hours differ by source (Time Out matches Tabelog).",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-radio",
+   "name": "Radio",
+   "jp": "Radio",
+   "lat": 35.665886,
+   "lng": 139.714642,
+   "address": "東京都港区南青山3-10-34 ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥5,000-¥5,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "http://www.bar-radio.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.86,
+    "reviews": 327,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13001207/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13001207/",
+    "http://www.bar-radio.com/",
+    "https://retty.me/area/PRE13/ARE23/SUB2303/100000177860/"
+   ],
+   "why": "Cocktail/whisky bar run by veteran bartender Ozaki; quiet Aoyama neighbourhood bar.",
+   "notes": "Closed Sun/holidays. Reportedly no reservations (2024 guide). Official hours 17:30-23:30.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-viron-shibuya-ten",
+   "name": "VIRON Shibuya ten",
+   "jp": "VIRON 渋谷店",
+   "lat": 35.660886,
+   "lng": 139.696785,
+   "address": "東京都渋谷区宇田川町33-8 塚田ビル 1F ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000234481/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.84,
+    "reviews": 4087,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13004626/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13004626/",
+    "https://www.hotpepper.jp/strJ000234481/",
+    "https://panmegu.com/recomend/post-51649/"
+   ],
+   "why": "French-flour boulangerie, baguette Retrodor; Brasserie upstairs does breakfast 9-11.",
+   "notes": "Bakery counter hours differ by source (Tabelog 9:00-21:00; OpenRice 8:00-21:00). Eat-in upstairs at Brasserie.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-yogoro",
+   "name": "YOGORO",
+   "jp": "ヨゴロウ",
+   "lat": 35.674259,
+   "lng": 139.710956,
+   "address": "東京都渋谷区神宮前2-20-10 小松ビル 1F ",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Arrive before opening; 15-30 min queue typical",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:45"
+     ],
+     [
+      "18:00",
+      "19:45"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:45"
+     ],
+     [
+      "18:00",
+      "19:45"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:45"
+     ],
+     [
+      "18:00",
+      "19:45"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:45"
+     ],
+     [
+      "18:00",
+      "19:45"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:45"
+     ],
+     [
+      "18:00",
+      "19:45"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:45"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://omoharareal.com/navi/news/detail/4412",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 1890,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13076645/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13076645/",
+    "https://omoharareal.com/navi/news/detail/4412",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/%E3%83%A8%E3%82%B4%E3%83%AD%E3%82%A6"
+   ],
+   "why": "Spinach chicken curry that has queues at lunch; one of the Jingumae-2-chome curry cluster.",
+   "notes": "Curry sells out (pork ~5/day); closes when gone. Dinner only to 19:45. Closed Sun/holidays. Small counter-style.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-taiyaki-hiiragi",
+   "name": "Taiyaki Hiiragi",
+   "jp": "たいやき ひいらぎ",
+   "lat": 35.647693,
+   "lng": 139.711655,
+   "address": "東京都渋谷区恵比寿1-4-1 恵比寿アーバンハウス 1F ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "Walk up; short queue at times",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000954642/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 2425,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13026096/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13026096/",
+    "https://www.hotpepper.jp/strJ000954642/",
+    "https://rurubu.jp/andmore/spot/80120752"
+   ],
+   "why": "Thin crisp taiyaki baked slowly; Ebisu takeout-only local favourite.",
+   "notes": "Takeaway only; sells out (official X: 10:00 until sold out, latest 20:00). Irregular closures; closed Obon/New Year. | Audit says hours differ: 10:00 until sold out (max 20:00); irregular closures",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-hayashi",
+   "name": "Hayashi",
+   "jp": "はやし",
+   "lat": 35.657334,
+   "lng": 139.697991,
+   "address": "東京都渋谷区道玄坂1-14-9 ソシアル道玄坂 1F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "walk-in-queue",
+   "res_note": "No booking; ~20 min wait at 12:00 weekdays",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "15:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/177.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 3576,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13003367/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13003367/",
+    "https://ramendb.supleks.jp/s/177.html",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/ramen-hayashi"
+   ],
+   "why": "Counter-only ramen with layered pork/chicken/seafood soup; lunch-only, famous queues.",
+   "notes": "10 seats, counter only. Cash only. Often sold out ~14:00; closed Wed, Sun, holidays (Yelp lists Wed open - unconfirmed).",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-chatei-hatou",
+   "name": "Chatei Hatou",
+   "jp": "茶亭 羽當",
+   "lat": 35.660469,
+   "lng": 139.702784,
+   "address": "東京都渋谷区渋谷1-15-19 二葉ビル 2F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/bg6b94gs0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 2260,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13001169/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/",
+    "https://r.gnavi.co.jp/bg6b94gs0000/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/satei-hato"
+   ],
+   "why": "Classic Shibuya kissaten near Miyamasuzaka: hand-drip coffee in antique cups, cakes, open late.",
+   "notes": "Last order 22:00. Kissaten, smoking may be allowed in parts. Closes 23:00 (some sources 23:30).",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-centre-the-bakery-aoyama-ten",
+   "name": "CENTRE THE BAKERY Aoyama ten",
+   "jp": "セントル ザ・ベーカリー 青山店",
+   "lat": 35.662755,
+   "lng": 139.709254,
+   "address": "東京都渋谷区神宮前5-52-2 青山オーバルビル 1F ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Queue on weekends",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "14:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "14:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "14:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "14:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "14:00"
+     ],
+     [
+      "15:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE23/SUB2302/100001440593/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 630,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13227934/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13227934/",
+    "https://retty.me/area/PRE13/ARE23/SUB2302/100001440593/",
+    "https://ajinotecho.co.jp/meitenkai/centre-the-bakery/"
+   ],
+   "why": "Famous shokupan (square toast) bakery with toast sets and sandwiches.",
+   "notes": "Closes when sold out; hours differ by source (Retty/press: 10:00-19:00 daily). Closed some Sundays in Feb/Aug.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-chuka-menten-kiraku",
+   "name": "Chuka Menten Kiraku",
+   "jp": "中華麺店 喜楽",
+   "lat": 35.659048,
+   "lng": 139.696878,
+   "address": "東京都渋谷区道玄坂2-17-6 ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Queue; fast turnover",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/dk0r9vd20000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 4987,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13001705/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001705/",
+    "https://r.gnavi.co.jp/dk0r9vd20000/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/chukamenten-kiraku"
+   ],
+   "why": "Machi-chuka from 1952: wonton-men, chahan; around 400 bowls a day.",
+   "notes": "Cash only. Last order near 20:30; Wed closed. Queue peaks 12-13h.",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "shibuya-streamer-coffee-company-shibuya",
+   "name": "STREAMER COFFEE COMPANY SHIBUYA",
+   "jp": "ストリーマー コーヒーカンパニー SHIBUYA",
+   "lat": 35.663463,
+   "lng": 139.703939,
+   "address": "東京都渋谷区渋谷1-20-28 宮川ビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.enjoytokyo.jp/spot/l_00057128/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1333,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13109635/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13109635/",
+    "https://www.enjoytokyo.jp/spot/l_00057128/",
+    "https://r.gnavi.co.jp/4br3v3en0000/"
+   ],
+   "why": "Latte-art champion Hiroshi Sawada's coffee shop; early opener on weekdays.",
+   "notes": "Weekday 8:00 open; weekends open 10:00 (sources: 10:00-11:00). Tabelog lists 8:00-20:00 daily - narrowed to Yelp/EnjoyTokyo.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-enseigne-d-angle-harajuku-ten",
+   "name": "Enseigne d'angle Harajuku ten",
+   "jp": "アンセーニュダングル 原宿店",
+   "lat": 35.673712,
+   "lng": 139.704095,
+   "address": "東京都渋谷区千駄ヶ谷3-61-11 第二駒信ビル B1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/6nc2fp700000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 794,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13007015/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13007015/",
+    "https://r.gnavi.co.jp/6nc2fp700000/",
+    "http://www.omotesando-info.com/shop/gourmet/shop/enseignedangle-harajuku.html"
+   ],
+   "why": "1975 kissaten in a Harajuku basement; siphon coffee, toast, pasta, cake.",
+   "notes": "Tabelog: closed Tue; other sites say open daily and later (to 23:00) - conservative 21:00 used.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-oozeki-chuka-soba-ten",
+   "name": "Oozeki Chuka Soba Ten",
+   "jp": "おおぜき中華そば店",
+   "lat": 35.647052,
+   "lng": 139.70802,
+   "address": "東京都渋谷区恵比寿西1-9-4 小熊ビル 1Ｆ ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Short queue at lunch",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/61624.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 2954,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13147623/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13147623/",
+    "https://ramendb.supleks.jp/s/61624.html",
+    "https://www.hotpepper.jp/strJ001010379/"
+   ],
+   "why": "Ebisu ramen/tsukemen shop known for dried-sardine (niboshi) soup and char siu soba.",
+   "notes": "Official X: Mon-Sat 11:00-22:00 (break ~15-17), Sun/holidays 11:00-15:00. Closed Obon/New Year.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-verde",
+   "name": "Verde",
+   "jp": "ヴェルデ",
+   "lat": 35.646388,
+   "lng": 139.706494,
+   "address": "東京都渋谷区恵比寿西1-20-8 コンド恵比寿 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "12:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/95hum6ja0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 1018,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13050095/",
+    "award": "Hyakumeiten (Cafe)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/",
+    "https://r.gnavi.co.jp/95hum6ja0000/",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100000011421/"
+   ],
+   "why": "Ebisu jikabai kissaten, house-roasted coffee and chiffon/cheesecake; on Tabelog Hyakumeiten cafe lists.",
+   "notes": "Closed Thu. Last order 19:30 weekdays. Small shop.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-tsukushi-rou-ebisu-ten",
+   "name": "Tsukushi Rou Ebisu ten",
+   "jp": "筑紫樓 恵比寿店",
+   "lat": 35.645746,
+   "lng": 139.708624,
+   "address": "東京都渋谷区恵比寿南1-10-2 恵比寿３２山京ビル １Ｆ・２Ｆ ",
+   "cat": "other",
+   "price": 3,
+   "price_note": "Tabelog: lunch ¥3,000-¥3,999 / dinner ¥20,000-¥29,999",
+   "reservation": "recommended",
+   "res_note": "Web booking on official site; phone 03-3760-0016",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://wp.tsukushiro.co.jp/ebisu/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 1342,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13003323/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13003323/",
+    "https://wp.tsukushiro.co.jp/ebisu/",
+    "https://autoreserve.com/ja/restaurants/H2Ut8dB97Ef7bmuCcgfy"
+   ],
+   "why": "Long-established Chinese (Fujian-style) restaurant; weekday set lunch is the value entry.",
+   "notes": "Dinner is JPY20k+ course territory; lunch JPY3-4k. Official web booking. Open year-round except New Year.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-handmade-buckwheat-matsunaga",
+   "name": "Handmade buckwheat Matsunaga",
+   "jp": "手打蕎麦 松永",
+   "lat": 35.673474,
+   "lng": 139.710128,
+   "address": "東京都渋谷区神宮前2-19-12 ",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥2,000-¥2,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Go before 12:00",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE23/SUB2301/100000030512/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 715,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13024514/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13024514/",
+    "https://retty.me/area/PRE13/ARE23/SUB2301/100000030512/",
+    "https://www.hotpepper.jp/strJ000843413/"
+   ],
+   "why": "Teuchi soba, big portions, lunch only; ends when noodles sell out.",
+   "notes": "Lunch only ~11:30-14:00; Sun/holidays closed.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-chacha-no-ma",
+   "name": "Chacha no Ma",
+   "jp": "茶茶の間",
+   "lat": 35.666291,
+   "lng": 139.707026,
+   "address": "東京都渋谷区神宮前5-13-14 表参道SKビル1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner -",
+   "reservation": "recommended",
+   "res_note": "Tea-service seats reservable via official site",
+   "hours": {
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [
+     [
+      "13:00",
+      "16:30"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "16:30"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "16:30"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "16:30"
+     ]
+    ]
+   },
+   "hours_source": "https://chachanoma.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 357,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13043546/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13043546/",
+    "https://chachanoma.com/",
+    "https://retty.me/area/PRE13/ARE23/SUB2302/100000025459/menu/"
+   ],
+   "why": "Omotesando Japanese-tea cafe: sommelier-selected tea and sweets.",
+   "notes": "Official site: open Thu-Sun only, tea service 13:00-16:00 (LO), takeout to 16:30; occasional closures - check SNS.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-ramen-koku",
+   "name": "Ramen Koku",
+   "jp": "らーめん 穀雨",
+   "lat": 35.655074,
+   "lng": 139.699351,
+   "address": "東京都渋谷区桜丘町29-5 石島ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/62837.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 1045,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13149719/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13149719/",
+    "https://ramendb.supleks.jp/s/62837.html",
+    "https://magazine.vacan.com/archives/1099"
+   ],
+   "why": "Quiet Sakuragaoka ramen shop (Koku/穀雨), wonton noodles.",
+   "notes": "Cash only. Closed Sun, holidays, and 1st/3rd/5th Saturdays. Can sell out.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-miso-ramen-kakitagawa-hibari-ebisu-honte",
+   "name": "Miso Ramen Kakitagawa Hibari Ebisu honten",
+   "jp": "味噌らーめん 柿田川 ひばり 恵比寿本店",
+   "lat": 35.646547,
+   "lng": 139.707671,
+   "address": "東京都渋谷区恵比寿西1-10-8 杉山ビル 1F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Short queue at peak",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:50"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/1154huvu0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 1892,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13254802/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13254802/",
+    "https://r.gnavi.co.jp/1154huvu0000/",
+    "https://ramendb.supleks.jp/s/130202.html"
+   ],
+   "why": "Rich miso ramen from Shizuoka, honten in Ebisu.",
+   "notes": "Official X: 11:30-22:00, irregular closures.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-cafe-casa",
+   "name": "Cafe Casa",
+   "jp": "カフェ香咲",
+   "lat": 35.67121,
+   "lng": 139.713679,
+   "address": "東京都渋谷区神宮前3-41-1 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.cafecasaaoyama.com/visit-us",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 1168,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13001955/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13001955/",
+    "https://www.cafecasaaoyama.com/visit-us",
+    "https://retty.me/area/PRE13/ARE23/SUB2301/100000054367/"
+   ],
+   "why": "Retro Gaienmae kissaten with stained glass: pancakes, grilled cheese curry, napolitan.",
+   "notes": "Official: Tue-Sun 11:30-19:00 (LO 18:30); Monday closed (open if Mon is a holiday, then Tue off).",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-jinrui-mina-menrui-tokyo-honten",
+   "name": "Jinrui Mina Menrui Tokyo honten",
+   "jp": "人類みな麺類 東京本店",
+   "lat": 35.649104,
+   "lng": 139.706743,
+   "address": "東京都渋谷区恵比寿西2-10-3 プラネックスアンペール 1F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Queue weekends",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0032033872/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 2061,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13248873/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13248873/",
+    "https://hitosara.com/0032033872/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/jinrui-minamenrui-tokyo"
+   ],
+   "why": "Osaka-origin ramen with udon-flour noodles; Daikanyama-edge honten.",
+   "notes": "Sources vary (Tabelog later hours) - narrowed to 11:00-20:00. Char siu can sell out earlier.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-number-sugar-omotesando-honten",
+   "name": "NUMBER SUGAR Omotesando honten",
+   "jp": "ナンバー シュガー 表参道本店",
+   "lat": 35.666498,
+   "lng": 139.706179,
+   "address": "東京都渋谷区神宮前5-11-11 1F ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ001098048/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 755,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13166958/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13166958/",
+    "https://www.hotpepper.jp/strJ001098048/",
+    "https://www.enjoytokyo.jp/spot/l_20002558/"
+   ],
+   "why": "Caramel-sand shop; take-away caramels and pastries.",
+   "notes": "Takeaway focus; closes earlier if sold out.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-hagakure",
+   "name": "Hagakure",
+   "jp": "葉隠",
+   "lat": 35.660654,
+   "lng": 139.70758,
+   "address": "東京都渋谷区渋谷2-8-11 ",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥4,000-¥4,999",
+   "reservation": "recommended",
+   "res_note": "Always busy; phone or arrive at opening",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000230071/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 416,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13012940/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13012940/",
+    "https://www.hotpepper.jp/strJ000230071/",
+    "https://retty.me/area/PRE13/ARE8/SUB805/100000711514/"
+   ],
+   "why": "Stamina-skewer motsuyaki izakaya in Shibuya; long-time local drinkers' spot.",
+   "notes": "Cash only. Mon-Fri 17:00-23:00 (food LO 22:00); Tabelog says occasional Saturdays. Closed Sun/holidays.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-green-thumb-shibuya-ten",
+   "name": "GREEN THUMB Shibuya ten",
+   "jp": "グリーン サム 渋谷店",
+   "lat": 35.655754,
+   "lng": 139.699345,
+   "address": "東京都渋谷区桜丘町28-9 ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://greenthumb.tokyo/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 551,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13234368/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13234368/",
+    "https://greenthumb.tokyo/",
+    "https://panmegu.com/recomend/post-52511/"
+   ],
+   "why": "Sakuragaoka bakery supervised by Yoyogi-Hachiman 365nichi; opens 8:00.",
+   "notes": "Official: 8:00-19:00, irregular holidays.",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-princi-daikanyama-t-site",
+   "name": "Princi Daikanyama T-SITE",
+   "jp": "プリンチ 代官山T-SITE",
+   "lat": 35.649127,
+   "lng": 139.700153,
+   "address": "東京都渋谷区猿楽町16-15 代官山T-SITE N4棟 ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://store.tsite.jp/daikanyama/floor/shop/princi/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.63,
+    "reviews": 526,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13237363/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13237363/",
+    "https://store.tsite.jp/daikanyama/floor/shop/princi/",
+    "https://store.starbucks.co.jp/detail-2387/"
+   ],
+   "why": "Milan bakery in Daikanyama T-SITE; focaccia, pizzette, cornetti from early morning.",
+   "notes": "Sources: T-SITE page 7:00-20:00; newer listing weekdays 8:00-22:00, weekends 7:00-22:00. Conservative weekday 8:00 and 20:00 close used.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-torifuku-nonbei-yokocho",
+   "name": "Torifuku (Nonbei Yokocho)",
+   "jp": "鳥福",
+   "lat": 35.660047,
+   "lng": 139.701578,
+   "address": "東京都渋谷区渋谷1-25-10 のんべい横丁 ",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥6,000-¥7,999",
+   "reservation": "recommended",
+   "res_note": "Phone 03-3499-4978; weekday bookings reported",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "20:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE8/SUB805/100000422039/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 193,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13002121/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13002121/",
+    "https://retty.me/area/PRE13/ARE8/SUB805/100000422039/",
+    "http://www.nonbei.tokyo/shop/torifuku/"
+   ],
+   "why": "Torifuku: veteran yakitori counter inside Nonbei Yokocho; chicken-focused, closes early evening.",
+   "notes": "Cash only. Mon-Fri 16:00-21:00 (LO 20:30), Sat 16:00-20:00 (LO 19:30); closed Sun/holidays, 3rd Sat, August. Tiny counter - party of 4 may need to split.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-chuka-soba-sakurazaka",
+   "name": "Chuka Soba Sakurazaka",
+   "jp": "中華ソバ 櫻坂",
+   "lat": 35.65628,
+   "lng": 139.701009,
+   "address": "東京都渋谷区桜丘町17-10 吉野ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/309.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 1414,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13008320/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13008320/",
+    "https://ramendb.supleks.jp/s/309.html",
+    "https://www.hotpepper.jp/strJ000245301/"
+   ],
+   "why": "Shoyu chuka-soba with melt-in-mouth chashu; Sakuragaoka 14-seat counter.",
+   "notes": "Mon-Sat 11:00-22:00 per Hot Pepper; closed Sun (Retty says open). 14 seats.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-kocha-no-mise-kenyan",
+   "name": "Kocha no Mise Kenyan",
+   "jp": "紅茶の店 Kenyan",
+   "lat": 35.663824,
+   "lng": 139.699924,
+   "address": "東京都渋谷区神南1-14-8 南部ビル 1Ｆ ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "http://kenyan.co.jp/shibuya",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 709,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13001780/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001780/",
+    "http://kenyan.co.jp/shibuya",
+    "https://r.gnavi.co.jp/bwvyesw80000/"
+   ],
+   "why": "40+ year Shibuya black-tea cafe with lunch sets (hamburg steak etc.), open to 22:00.",
+   "notes": "Last order about 21:15. Lunch set around JPY1,300.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-au-temps-jadis",
+   "name": "Au Temps Jadis",
+   "jp": "Au Temps Jadis",
+   "lat": 35.664946,
+   "lng": 139.700232,
+   "address": "東京都渋谷区神南1-5-4 ロイヤルパレス原宿 Ｂ１Ｆ ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/g9r0c24u0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 630,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13003350/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13003350/",
+    "https://r.gnavi.co.jp/g9r0c24u0000/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/%E3%82%AA-%E3%82%BF%E3%83%B3-%E3%82%B8%E3%83%A3%E3%83%87%E3%82%A3%E3%82%B9"
+   ],
+   "why": "Hidden basement crêperie/galette shop (since 1985) near Koen-dori.",
+   "notes": "Closed Tue; Wed irregular. Last order 18:00.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-eggdrop-aoyama-ten",
+   "name": "EGGDROP Aoyama ten",
+   "jp": "エッグドロップ 青山店",
+   "lat": 35.666325,
+   "lng": 139.713287,
+   "address": "東京都港区北青山3-5-15 ミヤヒロビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://omoharareal.com/navi/news/detail/5356",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 163,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13316081/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13316081/",
+    "https://omoharareal.com/navi/news/detail/5356",
+    "https://prtimes.jp/main/html/rd/p/000000016.000086642.html"
+   ],
+   "why": "Korean-origin egg-sandwich shop (Japan store no.1, opened Nov 2025); one of few places open from 7am near Omotesando.",
+   "notes": "Official press: 7:00-22:00 (LO 21:30); Yahoo Travel and Tabelog list 7:00-20:30 - narrower used. New shop, tourist-heavy, but open early.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-cafe-de-metro-echika-omotesando",
+   "name": "CAFE de METRO Echika omotesando",
+   "jp": "CAFE de METRO Echika表参道",
+   "lat": 35.665449,
+   "lng": 139.712059,
+   "address": "東京都港区北青山3-6-12 Echika表参道 B1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/cvas19cv0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 195,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13029411/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13029411/",
+    "https://r.gnavi.co.jp/cvas19cv0000/",
+    "https://loco.yahoo.co.jp/place/g-pLCvsGF27LA/"
+   ],
+   "why": "Subway-concourse cafe at Omotesando station: breakfast sets from 7:00; handy early option.",
+   "notes": "Listings: 7:00-23:00 (LO 22:30) per Gurunavi/Yahoo; Tabelog and AutoReserve 7:00-20:00 - narrower used. Inside Echika (station concourse).",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-verve-coffee-roasters-ebisu-gaadenpureis",
+   "name": "VERVE COFFEE ROASTERS Ebisu gaadenpureisu ten",
+   "jp": "ヴァーヴ コーヒーロースターズ 恵比寿ガーデンプレイス店",
+   "lat": 35.642869,
+   "lng": 139.713755,
+   "address": "東京都渋谷区恵比寿4-20-7 恵比寿ガーデンプレイス センタープラザ 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://gardenplace.jp/shop/detail/45",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 376,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13278633/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13278633/",
+    "https://gardenplace.jp/shop/detail/45",
+    "https://hamoni.jp/en/shop/LJHWtyomSHSzxiw6whkk"
+   ],
+   "why": "Californian specialty-coffee roaster in Yebisu Garden Place, open from 7am daily.",
+   "notes": "Official Garden Place page: 7:00-21:00, no regular holiday.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-coffee-kazoku",
+   "name": "Coffee Kazoku",
+   "jp": "珈琲家族",
+   "lat": 35.646047,
+   "lng": 139.707689,
+   "address": "東京都渋谷区恵比寿南1-2-8 雨宮ビル B1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000139860/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 90,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13077314/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13077314/",
+    "https://www.hotpepper.jp/strJ000139860/",
+    "https://san-tatsu.jp/spots/222361/"
+   ],
+   "why": "Family-run Ebisu kissaten, basement near the station; opens 7:00, known for morning toast sets.",
+   "notes": "Sources disagree on Wednesday (Hot Pepper/Hitosara say Wed closed; Tabelog open) - treated closed. Closed Sun, Mon. Closes ~18:00.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-tatsuya-ekimae-1f",
+   "name": "Tatsuya Ekimae (1F)",
+   "jp": "たつや 駅前店（１F）",
+   "lat": 35.64622,
+   "lng": 139.709345,
+   "address": "東京都渋谷区恵比寿南1-8-1 STM恵比寿ビル 1F ",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "Walk-in counter",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "28:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "28:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000139858/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 736,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13113927/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13113927/",
+    "https://www.hotpepper.jp/strJ000139858/",
+    "https://1000bero.net/restaurant-2442/"
+   ],
+   "why": "Since 1976: Ebisu station-front standing-style motsuyaki counter that opens at 8am and runs late; famous morning drinking spot.",
+   "notes": "Hot Pepper/Navitime list Mon-Sat 8:00-4:00 next day; Tabelog Mon-Thu to 23:00 - narrower used. Basement branch (different shop) opens 17:00. Sunday to 22:00.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-i2-cafe",
+   "name": "i2 cafe",
+   "jp": "i2 cafe",
+   "lat": 35.666233,
+   "lng": 139.715214,
+   "address": "東京都港区南青山3-9-1 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner -",
+   "reservation": "recommended",
+   "res_note": "Popular; arriving early recommended",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://rurubu.jp/andmore/spot/80133090",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 592,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13282796/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13282796/",
+    "https://rurubu.jp/andmore/spot/80133090",
+    "https://asajikan.jp/article/306625"
+   ],
+   "why": "Botanical cafe in Minami-Aoyama; weekday-friendly French-toast morning plate 8:00-11:00.",
+   "notes": "Morning plate needs one drink (one-drink rule), 90-minute seats noted by reviewers. Food last order 17:00.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-buy-me-stand",
+   "name": "BUY ME STAND",
+   "jp": "バイ ミー スタンド",
+   "lat": 35.654539,
+   "lng": 139.706315,
+   "address": "東京都渋谷区東1-31-19 マンション並木橋 202 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/1p7g369s0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 598,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13189783/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13189783/",
+    "https://r.gnavi.co.jp/1p7g369s0000/",
+    "https://san-tatsu.jp/spots/297572/"
+   ],
+   "why": "Sandwich shop near Shibuya Higashi; crisp-baked sandwiches; breakfast 8:00-11:00.",
+   "notes": "Hours differ across listings (8:00-17:00 on Gurunavi/Yelp) - narrower used.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-about-life-coffee-brewers-shibuya-itchom",
+   "name": "ABOUT LIFE COFFEE BREWERS Shibuya itchome",
+   "jp": "アバウトライフコーヒーブリュワーズ 渋谷一丁目",
+   "lat": 35.661509,
+   "lng": 139.703154,
+   "address": "東京都渋谷区渋谷1-17-1 all day place shibuya 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://onibuscoffee.com/en/pages/locations/shibuya1st",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 252,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13271315/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13271315/",
+    "https://onibuscoffee.com/en/pages/locations/shibuya1st",
+    "https://cafesnap.me/c/16741"
+   ],
+   "why": "Onibus Coffee-run roastery cafe at all day place shibuya; opens 8:00.",
+   "notes": "Official Onibus page: 8:00-18:00, irregular holidays.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-andy-coffee",
+   "name": "ANDY COFFEE",
+   "jp": "ANDY COFFEE",
+   "lat": 35.651131,
+   "lng": 139.703863,
+   "address": "東京都渋谷区代官山町11-1 ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://and-r.co.jp/news/132/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 298,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13297856/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13297856/",
+    "https://and-r.co.jp/news/132/",
+    "https://retty.me/area/PRE13/ARE7/SUB702/100001745906/"
+   ],
+   "why": "Daikanyama donut-and-coffee shop with art by Seiji Matsumoto; opens 8:00.",
+   "notes": "Official notice 8:00-19:00; Tokyu article says 18:00 - narrower used. Closed New Year only.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-sarutahiko-coffee-ebisu-honten",
+   "name": "Sarutahiko Coffee Ebisu honten",
+   "jp": "猿田彦珈琲 恵比寿本店",
+   "lat": 35.647716,
+   "lng": 139.710956,
+   "address": "東京都渋谷区恵比寿1-6-6 斎藤ビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.enjoytokyo.jp/spot/l_20087825/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 713,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13127577/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13127577/",
+    "https://www.enjoytokyo.jp/spot/l_20087825/",
+    "https://r.gnavi.co.jp/b4xrx9xy0000/"
+   ],
+   "why": "Ebisu flagship of Sarutahiko Coffee: popular local specialty roaster; open late on weekends.",
+   "notes": "Weekdays from 8:00; Sat/Sun from 10:00. Closing times per Enjoytokyo/Gurunavi listings (Fri/Sat to 23:30).",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-choraku-dougenzaka-ten",
+   "name": "Choraku Dougenzaka ten",
+   "jp": "兆楽 道玄坂店",
+   "lat": 35.659118,
+   "lng": 139.69924,
+   "address": "東京都渋谷区道玄坂2-6-2 藤山恒産第一ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/j2my4f8p0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1483,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13065803/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13065803/",
+    "https://r.gnavi.co.jp/j2my4f8p0000/",
+    "https://san-tatsu.jp/spots/131187/"
+   ],
+   "why": "Machi-chuka (Chinese diner) with 400-yen-range breakfast sets from 7:00; open to 23:30.",
+   "notes": "Morning set served 7:00-11:00 per blog; last order ~23:20. Most listings say no regular holiday (Tabelog: Monday closed - treated closed).",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-ramen-ou-kouraku-honpo",
+   "name": "Ramen Ou Kouraku Honpo",
+   "jp": "ラーメン王 後楽本舗",
+   "lat": 35.658703,
+   "lng": 139.698597,
+   "address": "東京都渋谷区道玄坂2-7-4 清水ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/17279.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1260,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13022566/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13022566/",
+    "https://ramendb.supleks.jp/s/17279.html",
+    "https://www.hotpepper.jp/strJ000140875/"
+   ],
+   "why": "Near-24h Shibuya machi-chuka: ramen, fried rice, sets; clubbers and locals at all hours.",
+   "notes": "Open 24 hours Tue-Sun; Monday 9:00-24:00 (Time Out and Hot Pepper agree).",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-hakata-shokudo",
+   "name": "Hakata Shokudo",
+   "jp": "博多食堂",
+   "lat": 35.661671,
+   "lng": 139.696433,
+   "address": "東京都渋谷区宇田川町36-16 プラザマリーナ 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hakatashokudo.com/tenpo/%E5%8D%9A%E5%A4%9A%E9%A3%9F%E5%A0%82-%E6%B8%8B%E8%B0%B7%E5%BA%97/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 407,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13161572/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13161572/",
+    "https://hakatashokudo.com/tenpo/%E5%8D%9A%E5%A4%9A%E9%A3%9F%E5%A0%82-%E6%B8%8B%E8%B0%B7%E5%BA%97/",
+    "https://www.enjoytokyo.jp/spot/l_20013331/"
+   ],
+   "why": "Hakata-style tonkotsu ramen and Kyushu small dishes, open to 1am.",
+   "notes": "Official: 11:00-01:00, no regular holiday; soup can run out.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-hachigatsu-no-kujira",
+   "name": "Hachigatsu no Kujira",
+   "jp": "八月の鯨",
+   "lat": 35.660516,
+   "lng": 139.698174,
+   "address": "東京都渋谷区宇田川町28-13 渋谷門ビル Ｂ１Ｆ ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥3,000-¥3,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "28:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000797746/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 589,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13001917/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001917/",
+    "https://www.hotpepper.jp/strJ000797746/",
+    "https://rurubu.jp/andmore/spot/80111769"
+   ],
+   "why": "Film-themed basement bar near Center-gai, open until 4am.",
+   "notes": "Hot Pepper/Gurunavi/Rurubu: 18:00-04:00; floors may close on some days (official X).",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-shibuya-sanchome-ramen",
+   "name": "Shibuya Sanchome Ramen",
+   "jp": "渋谷三丁目らあめん",
+   "lat": 35.655857,
+   "lng": 139.706167,
+   "address": "東京都渋谷区渋谷3-13-9 ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "28:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000812223/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 387,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13014694/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13014694/",
+    "https://www.hotpepper.jp/strJ000812223/",
+    "https://ramendb.supleks.jp/s/95.html"
+   ],
+   "why": "Late-night tonkotsu/izakaya-ramen shop, open to 4am Mon-Sat.",
+   "notes": "Hot Pepper: Mon-Sat 11:00-04:00, Sun 11:00-23:00.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-butayama-ebisu-ten-ebisu-ten",
+   "name": "Butayama Ebisu Ten Ebisu ten",
+   "jp": "豚山  恵比寿店",
+   "lat": 35.645615,
+   "lng": 139.711139,
+   "address": "東京都渋谷区恵比寿4-1-18 ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://en.shop.butayama.com/detail/112219/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 467,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13275309/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13275309/",
+    "https://en.shop.butayama.com/detail/112219/",
+    "https://ramendb.supleks.jp/s/142655.html"
+   ],
+   "why": "Jiro-style heavy pork ramen chain, 1 min from Ebisu station, open to 2am.",
+   "notes": "Official: 11:00-02:00 daily. Big portions; ticket machine.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-shumai-no-nakame-omotesando-ten",
+   "name": "Shumai no Nakame Omotesando ten",
+   "jp": "焼売のなかめ 表参道店",
+   "lat": 35.667769,
+   "lng": 139.706194,
+   "address": "東京都渋谷区神宮前6-2-8 2F～3F ",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥2,000-¥2,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "25:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ004242995/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 180,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13269520/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13269520/",
+    "https://www.hotpepper.jp/strJ004242995/",
+    "https://hitosara.com/0031535786/tel.html"
+   ],
+   "why": "Late-night shumai and dim-sum izakaya in Omotesando, open to 2am.",
+   "notes": "Hours conflict (some 10:50-02:00 with 14:45-17:00 break; shop-linked page 17:00-01:30) - narrower 17:00-01:30 used. AutoReserve booking.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-67-gyoza-ebisu-ten",
+   "name": "67 Gyoza Ebisu ten",
+   "jp": "67餃子 恵比寿店",
+   "lat": 35.648386,
+   "lng": 139.710827,
+   "address": "東京都渋谷区恵比寿1-1-7 117ビル 1F ",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥3,000-¥3,999",
+   "reservation": "recommended",
+   "res_note": "AutoReserve available",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000748780/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 268,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13090227/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13090227/",
+    "https://www.hotpepper.jp/strJ000748780/",
+    "https://ramendb.supleks.jp/s/28612.html"
+   ],
+   "why": "Ebisu gyoza izakaya open to 3am; many gyoza varieties.",
+   "notes": "Hot Pepper/ramendb/Yelp agree: Mon-Sat 17:00-03:00, Sun 17:00-23:30.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-bar-martha",
+   "name": "BAR MARTHA",
+   "jp": "BAR MARTHA",
+   "lat": 35.646425,
+   "lng": 139.713605,
+   "address": "東京都渋谷区恵比寿1-22-23 ヴェラハイツ恵比寿 1F（裏） ",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "tue": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "wed": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "thu": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "fri": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "19:00",
+      "27:00"
+     ]
+    ]
+   },
+   "hours_source": "https://martha-records.com/martha.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 311,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13114145/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13114145/",
+    "https://martha-records.com/martha.html",
+    "https://www.hotpepper.jp/strJ000952038/"
+   ],
+   "why": "Record bar next to Ebisu station, 19:00 to 3am, vinyl and cocktails.",
+   "notes": "Official page: 19:00-03:00, no reservations accepted.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-hakata-tenjin-shibuya-minamiguchi-ten",
+   "name": "Hakata Tenjin Shibuya minamiguchi ten",
+   "jp": "博多天神 渋谷南口店",
+   "lat": 35.657913,
+   "lng": 139.699491,
+   "address": "東京都渋谷区道玄坂1-5-4 照力ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000613241/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 949,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13004828/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13004828/",
+    "https://www.hotpepper.jp/strJ000613241/",
+    "https://r.gnavi.co.jp/hkbg44rm0000/"
+   ],
+   "why": "Hakata tonkotsu ramen shop near Shibuya south exit, open to ~3am.",
+   "notes": "Listings range 03:00-04:00 close - 3:00 used.",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-nihon-aburato-shibuya-sohonbu",
+   "name": "Nihon Aburato Shibuya Sohonbu",
+   "jp": "日本油党 渋谷総本部",
+   "lat": 35.660544,
+   "lng": 139.699503,
+   "address": "東京都渋谷区宇田川町24-10 横田ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/147228.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 602,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13283276/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13283276/",
+    "https://ramendb.supleks.jp/s/147228.html",
+    "https://retty.me/area/PRE13/ARE8/SUB802/100001696005/"
+   ],
+   "why": "Abura-soba (oil noodles) specialist from the Hayashida group; open overnight Fri/Sat.",
+   "notes": "Fri/Sat/holiday eves 11:00 to 7:00 next morning (to 06:00 used); other days to 23:00.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-seabura-ramen-chaccha-tei",
+   "name": "Seabura Ramen Chaccha Tei",
+   "jp": "背脂ラーメン チャッチャ亭",
+   "lat": 35.660183,
+   "lng": 139.696551,
+   "address": "東京都渋谷区道玄坂2-25-5 島田ビル 1F ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0031531312/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 634,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13267859/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13267859/",
+    "https://hitosara.com/0031531312/",
+    "https://retty.me/area/PRE13/ARE8/SUB806/100001715337/"
+   ],
+   "why": "Seabura (pork-fat) ramen/tsukemen in Dogenzaka; Tokyo-Seabura Menou renewed in 2023.",
+   "notes": "Hitosara/Retty: 11:00-22:30 daily (Tabelog longer) - narrower used.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-eight-coffee-ebisu",
+   "name": "EIGHT COFFEE Ebisu",
+   "jp": "EIGHT COFFEE 恵比寿",
+   "lat": 35.646359,
+   "lng": 139.711595,
+   "address": "東京都渋谷区恵比寿1-11-8 ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE7/SUB701/100001723237/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 109,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13290863/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13290863/",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100001723237/",
+    "https://azabu-guide.jp/eight-coffe-ebisu/"
+   ],
+   "why": "Tiny coffee stand 1 min from Ebisu east exit; opens 7:00 on weekdays.",
+   "notes": "Tabelog weekday 7:00-19:00, Sat/Sun 8:00-19:00; 2023-24 articles list to 22:00 on weekdays - narrower used. Takeaway-style stand.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-antico-caffe-al-avis-atore-ebisu-ten",
+   "name": "ANTICO CAFFE AL AVIS Atore ebisu ten",
+   "jp": "アンティコ カフェアルアビス アトレ恵比寿店",
+   "lat": 35.647349,
+   "lng": 139.709879,
+   "address": "東京都渋谷区恵比寿南1-5-5 アトレ恵比寿 1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.atre.co.jp/ebisu/shop/1197/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 687,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13115463/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13115463/",
+    "https://www.atre.co.jp/ebisu/shop/1197/",
+    "https://www.hotpepper.jp/strJ000861677"
+   ],
+   "why": "Italian-style standing bar and cafe inside Atre Ebisu (station building); espresso and cornetti from 7:00.",
+   "notes": "Official Atre page: 7:00-22:00, last order 21:30. Follows Atre Ebisu holidays.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-cozzyy-coffee",
+   "name": "COZZYY COFFEE",
+   "jp": "COZZYY COFFEE",
+   "lat": 35.64668,
+   "lng": 139.711346,
+   "address": "東京都渋谷区恵比寿1-11-15 エビスリヨンビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.cozzyycoffee.co.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 220,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13300533/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13300533/",
+    "https://www.cozzyycoffee.co.jp/",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100001755425/"
+   ],
+   "why": "New York-style coffee shop and evening bar by Ebisu station (honten).",
+   "notes": "Official site says 8:00-23:00; Tabelog 9:00-21:30 - narrower used. New (2024) and popular with younger crowd.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-it-coffee-ebisu-ten",
+   "name": "it COFFEE Ebisu ten",
+   "jp": "it COFFEE 恵比寿店",
+   "lat": 35.646951,
+   "lng": 139.712532,
+   "address": "東京都渋谷区恵比寿1-20-2 恵比寿ファーストビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/r9r1s3zk0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 150,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13269270/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13269270/",
+    "https://r.gnavi.co.jp/r9r1s3zk0000/",
+    "https://rurubu.jp/andmore/spot/80117747"
+   ],
+   "why": "Daikanyama-born specialty coffee shop, Ebisu branch; open from 8:00.",
+   "notes": "Gurunavi/Hitosara 8:00-20:00; Yahoo/LINE 8:00-21:00 - 20:00 used.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-joe-talk-coffee",
+   "name": "JOE TALK COFFEE",
+   "jp": "JOE TALK COFFEE",
+   "lat": 35.648911,
+   "lng": 139.710742,
+   "address": "東京都渋谷区東3-16-10 三浦ビル 1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0031524616/map.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 282,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13266317/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13266317/",
+    "https://hitosara.com/0031524616/map.html",
+    "https://harumari.tokyo/82528/"
+   ],
+   "why": "Ebisu coffee stand with weekday 8:00 opening; takeout focus.",
+   "notes": "Hours vary (Sep 2025 press: weekdays 8-20, weekends 10-20; Instagram 18:00) - 18:00 used. Cashless, irregular holidays.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-ogikubo-chuka-soba-harukiya-ebisu-ten",
+   "name": "Ogikubo Chuka Soba Harukiya Ebisu ten",
+   "jp": "荻窪中華そば 春木屋 恵比寿店",
+   "lat": 35.647379,
+   "lng": 139.711192,
+   "address": "東京都渋谷区恵比寿1-5-10 ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:20"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:20"
+     ]
+    ]
+   },
+   "hours_source": "http://www.haruki-ya.co.jp/shop/ebisu.php",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 488,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13307304/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13307304/",
+    "http://www.haruki-ya.co.jp/shop/ebisu.php",
+    "https://ramendb.supleks.jp/s/164177.html"
+   ],
+   "why": "Branch of a 1949 Ogikubo classic shoyu ramen; wonton noodles. Hours extended Apr 2026.",
+   "notes": "Official: weekdays 11:00-23:00 (LO 22:40), weekends 11:00-22:20 (LO 22:00), open Sundays from Apr 2026.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-tsukinousagi",
+   "name": "TSUKINOUSAGI",
+   "jp": "蕎麦 つきのうさぎ",
+   "lat": 35.646562,
+   "lng": 139.711706,
+   "address": "東京都渋谷区恵比寿1-11-3 1F ",
+   "cat": "soba-udon",
+   "price": 3,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥5,000-¥5,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/pty37uva0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 260,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13289562/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13289562/",
+    "https://r.gnavi.co.jp/pty37uva0000/",
+    "https://www.enjoytokyo.jp/spot/g_p815907/"
+   ],
+   "why": "Stone-ground soba and izakaya-style dishes near Ebisu station, open to 23:00 (Fri 24:00).",
+   "notes": "Gurunavi: Fri/holiday eve to 24:00, others 23:00 (LO 22:30). Reservable.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-curry-udon-senkichi-ebisu-ten",
+   "name": "Curry Udon Senkichi Ebisu ten",
+   "jp": "カレーうどん千吉 恵比寿店",
+   "lat": 35.647338,
+   "lng": 139.708677,
+   "address": "東京都渋谷区恵比寿西1-8-7 見須ビル 2F ",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://senkichi.co.jp/shop.php",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 229,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13276751/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13276751/",
+    "https://senkichi.co.jp/shop.php",
+    "https://hitosara.com/0031560838/"
+   ],
+   "why": "Specialist curry udon chain (Tamori-supervised); late opening hours to 23:00.",
+   "notes": "Official shop list: Ebisu 11:00-23:00; Hitosara LO 22:30.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-ebisu-tairyuken",
+   "name": "Ebisu Tairyuken",
+   "jp": "恵比寿 大龍軒",
+   "lat": 35.645663,
+   "lng": 139.70772,
+   "address": "東京都渋谷区恵比寿南2-3-15 インペリアルビル 1F ",
+   "cat": "other",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.enjoytokyo.jp/spot/l_20117306/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 999,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13240768/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13240768/",
+    "https://www.enjoytokyo.jp/spot/l_20117306/",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100001513089/"
+   ],
+   "why": "Machi-chuka known for ebi-chan tanmen (shrimp tanmen); lunch-to-night, no regular holiday.",
+   "notes": "Official Instagram 11:00-22:00 (some listings later/earlier). Chinese diner, ticket not needed.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-sakanaya-kiimon",
+   "name": "Sakanaya Kiimon",
+   "jp": "魚屋きいもん",
+   "lat": 35.647228,
+   "lng": 139.715977,
+   "address": "東京都渋谷区恵比寿1-26-15 ",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥6,000-¥7,999",
+   "reservation": "recommended",
+   "res_note": "Phone 03-5420-1232 / AutoReserve",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "24:30"
+     ]
+    ]
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE7/SUB701/100000713849/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 195,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13146033/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13146033/",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100000713849/",
+    "https://izakayashuji.com/archives/6992"
+   ],
+   "why": "Fish izakaya; on Ota Kazuhiko's 100-izakaya list; hidden in Ebisu.",
+   "notes": "Open daily 17:00-24:30 (LO 23:30) per Retty; irregular closures.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-soaltee-mode",
+   "name": "Soaltee Mode",
+   "jp": "ソルティーモード",
+   "lat": 35.64923,
+   "lng": 139.707587,
+   "address": "東京都渋谷区恵比寿西2-8-9 代官山宝ビルⅢ５Ｆ ",
+   "cat": "other",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥3,000-¥3,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0032017652/tel.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 337,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13001747/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13001747/",
+    "https://hitosara.com/0032017652/tel.html",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100000011855/"
+   ],
+   "why": "Veteran Nepali restaurant (dal bhat) near Daikanyama/Ebisu; open to midnight.",
+   "notes": "Tue-Fri lunch 11:45-14:00; dinner to 24:00; Mon closed; Hot Pepper shows different hours.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-the-city-bakery-shibuya-dougenzakadoori",
+   "name": "THE CITY BAKERY Shibuya dougenzakadoori",
+   "jp": "THE CITY BAKERY 渋谷道玄坂通",
+   "lat": 35.660263,
+   "lng": 139.697454,
+   "address": "東京都渋谷区道玄坂2-25-12 dogenzaka-dori 1F ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://thecitybakery.jp/news/dogenzaka-open",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 214,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13288456/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13288456/",
+    "https://thecitybakery.jp/news/dogenzaka-open",
+    "https://retty.me/area/PRE13/ARE8/SUB806/100001714685/"
+   ],
+   "why": "NY-style bakery-cafe with breakfast from 7:30 (CB dog, egg sandwiches), open to 22:00.",
+   "notes": "Official site 7:30-22:00 daily; morning menu until ~11:00. May shorten on Halloween night.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "ok"
+  },
+  {
+   "id": "shibuya-potamelt-sendagaya-ten",
+   "name": "POTAMELT Sendagaya ten",
+   "jp": "POTAMELT 千駄ヶ谷店",
+   "lat": 35.675418,
+   "lng": 139.706912,
+   "address": "東京都渋谷区千駄ヶ谷2-1-6 1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://friedgreentomato.co.jp/brand/potamelt.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 197,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13230639/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13230639/",
+    "https://friedgreentomato.co.jp/brand/potamelt.html",
+    "https://loco.yahoo.co.jp/place/g-dOqWXRQkawE/"
+   ],
+   "why": "NY-style grilled-cheese sandwich shop in Sendagaya; open 8:00-19:00 daily; handy for a Meiji Jingu morning.",
+   "notes": "Brand site, Yahoo, Gurunavi, Retty agree 8:00-19:00; LO 18:30.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-aoyama-kawakami-an",
+   "name": "Aoyama Kawakami An",
+   "jp": "青山 川上庵",
+   "lat": 35.665788,
+   "lng": 139.714465,
+   "address": "東京都港区南青山3-14-1 ",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner ¥4,000-¥4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.kawakamian.com/shops/aoyama.php",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 1651,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13033164/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13033164/",
+    "https://www.kawakamian.com/shops/aoyama.php",
+    "https://r.gnavi.co.jp/fm6v9f150000/"
+   ],
+   "why": "Nagano-style soba from Karuizawa Kawakami-an; tempura and sake, open 11:00-23:00 every day.",
+   "notes": "Official: 11:00-16:00 and 16:00-23:00 (LO 22:00), no regular holiday; monthly meeting may close 16:30-18:00.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-karamen-hanabi-shibuya-ten",
+   "name": "KARAMEN HANABI Shibuya ten",
+   "jp": "辛麺 華火 渋谷店",
+   "lat": 35.660203,
+   "lng": 139.699365,
+   "address": "東京都渋谷区宇田川町24-6 渋ビルヂング 3F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "Walk-in, ticket/QR order",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://karamen-hanabi.jp/shop/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.42,
+    "reviews": 201,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13298148/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13298148/",
+    "https://karamen-hanabi.jp/shop/",
+    "https://www.hotpepper.jp/strJ004195685/"
+   ],
+   "why": "Spicy karamen (Miyazaki-style) chain; open overnight until 6am.",
+   "notes": "Official shop list: 11:30-06:00 (LO 5:30), Mondays closed.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-mizunoboru",
+   "name": "Mizunoboru",
+   "jp": "ミズノボル",
+   "lat": 35.660554,
+   "lng": 139.698436,
+   "address": "東京都渋谷区宇田川町29-3 ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/153377.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 144,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13293768/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13293768/",
+    "https://ramendb.supleks.jp/s/153377.html",
+    "https://www.navitime.co.jp/poi?spot=01125-153377r"
+   ],
+   "why": "Shio (salt) ramen specialist near Center-gai; open until 5am daily.",
+   "notes": "Ramendb/Navitime: 11:00-05:00, no holiday (one blog says to 6:00).",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-hayashida-shibuya-udagawachou-ten",
+   "name": "Hayashida Shibuya udagawachou ten",
+   "jp": "はやし田 渋谷宇田川町店",
+   "lat": 35.661249,
+   "lng": 139.697987,
+   "address": "東京都渋谷区宇田川町31-9 ハナテイビル 1F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/162129.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 172,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13304739/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13304739/",
+    "https://ramendb.supleks.jp/s/162129.html",
+    "https://shibukichi.net/2024/12/25/hayashida_shibuya_repo/"
+   ],
+   "why": "Hayashida group shoyu ramen with duck/Daisen-chicken soup; opened Dec 2024.",
+   "notes": "Ramendb/Navitime/Yahoo: 11:00-23:00, soup can run out early.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-yamaga-honten",
+   "name": "Yamaga Honten",
+   "jp": "山家 本店",
+   "lat": 35.658274,
+   "lng": 139.699417,
+   "address": "東京都渋谷区道玄坂1-5-9 ザ レンガビル 1F ",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.shibukei.com/headline/20068/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 579,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13048290/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13048290/",
+    "https://www.shibukei.com/headline/20068/",
+    "https://autoreserve.com/ja/restaurants/vBT6BPREimbHqeg6qFoj"
+   ],
+   "why": "Old-school Dogenzaka izakaya (yakitori, daily set meals); reopened Jul 2026 after refurbishment, now open from 9:00.",
+   "notes": "Reopened 18 July (renovation). Hours 9:00-23:00 per Shibuya Keizai Shimbun/AutoReserve; Fri/Sat overnight planned but unconfirmed.",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-neo",
+   "name": "neo",
+   "jp": "neo",
+   "lat": 35.657462,
+   "lng": 139.694423,
+   "address": "東京都渋谷区円山町15-6 ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥5,000-¥5,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE8/SUB804/100001592092/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 492,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13262588/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13262588/",
+    "https://retty.me/area/PRE13/ARE8/SUB804/100001592092/",
+    "https://dancyu.jp/read/2026_00010259.html"
+   ],
+   "why": "Stand-up natural-wine and small-plate Italian bar by Shinsen station; from 15:00.",
+   "notes": "Standing; last order 21:30; closing day irregular (check Instagram).",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-mikkeller-tokyo",
+   "name": "Mikkeller Tokyo",
+   "jp": "ミッケラー トウキョウ",
+   "lat": 35.659472,
+   "lng": 139.696032,
+   "address": "東京都渋谷区道玄坂2-19-11 中村ビル 1F ",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "25:30"
+     ]
+    ],
+    "sat": [
+     [
+      "14:00",
+      "25:30"
+     ]
+    ],
+    "sun": [
+     [
+      "14:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0031332783/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 385,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13208803/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13208803/",
+    "https://hitosara.com/0031332783/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%90%E3%83%BC/mikkeller-tokyo"
+   ],
+   "why": "Mikkeller craft-beer bar in Dogenzaka-Shinsen with ~20 taps.",
+   "notes": "Fri/Sat open to 01:30; closed none. Food last order 1h before close.",
+   "near": [
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-tachinomi-fujiya-honten",
+   "name": "Tachinomi Fujiya Honten",
+   "jp": "立呑 富士屋本店",
+   "lat": 35.656634,
+   "lng": 139.701071,
+   "address": "東京都渋谷区桜丘町16-10 ",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "Standing, walk-in",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "22:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://fujiyahonten.co.jp/stores/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 634,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13279361/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13279361/",
+    "https://fujiyahonten.co.jp/stores/",
+    "https://san-tatsu.jp/spots/276176/"
+   ],
+   "why": "Revived standing-drinks institution of Sakuragaoka; cheap sake and snacks.",
+   "notes": "Official: Mon-Fri 17:00-, Sat 16:00-; Sunday status disputed (newer sources open Sun 15:00-20:00) - treated closed. | Audit: Sunday may be open 16:00-21:00 (san-tatsu); unconfirmed",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shibuya-omotesando-toriyoshi",
+   "name": "Omotesando Toriyoshi",
+   "jp": "表参道 鳥義",
+   "lat": 35.665606,
+   "lng": 139.712371,
+   "address": "東京都港区北青山3-5-25 下島ビル ２Ｆ ",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥4,000-¥4,999",
+   "reservation": "recommended",
+   "res_note": "Official site / Hot Pepper booking",
+   "hours": {
+    "mon": [
+     [
+      "16:30",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:30",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:30",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:30",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://toriyoshi-aoyama.owst.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 103,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13034329/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13034329/",
+    "https://toriyoshi-aoyama.owst.jp/",
+    "https://www.hotpepper.jp/strJ000011884/"
+   ],
+   "why": "Omotesando yakitori izakaya near the station, open to midnight daily.",
+   "notes": "Official: Mon-Fri 16:30-24:00, Sat/Sun 16:00-24:00 (LO food 23:00); irregular monthly closure.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-masaya-shokudo",
+   "name": "Masaya Shokudo",
+   "jp": "まさや食堂",
+   "lat": 35.669638,
+   "lng": 139.705622,
+   "address": "東京都渋谷区神宮前1-9-12 ロイスダールビル 1F ",
+   "cat": "kaiseki-teishoku",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥3,000-¥3,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://gd5s406.gorp.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 157,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13215594/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13215594/",
+    "https://gd5s406.gorp.jp/",
+    "https://www.hotpepper.jp/strJ001208017/"
+   ],
+   "why": "Harajuku set-meal diner and evening izakaya; stamina teishoku about JPY990 at lunch.",
+   "notes": "Official page: 11:30-16:00 and 17:30-23:30, no holiday; lunch cash. | Audit says hours differ: daily 11:30-23:30 per HotPepper (afternoon break unverified)",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-cafe-le-jus-gurunie",
+   "name": "Cafe Le Jus Gurunie",
+   "jp": "カフェ レ ジュ グルニエ",
+   "lat": 35.663073,
+   "lng": 139.711769,
+   "address": "東京都港区南青山5-9-5 村山ビル 2F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000122172/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 534,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13007510/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13007510/",
+    "https://www.hotpepper.jp/strJ000122172/",
+    "https://hitosara.com/0031000867/"
+   ],
+   "why": "Hidden Omotesando cafe, retro kissaten feel, open to 23:00 Mon-Sat.",
+   "notes": "Hot Pepper/Hitosara/Gurunavi: Mon-Sat 11:00-23:00, Sun 12:00-20:00.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-lotus",
+   "name": "LOTUS",
+   "jp": "LOTUS",
+   "lat": 35.668475,
+   "lng": 139.712222,
+   "address": "東京都渋谷区神宮前4-6-8 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥2,000-¥2,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://rurubu.jp/andmore/spot/80106248",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 997,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13005327/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13005327/",
+    "https://rurubu.jp/andmore/spot/80106248",
+    "https://san-tatsu.jp/spots/251933/"
+   ],
+   "why": "Longtime Omotesando culture cafe, cakes and food; one of the originators of the area's cafe boom.",
+   "notes": "Hours vary strongly between sources (to 22:00 Tabelog; Fri/Sat 23:00; some say Mon closed) - Tabelog used.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-sakurai-baicha-kenkyujo",
+   "name": "Sakurai Baicha Kenkyujo",
+   "jp": "櫻井焙茶研究所",
+   "lat": 35.663581,
+   "lng": 139.711749,
+   "address": "東京都港区南青山5-6-23 スパイラルビル 5F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner -",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ004228555/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 200,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13197815/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13197815/",
+    "https://www.hotpepper.jp/strJ004228555/",
+    "https://otonano-shumatsu.com/articles/231999"
+   ],
+   "why": "Roasted-tea specialist (Sakurai Souen); weekday tea-cocktail bar to 23:00.",
+   "notes": "Hot Pepper: Mon-Fri 11:00-23:00 (LO 22:00), Sat/Sun 11:00-20:00. Shop closes 20:00; tea room later.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-soba-kiri-miyota",
+   "name": "Soba Kiri Miyota",
+   "jp": "蕎麦きり みよた",
+   "lat": 35.666223,
+   "lng": 139.713787,
+   "address": "東京都港区南青山3-12-13 紅谷ビル 1F ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Walk-in; queue at noon",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE23/SUB2303/100001204402/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1295,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13180620/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13180620/",
+    "https://retty.me/area/PRE13/ARE23/SUB2303/100001204402/",
+    "https://r.gnavi.co.jp/epwhgtne0000/"
+   ],
+   "why": "Modern standing-style soba shop near Omotesando; short queue at lunch.",
+   "notes": "Retty/Gurunavi: Mon-Sat 10:00-22:00, Sun/holidays 10:00-20:00; Tabelog: closed Sundays (1st/3rd/5th) - Sunday treated closed.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-harajuku-gyoza-ro",
+   "name": "Harajuku Gyoza Ro",
+   "jp": "原宿餃子樓",
+   "lat": 35.667509,
+   "lng": 139.706112,
+   "address": "東京都渋谷区神宮前6-2-4 岡島ビル 1F ",
+   "cat": "other",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://imagine-dumplings.amebaownd.com/pages/3874584/honten",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1318,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13001284/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13001284/",
+    "https://imagine-dumplings.amebaownd.com/pages/3874584/honten",
+    "https://www.navitime.co.jp/poi?spot=02022-41890"
+   ],
+   "why": "Gyoza specialist since 1970s near Meiji-jingumae; cheap weekday lunch set.",
+   "notes": "Official page: 11:30-22:00 (LO 21:30), open all year.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-tenma-aoyama-ten",
+   "name": "Tenma Aoyama ten",
+   "jp": "天馬 青山店",
+   "lat": 35.667689,
+   "lng": 139.715094,
+   "address": "東京都港区南青山3-8-40 青山センタービル 1F ",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://retty.me/area/PRE13/ARE23/SUB2303/100001180148/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 955,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13174013/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13174013/",
+    "https://retty.me/area/PRE13/ARE23/SUB2303/100001180148/",
+    "https://hitosara.com/0031259415/"
+   ],
+   "why": "Aoyama curry and curry-bread shop, open 11:00-22:00 daily.",
+   "notes": "Retty and Navitime agree: 11:00-22:00 (LO 21:30), no holiday.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-aoyama-fuchin",
+   "name": "Aoyama Fuchin",
+   "jp": "青山ふーちん",
+   "lat": 35.664295,
+   "lng": 139.710679,
+   "address": "東京都港区北青山3-10-13 ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://ramendb.supleks.jp/s/100716.html",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 194,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13209441/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13209441/",
+    "https://ramendb.supleks.jp/s/100716.html",
+    "https://hitosara.com/0031329280/tel.html"
+   ],
+   "why": "Cheap Chinese diner open late (ramen, beef nanban); long-time Aoyama office-worker spot.",
+   "notes": "Mon-Fri to 23:20 (LO 22:50), Sat 23:00, Sun 22:30 per ramendb/Hitosara; Retty says weekends closed - unresolved.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-uni",
+   "name": "uni",
+   "jp": "uni",
+   "lat": 35.667463,
+   "lng": 139.706862,
+   "address": "東京都渋谷区神宮前5-10-1 GYRE 4F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch -¥999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://gyre-omotesando.com/shopsandrestaurants/gyre-food/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 462,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13248343/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13248343/",
+    "https://gyre-omotesando.com/shopsandrestaurants/gyre-food/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/gyre-uni"
+   ],
+   "why": "GYRE food-floor cafe by day, bar from 19:00 to 24:00.",
+   "notes": "GYRE site: cafe 11:00-19:00, bar 19:00-24:00 (LO 23:30). Irregular closures. Sun/Mon close at 20:00 per Tabelog.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-hatto-coffee",
+   "name": "HATTO COFFEE",
+   "jp": "HATTO COFFEE",
+   "lat": 35.673099,
+   "lng": 139.709842,
+   "address": "東京都渋谷区神宮前2-18-19 the Folks by 10q SHOP2 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://teamcafetokyo.jp/hatto-coffee/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 118,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130601/13278070/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130601/13278070/",
+    "https://teamcafetokyo.jp/hatto-coffee/",
+    "https://asajikan.jp/article/327720"
+   ],
+   "why": "Terrace cafe in Jingumae opening at 9:00; hot dogs and morning drink sets.",
+   "notes": "Press release 9:00-19:30 (2026 article: 19:00); irregular closing days.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-eric-rose",
+   "name": "ERIC ROSE",
+   "jp": "エリック・ローズ",
+   "lat": 35.667827,
+   "lng": 139.713483,
+   "address": "東京都港区北青山3-4-3 ののあおやま 1F ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥2,000-¥2,999 / dinner ¥2,000-¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ericrose.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 470,
+    "url": "https://tabelog.com/en/tokyo/A1306/A130602/13253630/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1306/A130602/13253630/",
+    "https://ericrose.jp/",
+    "https://asajikan.jp/article/277862"
+   ],
+   "why": "Hawaiian-style eclectic cafe in Kita-Aoyama; opens 9:00 with morning menu.",
+   "notes": "Official site: 9:00-19:00; LO food 18:00.",
+   "near": [
+    "meiji_harajuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-cream-pand-bakers",
+   "name": "CREAM PAND BAKERs",
+   "jp": "CREAM PAND BAKERs",
+   "lat": 35.650029,
+   "lng": 139.705287,
+   "address": "東京都渋谷区恵比寿西2-14-10 TWONE代官山 1F ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [],
+    "wed": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ]
+   },
+   "hours_source": "https://rurubu.jp/andmore/article/16123",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.36,
+    "reviews": 63,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13258526/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13258526/",
+    "https://rurubu.jp/andmore/article/16123",
+    "https://retty.me/area/PRE13/ARE7/SUB702/100001579838/"
+   ],
+   "why": "Daikanyama coffee stand and baking shop (scones, cannele) opening 7:30 for early commuters.",
+   "notes": "Hours differ: Tabelog Mon-Fri to 14:00, Sat/Sun to 17:00; articles say 7:30-15:30 and closed Mon/Tue - narrowest combination used. Takeaway-focused.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-et-nunc-daikanyama",
+   "name": "Et Nunc Daikanyama",
+   "jp": "Et Nunc Daikanyama",
+   "lat": 35.648779,
+   "lng": 139.702366,
+   "address": "東京都渋谷区代官山町20-23 Forestgate Daikanyama MAIN棟 ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "18:30"
+     ]
+    ]
+   },
+   "hours_source": "https://panmegu.com/recomend/post-60722/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 318,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13296297/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13296297/",
+    "https://panmegu.com/recomend/post-60722/",
+    "https://prtimes.jp/main/html/rd/p/000000009.000063624.html"
+   ],
+   "why": "Palace Hotel-run boulangerie by Daikanyama station; eat-in morning sets, Japanese-wheat bread.",
+   "notes": "Press release and articles: 9:30-18:30.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-tatemichi-ya",
+   "name": "Tatemichi Ya",
+   "jp": "立道屋",
+   "lat": 35.646981,
+   "lng": 139.702016,
+   "address": "東京都渋谷区猿楽町30-8 Ｂ１Ｆ ",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner ¥2,000-¥2,999",
+   "reservation": "recommended",
+   "res_note": "AutoReserve / phone 03-5459-3431",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000812284/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.3,
+    "reviews": 78,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13019198/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13019198/",
+    "https://www.hotpepper.jp/strJ000812284/",
+    "https://retty.me/area/PRE13/ARE7/SUB702/100000021425/"
+   ],
+   "why": "Punk-flavoured Daikanyama basement izakaya, cheap drinks and snacks.",
+   "notes": "Hot Pepper: Mon-Sat 18:00-24:00, Sun closed (Hitosara/Retty list later closing to 1:00-3:00).",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-bar-go",
+   "name": "BAR Go",
+   "jp": "BAR五",
+   "lat": 35.647828,
+   "lng": 139.708112,
+   "address": "東京都渋谷区恵比寿西1-8-2 恵比寿ウエストパレスビル B1F ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog: lunch - / dinner ¥4,000-¥4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000931189/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 255,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13093230/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13093230/",
+    "https://www.hotpepper.jp/strJ000931189/",
+    "https://autoreserve.com/ja/restaurants/x7AZYxHdXfTyH4mFXECe"
+   ],
+   "why": "Compact Ebisu bar run by a veteran bartender, Mon-Sat evenings.",
+   "notes": "Closed Sun/holidays; last order drinks 23:30 (BAR-NAVI lists later hours).",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-grigio",
+   "name": "grigio",
+   "jp": "食堂 グリージョ",
+   "lat": 35.649919,
+   "lng": 139.704319,
+   "address": "東京都渋谷区代官山町14-11 エクセルシオール代官山 1F ",
+   "cat": "other",
+   "price": 3,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥4,000-¥4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [],
+    "thu": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://hitosara.com/0031248098/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 231,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13168345/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13168345/",
+    "https://hitosara.com/0031248098/",
+    "https://retty.me/area/PRE13/ARE7/SUB702/100001158652/"
+   ],
+   "why": "Daikanyama bistro-bar (Shokudo Grigio): Italian-leaning dishes, lunch and late dinner.",
+   "notes": "Closing days reported Tue/Wed (some sources: irregular). Dinner to 24:00 (LO food 22:00).",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shibuya-sputnik",
+   "name": "Sputnik",
+   "jp": "Sputnik",
+   "lat": 35.649606,
+   "lng": 139.705234,
+   "address": "東京都渋谷区恵比寿西2-18-6 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://cafesnap.me/c/15309",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 224,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13260396/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13260396/",
+    "https://cafesnap.me/c/15309",
+    "https://food-stadium.com/headline/30517/"
+   ],
+   "why": "Daikanyama standing Italian-style coffee bar by day, cocktails at night; open to midnight.",
+   "notes": "Opening time varies by source (8:30-11:00); 11:00 used. Last order 23:00. Often closed second Tuesday.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-caffe-foglio",
+   "name": "CAFFE FOGLIO",
+   "jp": "カフェ・フォリオ",
+   "lat": 35.64892,
+   "lng": 139.701967,
+   "address": "東京都渋谷区猿楽町23-3 鳥居ビル B1F ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/8cjmwdwr0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.43,
+    "reviews": 142,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13012517/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13012517/",
+    "https://r.gnavi.co.jp/8cjmwdwr0000/",
+    "https://retty.me/area/PRE13/ARE7/SUB702/100000036516/"
+   ],
+   "why": "Since 1982 Daikanyama basement kissaten; cheesecake and coffee, smoking allowed.",
+   "notes": "Gurunavi/CafeSnap/Retty: 11:00-22:00; closed some Wednesdays.",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-chez-lui-daikanyama-ten",
+   "name": "Chez Lui Daikanyama ten",
+   "jp": "シェ・リュイ 代官山店",
+   "lat": 35.64902,
+   "lng": 139.702001,
+   "address": "東京都渋谷区猿楽町23-2 代官山e&#39;Nビル 1F ",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.chez-lui.com/location/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.34,
+    "reviews": 672,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13036205/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13036205/",
+    "https://www.chez-lui.com/location/",
+    "https://r.gnavi.co.jp/hzrgv51e0000/"
+   ],
+   "why": "Daikanyama patisserie-boulangerie (50 years), canele and bread, cafe corner.",
+   "notes": "Official: 9:00-21:00 (excl. New Year), closed Tuesdays (open if holiday).",
+   "near": [
+    "shibuya",
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-sushi-bun",
+   "name": "Sushi Bun",
+   "jp": "寿司文",
+   "lat": 35.647594,
+   "lng": 139.708972,
+   "address": "東京都渋谷区恵比寿西1-7-7 EBSビル 1F ",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥5,000-¥5,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:45",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://www.hotpepper.jp/strJ000139762/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 196,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13093936/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13093936/",
+    "https://www.hotpepper.jp/strJ000139762/",
+    "https://autoreserve.com/ja/restaurants/EuFCp3tgotYTtS8oTXEM"
+   ],
+   "why": "Neighbourhood sushi-ya in Ebisu known for 10-a-day Ebisu-don at lunch.",
+   "notes": "Hours differ: weekday lunch 11:45-14:00 and dinner 17:00-22:00 used; Saturday status disputed (Hot Pepper open, Tabelog closed).",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-uncle-tom",
+   "name": "Uncle Tom",
+   "jp": "アンクルトム",
+   "lat": 35.64765,
+   "lng": 139.711825,
+   "address": "東京都渋谷区恵比寿1-14-7 山本ビル 1F ",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; arrive ~11:30",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:45",
+      "14:50"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://spaghetti-uncletom.com/openinghour",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 831,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13007147/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13007147/",
+    "https://spaghetti-uncletom.com/openinghour",
+    "https://retty.me/area/PRE13/ARE7/SUB701/100000009637/"
+   ],
+   "why": "Spaghetti specialist in Ebisu, always a lunch queue; cash only, no reservations.",
+   "notes": "Official: lunch Mon-Fri 11:30-14:30, Sat 11:45-14:50 (closed 3rd Sat, Sun, holidays). Tabelog also lists weekday dinner 18:00-20:50; unverified.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-tokyo-bombay-ebisu-honten",
+   "name": "Tokyo Bombay Ebisu honten",
+   "jp": "東京ボンベイ 恵比寿本店",
+   "lat": 35.6434,
+   "lng": 139.711673,
+   "address": "東京都渋谷区恵比寿南1-23-1 ABC亜米利加橋ビル 1F ",
+   "cat": "curry",
+   "price": 1,
+   "price_note": "Tabelog: lunch -¥999 / dinner -¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "http://curryhouse-bombay.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 1435,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13221284/",
+    "award": "Hyakumeiten Curry 2024"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13221284/",
+    "http://curryhouse-bombay.com/",
+    "https://www.hotpepper.jp/strJ004373722/"
+   ],
+   "why": "Sesame-heavy Tokyo-style curry; on Tabelog Curry Hyakumeiten 2024; Ebisu honten.",
+   "notes": "Official: Sunday/holidays to 18:00; weekdays LO 21:15; irregular holidays.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-binya-coffee-ten-ebisu-ten",
+   "name": "Binya Coffee Ten Ebisu ten",
+   "jp": "備屋珈琲店 恵比寿店",
+   "lat": 35.645125,
+   "lng": 139.711643,
+   "address": "東京都渋谷区恵比寿4-4-11 ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog: lunch ¥1,000-¥1,999 / dinner ¥1,000-¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://r.gnavi.co.jp/14ncmtgz0000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 480,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13014332/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13014332/",
+    "https://r.gnavi.co.jp/14ncmtgz0000/",
+    "https://chanomee.com/shops/ebisu-binya-coffee/"
+   ],
+   "why": "Charcoal-roast kissaten with 3-layer pudding, Ebisu.",
+   "notes": "Gurunavi: Mon-Sat 11:00-21:00 (LO 20:30), Sun/holidays to 20:00.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shibuya-naka-u-shibuya-udagawacho-ten",
+   "name": "Naka U Shibuya Udagawacho Ten",
+   "jp": "なか卯 渋谷宇田川町店",
+   "lat": 35.662441,
+   "lng": 139.695393,
+   "address": "東京都渋谷区宇田川町37-13 ",
+   "cat": "other",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.nakau.co.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.05,
+    "reviews": 68,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13106531/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13106531/",
+    "https://www.nakau.co.jp/"
+   ],
+   "why": "24-hour gyudon/oyakodon/udon chain; cheap morning sets - an any-hour fallback.",
+   "notes": "Tabelog: open 24h, no holidays. Chain, low Tabelog score (3.05) - included only for early/late coverage. Ticket machine.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-nadai-fuji-soba-meijidori-ten",
+   "name": "Nadai Fuji Soba Meijidori Ten",
+   "jp": "名代 富士そば 明治通り店",
+   "lat": 35.660207,
+   "lng": 139.702543,
+   "address": "東京都渋谷区渋谷1-14-15 森ビル ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://fujisoba.co.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.1,
+    "reviews": 141,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13103625/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13103625/",
+    "https://fujisoba.co.jp/"
+   ],
+   "why": "24-hour standing-style soba chain (Fuji Soba); quick breakfast or midnight noodles.",
+   "notes": "Tabelog: open 24h. Chain, Tabelog 3.1 - for early/late coverage. Ticket machine.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "ok"
+  },
+  {
+   "id": "shibuya-nadai-fuji-soba-daikanyama-ten",
+   "name": "Nadai Fuji Soba Daikanyama Ten",
+   "jp": "名代 富士そば  代官山店",
+   "lat": 35.646068,
+   "lng": 139.707769,
+   "address": "東京都渋谷区恵比寿南1-2-9 岡田ビル１F ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://fujisoba.co.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.06,
+    "reviews": 134,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13095785/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13095785/",
+    "https://fujisoba.co.jp/"
+   ],
+   "why": "24-hour Fuji Soba branch near Daikanyama/Ebisu; quick soba any hour.",
+   "notes": "Tabelog: open 24h. Chain - for early/late coverage.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-yoshinoya-ebisu-eki-higashiguchi-ten",
+   "name": "Yoshinoya Ebisu Eki Higashiguchi Ten",
+   "jp": "吉野家 恵比寿駅東口店",
+   "lat": 35.647012,
+   "lng": 139.711726,
+   "address": "東京都渋谷区恵比寿1-13-9 ",
+   "cat": "other",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.yoshinoya.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.04,
+    "reviews": 44,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13247349/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13247349/",
+    "https://www.yoshinoya.com/"
+   ],
+   "why": "Beef-bowl chain by Ebisu east exit; opens 7:00 with set breakfasts.",
+   "notes": "Tabelog: 7:00-23:00. Chain - for early coverage.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-matsuya-shibuya-center-gai-ten",
+   "name": "Matsuya Shibuya Center-gai Ten",
+   "jp": "松屋 渋谷センター街店",
+   "lat": 35.660179,
+   "lng": 139.698917,
+   "address": "東京都渋谷区宇田川町26-9 メトロビル １F ",
+   "cat": "other",
+   "price": 1,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.matsuyafoods.co.jp/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.06,
+    "reviews": 107,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13095554/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13095554/",
+    "https://www.matsuyafoods.co.jp/"
+   ],
+   "why": "24-hour gyumeshi chain on Center-gai; cheap breakfast set from early morning.",
+   "notes": "Tabelog: open 24h. Chain - for early/late coverage. Ticket machine.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shibuya-ichiran-shibuya-spain-zaka-ten",
+   "name": "Ichiran Shibuya Spain-zaka Ten",
+   "jp": "一蘭 渋谷スペイン坂店",
+   "lat": 35.660995,
+   "lng": 139.698722,
+   "address": "東京都渋谷区宇田川町13-7 コヤスワン B1F ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://ichiran.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.1,
+    "reviews": 322,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130301/13166058/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13166058/",
+    "https://ichiran.com/"
+   ],
+   "why": "Tonkotsu-ramen chain with solo booths, open 24 hours; queues at peak.",
+   "notes": "Tabelog: open 24h, no reservations. Heavily visited by foreign tourists - included for 24h coverage only.",
+   "near": [
+    "meiji_harajuku",
+    "shibuya"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "ok"
+  },
+  {
+   "id": "shibuya-afuri-ebisu",
+   "name": "AFURI Ebisu",
+   "jp": "AFURI 恵比寿",
+   "lat": 35.64831,
+   "lng": 139.710889,
+   "address": "東京都渋谷区恵比寿1-1-7 １１７ビル １Ｆ ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog: lunch - / dinner -",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "29:00"
+     ]
+    ]
+   },
+   "hours_source": "https://afuri.com/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 2548,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130302/13005500/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13005500/",
+    "https://afuri.com/"
+   ],
+   "why": "Yuzu-shio ramen originator (AFURI honten), open until 5am.",
+   "notes": "Tabelog: 11:00-05:00 (LO 5:00), open 7 days except New Year. Foreign visitors common but strong local base.",
+   "near": [
+    "ebisu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+    <!-- FOOD -->
+    <section id="food">
+      <h2 class="sec">Food <span class="k">食 · where we'll be, what's open</span></h2>
+      <p class="sub">Pick a day and an hour. The map shows places open at that time within a short walk of where the itinerary has you, ranked on Japanese locals' scores (Tabelog) and cross-checked elsewhere.</p>
+
+      <div class="card fx-ctl">
+        <div class="fx-row"><span class="fx-lab">Day</span><div class="fx-days" id="fxDays" role="tablist"></div></div>
+        <div class="fx-row">
+          <span class="fx-lab">Time</span>
+          <input type="range" id="fxHour" min="7" max="26" step="1" aria-label="Hour of day">
+          <b id="fxHourLab" class="fx-hour">12:00</b>
+        </div>
+        <div class="fx-row">
+          <span class="fx-lab">Around</span>
+          <select id="fxAnchor" aria-label="Area"></select>
+          <div class="fx-seg" id="fxRadius"><button data-r="15">15 min walk</button><button data-r="20" class="on">20 min walk</button></div>
+        </div>
+        <div class="fx-where" id="fxWhere"></div>
+        <div class="fx-row fx-filters">
+          <span class="fx-lab">Filter</span>
+          <div class="fx-chips" id="fxPrice"></div>
+          <div class="fx-chips" id="fxCat"></div>
+        </div>
+        <div class="fx-row fx-opts">
+          <label><input type="checkbox" id="fxNoRes"> No reservation needed</label>
+          <label><input type="checkbox" id="fxClosed"> Also show closed at this time</label>
+          <label>Sort <select id="fxSort"><option value="score">Best Tabelog score</option><option value="dist">Nearest</option><option value="price">Cheapest</option></select></label>
+        </div>
+      </div>
+
+      <div class="fx-count" id="fxCount"></div>
+      <div class="fx-mapwrap"><div id="fxMap" aria-label="Map of food options"></div><div class="fx-maperr" id="fxMapErr" hidden>Map could not load (needs internet). The list below still works.</div></div>
+      <div class="fx-list" id="fxList"></div>
+      <button class="fx-more" id="fxMore" hidden>Show more</button>
+      <p class="fx-foot">$ = under ¥1,000 pp · $$ ¥1,000–2,999 · $$$ ¥3,000–7,999 · $$$$ ¥8,000+. Tabelog scores run low by design (3.5+ is very good, 3.58+ is top-tier). Hours come from Tabelog and were spot-checked against other sources: about 1 in 7 sampled venues had a wrong closing day, hour or price tier, and only venues marked ✓ cross-checked were confirmed on a second source — so check the venue's own page before travelling to anywhere you've set your heart on. Walk time is a straight-line estimate (≈ 4.8 km/h, +25% for street layout).</p>
+    </section>
+

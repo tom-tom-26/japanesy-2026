@@ -1,0 +1,8961 @@
+{
+ "anchors": [
+  {
+   "id": "tsukiji",
+   "name": "Tsukiji Outer Market",
+   "jp": "築地場外市場",
+   "lat": 35.66539,
+   "lng": 139.77047,
+   "note": "OSM-verified. Sat 14 Nov 08:00. Outer market closed Sundays/holidays and most market-closure Wednesdays (11 and 18 Nov); many stalls close by ~14:00. Includes Tsukiji Hongwanji and Shimbashi edge."
+  },
+  {
+   "id": "ginza",
+   "name": "Ginza (4-chome crossing / Chuo-dori)",
+   "jp": "銀座四丁目交差点",
+   "lat": 35.6712,
+   "lng": 139.76504,
+   "note": "OSM-verified. Sat 14 Nov 10:30 shopping, 18:00 cocktails. Covers Ginza Six, Ginza Itchome-Yurakucho, Shimbashi gaado-shita, Bar High Five area."
+  },
+  {
+   "id": "tokyo_station",
+   "name": "Tokyo Station (Marunouchi / Yaesu / Kitte)",
+   "jp": "東京駅",
+   "lat": 35.6818,
+   "lng": 139.76498,
+   "note": "OSM-verified (station building). Sat 14 Nov 13:00. Ramen Street and Character Street (Yaesu), Kitte, Nihonbashi edge."
+  },
+  {
+   "id": "toyosu",
+   "name": "Toyosu Market / Shijo-mae",
+   "jp": "豊洲市場",
+   "lat": 35.6451,
+   "lng": 139.7849,
+   "note": "OSM-verified (Toyosu Market 35.6451,139.7849). Thu 19 Nov 10:00-15:00. Senkyaku Banrai and teamLab Planets within 0.6 km; Toyosu Station / Urban Dock LaLaport ~1.3-1.4 km. Market is open Thu 19 Nov (2026 closures: Sundays, holidays, 11 and 18 Nov); market restaurants mostly close ~13:00-14:00."
+  }
+ ],
+ "venues": [
+  {
+   "id": "toyosu-torimeshi-torito-toyosu-shijou",
+   "name": "Torimeshi Torito Toyosu shijou",
+   "jp": "鳥めし 鳥藤 豊洲市場",
+   "lat": 35.644123,
+   "lng": 139.782486,
+   "address": "東京都江東区豊洲6-5-1 豊洲市場 水産仲卸棟 6街区 3F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13117868/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 504,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13117868/",
+    "award": "Tabelog toriryori \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13117868/",
+    "https://macaro-ni.jp/176559"
+   ],
+   "why": "Chicken dishes, Oyako-don (Chicken and egg bowl), Ramen. Tabelog 3.65 from 504 reviews; Tabelog toriryori \"Tabelog 100\" 2025.",
+   "notes": "Seats 16 seats; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-sushi-dai",
+   "name": "Sushi Dai",
+   "jp": "寿司大",
+   "lat": 35.644309,
+   "lng": 139.782462,
+   "address": "東京都江東区豊洲6-5-1 豊洲市場内6街区 水産仲卸売場棟 3F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available Reservations can be made at the storefront starting from 5:00 AM. The time yo",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227096/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 525,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227096/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227096/",
+    "https://www.mapple.net/original/521815/",
+    "https://www.mapple.net/original/488721/"
+   ],
+   "why": "Sushi. Tabelog 3.64 from 525 reviews.",
+   "notes": "Seats 16 seats ( 14 counter seats an; Non smoking Smoking room available on site",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-daiwa-sushi",
+   "name": "Daiwa Sushi",
+   "jp": "大和寿司",
+   "lat": 35.644785,
+   "lng": 139.786043,
+   "address": "東京都江東区豊洲6-3-1 豊洲市場 5街区青果棟 1F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable Due to the purchasing situation on that day, some items may run out later i",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227265/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.63,
+    "reviews": 889,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227265/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227265/",
+    "https://www.mapple.net/original/488721/",
+    "https://www.nta.co.jp/media/tripa/articles/2qMnN"
+   ],
+   "why": "Sushi. Tabelog 3.63 from 889 reviews.",
+   "notes": "Seats 26 seats ( counter only); Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-sushi-dokoro-yamazaki",
+   "name": "Sushi Dokoro Yamazaki",
+   "jp": "寿司処 やまざき",
+   "lat": 35.644399,
+   "lng": 139.784553,
+   "address": "東京都江東区豊洲6-6-1 管理施設棟 3階",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available We kindly ask that reservations be made for groups of five or fewer. If you a",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13023020/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 235,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13023020/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13023020/",
+    "https://www.sushi-yamazaki.com/",
+    "https://aumo.jp/articles/76383"
+   ],
+   "why": "Sushi, Seafood, Izakaya (Japanese style tavern). Tabelog 3.56 from 235 reviews.",
+   "notes": "Seats 13 seats; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-iso-zushi",
+   "name": "Iso Zushi",
+   "jp": "磯寿司",
+   "lat": 35.644351,
+   "lng": 139.781844,
+   "address": "東京都江東区豊洲6-5-1 豊洲市場 3F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable Currently, we do not accept reservations over the phone. Thank you for your",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "14:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:30",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13091991/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 261,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13091991/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13091991/",
+    "https://www.mapple.net/original/488721/",
+    "https://www.nta.co.jp/media/tripa/articles/2qMnN"
+   ],
+   "why": "Sushi, Kaisen-don (Seafood bowl), Seafood. Tabelog 3.55 from 261 reviews.",
+   "notes": "Seats 20 seats ( 10 counter seats, 1; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-yajima",
+   "name": "Yajima",
+   "jp": "やじ満",
+   "lat": 35.644245,
+   "lng": 139.784199,
+   "address": "東京都江東区豊洲6-6-1 7街区管理施設棟 3F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "13:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227694/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 490,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227694/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227694/",
+    "https://macaro-ni.jp/176559"
+   ],
+   "why": "Chinese, Ramen. Tabelog 3.51 from 490 reviews.",
+   "notes": "Seats 13 seats ( 11 counter seats an; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-bubba-gump-shrimp-rarapo-to-toyosu",
+   "name": "BUBBA GUMP SHRIMP Rarapo-to toyosu",
+   "jp": "ババ・ガンプ・シュリンプ ららぽーと豊洲",
+   "lat": 35.655804,
+   "lng": 139.791534,
+   "address": "東京都江東区豊洲2-4-9 アーバンドック ららぽーと豊洲 3F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations available We have a two-hour seating limit starting from your reservation time (last or",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13025754/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 632,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13025754/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13025754/",
+    "https://www.mapple.net/original/521815/"
+   ],
+   "why": "Seafood, American, Hamburger. Tabelog 3.48 from 632 reviews.",
+   "notes": "Seats 156 seats ( Maximum seating ca; Non smoking Smoking room space available at LaLapo; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 10:00 PM L.O. 9:00 PM ■Closed on Not fixed (according to Lalaport's schedule)",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-sakanaya-odawara-rokuzaemon-toyosu-senky",
+   "name": "Sakanaya Odawara Rokuzaemon Toyosu senkyakubanrai ten",
+   "jp": "魚商 小田原六左衛門 豊洲 千客万来店",
+   "lat": 35.645867,
+   "lng": 139.78339,
+   "address": "東京都江東区豊洲6-5-1 豊洲 千客万来 2F",
+   "cat": "other",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293880/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 120,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293880/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293880/",
+    "https://macaro-ni.jp/176559"
+   ],
+   "why": "Senbei (Rice cracker). Tabelog 3.45 from 120 reviews.",
+   "notes": "Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-uogashi-ryori-ikinoya",
+   "name": "Uogashi Ryori Ikinoya",
+   "jp": "魚がし料理 粋のや",
+   "lat": 35.644078,
+   "lng": 139.782007,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸売場棟 3F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227636/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 160,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227636/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227636/",
+    "https://www.nta.co.jp/media/tripa/articles/2qMnN"
+   ],
+   "why": "Seafood. Tabelog 3.4 from 160 reviews.",
+   "notes": "Seats 18 seats ( Counter seats: 2, T; Non smoking Smoking room available on site",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-ichiba-sushi",
+   "name": "Ichiba Sushi",
+   "jp": "市場鮨",
+   "lat": 35.64438,
+   "lng": 139.784634,
+   "address": "東京都江東区豊洲6-6-1 管理施設棟3F 315",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13043244/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 90,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13043244/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13043244/",
+    "https://jw-webmagazine.com/tips/best-sushi-restaurants-in-toyosu-market",
+    "https://aumo.jp/articles/76383"
+   ],
+   "why": "Sushi, Seafood, Kaisen-don (Seafood bowl). Tabelog 3.38 from 90 reviews.",
+   "notes": "Seats 12 seats ( 12 counter seats); Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat 6:30 AM - 2:00 PM L.O. 1:30 PM Wed, Sun, Public Holiday Closed ■Closed on Follows the market closure days. Open on W",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-3-chome-no-curry-ya-san",
+   "name": "3 Chome no Curry Ya San",
+   "jp": "３丁目のカレー屋さん",
+   "lat": 35.674919,
+   "lng": 139.77078,
+   "address": "東京都中央区京橋3-9-9 ウィンド京橋ビル B1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999 ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Reservations available Reservations are only available during the evening hours.",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:45"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13025962/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 2251,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13025962/",
+    "award": "Tabelog Curry TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13025962/",
+    "https://retty.me/theme/100661406/"
+   ],
+   "why": "Curry. Tabelog 3.77 from 2,251 reviews; Tabelog Curry TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 30 seats ( Eight tables and so; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat 11:00 AM - 2:45 PM L.O. 2:15 PM 6:30 PM - 10:00 PM L.O. 9:20 PM Sun Closed ■Closed on Sundays (Open on substitu",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-teuchi-soba-narutomi",
+   "name": "Teuchi Soba Narutomi",
+   "jp": "手打ち蕎麦 成冨",
+   "lat": 35.665999,
+   "lng": 139.765053,
+   "address": "東京都中央区銀座8-18-6 二葉ビル １Ｆ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "lunch ~JPY 1,000-2,000 / dinner ~JPY 6,000-8,000 (Tabelog budget bands)",
+   "reservation": "required",
+   "res_note": "Dinner by prior arrangement (drinking customers); lunch walk-in only, no reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13023064/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 787,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13023064/",
+    "award": "Tabelog Soba (Buckwheat noodles) EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13023064/",
+    "https://retty.me/theme/200267313/"
+   ],
+   "why": "Soba (Buckwheat noodles). Tabelog 3.73 from 787 reviews; Tabelog Soba (Buckwheat noodles) EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 19 seats ( 1 table for 6, 2 ta; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 11:30 AM - 2:00 PM L.O. 1:55 PM 6:00 PM - 8:30 PM L.O. 7:45 PM Sat, Sun, Public Holiday Closed",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "tsukiji-turret-coffee",
+   "name": "Turret Coffee",
+   "jp": "Turret Coffee",
+   "lat": 35.668048,
+   "lng": 139.772005,
+   "address": "東京都中央区築地2-12-6 SK東銀座ビル 1F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 1046,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "https://matcha-jp.com/jp/7556"
+   ],
+   "why": "Cafe. Tabelog 3.72 from 1,046 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 8 seats ( The shop only has a ; tiny: hard for 4; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-kobiki-cho-yuzukamiya",
+   "name": "Kobiki Cho Yuzukamiya",
+   "jp": "木挽町 湯津上屋",
+   "lat": 35.672037,
+   "lng": 139.770957,
+   "address": "東京都中央区銀座1-22-14",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations available Reservations are not accepted for lunch.",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13019153/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 531,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13019153/",
+    "award": "Tabelog Soba (Buckwheat noodles) EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13019153/",
+    "https://retty.me/theme/200267313/"
+   ],
+   "why": "Soba (Buckwheat noodles), Tempura. Tabelog 3.69 from 531 reviews; Tabelog Soba (Buckwheat noodles) EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 9 seats ( There are 3 seats at; Designated smoking area Separate smoking areas by ",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-yakiuo-ishikawa",
+   "name": "Yakiuo Ishikawa",
+   "jp": "焼うお いし川",
+   "lat": 35.665238,
+   "lng": 139.770927,
+   "address": "東京都中央区築地4-13-5 1F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations available Cancellations of course meals on the day will incur a 100% charge. We kindly ",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 1684,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13040408/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13040408/",
+    "https://aumo.jp/articles/21933",
+    "https://aumo.jp/articles/21096"
+   ],
+   "why": "Seafood, Yakiniku (Japanese BBQ), Sushi. Tabelog 3.62 from 1,684 reviews.",
+   "notes": "Seats 60 seats; Non smoking; Tabelog hours text: Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday 11:00 AM - 2:30 PM L.O. 2:00 PM 5:30 PM - 9:30 PM L.O. 9:00 PM Mon Closed ■Business hours [Lunc",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-tsukiji-honganji-cafe-tsumugi",
+   "name": "Tsukiji Honganji Cafe Tsumugi",
+   "jp": "築地本願寺カフェ Tsumugi",
+   "lat": 35.667239,
+   "lng": 139.772311,
+   "address": "東京都中央区築地3-15-1 築地本願寺インフォメーション棟",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13215158/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1262,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13215158/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13215158/",
+    "https://www.enjoytokyo.jp/article/105714/",
+    "https://www.enjoytokyo.jp/article/105348/"
+   ],
+   "why": "Cafe, Japanese Cuisine, Cafe featuring Japanese sweets. Tabelog 3.59 from 1,262 reviews.",
+   "notes": "Seats 87 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 8:00 AM - 6:00 PM L.O. 5:00 PM",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "tsukiji-tsukiji-aozora-sandaime-honten",
+   "name": "Tsukiji Aozora Sandaime Honten",
+   "jp": "築地青空三代目 本店",
+   "lat": 35.664982,
+   "lng": 139.770572,
+   "address": "東京都中央区築地4-13-8 トラスト築地ＫＮビル １Ｆ",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥10,000 - ¥14,999 ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available Please note that it may be difficult to reach us by phone during business hou",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13007615/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 951,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13007615/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13007615/",
+    "https://aumo.jp/articles/21810"
+   ],
+   "why": "Sushi, Seafood, Kaisen-don (Seafood bowl). Tabelog 3.58 from 951 reviews.",
+   "notes": "Seats 30 seats ( Up to 18 seats at t; Non smoking; Tabelog hours text: Mon 12:00 PM - 2:30 PM L.O. 2:00 PM 5:30 PM - 10:00 PM L.O. Food 9:00 PM Drinks 9:30 PM Wed, Thu, Fri 11:30 AM - 2:30 PM L.O. 2:00 PM 5:30 P",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-pan-kobo-ru-pan",
+   "name": "Pan Kobo Ru Pan",
+   "jp": "パン工房 ル・パン",
+   "lat": 35.664307,
+   "lng": 139.770407,
+   "address": "東京都中央区築地4丁目16番7号",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "14:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "09:00",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13094343/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 336,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13094343/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13094343/",
+    "https://news.mynavi.jp/article/20150617-tsukiji",
+    "https://aumo.jp/articles/20008"
+   ],
+   "why": "Bread, Cafe. Tabelog 3.54 from 336 reviews.",
+   "notes": "Seats 10 seats; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-yonemoto-coffee-honten",
+   "name": "Yonemoto Coffee Honten",
+   "jp": "米本珈琲 本店",
+   "lat": 35.666029,
+   "lng": 139.770845,
+   "address": "東京都中央区築地4-11-1",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "15:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13012800/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 314,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13012800/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13012800/",
+    "https://www.asoview.com/note/2672/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Cafe. Tabelog 3.54 from 314 reviews.",
+   "notes": "Seats 22 seats ( 4 counter seats, 18; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-sanokiya",
+   "name": "Sanokiya",
+   "jp": "さのきや",
+   "lat": 35.666013,
+   "lng": 139.770714,
+   "address": "東京都中央区築地4-11-9 築地市場場外",
+   "cat": "other",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations available Please visit us in-store or contact us at TEL & FAX 03-3543-3331. We would ap",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13095039/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 342,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13095039/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13095039/",
+    "https://matcha-jp.com/jp/7556",
+    "https://aumo.jp/articles/63151"
+   ],
+   "why": "Taiyaki, Obanyaki. Tabelog 3.53 from 342 reviews.",
+   "notes": "Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-4season",
+   "name": "4SEASON",
+   "jp": "フォーシーズン",
+   "lat": 35.665113,
+   "lng": 139.771133,
+   "address": "東京都中央区築地4-14-18 2F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13053624/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 613,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13053624/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13053624/",
+    "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-tokyo",
+    "https://tabelog.com/matome/23075/"
+   ],
+   "why": "Pasta, Kissa (Japanese coffee shop). Tabelog 3.49 from 613 reviews.",
+   "notes": "Seats 15 seats ( Table for 2 seats x; Smoking allowed The revised Health Promotion Act f",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-renga",
+   "name": "Renga",
+   "jp": "レンガ",
+   "lat": 35.667473,
+   "lng": 139.77048,
+   "address": "東京都中央区築地2-15-15 1F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13089000/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 183,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13089000/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13089000/",
+    "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-tokyo",
+    "https://san-tatsu.jp/spots/search/area:1490/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Pasta. Tabelog 3.49 from 183 reviews.",
+   "notes": "Seats 24 seats ( 8 tables, 24 seats); Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-onigiriya-marutoyo",
+   "name": "Onigiriya Marutoyo",
+   "jp": "おにぎり屋 丸豊",
+   "lat": 35.665381,
+   "lng": 139.769769,
+   "address": "東京都中央区築地4-9-9 築地場外",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "13:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13095644/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 735,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13095644/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13095644/",
+    "https://www.asoview.com/note/2672/"
+   ],
+   "why": "Onigiri (Rice ball), Sushi. Tabelog 3.48 from 735 reviews.",
+   "notes": "Seats ( takeaway only); Designated smoking area The revised Health Promoti",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-utb",
+   "name": "UTB",
+   "jp": "UTB",
+   "lat": 35.664213,
+   "lng": 139.770702,
+   "address": "東京都中央区築地6-27-1",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "15:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13296007/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 191,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13296007/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13296007/",
+    "https://jw-webmagazine.com/tips/best-sushi-restaurants-in-toyosu-market",
+    "https://digjapan.travel/en/blog/id=12196"
+   ],
+   "why": "Udon (Wheat noodles), Tempura, Japanese Cuisine. Tabelog 3.4 from 191 reviews.",
+   "notes": "Seats 16 seats ( 1st floor: 8 seats,; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 8:00 AM - 3:30 PM L.O. Food 3:00 PM Wed Cl",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-tsugumi-shokudo-ginza-ten",
+   "name": "Tsugumi Shokudo Ginza Ten",
+   "jp": "つぐみ食堂 銀座店",
+   "lat": 35.671749,
+   "lng": 139.77103,
+   "address": "東京都中央区銀座1-22-10 審美館Ⅲ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13322959/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 82,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13322959/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13322959/",
+    "https://bunshun.jp/articles/-/89870"
+   ],
+   "why": "Soba (Buckwheat noodles). Tabelog 3.39 from 82 reviews.",
+   "notes": "Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tokyo-la-boutique-de-joel-robuchon-marunouchi-",
+   "name": "La Boutique de Joël Robuchon Marunouchi burikkusukuea ten",
+   "jp": "ラ ブティック ドゥ ジョエル・ロブション 丸の内ブリックスクエア店",
+   "lat": 35.678384,
+   "lng": 139.762584,
+   "address": "東京都千代田区丸の内二丁目6番1号 丸の内ブリックスクエア1階",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable Cake and baked goods can be reserved for pickup.",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13096409/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.78,
+    "reviews": 2268,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13096409/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13096409/",
+    "https://www.enjoytokyo.jp/article/105348/"
+   ],
+   "why": "Bread, Cake, Cafe. Tabelog 3.78 from 2,268 reviews; Tabelog Bread TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 42 seats ( 6 counter seats, 16; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 9:00 PM L.O. Food 8:00 PM Drinks 8:30 PM ■Lunch time 11:00 - 15:00",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-rokurinsha-toukyou-eki-toukyou-raamen-su",
+   "name": "Rokurinsha Toukyou eki toukyou raamen sutorii to",
+   "jp": "六厘舎 東京駅東京ラーメンストリート",
+   "lat": 35.68006,
+   "lng": 139.767855,
+   "address": "東京都千代田区丸の内1-9-1 東京駅一番街 B1F 東京ラーメンストリート内",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "09:45"
+     ],
+     [
+      "10:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13093047/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 7858,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13093047/",
+    "award": "Tabelog Ramen TOKYO \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13093047/",
+    "https://www.gltjp.com/ja/directory/item/14314/",
+    "https://www.nap-camp.com/mag/40858"
+   ],
+   "why": "Tsukemen (Dipping noodles), Ramen. Tabelog 3.77 from 7,858 reviews; Tabelog Ramen TOKYO \"Tabelog 100\" 2025.",
+   "notes": "Seats 26 seats ( 10 seats at the cou; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday 7:30 AM - 9:45 AM L.O. Food 9:30 AM 10:00 AM - 11:00 PM L.O. Fo",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-nanba-sennichimae-kamatake-udon-yaesu-ki",
+   "name": "Nanba Sennichimae Kamatake Udon Yaesu kitaguchi ten",
+   "jp": "難波千日前 釜たけうどん 八重洲北口店",
+   "lat": 35.681844,
+   "lng": 139.768029,
+   "address": "東京都千代田区丸の内1-9-1 八重北食堂 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13156494/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 3277,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13156494/",
+    "award": "Tabelog Udon (Wheat noodles) EAST \"Tabelog 100\" 2024"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13156494/",
+    "https://www.nap-camp.com/mag/40858"
+   ],
+   "why": "Udon (Wheat noodles), Curry Udon. Tabelog 3.72 from 3,277 reviews; Tabelog Udon (Wheat noodles) EAST \"Tabelog 100\" 2024.",
+   "notes": "Seats 50 seats ( 11 seats at tables,; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 11:00 PM L.O. 10:00 PM",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-cantonese-en",
+   "name": "Cantonese En",
+   "jp": "カントニーズ 燕",
+   "lat": 35.680569,
+   "lng": 139.76562,
+   "address": "東京都千代田区丸の内1-9-1 東京ステーションホテル B1F",
+   "cat": "kaiseki-teishoku",
+   "price": 4,
+   "price_note": "dinner ~JPY 8,000-15,000 per person incl. 10% service (Tabelog budget)",
+   "reservation": "required",
+   "res_note": "Reservations available ■Children are only allowed from elementary school age (6 years and older), an",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13147494/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 729,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13147494/",
+    "award": "Tabelog Chinese TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147494/",
+    "https://retty.me/theme/101207300/"
+   ],
+   "why": "Chinese, Vegetable dishes. Tabelog 3.71 from 729 reviews; Tabelog Chinese TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 46 seats ( Please note that we; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:30 AM - 3:00 PM L.O. Food 2:00 PM Drinks 2:30 PM 5:30 PM - 9:30 PM L.O. Food 8:30 PM Drinks 9:00 PM ■Bu",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "tokyo-japan-ramen-rin-tokyo",
+   "name": "Japan Ramen Rin Tokyo",
+   "jp": "ニッポン ラーメン 凛 トウキョウ",
+   "lat": 35.681102,
+   "lng": 139.767798,
+   "address": "東京都千代田区丸の内1-9-1 グランスタ東京 B1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13249397/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 2884,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13249397/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13249397/",
+    "https://aumo.jp/articles/21096",
+    "https://www.nap-camp.com/mag/40858"
+   ],
+   "why": "Ramen. Tabelog 3.75 from 2,884 reviews.",
+   "notes": "Seats 15 seats ( 15 counter seats); Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-oak",
+   "name": "Oak",
+   "jp": "Oak",
+   "lat": 35.680775,
+   "lng": 139.765758,
+   "address": "東京都千代田区丸の内1-9-1 東京ステーションホテル 2F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "dinner ~JPY 4,000-4,999 (Tabelog average)",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13147497/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 235,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13147497/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147497/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Bar. Tabelog 3.72 from 235 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 16 seats ( As a rule, tables a; Non smoking All seats will be non-smoking from Apr; Tabelog hours text: Tue, Wed, Thu, Fri, Sat 5:00 PM - 10:00 PM L.O. 9:30 PM Mon, Sun Closed ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "tokyo-depot",
+   "name": "DEPOT",
+   "jp": "DEPOT",
+   "lat": 35.682234,
+   "lng": 139.767416,
+   "address": "東京都千代田区丸の内1-9-1 グランスタ東京 B1F",
+   "cat": "bar",
+   "price": 1,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13249428/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 2051,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13249428/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13249428/",
+    "https://www.nap-camp.com/mag/54526",
+    "https://macaro-ni.jp/164029"
+   ],
+   "why": "Cafe, Beer bar. Tabelog 3.66 from 2,051 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 50 seats ( 50 counter seats); Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-teal-nihonbashi-kabutocho-main-store",
+   "name": "teal Nihonbashi Kabutochō Main Store",
+   "jp": "teal",
+   "lat": 35.683426,
+   "lng": 139.778609,
+   "address": "東京都中央区日本橋兜町1-10 日証館 1F",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13264147/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 1071,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13264147/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13264147/",
+    "https://jw-webmagazine.com/tips/best-sushi-restaurants-in-toyosu-market"
+   ],
+   "why": "Sweets, Chocolate, Gelato, Ice cream. Tabelog 3.66 from 1,071 reviews.",
+   "notes": "Seats 12 seats ( One drink order req; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat, Sun 11:00 AM - 6:00 PM L.O. 5:00 PM Wed Closed 【Temporary Business Notice】 On June 10, 2026 (Wednesday), we will ho",
+   "near": [
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-the-standard-bakers-tokyo",
+   "name": "THE STANDARD BAKERS TOKYO",
+   "jp": "ザ スタンダードベイカーズ トウキョウ",
+   "lat": 35.681727,
+   "lng": 139.766565,
+   "address": "東京都千代田区丸の内1-9-1 JR東京駅改札内",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13247797/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 938,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13247797/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13247797/",
+    "https://www.nap-camp.com/mag/54526",
+    "https://macaro-ni.jp/164029"
+   ],
+   "why": "Bread, Cafe. Tabelog 3.65 from 938 reviews.",
+   "notes": "Seats 24 seats ( 20 table seats, 4 c; Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-miso-mendokoro-hanamichi-an-toukyou-eki-",
+   "name": "Miso Mendokoro Hanamichi An Toukyou eki ten",
+   "jp": "味噌麺処 花道庵 東京駅店",
+   "lat": 35.680447,
+   "lng": 139.768087,
+   "address": "東京都千代田区丸の内1-9-1 東京駅一番街 B1F 東京ラーメンストリート",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13290575/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 1732,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13290575/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13290575/",
+    "https://www.gltjp.com/ja/directory/item/14314/"
+   ],
+   "why": "Ramen. Tabelog 3.66 from 1,732 reviews.",
+   "notes": "Seats 29 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 8:00 AM - 11:00 PM L.O. 10:30 PM ■Business hours Open year-round Please note that we are located in \"Tokyo",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-iekei-ramen-kakushin-ya-tokyo",
+   "name": "Iekei Ramen Kakushin Ya TOKYO",
+   "jp": "家系ラーメン 革新家 TOKYO",
+   "lat": 35.680459,
+   "lng": 139.768038,
+   "address": "東京都千代田区丸の内1-9-1 東京駅一番街 B1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13290625/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1495,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13290625/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13290625/",
+    "https://www.gltjp.com/ja/directory/item/14314/"
+   ],
+   "why": "Ramen, Abura-soba, Maze-soba. Tabelog 3.65 from 1,495 reviews.",
+   "notes": "Seats 26 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 8:00 AM - 11:00 PM L.O. 10:30 PM ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-aroma-coffee-yaesu-ten",
+   "name": "Aroma Coffee Yaesu ten",
+   "jp": "アロマ珈琲 八重洲店",
+   "lat": 35.679616,
+   "lng": 139.770932,
+   "address": "東京都中央区八重洲2-1 八重洲地下街 八重洲地下1番通り",
+   "cat": "western-yoshoku",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13045029/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 1022,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13045029/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13045029/",
+    "https://www.nap-camp.com/mag/54526"
+   ],
+   "why": "Kissa (Japanese coffee shop), Sandwich. Tabelog 3.64 from 1,022 reviews.",
+   "notes": "Seats 70 seats ( Table seats, counte; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 7:00 AM - 9:30 PM L.O. 9:15 PM Sat 7:00 AM - 9:00 PM L.O. 8:45 PM Sun, Public Holiday 7:30 AM - 9:00 PM L.O. 8:45 PM",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-ore-shiki-jun",
+   "name": "Ore Shiki Jun",
+   "jp": "俺式 純",
+   "lat": 35.680207,
+   "lng": 139.767903,
+   "address": "東京都千代田区丸の内1-9-1 東京駅一番街 東京ラーメンストリート",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13160396/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 1433,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13160396/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13160396/",
+    "https://www.gltjp.com/ja/directory/item/14314/",
+    "https://www.mapple.net/article/67058/"
+   ],
+   "why": "Ramen, Tsukemen (Dipping noodles), Dumpling. Tabelog 3.56 from 1,433 reviews.",
+   "notes": "Seats 30 seats ( 14 seats at the cou; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 8:00 AM - 11:00 PM L.O. 10:30 PM ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-burdigala-tokyo",
+   "name": "BURDIGALA TOKYO",
+   "jp": "BURDIGALA TOKYO",
+   "lat": 35.681232,
+   "lng": 139.76702,
+   "address": "東京都千代田区丸ノ内1-9-1 JR東京駅改札内 Ｂ１Ｆ グランスタ",
+   "cat": "western-yoshoku",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13044260/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 3008,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13044260/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13044260/",
+    "https://www.nap-camp.com/mag/54526"
+   ],
+   "why": "Bread, Sandwich, Cafe. Tabelog 3.75 from 3,008 reviews; Tabelog Bread TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 28 seats; Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-sora-no-iro-japan",
+   "name": "Sora no Iro Japan",
+   "jp": "そらのいろNIPPON",
+   "lat": 35.680233,
+   "lng": 139.768037,
+   "address": "東京都千代田区丸の内1-9-1 東京駅一番街 B1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13183558/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 3690,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13183558/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13183558/",
+    "https://www.gltjp.com/ja/directory/item/14314/",
+    "https://www.mapple.net/article/67058/"
+   ],
+   "why": "Ramen. Tabelog 3.7 from 3,690 reviews.",
+   "notes": "Seats 26 seats ( Due to the COVID-19; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 9:00 AM - 11:00 PM L.O. 10:30 PM ■Business hours Breakfast service, lunch service, and entry allowed after",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-ramen-kaminari-tokyo-honmaru-ten",
+   "name": "Ramen Kaminari Tokyo honmaru ten",
+   "jp": "ラーメン 雷 東京本丸店",
+   "lat": 35.68199,
+   "lng": 139.766615,
+   "address": "東京都千代田区丸の内1-9-1 グランスタ東京 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13249452/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 2369,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13249452/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13249452/",
+    "https://aumo.jp/articles/21096"
+   ],
+   "why": "Ramen. Tabelog 3.66 from 2,369 reviews.",
+   "notes": "Seats 11 seats ( 11 seats at the cou; Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-nihonbashi-tamai-honten",
+   "name": "Nihonbashi Tamai Honten",
+   "jp": "日本橋玉ゐ 本店",
+   "lat": 35.681238,
+   "lng": 139.774703,
+   "address": "東京都中央区日本橋2-9-9",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥8,000 - ¥9,999 ¥3,000 - ¥3,999",
+   "reservation": "required",
+   "res_note": "Reservations available Reservations for seats are only available in the evening. Takeout reservation",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "16:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "16:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 1694,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13019904/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13019904/",
+    "https://www.mapple.net/region/a0303010312_g03000000/spot/"
+   ],
+   "why": "Anago (Conger eel), Seafood, Tempura. Tabelog 3.61 from 1,694 reviews.",
+   "notes": "Seats 26 seats ( 20 table seats, 6 c; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 11:00 AM - 2:30 PM L.O. 2:00 PM 5:00 PM - 9:30 PM L.O. 9:00 PM Sat, Sun, Public Holiday 11:00 AM - 3:30 PM L.O. 3:00",
+   "near": [
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-chuka-soba-toyosu-katsumoto",
+   "name": "Chuka Soba Toyosu Katsumoto",
+   "jp": "中華そば 豊洲勝本",
+   "lat": 35.645193,
+   "lng": 139.784134,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 3F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13292932/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 271,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13292932/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13292932/",
+    "https://katsumoto-japan.com/chukasoba_katsumoto.html"
+   ],
+   "why": "Ramen. Tabelog 3.54 from 271 reviews.",
+   "notes": "Seats 13 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 10:00 AM - 8:00 PM L.O. Food 7:30 PM ",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-kujukuri-ramen-kukuri",
+   "name": "Kujukuri Ramen Kukuri",
+   "jp": "九十九里らぁめん くくり",
+   "lat": 35.645762,
+   "lng": 139.783369,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293726/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.47,
+    "reviews": 186,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293726/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293726/",
+    "https://www.toyosu-senkyakubanrai.jp/106/"
+   ],
+   "why": "Ramen. Tabelog 3.47 from 186 reviews.",
+   "notes": "Seats 21 seats ( 7 seats at counter,; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-japanese-cuisine-yamazaki",
+   "name": "Japanese Cuisine Yamazaki",
+   "jp": "日本料理 山崎",
+   "lat": 35.676504,
+   "lng": 139.771434,
+   "address": "東京都中央区京橋2-6-7 京橋プレイス",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥30,000 - ¥39,999 ¥4,000 - ¥4,999",
+   "reservation": "required",
+   "res_note": "Reservation only - Dinner will start simultaneously, so please arrive with plenty of time to spare. ",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "13:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "13:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "13:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "13:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "13:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13287123/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 4.09,
+    "reviews": 402,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13287123/",
+    "award": "Tabelog Japanese cuisine TOKYO \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13287123/",
+    "https://www.yamazaki-toyama.co.jp/"
+   ],
+   "why": "Japanese Cuisine, Unagi (Eel). Tabelog 4.09 from 402 reviews; Tabelog Japanese cuisine TOKYO \"Tabelog 100\" 2025.",
+   "notes": "Seats 14 seats ( 1st floor counter s; Non smoking Separate smoking room available; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 11:30 AM - 1:30 PM L.O. 1:30 PM 6:00 PM - 11:00 PM Sat, Sun Closed Lunch is available without a reservation. Dinner ",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-sea-gen",
+   "name": "Sea Gen",
+   "jp": "海玄",
+   "lat": 35.664929,
+   "lng": 139.770509,
+   "address": "東京都中央区築地4-13-8 ソラシアビル 1F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable Lunch reservations are not accepted.",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13262581/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 1124,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13262581/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13262581/",
+    "https://seagen.tokyo/"
+   ],
+   "why": "Kaisen-don (Seafood bowl), Seafood. Tabelog 3.77 from 1,124 reviews.",
+   "notes": "Seats 30 seats ( 10 seats at counter; Non smoking; Tabelog hours text: Mon, Tue, Fri, Sat, Sun, Public Holiday 10:00 AM - 3:00 PM L.O. Food 2:30 PM Wed, Thu Closed Please note that our business hours may be shor",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-kaki-to-kai",
+   "name": "Kaki to Kai",
+   "jp": "牡蠣と貝",
+   "lat": 35.666336,
+   "lng": 139.771258,
+   "address": "東京都中央区築地3-16-9 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ],
+    "sun": [
+     [
+      "06:00",
+      "29:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13292429/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 2155,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13292429/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13292429/",
+    "https://www.kakitokai.com/"
+   ],
+   "why": "Ramen. Tabelog 3.69 from 2,155 reviews.",
+   "notes": "Seats 14 seats ( counter); Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-tokyo-kyobashiya-curry",
+   "name": "Tokyo Kyobashiya Curry",
+   "jp": "東京 京橋屋カレー",
+   "lat": 35.67538,
+   "lng": 139.768232,
+   "address": "東京都中央区京橋3-4-3 千成ビル２F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999 ¥2,000 - ¥2,999",
+   "reservation": "required",
+   "res_note": "Reservations available The use of our restaurant is by referral only; however, anyone can enjoy our ",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "12:00",
+      "13:30"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "13:30"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "12:00",
+      "13:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "13:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13027104/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 581,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13027104/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13027104/",
+    "https://tokyo-kyobashiyacurry.hp.peraichi.com/"
+   ],
+   "why": "Curry. Tabelog 3.68 from 581 reviews.",
+   "notes": "Seats 6 seats; tiny: hard for 4; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-le-r-cinq",
+   "name": "le R Cinq",
+   "jp": "ルエールサンク",
+   "lat": 35.675253,
+   "lng": 139.772794,
+   "address": "東京都中央区京橋2-18-2 京橋明海ビル 1Ｆ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13140161/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 234,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13140161/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13140161/",
+    "http://www.r-cinq.com/"
+   ],
+   "why": "Cake, Bread, Macaroon. Tabelog 3.64 from 234 reviews.",
+   "notes": "Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-shutoku-2-gou-ten",
+   "name": "Shutoku 2 gou ten",
+   "jp": "秀徳 2号店",
+   "lat": 35.664568,
+   "lng": 139.771197,
+   "address": "東京都中央区築地6-26-6",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥8,000 - ¥9,999 ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13148801/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 1043,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13148801/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13148801/",
+    "http://www.shu-toku.com/"
+   ],
+   "why": "Sushi, Japanese Cuisine, Izakaya (Japanese style tavern). Tabelog 3.61 from 1,043 reviews.",
+   "notes": "Seats 42 seats ( 16 counter seats, 3; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 3:00 PM L.O. 2:30 PM 5:00 PM - 10:30 PM L.O. 9:30 PM ■Closed on Open year-round (please inquire",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-sushi-dokoro-uni-tora",
+   "name": "Sushi Dokoro Uni Tora",
+   "jp": "寿司処 うに虎",
+   "lat": 35.665637,
+   "lng": 139.770364,
+   "address": "東京都中央区築地4-10-16 築地四丁目町会ビル 1F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥8,000 - ¥9,999 ¥2,000 - ¥2,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog online booking available; phone closed. Lunch/dinner budget differs (tier 2 lunch, 3-4 dinner).",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13041441/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 403,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13041441/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13041441/",
+    "https://beyondtsukiji-hd.co.jp/shop/itadori-bekkan/"
+   ],
+   "why": "Sushi, Seafood, Kaisen-don (Seafood bowl). Tabelog 3.46 from 403 reviews.",
+   "notes": "Seats 9 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 7:00 AM - 10:00 PM L.O. Food 9:00 PM",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "ginza-menya-nobunaga",
+   "name": "Menya NOBUNAGA",
+   "jp": "麺屋NOBUNAGA",
+   "lat": 35.676363,
+   "lng": 139.770523,
+   "address": "東京都中央区京橋2-5-2 A・M京橋ビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "27:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13304145/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 222,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13304145/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13304145/",
+    "https://ramen-nobunaga.com/"
+   ],
+   "why": "Ramen. Tabelog 3.45 from 222 reviews.",
+   "notes": "Seats 20 seats; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-wakaba",
+   "name": "Wakaba",
+   "jp": "若葉",
+   "lat": 35.665581,
+   "lng": 139.769748,
+   "address": "東京都中央区築地4-9-11",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ],
+    "sun": [
+     [
+      "06:30",
+      "13:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13014858/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 834,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13014858/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13014858/",
+    "http://www.tsukiji-wakaba.com/"
+   ],
+   "why": "Ramen. Tabelog 3.55 from 834 reviews.",
+   "notes": "Seats 12 seats ( 4-seat table x 3 St; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-yakitori-ippon-tokyo",
+   "name": "Yakitori IPPON+ Tokyo",
+   "jp": "焼鳥IPPON⁺ Tokyo",
+   "lat": 35.674775,
+   "lng": 139.771098,
+   "address": "東京都中央区京橋3-9-6 G・M-3ビル 1F",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available - If you have any allergies, please indicate them in the remarks section. - P",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13309706/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 402,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13309706/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13309706/",
+    "https://www.dd-holdings.jp/shops/yakitori_ipponplus/tokyo"
+   ],
+   "why": "Izakaya (Japanese style tavern), Yakitori (Grilled chicken s. Tabelog 3.46 from 402 reviews.",
+   "notes": "Seats 58 seats; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-shutoku-honten-megumi",
+   "name": "Shutoku Honten Megumi",
+   "jp": "秀徳本店恵",
+   "lat": 35.664605,
+   "lng": 139.771168,
+   "address": "東京都中央区築地6-26-7 宮崎ビル 1F",
+   "cat": "sushi",
+   "price": 4,
+   "price_note": "dinner ~JPY 8,000-10,000+ (set from JPY 9,200); lunch cheaper",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13219310/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 177,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13219310/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13219310/",
+    "https://www.shu-toku.com"
+   ],
+   "why": "Sushi, Japanese Cuisine, Seafood. Tabelog 3.55 from 177 reviews.",
+   "notes": "Seats 19 seats ( 15 counter seats, 4; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 3:00 PM L.O. 2:30 PM 5:00 PM - 10:30 PM L.O. 9:30 PM ■Closed on Open year-round",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "tokyo-yaesu-unagi-hashimoto",
+   "name": "Yaesu unagi hashimoto",
+   "jp": "八重洲鰻はし本",
+   "lat": 35.681656,
+   "lng": 139.771287,
+   "address": "東京都中央区八重洲1-5-10",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥10,000 - ¥14,999 ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13303042/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.94,
+    "reviews": 345,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13303042/",
+    "award": "Tabelog Unagi \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13303042/",
+    "https://www.unahashi.com/"
+   ],
+   "why": "Unagi (Eel). Tabelog 3.94 from 345 reviews; Tabelog Unagi \"Tabelog 100\" 2026.",
+   "notes": "Seats 32 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 11:00 AM - 2:30 PM L.O. Food 1:30 PM Drinks 2:00 PM 5:00 PM - 9:00 PM L.O. Food 7:45 PM Drinks 8:00 PM Sat 11:30 AM ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tokyo-toraya-tokyo",
+   "name": "TORAYA TOKYO",
+   "jp": "トラヤ トウキョウ",
+   "lat": 35.680993,
+   "lng": 139.765909,
+   "address": "東京都千代田区丸の内1-9-1 東京ステーションホテル 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.84,
+    "reviews": 1087,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "https://www.toraya-group.co.jp/toraya/shops/detail/?id=14"
+   ],
+   "why": "Cafe, Japanese traditional sweets, Kakigori (Shaved ice). Tabelog 3.84 from 1,087 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 48 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 10:00 AM - 6:30 PM L.O. 6:00 PM Sat, Sun, Public Holiday 10:00 AM - 5:30 PM L.O. 5:00 PM ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-nihonbashi-nagato",
+   "name": "Nihonbashi Nagato",
+   "jp": "日本橋 長門",
+   "lat": 35.681073,
+   "lng": 139.771632,
+   "address": "東京都中央区日本橋3-1-3 日本橋長門ビル 1F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130202/13011481/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.81,
+    "reviews": 1632,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130202/13011481/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets TOK"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130202/13011481/",
+    "http://nagato.ne.jp/"
+   ],
+   "why": "Japanese traditional sweets. Tabelog 3.81 from 1,632 reviews; Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets TOK.",
+   "notes": "Seats ( takeaway only); Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-echire-maison-du-beurre",
+   "name": "Echire Maison du Beurre",
+   "jp": "エシレ・メゾン デュ ブール",
+   "lat": 35.678579,
+   "lng": 139.762541,
+   "address": "東京都千代田区丸の内2-6-1 丸の内ブリックスクエア 1F",
+   "cat": "bakery-sweets",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999 ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13096439/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 2596,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13096439/",
+    "award": "Tabelog Sweets TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13096439/",
+    "https://www.kataoka.com/echire/maisondubeurre/"
+   ],
+   "why": "Cake, Bread, Gelato, Ice cream. Tabelog 3.79 from 2,596 reviews; Tabelog Sweets TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats ( No eat-in); Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-royal-bar",
+   "name": "Royal Bar",
+   "jp": "ロイヤル バー",
+   "lat": 35.684559,
+   "lng": 139.761467,
+   "address": "東京都千代田区丸の内 1-1-1 パレスホテル東京 1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999 ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13141138/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 224,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13141138/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13141138/",
+    "http://www.palacehoteltokyo.com/restaurant/royal-bar/"
+   ],
+   "why": "Bar. Tabelog 3.73 from 224 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 25 seats ( 9 seats at the coun; Non smoking *No smoking for the time being; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 3:00 PM - 12:00 AM L.O. 11:30 PM ■Business hours Currently, smoking is prohibited. Please check the offici",
+   "near": [
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tokyo-mago-rinsha",
+   "name": "Mago Rinsha",
+   "jp": "孫鈴舎",
+   "lat": 35.678297,
+   "lng": 139.765524,
+   "address": "東京都千代田区丸の内1-10-9",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13243959/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 685,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13243959/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13243959/",
+    "https://shop.mtfj.co.jp/stores/109"
+   ],
+   "why": "Ramen, Tsukemen (Dipping noodles). Tabelog 3.61 from 685 reviews.",
+   "notes": "Seats 16 seats ( Counter seats: 16); Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 7:00 AM - 10:00 PM L.O. Food 10:00 PM Sat, Sun, Public Holiday 11:00 AM - 3:00 PM L.O. Food 3:00 PM",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-minna-no-pan-ya",
+   "name": "Minna no Pan'ya",
+   "jp": "みんなのぱんや",
+   "lat": 35.678779,
+   "lng": 139.765062,
+   "address": "東京都千代田区丸の内2-7-3 東京ビルTOKIA B1F",
+   "cat": "western-yoshoku",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "18:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13020387/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.74,
+    "reviews": 1146,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13020387/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13020387/",
+    "https://www.marunouchi.com/tenants/3015/"
+   ],
+   "why": "Bread, Sandwich, Side dishes, Delicatessen. Tabelog 3.74 from 1,146 reviews; Tabelog Bread TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tokyo-rose-bakery-marunouchi",
+   "name": "Rose Bakery Marunouchi",
+   "jp": "ローズベーカリー 丸の内",
+   "lat": 35.678984,
+   "lng": 139.762288,
+   "address": "東京都千代田区丸の内2-1-1 明治安田生命ビル 1F",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13122282/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 815,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13122282/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13122282/",
+    "https://www.marunouchi.com/tenants/10004/"
+   ],
+   "why": "Cafe, Bread, Sweets (Western style). Tabelog 3.7 from 815 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Non smoking",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-senri-ken",
+   "name": "Senri Ken",
+   "jp": "センリ軒",
+   "lat": 35.644096,
+   "lng": 139.782575,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸売場等 3F-4",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227151/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 237,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227151/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227151/",
+    "https://www.tsukiji.or.jp/shoplist/cat-uogashi/cat-uo12/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Cafe. Tabelog 3.52 from 237 reviews.",
+   "notes": "Seats 25 seats ( 5 seats at counter,; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-ginza-hachigo",
+   "name": "Ginza Hachigo",
+   "jp": "銀座 八五",
+   "lat": 35.670556,
+   "lng": 139.770159,
+   "address": "東京都中央区銀座3-14-2 第一はなぶさビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available We accept reservations for the following week every Saturday at 9 AM. Reserva",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13228602/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.94,
+    "reviews": 2542,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13228602/",
+    "award": "Tabelog Ramen TOKYO \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13228602/",
+    "https://katsumoto-japan.com/ginza_hachigou.html"
+   ],
+   "why": "Ramen. Tabelog 3.94 from 2,542 reviews; Tabelog Ramen TOKYO \"Tabelog 100\" 2025.",
+   "notes": "Seats 6 seats ( counter only); tiny: hard for 4; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-samboa-bar-ginza-ten",
+   "name": "SAMBOA BAR Ginza ten",
+   "jp": "サンボア 銀座店",
+   "lat": 35.671677,
+   "lng": 139.763033,
+   "address": "東京都中央区銀座5-4-7 銀座サワモトビル Ｂ１Ｆ",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13005012/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 512,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13005012/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13005012/",
+    "http://www.samboa.co.jp",
+    "https://tabelog.com/matome/23075/"
+   ],
+   "why": "Bar. Tabelog 3.79 from 512 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 20 seats ( Approximately 10 st; Smoking allowed The revised Health Promotion Act f",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-bar-opa-ginza",
+   "name": "BAR Opa Ginza",
+   "jp": "BAR オーパ 銀座",
+   "lat": 35.674782,
+   "lng": 139.766627,
+   "address": "東京都中央区銀座1-4-8 銀座ビッグウエストビル5号館 B1Ｆ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13002248/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 345,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002248/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13002248/",
+    "http://www.bar-opa.jp/",
+    "https://tabelog.com/matome/23075/"
+   ],
+   "why": "Bar. Tabelog 3.79 from 345 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 21 seats ( 11 seats at the cou; Non smoking Smoking is prohibited inside the store",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-juichibo-coffee-ten",
+   "name": "Juichibo Coffee Ten",
+   "jp": "十一房珈琲店",
+   "lat": 35.674895,
+   "lng": 139.765757,
+   "address": "東京都中央区銀座2-2-19",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13007721/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1417,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13007721/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13007721/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Cake. Tabelog 3.76 from 1,417 reviews; Tabelog Kissaten \"Tabelog 100\" 2026.",
+   "notes": "Seats 31 seats ( 10 seats at the cou; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-tricolore-honten",
+   "name": "Tricolore Honten",
+   "jp": "トリコロール 本店",
+   "lat": 35.670223,
+   "lng": 139.765068,
+   "address": "東京都中央区銀座5-9-17",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13007761/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 2278,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13007761/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13007761/",
+    "https://retty.me/theme/200268091/",
+    "https://www.mapple.net/original/246397/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Cafe, Cake. Tabelog 3.75 from 2,278 reviews; Tabelog Kissaten \"Tabelog 100\" 2026.",
+   "notes": "Seats 49 seats; Non smoking; Tabelog hours text: Mon, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 8:00 AM - 7:00 PM L.O. 6:30 PM Tue Closed ",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-four-seasons",
+   "name": "Four Seasons",
+   "jp": "フォーシーズンズ",
+   "lat": 35.672269,
+   "lng": 139.764345,
+   "address": "東京都中央区銀座4-3-12 伊藤ビル４Ｆ",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "24:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13037276/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.78,
+    "reviews": 258,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13037276/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13037276/",
+    "https://www.bar-fourseasons.jp/",
+    "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-tokyo"
+   ],
+   "why": "Bar. Tabelog 3.78 from 258 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 21 seats ( 12 counter seats); Smoking allowed The revised Health Promotion Act f",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-star-bar-ginza",
+   "name": "STAR BAR GINZA",
+   "jp": "STAR BAR GINZA",
+   "lat": 35.67475,
+   "lng": 139.766906,
+   "address": "東京都中央区銀座1-5-13 MODERNS GINZA B1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available If you are more than 15 minutes late without notice from your reservation tim",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13002270/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 425,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002270/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13002270/",
+    "https://www.mapple.net/region/a0303010300_g030a0500_s-situation=couple/spot/",
+    "https://tabelog.com/matome/23075/"
+   ],
+   "why": "Bar. Tabelog 3.77 from 425 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 19 seats ( Counter seating: 9 ; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-tonkatsu-odayasu-jounai-ten",
+   "name": "Tonkatsu Odayasu Jounai ten",
+   "jp": "とんかつ小田保 場内店",
+   "lat": 35.644679,
+   "lng": 139.782106,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸棟 3F",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Not stated on Tabelog",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13026535/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 799,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13026535/",
+    "award": "Tabelog Diner \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13026535/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Cafeteria, Tonkatsu (Pork cutlet), Croquette. Tabelog 3.68 from 799 reviews; Tabelog Diner \"Tabelog 100\" 2026.",
+   "notes": "−; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-sho",
+   "name": "Sho",
+   "jp": "晶",
+   "lat": 35.644336,
+   "lng": 139.782418,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸棟 3F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Reservations via Tabelog/online; set menus (JPY 15,000-16,500) are reservation-only from 14:00; may close early when stock runs out.",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13204803/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 177,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13204803/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13204803/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Sushi, Kaisen-don (Seafood bowl). Tabelog 3.62 from 177 reviews.",
+   "notes": "Seats 17 seats ( 13 counter seats, 4; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat, Day before public holiday, Day after public holiday 7:00 AM - 3:00 PM L.O. 2:00 PM Wed, Sun, Public Holiday Closed ; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-tenfusa",
+   "name": "Tenfusa",
+   "jp": "天房",
+   "lat": 35.644783,
+   "lng": 139.785943,
+   "address": "東京都江東区豊洲6-3-1 豊洲市場 5街区 青果棟 1F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13227313/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 244,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13227313/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13227313/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Tempura, Ten-don (Tempura bowl), Seafood. Tabelog 3.54 from 244 reviews.",
+   "notes": "Seats 18 seats ( Table for 2 seats x; Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-honmaguro-soba-kotsu",
+   "name": "Honmaguro Soba Kotsu",
+   "jp": "本まぐろそば 䱻",
+   "lat": 35.645726,
+   "lng": 139.783365,
+   "address": "東京都江東区豊洲6-5-1",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293716/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 252,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293716/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293716/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Ramen. Tabelog 3.5 from 252 reviews.",
+   "notes": "−; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "ginza-shiseido-parlor-ginza-honten",
+   "name": "Shiseido Parlor Ginza honten",
+   "jp": "資生堂パーラー 銀座本店",
+   "lat": 35.668587,
+   "lng": 139.761911,
+   "address": "東京都中央区銀座8-8-3 東京銀座資生堂ビル ４Ｆ・５Ｆ",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥8,000 - ¥9,999 ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13004938/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1401,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13004938/",
+    "award": "Tabelog Yoshoku (Japanese style western cuisine) EAST \"Tabelog 100\" 20"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13004938/",
+    "https://retty.me/theme/200268091/",
+    "https://ontrip.jal.co.jp/tokyo/17331189"
+   ],
+   "why": "Yoshoku (Japanese style western cuisine), Omurice (Omelette . Tabelog 3.73 from 1,401 reviews; Tabelog Yoshoku (Japanese style western cuisine) EAST \"Tabelog 100\" 20.",
+   "notes": "Seats 64 seats; Non smoking; Tabelog hours text: Tue, Wed, Thu, Fri, Sat, Sun 11:30 AM - 9:30 PM L.O. 8:30 PM Mon Closed ■Closed on Mondays (open on public holidays)",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-old-imperial-bar",
+   "name": "Old Imperial Bar",
+   "jp": "オールドインペリアル バー",
+   "lat": 35.672372,
+   "lng": 139.758771,
+   "address": "東京都千代田区内幸町1-1-1 帝国ホテル東京 本館 中2F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130102/13002169/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 491,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130102/13002169/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130102/13002169/",
+    "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-tokyo"
+   ],
+   "why": "Bar. Tabelog 3.76 from 491 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 72 seats ( There are 20 seats ; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-cafe-paulista",
+   "name": "Cafe Paulista",
+   "jp": "カフェーパウリスタ",
+   "lat": 35.668095,
+   "lng": 139.76204,
+   "address": "東京都中央区銀座8-9-16 長崎センタービル １Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "19:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1880,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+    "https://aumo.jp/articles/21933",
+    "https://ontrip.jal.co.jp/tokyo/17331189"
+   ],
+   "why": "Cafe, Cake. Tabelog 3.73 from 1,880 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 100 seats ( 50 seats on the fi; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 9:00 AM - 8:00 PM L.O. Food 7:00 PM Drinks 7:30 PM Sat 9:00 AM - 7:30 PM L.O. Food 6:30 PM Drinks 7:00 PM Sun, Publi",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-you",
+   "name": "YOU",
+   "jp": "YOU",
+   "lat": 35.669473,
+   "lng": 139.768668,
+   "address": "東京都中央区銀座4-13-17 高野ビル １F",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable Reservations are not accepted on weekdays or weekends. Please confirm by ph",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13002318/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 3761,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002318/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13002318/",
+    "https://retty.me/theme/200268091/",
+    "https://www.timeout.jp/tokyo/ja/bars-and-pubs/best-bars-in-tokyo"
+   ],
+   "why": "Kissa (Japanese coffee shop), Sandwich, Omurice (Omelette ri. Tabelog 3.72 from 3,761 reviews; Tabelog Kissaten \"Tabelog 100\" 2026.",
+   "notes": "Seats 48 seats ( 1st floor (11 seats; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri 11:00 AM - 4:30 PM L.O. 4:00 PM Sat, Sun 11:00 AM - 4:30 PM L.O. 3:30 PM Wed Closed ■Closed on Year-end & New Year Holida",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-little-smith",
+   "name": "LITTLE SMITH",
+   "jp": "リトル スミス",
+   "lat": 35.670982,
+   "lng": 139.761095,
+   "address": "東京都中央区銀座6-4-12 ＫＮビル Ｂ２Ｆ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "26:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13004998/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 367,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13004998/",
+    "award": "Tabelog Bar \"Tabelog 100\" 2022"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13004998/",
+    "http://www.littlesmith.jp/",
+    "https://tabelog.com/matome/8833/"
+   ],
+   "why": "Bar. Tabelog 3.72 from 367 reviews; Tabelog Bar \"Tabelog 100\" 2022.",
+   "notes": "Seats 25 seats; Smoking allowed The revised Health Promotion Act f; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat 6:00 PM - 2:00 AM L.O. 1:30 AM Sun, Public Holiday Closed Closed during the Year-end & New Year Holidays.",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-ginza-chikamitsu-rokuchome",
+   "name": "Ginza Chikamitsu Rokuchome",
+   "jp": "銀座 ちかみつ 六丁目",
+   "lat": 35.668847,
+   "lng": 139.764586,
+   "address": "東京都中央区銀座6-13-16 ヒューリック銀座ウォールビル 1F",
+   "cat": "yakiniku",
+   "price": 4,
+   "price_note": "dinner ~JPY 10,000-15,000 per person (Tabelog budget); lunch lower",
+   "reservation": "required",
+   "res_note": "Reservation only The reservation hours are from Monday to Sunday, 1:00 PM to 11:30 PM. Thank you for",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13259532/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 954,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13259532/",
+    "award": "Tabelog Grill TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13259532/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Yakiniku (Japanese BBQ), Tripe, Beef dishes. Tabelog 3.69 from 954 reviews; Tabelog Grill TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 40 seats ( 7 rooms for 4 peopl; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 11:00 AM - 3:00 PM 5:00 PM - 11:30 PM",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "ginza-american",
+   "name": "American",
+   "jp": "アメリカン",
+   "lat": 35.669819,
+   "lng": 139.768753,
+   "address": "東京都中央区銀座4-11-7",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:30",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:30",
+      "14:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:30",
+      "14:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:30",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:30",
+      "14:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13051375/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 2157,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13051375/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13051375/",
+    "https://www.mapple.net/original/521815/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Sandwich, Yoshoku (Japanese st. Tabelog 3.68 from 2,157 reviews; Tabelog Kissaten \"Tabelog 100\" 2026.",
+   "notes": "Seats 22 seats ( 22 seats at the tab; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 8:30 AM - 2:30 PM L.O. 2:00 PM Sat, Sun, Public Holiday Closed Please note that we will close once the bread is sold",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-miyazawa",
+   "name": "Miyazawa",
+   "jp": "みやざわ",
+   "lat": 35.669237,
+   "lng": 139.760489,
+   "address": "東京都中央区銀座8-5-25 西銀座会館 １Ｆ",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Not stated on Tabelog",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "16:00",
+      "27:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "16:00",
+      "27:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "16:00",
+      "27:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "16:00",
+      "27:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "16:00",
+      "27:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130103/13024142/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 1081,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130103/13024142/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13024142/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Yoshoku (Japanese style wester. Tabelog 3.68 from 1,081 reviews; Tabelog Kissaten \"Tabelog 100\" 2026.",
+   "notes": "Seats 32 seats ( 6 x 4-seater tables; Designated smoking area The revised Health Promoti",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-chuka-ginza-tei",
+   "name": "Chuka Ginza Tei",
+   "jp": "中華 銀座亭",
+   "lat": 35.668052,
+   "lng": 139.763052,
+   "address": "東京都中央区銀座7-11-10",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "25:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "25:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "25:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "25:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "25:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13054334/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 2231,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13054334/",
+    "award": "Tabelog Chinese TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13054334/",
+    "https://retty.me/theme/200268091/"
+   ],
+   "why": "Chinese, Dumpling, Ramen. Tabelog 3.66 from 2,231 reviews; Tabelog Chinese TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 15 seats ( Counter seats only); Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-le-petitmec-hibiya-hibiya-ten",
+   "name": "Le Petitmec HIBIYA Hibiya ten",
+   "jp": "ル・プチメック 日比谷店",
+   "lat": 35.673333,
+   "lng": 139.760114,
+   "address": "東京都千代田区有楽町1-2-2 日比谷シャンテ 1F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130102/13219670/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.81,
+    "reviews": 2819,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130102/13219670/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130102/13219670/",
+    "https://lepetitmec.com/"
+   ],
+   "why": "Bread, Cafe. Tabelog 3.81 from 2,819 reviews; Tabelog Bread TOKYO \"Tabelog 100\" 2026.",
+   "notes": "Seats 42 seats; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-coffee-kan-benishika",
+   "name": "Coffee Kan Benishika",
+   "jp": "珈琲館 紅鹿舎",
+   "lat": 35.673607,
+   "lng": 139.760925,
+   "address": "東京都千代田区有楽町1-6-8 松井ビル １Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Not stated on Tabelog",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130102/13002146/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 1729,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130102/13002146/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130102/13002146/",
+    "https://san-tatsu.jp/spots/search/area:1490/",
+    "https://san-tatsu.jp/spots/search/area:4221/"
+   ],
+   "why": "Kissa (Japanese coffee shop), Cafe, Bread. Tabelog 3.7 from 1,729 reviews.",
+   "notes": "Seats 58 seats ( 8 counter seats, 50; Designated smoking area (heated tobacco only) Only; Tabelog hours text: Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday 11:00 AM - 11:00 PM L.O. Food 10:15 PM Drinks 10:30 PM Mon, Day after public holiday Closed ",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-daitsune-udon-ginza-honten",
+   "name": "Daitsune Udon Ginza honten",
+   "jp": "太常うどん 銀座本店",
+   "lat": 35.667337,
+   "lng": 139.765283,
+   "address": "東京都中央区銀座7-15-17 だいつねビル１階",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13104580/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1227,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13104580/",
+    "award": "Tabelog Udon (Wheat noodles) EAST \"Tabelog 100\" 2024"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13104580/",
+    "https://retty.me/theme/200267313/"
+   ],
+   "why": "Udon (Wheat noodles), Tempura, Izakaya (Japanese style taver. Tabelog 3.65 from 1,227 reviews; Tabelog Udon (Wheat noodles) EAST \"Tabelog 100\" 2024.",
+   "notes": "Seats 45 seats ( 4 seats at the coun; Non smoking; Tabelog hours text: Mon, Sat 11:00 AM - 2:30 PM L.O. 2:20 PM Tue, Wed, Thu, Fri 11:00 AM - 2:30 PM L.O. 2:20 PM 5:00 PM - 9:00 PM L.O. Food 8:30 PM Drinks 8:45 ",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-wako-tea-salon",
+   "name": "Wako Tea Salon",
+   "jp": "和光ティーサロン",
+   "lat": 35.671774,
+   "lng": 139.764727,
+   "address": "東京都中央区銀座4-4-8 和光アネックス 2F",
+   "cat": "cafe-kissaten",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥4,000 - ¥4,999 ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable We kindly ask that children (pre-school age) refrain from entering.",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "19:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13009081/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.8,
+    "reviews": 1468,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13009081/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/",
+    "https://www.wako.co.jp/store_information/main/annex/teasalon/"
+   ],
+   "why": "Cafe, Cake. Tabelog 3.8 from 1,468 reviews; Tabelog Cafe EAST \"Tabelog 100\" 2025.",
+   "notes": "Seats 52 seats ( 52 table seats); Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat 10:30 AM - 7:30 PM L.O. 7:00 PM Sun, Public Holiday 10:30 AM - 7:00 PM L.O. 6:30 PM ■Closed on Year-end & New Y",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-nanban-ginen-tei",
+   "name": "Nanban Ginen Tei",
+   "jp": "南蛮 銀圓亭",
+   "lat": 35.671414,
+   "lng": 139.7631,
+   "address": "東京都中央区銀座5-4-8 カリオカビル ７Ｆ",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥10,000 - ¥14,999 ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available None",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13002305/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 274,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002305/",
+    "award": "Tabelog Yoshoku (Japanese style western cuisine) EAST \"Tabelog 100\" 20"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13002305/",
+    "http://nambanginentei.com/",
+    "https://aumo.jp/articles/21933"
+   ],
+   "why": "Yoshoku (Japanese style western cuisine). Tabelog 3.67 from 274 reviews; Tabelog Yoshoku (Japanese style western cuisine) EAST \"Tabelog 100\" 20.",
+   "notes": "Seats 50 seats; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Day before public holiday, Day after public holiday 11:30 AM - 2:30 PM L.O. 1:00 PM 5:00 PM - 9:30 PM L.O. 7:3",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "ginza-ramen-horiuchi-shinbashi-ten",
+   "name": "Ramen Horiuchi Shinbashi ten",
+   "jp": "らぁめん ほりうち 新橋店",
+   "lat": 35.664881,
+   "lng": 139.75749,
+   "address": "東京都港区新橋3-19-4 桜井ビル 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "27:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "27:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "27:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "27:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130103/13156562/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 2721,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130103/13156562/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13156562/",
+    "http://ramen-horiuchi.com/"
+   ],
+   "why": "Ramen, Tsukemen (Dipping noodles). Tabelog 3.66 from 2,721 reviews.",
+   "notes": "Seats 22 seats ( 14 seats at the cou; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-tsukiji-solatsuki-souhonten",
+   "name": "TSUKIJI SOLATSUKI Souhonten",
+   "jp": "築地そらつき 総本店",
+   "lat": 35.666024,
+   "lng": 139.770717,
+   "address": "東京都中央区築地4-11-10",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13180099/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 284,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13180099/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13180099/",
+    "https://www.tsukiji.or.jp/calendar/"
+   ],
+   "why": "Sweets, Daifuku (Red bean paste rice cake) , Soft serve ice . Tabelog 3.51 from 284 reviews.",
+   "notes": "Seats ( takeaway specialty store); Non smoking; Tsukiji Outer Market official site: general sales 9:00-14:00, shops vary; outer market shut Sundays/holidays and most market-closure Wednesdays (11 & 18 Nov)",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tsukiji-ten-mame",
+   "name": "Ten mame",
+   "jp": "天まめ",
+   "lat": 35.669491,
+   "lng": 139.772445,
+   "address": "東京都中央区築地2-8-1 築地永谷タウンプラザ 107",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "13:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13168055/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 555,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13168055/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets TOK"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13168055/",
+    "https://www.tsukiji.or.jp/calendar/"
+   ],
+   "why": "Japanese traditional sweets. Tabelog 3.75 from 555 reviews; Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets TOK.",
+   "notes": "Non smoking; Tsukiji Outer Market official site: general sales 9:00-14:00, shops vary; outer market shut Sundays/holidays and most market-closure Wednesdays (11 & 18 Nov)",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-ginza-ramen-shiraishi",
+   "name": "Ginza Ramen Shiraishi",
+   "jp": "銀座らぁ麺しら石",
+   "lat": 35.668564,
+   "lng": 139.760714,
+   "address": "東京都中央区銀座8-6-8 銀座片桐ビルⅣ 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130103/13287878/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 1015,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130103/13287878/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13287878/",
+    "https://j-silver.co.jp/ramen/"
+   ],
+   "why": "Ramen. Tabelog 3.64 from 1,015 reviews.",
+   "notes": "Seats 10 seats ( 6 seats at counter,; Non smoking; Tabelog lists closing beyond 30:00, capped at 30:00; Tabelog lists closing beyond 30:00, capped at 30:00; Tabelog lists closing beyond 30:00, capped at 30:00; Tabelog lists closing beyond 30:00, capped at 30:00; Tabelog lists closing beyond 30:00, capped at 30:00",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-ittaikan",
+   "name": "ITTAIKAN",
+   "jp": "一体感",
+   "lat": 35.669511,
+   "lng": 139.769354,
+   "address": "東京都中央区銀座4-14-1 石田ビル銀座 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Reservations unavailable ⚠️ The payment method will change starting from August 1st ⚠️ With the intr",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13297115/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 724,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13297115/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13297115/",
+    "https://solatsuki.jp/ittaikan",
+    "https://solatsuki.jp/"
+   ],
+   "why": "Curry. Tabelog 3.64 from 724 reviews.",
+   "notes": "Seats 18 seats ( If you are visiting; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 8:00 AM - 3:00 PM L.O. 2:00 PM Wed Closed ",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-tadokoro-foods-eat-in",
+   "name": "Tadokoro Foods Eat-in",
+   "jp": "築地 田所食品",
+   "lat": 35.66562,
+   "lng": 139.769698,
+   "address": "東京都中央区築地4-9-11",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13220295/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 736,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13220295/",
+    "award": "Tabelog Diner \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13220295/",
+    "https://www.tsukiji.or.jp/calendar/"
+   ],
+   "why": "Cafeteria, Pasta, Japanese Cuisine. Tabelog 3.58 from 736 reviews; Tabelog Diner \"Tabelog 100\" 2026.",
+   "notes": "Seats 16 seats ( 4 seats at counter ; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat 6:30 AM - 2:00 PM L.O. 1:30 PM Sun, Public Holiday Closed Closed on some Wednesdays Open on public holidays, su; Tsukiji Outer Market official site: general sales 9:00-14:00, shops vary; outer market shut Sundays/holidays and most market-closure Wednesdays (11 & 18 Nov)",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "tsukiji-east-india-curry-shokai-tsukiji-jogai-te",
+   "name": "East India Curry Shokai Tsukiji jōgai ten",
+   "jp": "東印度カレー商会 築地場外店",
+   "lat": 35.6654,
+   "lng": 139.770341,
+   "address": "東京都中央区築地4-10-7 夕月ビル 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131301/13184159/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 527,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131301/13184159/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13184159/",
+    "https://www.tsukiji.or.jp/calendar/"
+   ],
+   "why": "Curry, Onigiri (Rice ball), Bento (Lunch box). Tabelog 3.66 from 527 reviews.",
+   "notes": "Seats 30 seats; Non smoking; Tsukiji Outer Market official site: general sales 9:00-14:00, shops vary; outer market shut Sundays/holidays and most market-closure Wednesdays (11 & 18 Nov)",
+   "near": [
+    "tsukiji",
+    "ginza"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-yakiago-shio-ramen-takahashi-ginza-ten",
+   "name": "Yakiago Shio Ramen Takahashi Ginza ten",
+   "jp": "焼きあご塩らー麺たかはし 銀座店",
+   "lat": 35.669775,
+   "lng": 139.765324,
+   "address": "東京都中央区銀座5-10-10 オリジナル第一ビル1Ｆ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "28:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13212146/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 1400,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13212146/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13212146/",
+    "http://takahashi-ramen.com/"
+   ],
+   "why": "Ramen. Tabelog 3.6 from 1,400 reviews.",
+   "notes": "Seats 11 seats ( counter only); Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun 11:00 AM - 4:30 AM L.O. 4:20 AM The restaurant will be closed for renovations from September 28 to October",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "ginza-lupin",
+   "name": "Lupin",
+   "jp": "ルパン",
+   "lat": 35.671054,
+   "lng": 139.76332,
+   "address": "東京都中央区銀座5-5-11 塚本不動産ビル Ｂ１Ｆ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1301/A130101/13002554/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 276,
+    "url": "https://tabelog.com/en/tokyo/A1301/A130101/13002554/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13002554/",
+    "https://matcha-jp.com/jp/7556",
+    "https://www.tsukiji.or.jp/shoplist/cat-c/cat-26/"
+   ],
+   "why": "Bar. Tabelog 3.62 from 276 reviews.",
+   "notes": "Seats 30 seats ( 15 seats at the cou; Non smoking",
+   "near": [
+    "tsukiji",
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tokyo-la-patisserie-by-aman-tokyo",
+   "name": "La Patisserie by Aman Tokyo",
+   "jp": "ラ・パティスリー by アマン東京",
+   "lat": 35.685561,
+   "lng": 139.765376,
+   "address": "東京都千代田区大手町1-5-6 大手町タワー OOTEMORI B2F",
+   "cat": "western-yoshoku",
+   "price": 1,
+   "price_note": "Tabelog avg: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13262844/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 419,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13262844/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13262844/",
+    "https://www.aman.com/ja-jp/hotels/aman-tokyo/dining/la-patisserie-aman-tokyo"
+   ],
+   "why": "Cake, Sweets (Western style), Bread. Tabelog 3.64 from 419 reviews.",
+   "notes": "Seats 3 seats ( This will be an eat-; tiny: hard for 4; Non smoking",
+   "near": [
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "tokyo-matsudo-tomita-menban",
+   "name": "Matsudo Tomita Menban",
+   "jp": "松戸富田麺絆",
+   "lat": 35.679573,
+   "lng": 139.765279,
+   "address": "東京都千代田区丸の内2-7-2 KITTE丸の内 B1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1302/A130201/13232095/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 3849,
+    "url": "https://tabelog.com/en/tokyo/A1302/A130201/13232095/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13232095/",
+    "https://aumo.jp/articles/21096",
+    "https://www.nap-camp.com/mag/40858"
+   ],
+   "why": "Tsukemen (Dipping noodles), Ramen, Dumpling. Tabelog 3.71 from 3,849 reviews.",
+   "notes": "Seats 27 seats ( 27 seats at the cou; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri 11:00 AM - 10:00 PM L.O. Food 9:30 PM Sat, Sun, Public Holiday 11:00 AM - 9:00 PM L.O. Food 8:30 PM ",
+   "near": [
+    "ginza",
+    "tokyo_station"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "toyosu-toyosu-shijo-yamahara",
+   "name": "Toyosu Shijo Yamahara",
+   "jp": "豊洲市場 山はら",
+   "lat": 35.643953,
+   "lng": 139.781818,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸売場棟 3F 22",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13243933/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 154,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13243933/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13243933/",
+    "https://www.toyosu-market-yamahara.com/",
+    "https://www.openstreetmap.org/node/13110183953"
+   ],
+   "why": "Kaisen-don (Seafood bowl), Seafood, Donburi (Rice bowl). Tabelog 3.4 from 154 reviews.",
+   "notes": "Seats 19 seats; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri, Sat, Day before public holiday, Day after public holiday 7:00 AM - 3:00 PM L.O. 2:45 PM Wed, Sun, Public Holiday Closed ",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-sushi-bun",
+   "name": "Sushi Bun",
+   "jp": "鮨文",
+   "lat": 35.643952,
+   "lng": 139.782093,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸売場棟 3F 2",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥4,000 - ¥4,999",
+   "reservation": "required",
+   "res_note": "Reservations available Reservations are prioritized, and can only be made by phone.",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13228423/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 113,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13228423/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13228423/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Sushi. Tabelog 3.39 from 113 reviews.",
+   "notes": "Seats 12 seats ( 12 counter seats); Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-unagi-meigetsugawa-toyosu-ten",
+   "name": "Unagi Meigetsugawa Toyosu ten",
+   "jp": "うなぎ 明月川 豊洲店",
+   "lat": 35.645835,
+   "lng": 139.783401,
+   "address": "東京都江東区豊洲6-5-1 豊洲 千客万来",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥4,000 - ¥4,999 ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13292158/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 128,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13292158/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13292158/",
+    "https://meigetsugawa-toyosu.com/"
+   ],
+   "why": "Unagi (Eel). Tabelog 3.38 from 128 reviews.",
+   "notes": "Seats 42 seats; Non smoking There is a smoking area within the fac; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 10:00 AM - 9:00 PM L.O. 8:00 PM Last ",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-tsukiji-uni-tora-toyosu-ten",
+   "name": "Tsukiji Uni Tora Toyosu Ten",
+   "jp": "築地うに虎 豊洲店",
+   "lat": 35.645573,
+   "lng": 139.783713,
+   "address": "東京都江東区豊洲6-5-1 豊洲 千客万来 3F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥8,000 - ¥9,999 ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available We would appreciate it if you could contact us regarding cancellations even o",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13294256/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.38,
+    "reviews": 93,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13294256/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13294256/",
+    "https://beyondtsukiji-hd.co.jp/shop/unitora-toyosu/"
+   ],
+   "why": "Seafood. Tabelog 3.38 from 93 reviews.",
+   "notes": "Seats 23 seats ( 11 counter seats an; Non smoking There is a designated smoking room on ; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 10:00 AM - 10:00 PM L.O. 9:00 PM ■Clo",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-sushi-dokoro-sei",
+   "name": "Sushi Dokoro Sei",
+   "jp": "寿し処 勢",
+   "lat": 35.644297,
+   "lng": 139.782251,
+   "address": "東京都江東区豊洲6-5-1 豊洲市場 水産仲卸売場棟 3F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog avg: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Reservations available If you wish to reserve the entire venue, please contact the restaurant direct",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "14:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "06:00",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13229004/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.37,
+    "reviews": 114,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13229004/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13229004/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Sushi. Tabelog 3.37 from 114 reviews.",
+   "notes": "Seats 18 seats ( 8 counter seats and; Non smoking; Tabelog hours text: Mon, Tue, Thu, Fri 6:00 AM - 2:30 PM L.O. 2:00 PM Sat 6:00 AM - 3:00 PM L.O. 2:30 PM Wed, Sun, Public Holiday Closed ■Closed on Following th; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-sesame-street-market-aabandokku-rarapoot",
+   "name": "SESAME STREET MARKET Aabandokku rarapooto toyosu ten",
+   "jp": "SESAME STREET MARKET アーバンドック ららぽーと豊洲店",
+   "lat": 35.65515,
+   "lng": 139.793008,
+   "address": "東京都江東区豊洲2-4-9 アーバンドック ららぽーと豊洲",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13304872/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 131,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13304872/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13304872/",
+    "https://www.openstreetmap.org/way/22823727"
+   ],
+   "why": "Cafe. Tabelog 3.41 from 131 reviews.",
+   "notes": "Seats 70 seats ( 46 seats inside and; −; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday 10:00 AM - 9:00 PM L.O. 8:00 PM ■Business hours 10:00 - 21:00 (Last Order 20:00) *In accor",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "toyosu-toyosu-fukura-suzume",
+   "name": "Toyosu Fukura Suzume",
+   "jp": "豊洲 ふくらすずめ",
+   "lat": 35.645702,
+   "lng": 139.783439,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293705/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 123,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293705/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293705/",
+    "https://www.toyosufukurasuzume.com/"
+   ],
+   "why": "Cafe. Tabelog 3.41 from 123 reviews.",
+   "notes": "Seats 47 seats ( 42 seats at tables ; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-hamakaze-sabo",
+   "name": "Hamakaze Sabo",
+   "jp": "濱風茶房",
+   "lat": 35.644369,
+   "lng": 139.780991,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293818/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 103,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293818/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293818/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Cafe, Sweets. Tabelog 3.41 from 103 reviews.",
+   "notes": "Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-asakusa-chaya-tabane-noshi-toyosu-ten",
+   "name": "Asakusa Chaya Tabane Noshi Toyosu ten",
+   "jp": "浅草茶屋 たばねのし 豊洲店",
+   "lat": 35.645839,
+   "lng": 139.7831,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 2F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293732/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 155,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293732/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293732/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Crepe, Galette. Tabelog 3.44 from 155 reviews.",
+   "notes": "Seats 18 seats; Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-marutake-premium",
+   "name": "Marutake Premium",
+   "jp": "丸武PREMIUM",
+   "lat": 35.645019,
+   "lng": 139.78305,
+   "address": "東京都江東区豊洲6-5-1 豊洲千客万来 2F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293752/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.43,
+    "reviews": 189,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293752/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293752/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Sweets. Tabelog 3.43 from 189 reviews.",
+   "notes": "Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-toyosu-maruri-sushi",
+   "name": "Toyosu Maruri Sushi",
+   "jp": "豊洲まるり鮨",
+   "lat": 35.645735,
+   "lng": 139.783493,
+   "address": "東京都江東区豊洲6-5-1 豊洲 千客万来 3F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13296808/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 242,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13296808/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13296808/",
+    "https://www.toyosu-senkyakubanrai.jp/307/"
+   ],
+   "why": "Sushi. Tabelog 3.44 from 242 reviews.",
+   "notes": "Seats 100 seats ( Food court (100 se; Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-tsukiji-kaisen-don-oedo-toyosu-shijonai-",
+   "name": "Tsukiji Kaisen-don Oedo Toyosu shijonai ten",
+   "jp": "築地 海鮮丼 大江戸 豊洲市場内店",
+   "lat": 35.644838,
+   "lng": 139.781588,
+   "address": "東京都江東区豊洲6-5-1 水産仲卸売場棟 3F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13045427/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.43,
+    "reviews": 183,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13045427/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13045427/",
+    "https://www.openstreetmap.org/node/13110183956"
+   ],
+   "why": "Kaisen-don (Seafood bowl), Seafood, Sushi. Tabelog 3.43 from 183 reviews.",
+   "notes": "Seats 11 seats ( Counter seats); Non smoking",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-rokumei-ken",
+   "name": "Rokumei Ken",
+   "jp": "禄明軒",
+   "lat": 35.644431,
+   "lng": 139.78239,
+   "address": "東京都江東区豊洲6-5-1 豊洲市場 6街区 3F 7番",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog avg: n/a",
+   "reservation": "none",
+   "res_note": "Reservations unavailable",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "14:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13228337/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.37,
+    "reviews": 118,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13228337/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13228337/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Yoshoku (Japanese style western cuisine). Tabelog 3.37 from 118 reviews.",
+   "notes": "Seats 11 seats ( Extra chairs availa; Non smoking; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "toyosu-yakiniku-shio-horumon-yoshichan-toyosu",
+   "name": "Yakiniku Shio Horumon Yoshichan Toyosu",
+   "jp": "焼肉 塩ホルモン 好ちゃん 豊洲",
+   "lat": 35.645586,
+   "lng": 139.783767,
+   "address": "東京都江東区豊洲6-5-1 うまいもん横丁 3F",
+   "cat": "yakiniku",
+   "price": 2,
+   "price_note": "Tabelog avg: ¥5,000 - ¥5,999 ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Reservations available * Please note that although the system displays an available time of 2 hours ",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "15:00"
+     ],
+     [
+      "15:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1313/A131307/13293167/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.39,
+    "reviews": 245,
+    "url": "https://tabelog.com/en/tokyo/A1313/A131307/13293167/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1313/A131307/13293167/",
+    "https://asset.japan.travel/image/upload/v1767774751/pdf/2026_TIC/202601/2026_Toyosu_Fish_Market.pdf"
+   ],
+   "why": "Tripe, Yakiniku (Japanese BBQ), Motsu-nabe. Tabelog 3.39 from 245 reviews.",
+   "notes": "Seats 74 seats ( Table and sunken ko; Non smoking; Tabelog hours text: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Public Holiday, Day before public holiday, Day after public holiday 10:00 AM - 3:00 PM L.O. Food 2:30 PM ; Toyosu Market 2026 calendar (JNTO): closed Sundays, holidays and 11 & 18 Nov; Thu 19 Nov open. Venue hours per Tabelog; many market restaurants close by ~13:00-14:00",
+   "near": [
+    "toyosu"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  }
+ ]
+}

@@ -19,6 +19,8 @@ import os
 
 from data_kyoto import KYOTO
 from data_tokyo import TOKYO
+import json
+from data_food import load as load_food
 from html_common import render_month_calendar, render_section
 
 # Days that bookend the trip but have no itinerary card — shown greyed on the
@@ -43,6 +45,12 @@ def main():
         "{{MONTH_CAL}}",
         render_month_calendar([("kyoto", KYOTO), ("tokyo", TOKYO)], context=CONTEXT_DAYS),
     )
+    # Food tab: UI source lives in scripts/food/, venue data in scripts/food/*.json
+    food_dir = os.path.join(HERE, "food")
+    for marker, name in (("FOOD_SECTION", "food_section.html"), ("FOOD_CSS", "food_ui.css"), ("FOOD_JS", "food_ui.js")):
+        html = html.replace("{{%s}}" % marker, open(os.path.join(food_dir, name), encoding="utf-8").read().rstrip("\n") + "\n")
+    food_json = json.dumps(load_food(), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    html = html.replace("{{FOOD_DATA}}", food_json)
     remaining = [line for line in html.splitlines() if "{{" in line]
     assert not remaining, "unresolved template markers: {0}".format(remaining)
     with open(OUTPUT, "w", encoding="utf-8") as f:

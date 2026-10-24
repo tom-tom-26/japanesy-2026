@@ -1,0 +1,819 @@
+[
+ {
+  "id": "kyoto-bar-kya-honkan",
+  "name": "bar Kya Honkan",
+  "jp": "バー K家 本館",
+  "lat": 35.0073,
+  "lng": 135.765855,
+  "address": "京都府京都市中京区六角通御幸町西入ル八百屋町103",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "26:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.69,
+   "reviews": 401,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26001147/",
+   "award": "Tabelog Bar  Hyakumeiten (2022)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-fukunaga901",
+  "name": "FUKUNAGA901",
+  "jp": "フクナガ901",
+  "lat": 34.985771,
+  "lng": 135.757844,
+  "address": "京都府京都市下京区烏丸通塩小路下る東塩小路901 京都駅ビル内 8F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.63,
+   "reviews": 572,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030973/",
+   "award": "Tabelog Cafe WEST Hyakumeiten (2025)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-yoshida-yama-seseri",
+  "name": "Yoshida Yama Seseri",
+  "jp": "吉田山せせり",
+  "lat": 34.982788,
+  "lng": 135.756972,
+  "address": "京都府京都市南区東九条室町31",
+  "price": 3,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [],
+   "sun": []
+  },
+  "tabelog": {
+   "score": 3.64,
+   "reviews": 235,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030970/",
+   "award": "Tabelog yakitori WEST Hyakumeiten (2024, 2025)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-kamogawa-seimenjo",
+  "name": "Kamogawa Seimenjo",
+  "jp": "鴨川製麺所",
+  "lat": 34.989175,
+  "lng": 135.768431,
+  "address": "京都府京都市東山区七条通り鞘町西入ル日吉町228",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.33,
+   "reviews": 107,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260301/26034220/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-kagizen-yoshifusa-shijou",
+  "name": "Kagizen Yoshifusa Shijou honten",
+  "jp": "鍵善良房 四条本店",
+  "lat": 35.003979,
+  "lng": 135.774752,
+  "address": "京都府京都市東山区祇園町北側264",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [],
+   "tue": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.78,
+   "reviews": 1950,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260301/26001887/",
+   "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2017, 2018, 2019, 2020, 2022, 2023, 2026)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-inari-futaba",
+  "name": "Inari Futaba",
+  "jp": "いなりふたば",
+  "lat": 34.968441,
+  "lng": 135.77089,
+  "address": "京都府京都市伏見区深草稲荷仲之町55",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "9:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "9:00",
+     "18:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "9:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "9:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "9:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.65,
+   "reviews": 407,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260601/26007559/",
+   "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2023, 2026)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-bar-atlantis-pontochou",
+  "name": "BAR ATLANTIS Pontochou ten",
+  "jp": "Bar Atlantis 先斗町店",
+  "lat": 35.005294,
+  "lng": 135.771119,
+  "address": "京都府京都市中京区松本町161",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.51,
+   "reviews": 167,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26000936/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-kyoto-beer-lab",
+  "name": "Kyoto Beer Lab",
+  "jp": "Kyoto Beer Lab",
+  "lat": 34.990673,
+  "lng": 135.7657,
+  "address": "京都府京都市下京区十禅師町201-3",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [],
+   "tue": [],
+   "wed": [],
+   "thu": [],
+   "fri": [],
+   "sat": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "21:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.47,
+   "reviews": 147,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26030571/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-alkaa",
+  "name": "ALKAA",
+  "jp": "ALKAA",
+  "lat": 34.98301,
+  "lng": 135.760134,
+  "address": "京都府京都市南区東九条西山王町15-7",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "24:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.4,
+   "reviews": 67,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26037554/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-iroha-karuta-kyoto-ekimae",
+  "name": "Iroha Karuta Kyoto ekimae ten",
+  "jp": "いろはかるた 京都駅前店",
+  "lat": 34.987411,
+  "lng": 135.758751,
+  "address": "京都府京都市下京区京都駅前烏丸中央口正面 法華クラブ京都　１Ｆ",
+  "price": 2,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "24:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.32,
+   "reviews": 77,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000792/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-bar-gaudi",
+  "name": "Bar Gaudi",
+  "jp": "BAR Gaudi",
+  "lat": 34.996641,
+  "lng": 135.758243,
+  "address": "京都府京都市下京区坂東屋町283 シゲトシビル 1F",
+  "price": 3,
+  "reservation": "none",
+  "hours": {
+   "mon": [],
+   "tue": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "23:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.46,
+   "reviews": 76,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26030939/",
+   "award": "Tabelog tachinomi  Hyakumeiten (2025)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-shinpuku-saikan",
+  "name": "Shinpuku Saikan Honten",
+  "jp": "新福菜館 本店",
+  "lat": 34.986757,
+  "lng": 135.762506,
+  "address": "京都府京都市下京区東塩小路向畑町569",
+  "price": 1,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "9:00",
+     "20:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.59,
+   "reviews": 4354,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260101/26000791/",
+   "award": "Tabelog Ramen WEST Hyakumeiten (2020, 2021)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-menya-inoichi",
+  "name": "Menya Inoichi",
+  "jp": "麺屋猪一",
+  "lat": 35.001324,
+  "lng": 135.766951,
+  "address": "京都府京都市下京区恵美須之町寺町通仏光寺下ル542",
+  "price": 2,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "14:30"
+    ],
+    [
+     "17:30",
+     "21:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.71,
+   "reviews": 1150,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26032368/",
+   "award": "Tabelog Ramen WEST Hyakumeiten (2023, 2024, 2025)"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "kyoto-gion-tokuya",
+  "name": "Gion Tokuya",
+  "jp": "ぎおん徳屋",
+  "lat": 35.002492,
+  "lng": 135.774927,
+  "address": "京都府京都市東山区祇園町南側570-127",
+  "price": 2,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.76,
+   "reviews": 2251,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260301/26002075/",
+   "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets WEST Hyakumeiten (2018, 2019, 2020, 2022, 2023, 2026)"
+  },
+  "confidence": "high"
+ }
+]

@@ -1,0 +1,7592 @@
+{
+ "anchors": [
+  {
+   "id": "shinjuku_east",
+   "name": "Shinjuku Station East / Kabukicho / Golden Gai",
+   "jp": "新宿駅東口・歌舞伎町・ゴールデン街",
+   "lat": 35.6925,
+   "lng": 139.704,
+   "note": "Centre point between Shinjuku Station East Exit and Kabukicho/Golden Gai (OSM: Golden Gai 35.69399,139.70470); Omoide Yokocho (35.69307,139.69950) is ~0.5 km west"
+  },
+  {
+   "id": "nishi_shinjuku",
+   "name": "Tokyo Metropolitan Government Building (Nishi-Shinjuku)",
+   "jp": "東京都庁舎",
+   "lat": 35.6895,
+   "lng": 139.69171,
+   "note": "OSM: Tokyo Metropolitan Government Building No.1 (35.6894957,139.6917094)"
+  },
+  {
+   "id": "shinjuku_gyoen",
+   "name": "Shinjuku Gyoen National Garden",
+   "jp": "新宿御苑",
+   "lat": 35.68507,
+   "lng": 139.70955,
+   "note": "OSM: Shinjuku Gyoen (35.6850716,139.7095466); Shinjuku-gyoenmae station / Shinjuku Gate on north edge"
+  }
+ ],
+ "venues": [
+  {
+   "id": "shinjuku-raa-menya-shima-7487",
+   "name": "Raa Menya Shima",
+   "jp": "らぁ麺や 嶋",
+   "lat": 35.688342,
+   "lng": 139.680874,
+   "address": "東京都渋谷区本町3-41-12",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Counter of 6, reservation via TableCheck (opens day before 08:00); Mon-Fri only",
+   "hours": {
+    "mon": [
+     [
+      "08:15",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:15",
+      "14:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:15",
+      "14:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:15",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:15",
+      "14:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13247487/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 4.13,
+    "reviews": 2211,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13247487/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2025); Tabelog Award 2026 Bronze"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13247487/",
+    "https://kyodonewsprwire.jp/release/202605078668",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Reservation-only shio/shoyu ramen counter in Nishi-Shinjuku; Tabelog Top 100 ramen. Order the white-soy ramen.",
+   "notes": "Cash only (per Tabelog); Tiny: 6 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-spicy-curry-roka-6023",
+   "name": "SPICY CURRY Roka",
+   "jp": "SPICY CURRY 魯珈",
+   "lat": 35.6987,
+   "lng": 139.697733,
+   "address": "東京都新宿区百人町1-24-8 新宿タウンプラザビル BF-J",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Small counter shop; weekdays only; check Instagram for changes",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:00"
+     ],
+     [
+      "17:00",
+      "19:30"
+     ]
+    ],
+    "fri": [],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130404/13286023/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.88,
+    "reviews": 948,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130404/13286023/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026); Tabelog Award 2026 Bronze"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130404/13286023/",
+    "https://retty.me/area/PRE13/ARE661/SUB108/100001311677/46900932/",
+    "https://aumo.jp/articles/49416"
+   ],
+   "why": "Weekday-lunch spice curry plate shop in Okubo; counter-only, regular queue. Hours conflict between sources (Fri closed per Tabelog).",
+   "notes": "Cash only (per Tabelog); Tiny: 6 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ramen-matsui-5098",
+   "name": "RAMEN MATSUI",
+   "jp": "RAMEN MATSUI",
+   "lat": 35.689079,
+   "lng": 139.71551,
+   "address": "東京都新宿区四谷4-25-10 ダイアパレス御苑前 B-2",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Reservations via TableCheck; other sources list Thu/alt-Wed closed vs Tabelog Wed/Thu - verify",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "11:00",
+      "15:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13285098/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.82,
+    "reviews": 1542,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13285098/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2025)"
+   },
+   "other_ratings": {
+    "michelin": "Bib Gourmand 2025 (per Japanese press summaries)"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13285098/",
+    "https://www.tablecheck.com/km/ramen-matsui",
+    "https://san-tatsu.jp/spots/262585/"
+   ],
+   "why": "Michelin Bib Gourmand shoyu ramen near Shinjuku-gyoenmae; lunch only, fully reservation-based since mid-2025.",
+   "notes": "Cash only (per Tabelog); Tiny: 8 seats, hard for a group of 4; Hours per Tabelog, check last order times; Reservation-based; Hamoni/press summaries: closed Thu & alternate Wed",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-spice-bar-mon-curry-7319",
+   "name": "Spice Bar Mon Curry",
+   "jp": "Spice Bar モンカリー",
+   "lat": 35.69822,
+   "lng": 139.696112,
+   "address": "東京都新宿区北新宿1-3-15 野原ビル 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Cash only; lunch 11:00-15:00; closed Wed/Sun",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130404/13277319/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.83,
+    "reviews": 489,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130404/13277319/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130404/13277319/",
+    "https://foodle.pro/restaurants/tokyo/spicebar",
+    "https://foodle.pro/mitomiemon/meals/tokyo/spicebar/51414"
+   ],
+   "why": "Tabelog curry Top 100 (2026) spice plate: pork, chicken and vegetable curries with sides. Weekday lunch only.",
+   "notes": "Cash only (per Tabelog); 16 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-tsukemen-gonokami-seisakujo-0708",
+   "name": "Tsukemen Gonokami Seisakujo",
+   "jp": "つけ麺 五ノ神製作所",
+   "lat": 35.687359,
+   "lng": 139.703871,
+   "address": "東京都渋谷区千駄ヶ谷5-33-16 シャトレー新宿御苑第一 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Queue common at lunch",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13120708/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 5561,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13120708/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni": "SNS buzz score 4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13120708/",
+    "https://hamoni.jp/shop/xXnO0Tei7vIjlPkrbQzJ",
+    "https://tabelog.com/matome/2718/"
+   ],
+   "why": "Famous ebi (prawn) tsukemen with basil-cheese sauce; Tabelog ramen Top 100; queue at lunch near Takashimaya.",
+   "notes": "Cash only (per Tabelog); 14 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-noix-de-beurre-shinjuku-isetan-ten-4571",
+   "name": "noix de beurre Shinjuku isetan ten",
+   "jp": "ノワ・ドゥ・ブール 新宿伊勢丹店",
+   "lat": 35.691747,
+   "lng": 139.704553,
+   "address": "東京都新宿区新宿3-14-1 伊勢丹新宿店 B1F",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13124571/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 1959,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13124571/",
+    "award": "Tabelog 100 Sweets TOKYO (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "2.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13124571/",
+    "https://hamoni.jp/shop/Z6oJ1ECPM8VcZ4kHdqys"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.79 (1,959 reviews); Tabelog 100 Sweets TOKYO (latest 2026)",
+   "notes": "Closed: New Year&#39;s Day Not fixed (following Isetan Shinjuku&#39;s schedule); Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-menya-sho-honten-0181",
+   "name": "Menya Sho Honten",
+   "jp": "麺屋 翔 本店",
+   "lat": 35.696603,
+   "lng": 139.69661,
+   "address": "東京都新宿区西新宿7-22-34",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Ticket machine",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13040181/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 4724,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13040181/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni": "SNS buzz 4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13040181/",
+    "https://hamoni.jp/shop/OwWEluZLvO92778XdHYH",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Chicken-paitan ramen specialist in Nishi-Shinjuku; Tabelog ramen Top 100 for 8 straight years; cheap and fast.",
+   "notes": "Cash only (per Tabelog); 18 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-spicy-curry-house-hangetsu-1678",
+   "name": "Spicy Curry House Hangetsu",
+   "jp": "スパイシーカリーハウス半月",
+   "lat": 35.697844,
+   "lng": 139.697933,
+   "address": "東京都新宿区西新宿7-6-9 コンフォート・セゾン 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13211678/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.79,
+    "reviews": 1665,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13211678/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13211678/",
+    "https://aumo.jp/photos/30182682"
+   ],
+   "why": "Curry shop, Tabelog 3.79 (1,665 reviews); Tabelog 100 Curry TOKYO (latest 2026)",
+   "notes": "Cash only (per Tabelog); 13 seats; Closed: Not fixed; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-fuuunji-shinjuku-honten-4091",
+   "name": "Fuuunji Shinjuku honten",
+   "jp": "風雲児 新宿本店",
+   "lat": 35.686843,
+   "lng": 139.696648,
+   "address": "東京都渋谷区代々木2-14-3 北斗第一ビルB1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "15 counter seats, short queue even off-peak",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13044091/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 5433,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13044091/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2025)"
+   },
+   "other_ratings": {
+    "google": "4.3 (3,931) as of Aug 2023, per All About"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13044091/",
+    "https://news.allabout.co.jp/articles/o/65649/?page=3",
+    "https://tabelog.com/matome/2718/"
+   ],
+   "why": "Shinjuku's best-known tsukemen (thick fish-powder dipping noodles); Tabelog Ramen Top 100 every year since 2019.",
+   "notes": "15 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "shinjuku-soba-house-konjiki-hototogisu-shinjuku-g-2172",
+   "name": "SOBA HOUSE Konjiki Hototogisu Shinjuku gyoen honten",
+   "jp": "SOBA HOUSE 金色不如帰 新宿御苑本店",
+   "lat": 35.688793,
+   "lng": 139.708301,
+   "address": "東京都新宿区新宿2-4-1 第22宮廷マンション 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "required",
+   "res_note": "Reservation only (see Tabelog / restaurant site)",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:30",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:30",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:30",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:30",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:30",
+      "20:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13222172/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 3131,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13222172/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2024)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13222172/",
+    "https://hamoni.jp/shop/sHIo67SAwrC5Wbu1PyeH",
+    "https://www.gltjp.com/ja/directory/item/10420/"
+   ],
+   "why": "Ramen shop, Tabelog 3.77 (3,131 reviews); Tabelog 100 Ramen TOKYO (latest 2024)",
+   "notes": "Tiny: 10 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-oiwake-dango-honpo-shinjuku-honten-0836",
+   "name": "Oiwake Dango Honpo Shinjuku honten",
+   "jp": "追分だんご本舗 新宿本店",
+   "lat": 35.690498,
+   "lng": 139.705365,
+   "address": "東京都新宿区新宿3-1-22 ＮＳＯビル １Ｆ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000836/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 2311,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000836/",
+    "award": "Tabelog 100 (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000836/",
+    "https://hamoni.jp/shop/PiVvmiKdCeok225n9c4a"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.76 (2,311 reviews); Tabelog 100 (latest 2026)",
+   "notes": "30 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-cafe-aaliya-2089",
+   "name": "CAFE AALIYA",
+   "jp": "CAFE AALIYA",
+   "lat": 35.690506,
+   "lng": 139.704781,
+   "address": "東京都新宿区新宿3-1-17 山本ビルＢ１Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13012089/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 3490,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13012089/",
+    "award": "Tabelog 100 Cafe EAST (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13012089/",
+    "https://hamoni.jp/shop/cfRsF5PR2n1dHAU7sgLf"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.75 (3,490 reviews); Tabelog 100 Cafe EAST (latest 2025)",
+   "notes": "46 seats; Closed: Only on New Year&#39;s Day; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "shinjuku-12-10-shinjuku-ten-0673",
+   "name": "12/10 Shinjuku ten",
+   "jp": "ジュウニブンベーカリー 新宿店",
+   "lat": 35.690783,
+   "lng": 139.699582,
+   "address": "東京都新宿区西新宿1-1-4 京王百貨店新宿店 中地階",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13220673/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1610,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13220673/",
+    "award": "Tabelog 100 Bread TOKYO (latest 2026)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13220673/",
+    "https://hamoni.jp/shop/FUf68O51lmk44yKtDn9p"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.76 (1,610 reviews); Tabelog 100 Bread TOKYO (latest 2026)",
+   "notes": "Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-epitaph-curry-6903",
+   "name": "Epitaph Curry",
+   "jp": "エピタフカレー",
+   "lat": 35.691068,
+   "lng": 139.706034,
+   "address": "東京都新宿区新宿3-7-5 第2シグマビル B1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13246903/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1546,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13246903/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "1.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13246903/",
+    "https://hamoni.jp/shop/0neI5dvK0wNPvcnRSP0O"
+   ],
+   "why": "Curry shop, Tabelog 3.76 (1,546 reviews); Tabelog 100 Curry TOKYO (latest 2026)",
+   "notes": "12 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-shina-soba-sawada-7218",
+   "name": "Shina Soba Sawada",
+   "jp": "支那蕎麦 澤田",
+   "lat": 35.688613,
+   "lng": 139.712759,
+   "address": "東京都新宿区新宿1-12-1",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13257218/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1242,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13257218/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13257218/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/shinasoba-sawada",
+    "https://hamoni.jp/shop/J1v8bu27yhgPRJxs2ofo"
+   ],
+   "why": "Ramen shop, Tabelog 3.76 (1,242 reviews)",
+   "notes": "Cash only (per Tabelog); Tiny: 10 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-menya-kaijin-shinjuku-ten-5287",
+   "name": "Menya Kaijin Shinjuku ten",
+   "jp": "麺屋海神 新宿店",
+   "lat": 35.689752,
+   "lng": 139.702204,
+   "address": "東京都新宿区新宿3-35-7 さんらくビル ２Ｆ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:30",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:30",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:30",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:30",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "16:30",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13045287/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 4295,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13045287/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2020)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "2.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13045287/",
+    "https://hamoni.jp/shop/p045rAXp0DJ9MmwBMp8o"
+   ],
+   "why": "Ramen shop, Tabelog 3.73 (4,295 reviews); Tabelog 100 Ramen TOKYO (latest 2020)",
+   "notes": "Cash only (per Tabelog); 16 seats; Closed: Not fixed; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ramen-manrai-0808",
+   "name": "Ramen Manrai",
+   "jp": "らぁめん 満来",
+   "lat": 35.692978,
+   "lng": 139.69789,
+   "address": "東京都新宿区西新宿1-4-10",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000808/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 3938,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000808/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000808/",
+    "https://hamoni.jp/shop/3ZDhvT96Ut61lJZGeRFQ"
+   ],
+   "why": "Ramen shop, Tabelog 3.73 (3,938 reviews)",
+   "notes": "Cash only (per Tabelog); 15 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-gyusuji-curry-chiisana-curry-ya-8031",
+   "name": "Gyusuji Curry Chiisana Curry Ya",
+   "jp": "牛すじカレー 小さなカレー家",
+   "lat": 35.699008,
+   "lng": 139.69769,
+   "address": "東京都新宿区百人町1-24-10",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ]
+    ],
+    "sat": [],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130404/13048031/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 1246,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130404/13048031/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130404/13048031/",
+    "https://hamoni.jp/shop/xTdJ7qwhVx1ICabibVHz"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.75 (1,246 reviews); Tabelog 100 Curry TOKYO (latest 2026)",
+   "notes": "Cash only (per Tabelog); Tiny: 8 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-berg-4332",
+   "name": "BERG",
+   "jp": "BERG",
+   "lat": 35.691837,
+   "lng": 139.700992,
+   "address": "東京都新宿区新宿3-38-1 ルミネエスト新宿店 B1F",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13004332/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 3023,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13004332/",
+    "award": "Tabelog 100 Cafe EAST (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13004332/",
+    "https://hamoni.jp/shop/ZmtVPDQUUpTcdOe7rB37"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.73 (3,023 reviews); Tabelog 100 Cafe EAST (latest 2025); opens 07:00",
+   "notes": "45 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-gandhi-0880",
+   "name": "Gandhi",
+   "jp": "ガンジー",
+   "lat": 35.691912,
+   "lng": 139.703503,
+   "address": "東京都新宿区新宿3-17-21 新三ビル 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000880/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 4523,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000880/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000880/",
+    "https://hamoni.jp/shop/7oOJuz5RSJhXGYmRxC1e"
+   ],
+   "why": "Curry shop, Tabelog 3.72 (4,523 reviews); Tabelog 100 Curry TOKYO (latest 2026)",
+   "notes": "16 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ramen-afro-beats-2860",
+   "name": "Ramen Afro Beats",
+   "jp": "Ramen Afro Beats",
+   "lat": 35.690021,
+   "lng": 139.711096,
+   "address": "東京都新宿区新宿1-16-10",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13282860/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.74,
+    "reviews": 1690,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13282860/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13282860/",
+    "https://hamoni.jp/shop/Qi2pePlz2TcNA5HyU9V7",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Ramen with an afro-beats theme near Shinjuku-gyoenmae; ranked 3rd in Hamoni's Shinjuku ramen list; Tabelog 3.74.",
+   "notes": "12 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-paul-bassett-shinjuku-6041",
+   "name": "Paul Bassett Shinjuku",
+   "jp": "Paul Bassett 新宿",
+   "lat": 35.692838,
+   "lng": 139.695113,
+   "address": "東京都新宿区西新宿1-26-2 新宿野村ビル B1F",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13026041/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 2555,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13026041/",
+    "award": "Tabelog 100 Cafe EAST (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13026041/",
+    "https://hamoni.jp/shop/eHzqnAEHkMQ9XrkbzTR6"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.72 (2,555 reviews); Tabelog 100 Cafe EAST (latest 2025); opens 07:30",
+   "notes": "58 seats; Closed: Following building closure days; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-tokyo-dominica-4113",
+   "name": "Tokyo Dominica",
+   "jp": "東京ドミニカ",
+   "lat": 35.69053,
+   "lng": 139.704378,
+   "address": "東京都新宿区新宿3-31-1 第２大伸ビルB1F",
+   "cat": "curry",
+   "price": 1,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13124113/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 2244,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13124113/",
+    "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "2.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13124113/",
+    "https://hamoni.jp/shop/DzH7bxTO4TfTjgiMMhfd"
+   ],
+   "why": "Curry shop, Tabelog 3.72 (2,244 reviews); Tabelog 100 Curry TOKYO (latest 2026)",
+   "notes": "20 seats; Closed: Not fixed *The restaurant will close once the soup is sold out.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-eagle-0922",
+   "name": "Eagle",
+   "jp": "イーグル",
+   "lat": 35.692855,
+   "lng": 139.701565,
+   "address": "東京都新宿区新宿3-24-11 セキネビル Ｂ１Ｆ・Ｂ２Ｆ",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "Tabelog average: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000922/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1045,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000922/",
+    "award": "Tabelog 100 Bar (latest 2022)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000922/",
+    "https://hamoni.jp/shop/BffDbHu5Y0bFFQ3rXKlw"
+   ],
+   "why": "Western-style restaurant, Tabelog 3.73 (1,045 reviews); Tabelog 100 Bar (latest 2022)",
+   "notes": "50 seats; Closed: Not fixed. Please contact us for details.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-niboshi-chuka-soba-suzuran-1542",
+   "name": "Niboshi Chuka Soba Suzuran",
+   "jp": "煮干中華そば 鈴蘭",
+   "lat": 35.691696,
+   "lng": 139.706722,
+   "address": "東京都新宿区新宿3-11-12 永谷テイクエイト 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13141542/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 3217,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13141542/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13141542/",
+    "https://hamoni.jp/shop/2EaicIqxMhWpGK17dXVS"
+   ],
+   "why": "Ramen shop, Tabelog 3.7 (3,217 reviews)",
+   "notes": "Cash only (per Tabelog); 18 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-chuka-soba-rukawa-6258",
+   "name": "Chuka Soba Rukawa",
+   "jp": "中華そば 流川",
+   "lat": 35.694687,
+   "lng": 139.698371,
+   "address": "東京都新宿区西新宿7-9-15 新宿ダイカンプラザビジネス清田ビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13236258/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 1960,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13236258/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13236258/",
+    "https://hamoni.jp/shop/qpCP0wbluur0kFTafHbE",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Nishi-Shinjuku chuka soba shop; ranked 4th in Hamoni's Shinjuku ramen list; open until 23:00.",
+   "notes": "Cash only (per Tabelog); Tiny: 10 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-coffee-kizoku-edinburgh-7217",
+   "name": "Coffee Kizoku Edinburgh",
+   "jp": "珈琲貴族エジンバラ",
+   "lat": 35.69051,
+   "lng": 139.706296,
+   "address": "東京都新宿区新宿3-2-4 新宿M&amp;Eスクエアビル 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.71,
+    "reviews": 1878,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "award": "Tabelog 100 Kissaten (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "1.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "https://hamoni.jp/shop/3PAAjB3M5vPF1rBQAybY"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.71 (1,878 reviews); Tabelog 100 Kissaten (latest 2026); opens 00:00; open past midnight",
+   "notes": "117 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-michishirube-1685",
+   "name": "Michishirube",
+   "jp": "道しるべ",
+   "lat": 35.694768,
+   "lng": 139.703702,
+   "address": "東京都新宿区歌舞伎町1-3-7",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "25:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "18:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "25:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13101685/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 665,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13101685/",
+    "award": "Tabelog 100 yakitori EAST (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13101685/",
+    "https://hamoni.jp/shop/J2RsATHtsfnEx9JPmI18"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.73 (665 reviews); Tabelog 100 yakitori EAST (latest 2025); open past midnight",
+   "notes": "Cash only (per Tabelog); 24 seats; Closed: Wednesdays, Sundays, the last Monday of each month, and public holidays. Hours and closed da; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ramen-horiuchi-shinjuku-honten-2962",
+   "name": "Ramen Horiuchi Shinjuku honten",
+   "jp": "らぁめん ほりうち 新宿本店",
+   "lat": 35.692933,
+   "lng": 139.698324,
+   "address": "東京都新宿区西新宿1-4-7 高野ビル1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Opens 08:00",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13042962/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 2615,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13042962/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13042962/",
+    "https://hamoni.jp/shop/oKHoDT1p82yUlVm0xSmB",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Nishi-Shinjuku ramen honten that opens at 08:00; useful for a ramen breakfast.",
+   "notes": "Cash only (per Tabelog); 15 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-hamburg-will-1176",
+   "name": "Hamburg Will",
+   "jp": "ハンバーグ ウィル",
+   "lat": 35.688027,
+   "lng": 139.712042,
+   "address": "東京都新宿区新宿1-3-8 ＹＫＢ新宿御苑ビル 1F",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13041176/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 3061,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13041176/",
+    "award": "Tabelog 100 (latest 2025)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13041176/",
+    "https://hamoni.jp/shop/akoJcD5xURGrP1iZGVfb"
+   ],
+   "why": "Western-style restaurant, Tabelog 3.68 (3,061 reviews); Tabelog 100 (latest 2025)",
+   "notes": "Cash only (per Tabelog); 23 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-jikabaisen-coffee-bon-0735",
+   "name": "Jikabaisen Coffee Bon",
+   "jp": "自家焙煎珈琲 凡",
+   "lat": 35.692732,
+   "lng": 139.700778,
+   "address": "東京都新宿区新宿3-23-1 都里一ビル B1F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:30",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000735/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 1175,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000735/",
+    "award": "Tabelog 100 Kissaten (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "1.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/",
+    "https://hamoni.jp/shop/BUieONTRqAn6deOC7GdP"
+   ],
+   "why": "Bakery/sweets, Tabelog 3.7 (1,175 reviews); Tabelog 100 Kissaten (latest 2026)",
+   "notes": "Cash only (per Tabelog); Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-sarusuberi-6353",
+   "name": "Sarusuberi",
+   "jp": "百日紅",
+   "lat": 35.690911,
+   "lng": 139.705301,
+   "address": "東京都新宿区新宿3-4-8 京王フレンテ新宿三丁目 B2F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "Opens 07:00",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13116353/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 2816,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13116353/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13116353/",
+    "https://hamoni.jp/shop/SnMMQUZZ4QzCBr9UV5w9",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Tsukemen/chuka soba shop that opens at 07:00, rare for ramen; open to 23:00 near Shinjuku-sanchome.",
+   "notes": "12 seats; Closed: January 1; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ramen-jiro-shinjuku-kabukichou-ten-0815",
+   "name": "Ramen Jiro Shinjuku kabukichou ten",
+   "jp": "ラーメン二郎 新宿歌舞伎町店",
+   "lat": 35.696129,
+   "lng": 139.701962,
+   "address": "東京都新宿区歌舞伎町2-37-5 日新ビル 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "26:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13200815/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 1669,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13200815/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13200815/",
+    "https://hamoni.jp/shop/CK4b903XORbwDH9c2ReM",
+    "https://ranking.net/rankings/best-jiro-stores/ubohpq2r"
+   ],
+   "why": "Ramen shop, Tabelog 3.69 (1,669 reviews); open past midnight",
+   "notes": "Cash only (per Tabelog); 14 seats; Hours per Tabelog, check last order times; Other source lists to 03:00 (Sun 02:00); a 2026 review says it closed at 23:00 - verify late hours; closed Wed",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-sugoi-niboshi-ramen-nagi-shinjuku-g-rude-4766",
+   "name": "Sugoi Niboshi Ramen Nagi Shinjuku gōruden gai ten honkan",
+   "jp": "すごい煮干ラーメン凪 新宿ゴールデン街店本館",
+   "lat": 35.693773,
+   "lng": 139.704534,
+   "address": "東京都新宿区歌舞伎町1-1-10 ゴールデン街(新宿ゴールデン街Ｇ２通り) 2F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "walk-in-queue",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13054766/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 3563,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13054766/",
+    "award": "Tabelog 100 Ramen TOKYO (latest 2018)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13054766/",
+    "https://hamoni.jp/shop/dKNb82HxbYzUetLMnSBN"
+   ],
+   "why": "Ramen shop, Tabelog 3.65 (3,563 reviews); Tabelog 100 Ramen TOKYO (latest 2018); opens 00:00; open past midnight",
+   "notes": "Tiny: 10 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-miso-ya-hachiro-shoten-shinjuku-ten-3862",
+   "name": "Miso-ya Hachiro Shoten Shinjuku ten",
+   "jp": "味噌屋 八郎商店 新宿店",
+   "lat": 35.696395,
+   "lng": 139.698343,
+   "address": "東京都新宿区西新宿7-5-5 プラザ西新宿 102",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13093862/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1731,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13093862/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13093862/",
+    "https://hamoni.jp/shop/sZaWsl1ym8X92fu7388M",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Miso ramen specialist in Nishi-Shinjuku, open until 23:00; 8th in Hamoni's Shinjuku ramen list.",
+   "notes": "12 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shinjuku-raa-men-kuro-uzu-1664",
+   "name": "Raa Men Kuro Uzu",
+   "jp": "らぁ麺 くろ渦",
+   "lat": 35.691075,
+   "lng": 139.706002,
+   "address": "東京都新宿区新宿3-7-8",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13241664/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1589,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13241664/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13241664/",
+    "https://hamoni.jp/shop/txY4coRPn0Gvxeqd3Q2B",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Light shoyu ramen near Shinjuku-sanchome; open to 23:00; 10th in Hamoni's Shinjuku ramen list.",
+   "notes": "Cash only (per Tabelog); 15 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-kirimugi-ya-jinroku-2646",
+   "name": "Kirimugi Ya Jinroku",
+   "jp": "切麦や 甚六",
+   "lat": 35.689167,
+   "lng": 139.71187,
+   "address": "東京都新宿区新宿1-17-1 LAND・DEN 1F",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "Tabelog average: ¥2,000 - ¥2,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13182646/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 2226,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13182646/",
+    "award": "Tabelog 100 (latest 2024)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13182646/",
+    "https://hamoni.jp/shop/e4o71oVgwJtFUfxxPzVx"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.64 (2,226 reviews); Tabelog 100 (latest 2024)",
+   "notes": "Cash only (per Tabelog); 20 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-itteki-hassenya-shinjuku-honten-0760",
+   "name": "Itteki Hassenya Shinjuku honten",
+   "jp": "一滴八銭屋 新宿本店",
+   "lat": 35.689049,
+   "lng": 139.697174,
+   "address": "東京都新宿区西新宿1-15-9 KCビル ２Ｆ・３Ｆ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000760/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 2131,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000760/",
+    "award": "Tabelog 100 (latest 2024)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000760/",
+    "https://hamoni.jp/shop/5gcGlG6WC0yaqBNwqDAD"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.62 (2,131 reviews); Tabelog 100 (latest 2024)",
+   "notes": "44 seats; Closed: Obon &amp; Year-end/New Year Holidays (Dec 30 - Jan 4); Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-meikyoku-coffee-shinjuku-ranburu-0865",
+   "name": "Meikyoku Coffee Shinjuku Ranburu",
+   "jp": "名曲･珈琲 新宿 らんぶる",
+   "lat": 35.690598,
+   "lng": 139.703969,
+   "address": "東京都新宿区新宿3-31-3 １Ｆ・Ｂ１Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000865/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 1381,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000865/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000865/",
+    "https://hamoni.jp/shop/UoQgSS3c9DfigGRJCvFi"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.61 (1,381 reviews)",
+   "notes": "200 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-nishio-san-6389",
+   "name": "Nishio San",
+   "jp": "西尾さん",
+   "lat": 35.689794,
+   "lng": 139.706429,
+   "address": "東京都新宿区新宿3-1-32 新宿ビル３号 Ｂ１Ｆ",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted Same-day booking only, from 13:00 (Retty).",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "14:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13026389/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 651,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13026389/",
+    "award": "Tabelog 100 izakaya EAST (latest 2026)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "2.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13026389/",
+    "https://hamoni.jp/shop/Ee0E7KX91FDrWxH6HwWe"
+   ],
+   "why": "Izakaya, Tabelog 3.62 (651 reviews); Tabelog 100 izakaya EAST (latest 2026)",
+   "notes": "Cash only (per Tabelog); 16 seats; Closed: As of October 2026, the restaurant is closed on either Sunday or Monday. Hours and closed da; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-sungari-shinjuku-higashiguchi-honten-0120",
+   "name": "Sungari Shinjuku higashiguchi honten",
+   "jp": "スンガリー 新宿東口本店",
+   "lat": 35.696929,
+   "lng": 139.70042,
+   "address": "東京都新宿区歌舞伎町2-45-6 千代田ビル B1F",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000120/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 829,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000120/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000120/",
+    "https://gurunavi.com/ja/g001000/rev/rst"
+   ],
+   "why": "Bar/beer hall, Tabelog 3.61 (829 reviews)",
+   "notes": "54 seats; Closed: Winter break from December 31 to January 3. Regular business hours will resume on January 4.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-udon-manda-jiro-8343",
+   "name": "Udon Manda Jiro",
+   "jp": "うどん 萬田次郎",
+   "lat": 35.688622,
+   "lng": 139.712705,
+   "address": "東京都新宿区新宿1-12-1 サンサーラ第三御苑 1F",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13268343/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1388,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13268343/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13268343/",
+    "https://hamoni.jp/shop/XGXGNcYqLwmdrr5AwvBl",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Sanuki-style udon near Shinjuku-gyoenmae, open 11:00-21:00; Tabelog 3.59 with 1,388 reviews.",
+   "notes": "Cash only (per Tabelog); 13 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-kunugi-ya-shinjuku-gyoen-ten-8999",
+   "name": "Kunugi Ya Shinjuku gyoen ten",
+   "jp": "功刀屋 新宿御苑店",
+   "lat": 35.688765,
+   "lng": 139.710462,
+   "address": "東京都新宿区新宿1-7-2",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13268999/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 936,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13268999/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13268999/",
+    "https://www.tablecheck.com/pt/kunugiya-shinjukugoen",
+    "https://hamoni.jp/en/area/tokyo/shinjuku/shinjukugyoenmae/shops/udon"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.59 (936 reviews)",
+   "notes": "16 seats; Hours per Tabelog, check last order times; Other sources list 11:30-14:30 & 17:30-19:30 (Sat lunch only); Tabelog shows 10:00-19:00 daily - verify before going",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-yona-yona-beer-works-shinjuku-higashiguc-5198",
+   "name": "YONA YONA BEER WORKS Shinjuku higashiguchi ten",
+   "jp": "YONA YONA BEER WORKS 新宿東口店",
+   "lat": 35.691107,
+   "lng": 139.702718,
+   "address": "東京都新宿区新宿3-28-10 ヒューマックスパビリオン新宿東口 B1F",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13205198/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 1161,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13205198/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13205198/",
+    "https://toyokeizai.net/articles/-/174272"
+   ],
+   "why": "Bar/beer hall, Tabelog 3.58 (1,161 reviews)",
+   "notes": "135 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-tonkatsu-aoki-no-curry-ya-ippekoppe-nish-9821",
+   "name": "Tonkatsu Aoki no Curry Ya Ippekoppe Nishishinjuku ten",
+   "jp": "とんかつ檍のカレー屋 いっぺこっぺ 西新宿店",
+   "lat": 35.695388,
+   "lng": 139.697269,
+   "address": "東京都新宿区西新宿7-15-5",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:30",
+      "19:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13259821/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 655,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13259821/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13259821/",
+    "https://hamoni.jp/shop/cFEQjdPITOJ8WzveTgav"
+   ],
+   "why": "Fried-cutlet/skewer shop, Tabelog 3.59 (655 reviews)",
+   "notes": "Cash only (per Tabelog); 16 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-kanae-0879",
+   "name": "Kanae",
+   "jp": "鼎",
+   "lat": 35.691677,
+   "lng": 139.706143,
+   "address": "東京都新宿区新宿3-12-12 Ｂ１Ｆ",
+   "cat": "bar",
+   "price": 3,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "23:30"
+     ],
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000879/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 1211,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000879/",
+    "award": "Tabelog 100 (latest 2021)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000879/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/kanae-shinjuku",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20070714/29563.html"
+   ],
+   "why": "Bar/beer hall, Tabelog 3.57 (1,211 reviews); Tabelog 100 (latest 2021)",
+   "notes": "60 seats; Closed: Sundays (or Mondays if a public holiday falls on Sunday) and from December 31 to January 5.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-shinjuku-unatetsu-hanare-9102",
+   "name": "Shinjuku Unatetsu Hanare",
+   "jp": "新宿うな鐵 はなれ",
+   "lat": 35.694731,
+   "lng": 139.70106,
+   "address": "東京都新宿区歌舞伎町1-22-2",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999 ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13239102/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 1198,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13239102/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13239102/",
+    "https://restaurant.ikyu.com/117045/"
+   ],
+   "why": "Unagi/tempura, Tabelog 3.57 (1,198 reviews)",
+   "notes": "66 seats; Closed: December 31 - January 2; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-nodapin-2459",
+   "name": "Nodapin",
+   "jp": "のだぴん",
+   "lat": 35.696976,
+   "lng": 139.700477,
+   "address": "東京都新宿区歌舞伎町2-45-7 石井ビル ３F",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13042459/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 455,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13042459/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13042459/",
+    "https://www.pref.yamanashi.jp/tokyo/yamaaji/nodapin.html",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20240106/144538.html"
+   ],
+   "why": "Sushi, Tabelog 3.59 (455 reviews)",
+   "notes": "43 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-coffee-seibu-honten-8884",
+   "name": "Coffee Seibu Honten",
+   "jp": "珈琲西武 本店",
+   "lat": 35.693933,
+   "lng": 139.703017,
+   "address": "東京都新宿区歌舞伎町1-6-12 ハナミチTOKYO歌舞伎町 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13288884/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 644,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13288884/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13288884/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/coffee-seibu-honten",
+    "https://www.timeout.jp/tokyo/ja/news/hanamichi-tokyo-kabukicho-092923"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.58 (644 reviews)",
+   "notes": "114 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-sungari-shinjuku-san-chome-ten-0768",
+   "name": "Sungari Shinjuku san chome ten",
+   "jp": "スンガリー 新宿三丁目店",
+   "lat": 35.693194,
+   "lng": 139.702335,
+   "address": "東京都新宿区新宿3-21-6 新宿龍生堂ビル B1F",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "Tabelog average: ¥5,000 - ¥5,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000768/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 999,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000768/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000768/",
+    "https://restaurant.ikyu.com/111024/",
+    "https://macaro-ni.jp/64026?page=3"
+   ],
+   "why": "Bar/beer hall, Tabelog 3.57 (999 reviews)",
+   "notes": "47 seats; Closed: No regular holidays (excluding summer and year-end breaks) Summer break: August 31 - Septemb; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-beer-hall-lion-shinjuku-ten-2075",
+   "name": "Beer Hall Lion Shinjuku ten",
+   "jp": "ビヤホールライオン 新宿店",
+   "lat": 35.691062,
+   "lng": 139.702514,
+   "address": "東京都新宿区新宿3-28-9 新宿ライオン会館 B1F・1F・6F",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13012075/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 859,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13012075/",
+    "award": null
+   },
+   "other_ratings": {
+    "hotpepper": [
+     4.5,
+     332
+    ]
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13012075/",
+    "https://retty.me/restaurant/100000004940/",
+    "https://www.hotpepper.jp/strJ000123843/report/list_76/"
+   ],
+   "why": "Western-style restaurant, Tabelog 3.57 (859 reviews)",
+   "notes": "120 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-hamaguri-2114",
+   "name": "Hamaguri",
+   "jp": "はまぐり",
+   "lat": 35.690786,
+   "lng": 139.706446,
+   "address": "東京都新宿区新宿3-8-4",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13012114/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 531,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13012114/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13012114/",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20180901/137795.html",
+    "https://retty.me/restaurant/100000048688/"
+   ],
+   "why": "Izakaya, Tabelog 3.58 (531 reviews)",
+   "notes": "30 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-eggslut-shinjuku-sazan-terasu-ten-8359",
+   "name": "eggslut Shinjuku sazan terasu ten",
+   "jp": "eggslut 新宿サザンテラス店",
+   "lat": 35.688671,
+   "lng": 139.699906,
+   "address": "東京都渋谷区代々木2-2-1 新宿サザンテラス 1F",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13238359/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 894,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13238359/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13238359/",
+    "https://www.nap-camp.com/mag/55359"
+   ],
+   "why": "Western-style restaurant, Tabelog 3.56 (894 reviews); opens 07:30",
+   "notes": "24 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-sanuki-udon-taishi-tokyo-mentudan-4352",
+   "name": "Sanuki Udon Taishi Tokyo Mentudan",
+   "jp": "讃岐うどん大使 東京麺通団",
+   "lat": 35.694796,
+   "lng": 139.6982,
+   "address": "東京都新宿区西新宿7-9-15 ダイカンプラザ ビジネス清田ビル１Ｆ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:30"
+     ],
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "16:30"
+     ],
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "16:30"
+     ],
+     [
+      "18:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:30"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13004352/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 1220,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13004352/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004352/",
+    "https://hamoni.jp/shop/cMgu4Uaxnzcu2p5rNnxd"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.55 (1,220 reviews)",
+   "notes": "50 seats; Closed: New Year&#39;s Day; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-oden-to-sakana-ninoya-8229",
+   "name": "Oden to Sakana Ninoya",
+   "jp": "おでんトさかな にのや",
+   "lat": 35.692997,
+   "lng": 139.698187,
+   "address": "東京都新宿区西新宿1-4-8 第三加藤ビル 1F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13248229/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 696,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13248229/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13248229/",
+    "https://hamoni.jp/en/shop/lygjDTAEHdMRIShnK88J"
+   ],
+   "why": "Izakaya, Tabelog 3.55 (696 reviews)",
+   "notes": "36 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-robata-sho-4675",
+   "name": "Robata Sho",
+   "jp": "ろばた 翔",
+   "lat": 35.693018,
+   "lng": 139.697815,
+   "address": "東京都新宿区西新宿1-4-11 宝ビル B1F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13144675/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 589,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13144675/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13144675/",
+    "https://r.gnavi.co.jp/p463404/",
+    "https://r.gnavi.co.jp/d4bwmf170000/"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.55 (589 reviews); open past midnight",
+   "notes": "42 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-motsuyaki-ucchan-shinjuku-omoide-yokocho-9673",
+   "name": "Motsuyaki Ucchan Shinjuku Omoide Yokocho",
+   "jp": "もつ焼き ウッチャン 新宿思い出横丁",
+   "lat": 35.693034,
+   "lng": 139.699554,
+   "address": "東京都新宿区西新宿1-2-7 穂波ビル",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13059673/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 924,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13059673/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13059673/",
+    "https://www.timeout.com/tokyo/restaurants/motsu-yaki-utchan-shinjuku",
+    "https://hamoni.jp/shop/thOK7bTfU3dUruT2qTqj"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.54 (924 reviews)",
+   "notes": "Cash only (per Tabelog); 25 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-the-jones-caf-and-bar-1761",
+   "name": "The Jones Café and Bar",
+   "jp": "The Jones Cafe Bar",
+   "lat": 35.685493,
+   "lng": 139.692169,
+   "address": "東京都新宿区西新宿3-4-7 キンプトン新宿東京 1F",
+   "cat": "cafe-kissaten",
+   "price": 3,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999 ¥3,000 - ¥3,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13251761/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 573,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13251761/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13251761/",
+    "https://www.kimptonshinjuku.com/dining/jones/",
+    "https://www.ozmall.co.jp/restaurant/7455/"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.55 (573 reviews); opens 07:00",
+   "notes": "41 seats; Hours per Tabelog, check last order times; Hotel cafe (Kimpton Shinjuku); official site says breakfast 07:00-11:00, hours 06:30-23:00",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shinjuku-coffee-times-9046",
+   "name": "Coffee Times",
+   "jp": "珈琲 タイムス",
+   "lat": 35.690229,
+   "lng": 139.702459,
+   "address": "東京都新宿区新宿3-35-11 タイムスビル 1F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13059046/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 593,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13059046/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13059046/",
+    "https://retty.me/restaurant/100000095110/"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.54 (593 reviews); opens 08:00",
+   "notes": "Cash only (per Tabelog); 81 seats; Hours per Tabelog, check last order times | Audit says hours differ: all days 08:00-22:00 unless Tabelog/Google show Fri/Sat late",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-kan-agari-2294",
+   "name": "Kan Agari",
+   "jp": "燗アガリ",
+   "lat": 35.69613,
+   "lng": 139.697866,
+   "address": "東京都新宿区西新宿7-16-12 新YSビル 3F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog average: ¥5,000 - ¥5,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13182294/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 662,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13182294/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13182294/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/kan-agari",
+    "https://aumo.jp/articles/49290"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.53 (662 reviews)",
+   "notes": "70 seats; Closed: Not fixed; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-robata-yaki-zekkouchou-teppen-shinjuku-t-5373",
+   "name": "Robata Yaki Zekkouchou Teppen Shinjuku ten",
+   "jp": "ろばた焼き 絶好調てっぺん 新宿店",
+   "lat": 35.688724,
+   "lng": 139.696896,
+   "address": "東京都新宿区西新宿1-14-5 浅田ビル 3F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog average: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13255373/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 414,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13255373/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13255373/",
+    "https://www.tablecheck.com/en/zekkocho-teppen",
+    "https://aumo.jp/articles/49290"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.54 (414 reviews)",
+   "notes": "40 seats; Closed: Not fixed The restaurant will be closed on December 31, January 1, 2, and 3.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "shinjuku-yakitori-mikado-4421",
+   "name": "Yakitori Mikado",
+   "jp": "焼鳥 みかど",
+   "lat": 35.690559,
+   "lng": 139.704333,
+   "address": "東京都新宿区新宿3-31-1 大伸第2ビル 9F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "Tabelog average: ¥8,000 - ¥9,999 ¥6,000 - ¥7,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13254421/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 994,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13254421/",
+    "award": "Tabelog 100 Yakitori EAST (latest 2023)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13254421/",
+    "https://hamoni.jp/shop/ugcijpq1ibzb4MxjHEkD"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.52 (994 reviews); Tabelog 100 Yakitori EAST (latest 2023)",
+   "notes": "24 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-osaka-kushikatsu-tenya-wanya-9674",
+   "name": "Osaka Kushikatsu Tenya Wanya",
+   "jp": "大阪串かつ てん家わん屋",
+   "lat": 35.699676,
+   "lng": 139.698665,
+   "address": "東京都新宿区百人町1-14-3 ローレルビル 1F",
+   "cat": "tonkatsu-fry",
+   "price": 3,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130404/13089674/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 383,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130404/13089674/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "2.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130404/13089674/",
+    "https://hamoni.jp/shop/gtkoiqhI8VXhRjh3JjXD"
+   ],
+   "why": "Fried-cutlet/skewer shop, Tabelog 3.54 (383 reviews)",
+   "notes": "Cash only (per Tabelog); 25 seats; Closed: Closed on no days; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-uoshin-shinjuku-ten-5198",
+   "name": "Uoshin Shinjuku ten",
+   "jp": "魚真 新宿店",
+   "lat": 35.689778,
+   "lng": 139.702403,
+   "address": "東京都新宿区新宿3-35-5 2F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13115198/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 839,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13115198/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "86% recommend, 234 reviews (per search summary)"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13115198/",
+    "https://retty.me/restaurant/100000005904/",
+    "https://www.ekiten.jp/shop_2967949/review/"
+   ],
+   "why": "Izakaya, Tabelog 3.52 (839 reviews)",
+   "notes": "40 seats; Closed: Year-end &amp; New Year Holidays and Obon; Hours per Tabelog, check last order times | Audit says hours differ: mon-sun close 23:30 (Retty); Sun open time unverified",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-oroji-0860",
+   "name": "Oroji",
+   "jp": "王ろじ",
+   "lat": 35.691955,
+   "lng": 139.703706,
+   "address": "東京都新宿区新宿3-17-21",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥2,000 - ¥2,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:15",
+      "14:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000860/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 2443,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000860/",
+    "award": "Tabelog 100 Tonkatsu (latest 2021)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000860/",
+    "https://aumo.jp/articles/22469"
+   ],
+   "why": "Fried-cutlet/skewer shop, Tabelog 3.49 (2,443 reviews); Tabelog 100 Tonkatsu (latest 2021)",
+   "notes": "Cash only (per Tabelog); 34 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-senkoen-honkaku-sichuan-3276",
+   "name": "Senkoen Honkaku Sichuan",
+   "jp": "川香苑 本格四川料理",
+   "lat": 35.693865,
+   "lng": 139.702383,
+   "address": "東京都新宿区歌舞伎町1-16-12 蓬麻ビル 2F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13043276/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 919,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13043276/",
+    "award": "Tabelog 100 Chinese TOKYO (latest 2021)"
+   },
+   "other_ratings": {
+    "retty": "85% recommend, 169 reviews (per search summary)"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13043276/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/senkouen-honten",
+    "https://retty.me/restaurant/100000003046/"
+   ],
+   "why": "Izakaya, Tabelog 3.51 (919 reviews); Tabelog 100 Chinese TOKYO (latest 2021); open past midnight",
+   "notes": "Cash only (per Tabelog); 40 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-tonchinkan-0809",
+   "name": "Tonchinkan",
+   "jp": "豚珍館",
+   "lat": 35.689571,
+   "lng": 139.696788,
+   "address": "東京都新宿区西新宿1-13-8 高橋ビル ２Ｆ",
+   "cat": "tonkatsu-fry",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000809/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 2282,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000809/",
+    "award": "Tabelog 100 Tonkatsu (latest 2018)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000809/",
+    "https://hamoni.jp/shop/2y2N2Qj5LYflHO47WQTe"
+   ],
+   "why": "Fried-cutlet/skewer shop, Tabelog 3.49 (2,282 reviews); Tabelog 100 Tonkatsu (latest 2018)",
+   "notes": "Cash only (per Tabelog); 30 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-dug-jazz-cafe-bar-6685",
+   "name": "Dug Jazz Cafe & Bar",
+   "jp": "DUG",
+   "lat": 35.692868,
+   "lng": 139.703531,
+   "address": "東京都新宿区新宿3-15-12",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13006685/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 332,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13006685/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13006685/",
+    "https://hamoni.jp/shop/vtROOG30b9CqoafxMVFU"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.53 (332 reviews)",
+   "notes": "28 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-soba-dokoro-kameya-shinjuku-ten-6720",
+   "name": "Soba Dokoro Kameya Shinjuku ten",
+   "jp": "そば処かめや 新宿店",
+   "lat": 35.693119,
+   "lng": 139.699466,
+   "address": "東京都新宿区西新宿1-2-10",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Closed Sun; early-morning opening 06:20",
+   "hours": {
+    "mon": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:20",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13006720/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1743,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13006720/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13006720/",
+    "https://local-media.heteml.net/archives/29389",
+    "https://hamoni.jp/area/tokyo/shinjuku/shops/ramen"
+   ],
+   "why": "Standing-style soba shop credited as origin of tenkasu-tama soba; open from 06:20 Mon-Sat near Omoide Yokocho.",
+   "notes": "Cash only (per Tabelog); Tiny: 8 seats, hard for a group of 4; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-rohen-gyoza-kan-shinjuku-honten-2005",
+   "name": "Rohen Gyoza Kan Shinjuku honten",
+   "jp": "老辺餃子舘 新宿本店",
+   "lat": 35.688994,
+   "lng": 139.698649,
+   "address": "東京都新宿区西新宿1-18-1 小川ビル 3F",
+   "cat": "street-food-market",
+   "price": 1,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13012005/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1634,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13012005/",
+    "award": "Tabelog 100 Dumplings (latest 2021)"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13012005/",
+    "https://www.hotpepper.jp/strJ000103036/",
+    "https://aumo.jp/articles/39164"
+   ],
+   "why": "Gyoza/street-food style, Tabelog 3.49 (1,634 reviews); Tabelog 100 Dumplings (latest 2021)",
+   "notes": "100 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-takamaru-sengyo-ten-0664",
+   "name": "Takamaru Sengyo Ten",
+   "jp": "タカマル鮮魚店",
+   "lat": 35.69501,
+   "lng": 139.697864,
+   "address": "東京都新宿区西新宿7-15-1 アラパイトビル1F",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13100664/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1581,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13100664/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13100664/",
+    "https://macaro-ni.jp/44381?page=4"
+   ],
+   "why": "Izakaya, Tabelog 3.49 (1,581 reviews)",
+   "notes": "50 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-gyoza-no-fukuhou-shinjuku-ten-0544",
+   "name": "Gyoza no Fukuhou Shinjuku ten",
+   "jp": "餃子の福包 新宿店",
+   "lat": 35.689168,
+   "lng": 139.708904,
+   "address": "東京都新宿区新宿2-8-6 KDX新宿286ビル 1F",
+   "cat": "street-food-market",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130402/13050544/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1537,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130402/13050544/",
+    "award": "Tabelog 100 Dumplings (latest 2021)"
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130402/13050544/",
+    "https://hamoni.jp/shop/u9jLmhLnSw0NIOTU2IBg"
+   ],
+   "why": "Gyoza/street-food style, Tabelog 3.49 (1,537 reviews); Tabelog 100 Dumplings (latest 2021)",
+   "notes": "32 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-taejongdae-honten-1835",
+   "name": "Taejongdae Honten",
+   "jp": "テジョンデ 本店",
+   "lat": 35.701296,
+   "lng": 139.701178,
+   "address": "東京都新宿区百人町1-6-15 Ｎ・Ｋビル ２Ｆ",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130404/13021835/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1094,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130404/13021835/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "4.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130404/13021835/",
+    "https://hamoni.jp/shop/CGcE7iNDoS2WpVxV22k0"
+   ],
+   "why": "Izakaya, Tabelog 3.49 (1,094 reviews); open past midnight",
+   "notes": "60 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-ika-center-shinjuku-sohonten-8669",
+   "name": "Ika Center Shinjuku Sohonten",
+   "jp": "イカセンター新宿総本店",
+   "lat": 35.694387,
+   "lng": 139.698347,
+   "address": "東京都新宿区西新宿7-10-13 ガイアビル 4F・5F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥5,000 - ¥5,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13048669/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1092,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13048669/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13048669/",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20240106/144542.html",
+    "https://aumo.jp/articles/45536"
+   ],
+   "why": "Izakaya, Tabelog 3.49 (1,092 reviews)",
+   "notes": "150 seats; Closed: Year-end &amp; New Year Holidays; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-tonkatsu-niimura-honten-0847",
+   "name": "Tonkatsu Niimura Honten",
+   "jp": "とんかつ にいむら 本店",
+   "lat": 35.694603,
+   "lng": 139.7012,
+   "address": "東京都新宿区歌舞伎町1-23-10",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:30",
+      "26:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13010847/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 980,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13010847/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13010847/",
+    "https://hamoni.jp/shop/hGp2leA6bOvSCk8joh48",
+    "https://gurunavi.com/ja/b178000/rev/rst"
+   ],
+   "why": "Fried-cutlet/skewer shop, Tabelog 3.49 (980 reviews); open past midnight",
+   "notes": "115 seats; Hours per Tabelog, check last order times | Audit says hours differ: all days 10:30-26:30 (Retty); gnavi says 30:00 - pick one consistently",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-kanoya-shinjuku-nishiguchi-ten-4188",
+   "name": "Kanoya Shinjuku nishiguchi ten",
+   "jp": "かのや 新宿西口店",
+   "lat": 35.689361,
+   "lng": 139.697717,
+   "address": "東京都新宿区西新宿1-16-11",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13004188/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 846,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13004188/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004188/",
+    "https://getnavi.jp/gourmet/117720/"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.49 (846 reviews); opens 07:00",
+   "notes": "Cash only (per Tabelog); 26 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-sakaba-tsumugi-do-shinjuku-ten-8476",
+   "name": "Sakaba Tsumugi Do Shinjuku ten",
+   "jp": "酒場つむぎ堂 新宿店",
+   "lat": 35.695795,
+   "lng": 139.696947,
+   "address": "東京都新宿区西新宿7-18-18 新宿税理士ビル 別館 1F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 ¥3,000 - ¥3,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13268476/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 1299,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13268476/",
+    "award": null
+   },
+   "other_ratings": {
+    "google": [
+     4.6,
+     1273,
+     "per macaro-ni ranking, Nov 2025"
+    ]
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13268476/",
+    "https://r.gnavi.co.jp/sd875xmp0000/",
+    "https://macaro-ni.jp/173161"
+   ],
+   "why": "Izakaya, Tabelog 3.48 (1,299 reviews)",
+   "notes": "70 seats; Closed: Not fixed. Please note that we provide an invoice number on receipts.; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-kanoya-shinjuku-tounanguchi-ten-6254",
+   "name": "Kanoya Shinjuku tounanguchi ten",
+   "jp": "かのや 新宿東南口店",
+   "lat": 35.689933,
+   "lng": 139.702068,
+   "address": "東京都新宿区新宿3-36-2 新宿キリンビル １Ｆ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13006254/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 785,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13006254/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13006254/",
+    "https://getnavi.jp/gourmet/117720/"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.49 (785 reviews); opens 07:30",
+   "notes": "Cash only (per Tabelog); 20 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-hana-no-aru-sumika-7634",
+   "name": "Hana no Aru Sumika",
+   "jp": "花のある棲家",
+   "lat": 35.69155,
+   "lng": 139.705896,
+   "address": "東京都新宿区新宿3-6-7 第6三和ビル 4F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "Tabelog average: ¥4,000 - ¥4,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13257634/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 829,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13257634/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13257634/",
+    "https://epark.jp/shopinfo/ozr643160/",
+    "https://hitosara.com/GB11/tokyo/T002/I06304/"
+   ],
+   "why": "Cafe/kissaten, Tabelog 3.48 (829 reviews); open past midnight",
+   "notes": "120 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-kikuya-1681",
+   "name": "Kikuya",
+   "jp": "きくや",
+   "lat": 35.692983,
+   "lng": 139.699681,
+   "address": "東京都新宿区西新宿1-2-4",
+   "cat": "yakitori-grill",
+   "price": 2,
+   "price_note": "Tabelog average: n/a",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "15:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13021681/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.42,
+    "reviews": 231,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13021681/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13021681/",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20250322/145818.html",
+    "https://www.walkerplus.com/spot/ar0313s550651/"
+   ],
+   "why": "Grill/yakitori izakaya, Tabelog 3.42 (231 reviews)",
+   "notes": "Cash only (per Tabelog); 50 seats; Closed: Not fixed Hours and closed days may change, so please check with the restaurant before visit; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-tempura-shinjuku-tsunahachi-souhonten-0859",
+   "name": "Tempura Shinjuku Tsunahachi Souhonten",
+   "jp": "天ぷら新宿つな八 総本店",
+   "lat": 35.690855,
+   "lng": 139.703496,
+   "address": "東京都新宿区新宿3-31-8",
+   "cat": "unagi-tempura",
+   "price": 2,
+   "price_note": "Tabelog average: ¥6,000 - ¥7,999 ¥2,000 - ¥2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000859/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 1261,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000859/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000859/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/tunahachi-souhonten"
+   ],
+   "why": "Unagi/tempura, Tabelog 3.46 (1,261 reviews)",
+   "notes": "64 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-shinjuku-hikeshi-gyoza-0525",
+   "name": "Shinjuku Hikeshi Gyoza",
+   "jp": "新宿火消し餃子",
+   "lat": 35.694785,
+   "lng": 139.702423,
+   "address": "東京都新宿区歌舞伎町1-12-2 第58東京ビル 1・2F",
+   "cat": "izakaya",
+   "price": 1,
+   "price_note": "Tabelog average: ¥2,000 - ¥2,999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13180525/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 628,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13180525/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13180525/",
+    "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-shinjuku/spot-lj0145553/",
+    "https://savorjapan.com/0006058450/menus"
+   ],
+   "why": "Izakaya, Tabelog 3.45 (628 reviews); opens 00:00; open past midnight",
+   "notes": "60 seats; Hours per Tabelog, check last order times; Tabelog/LiveJapan say 24h; Savor Japan lists 12:00-24:00",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-osaka-ya-0947",
+   "name": "Osaka Ya",
+   "jp": "大阪家",
+   "lat": 35.694065,
+   "lng": 139.701441,
+   "address": "東京都新宿区歌舞伎町1-17-12 第一浅川ビル B1F",
+   "cat": "okonomiyaki-monja",
+   "price": 2,
+   "price_note": "Tabelog average: ¥3,000 - ¥3,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13010947/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 403,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13010947/",
+    "award": null
+   },
+   "other_ratings": {
+    "hamoni_buzz_score": "3.0"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13010947/",
+    "https://hamoni.jp/shop/Kjy4XMUtWYZbdtyNz0aF"
+   ],
+   "why": "Okonomiyaki, Tabelog 3.44 (403 reviews); opens 00:00; open past midnight",
+   "notes": "80 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-ecchan-ramen-9836",
+   "name": "Ecchan Ramen.",
+   "jp": "えっちゃんラーメン。",
+   "lat": 35.694277,
+   "lng": 139.702052,
+   "address": "東京都新宿区歌舞伎町1-15-8 丸雄ビル 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13249836/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 1490,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13249836/",
+    "award": null
+   },
+   "other_ratings": {
+    "retty": "87% recommend, 81 reviews (per search summary)"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13249836/",
+    "https://retty.me/restaurant/100001553941/",
+    "https://hamoni.jp/shop/KMCukmTZKcGeo003KXwn"
+   ],
+   "why": "Ramen shop, Tabelog 3.64 (1,490 reviews); opens 00:00; open past midnight",
+   "notes": "24 seats; Hours per Tabelog, check last order times; 24h per Tabelog; Tabelog lists a one-off hours-change notice dated 28 Oct",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-nagi-chan-ramen-0615",
+   "name": "Nagi Chan Ramen",
+   "jp": "ナギチャンラーメン",
+   "lat": 35.695049,
+   "lng": 139.703607,
+   "address": "東京都新宿区歌舞伎町1-9-6 三経32",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13290615/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 958,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13290615/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13290615/",
+    "https://retty.me/restaurant/100001720522/",
+    "https://hamoni.jp/shop/1poFq36iV30L3uFFjlWQ"
+   ],
+   "why": "Ramen shop, Tabelog 3.64 (958 reviews); opens 00:00; open past midnight",
+   "notes": "14 seats; Hours per Tabelog, check last order times; 24h per Tabelog; Tabelog lists a one-off hours-change notice dated 28 Oct",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-mendou-nishiki-shinjuku-kabukichou-ten-7169",
+   "name": "Mendou Nishiki Shinjuku kabukichou ten",
+   "jp": "麺堂にしき 新宿歌舞伎町店",
+   "lat": 35.694809,
+   "lng": 139.702666,
+   "address": "東京都新宿区歌舞伎町1-11-3",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13257169/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 915,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13257169/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13257169/",
+    "https://hamoni.jp/shop/Txe3E42iyrErjrUDp6mm",
+    "https://san-tatsu.jp/articles/218896/"
+   ],
+   "why": "Ramen shop, Tabelog 3.65 (915 reviews); open past midnight",
+   "notes": "Cash only (per Tabelog); 11 seats; Hours per Tabelog, check last order times; Opens 18:00 and runs until about 13:00 next day (Hamoni/Tabelog); hours capped at 06:00 in this data",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "shinjuku-kamo-to-negi-iitorumine-shinjuku-ten-5874",
+   "name": "Kamo to Negi Iitorumine shinjuku ten",
+   "jp": "鴨to葱 イイトルミネ新宿店",
+   "lat": 35.689673,
+   "lng": 139.700621,
+   "address": "東京都新宿区新宿3-38-2 JR新宿駅 B1F イイトルミネ新宿店エキナカ",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "Tabelog average: ¥1,000 - ¥1,999 ¥1,000 - ¥1,999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13295874/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1674,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13295874/",
+    "award": null
+   },
+   "other_ratings": {
+    "macaroni": "4.0pt / 1,097 reviews (per article)"
+   },
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13295874/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/ramen-kamo-to-negi-eato-lumine-shinjuku",
+    "https://macaro-ni.jp/176071?page=2"
+   ],
+   "why": "Ramen shop, Tabelog 3.59 (1,674 reviews); opens 07:00",
+   "notes": "14 seats; Closed: Follows the schedule of Iitourumine Shinjuku; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-juuwari-soba-sagatani-shinjuku-keiou-mo--6442",
+   "name": "Juuwari Soba Sagatani Shinjuku keiou mo-ru ten",
+   "jp": "十割蕎麦 さがたに 新宿京王モール店",
+   "lat": 35.689746,
+   "lng": 139.698855,
+   "address": "東京都新宿区西新宿1-1 京王モール B-4区画",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13266442/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 546,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13266442/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13266442/",
+    "https://local-media.heteml.net/?p=29887"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.49 (546 reviews); opens 07:00",
+   "notes": "Cash only (per Tabelog); 24 seats; Closed: January 1; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-curry-house-11-imasa-0803",
+   "name": "Curry House 11 Imasa",
+   "jp": "カレーハウス11イマサ",
+   "lat": 35.689718,
+   "lng": 139.698723,
+   "address": "東京都新宿区西新宿1 新宿南口地下街１号京王モール Ｂ１Ｆ",
+   "cat": "curry",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13000803/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 1189,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13000803/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000803/",
+    "https://retty.me/restaurant/100000005995/",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20170408/130399.html"
+   ],
+   "why": "Curry shop, Tabelog 3.49 (1,189 reviews); opens 07:00",
+   "notes": "Cash only (per Tabelog); 25 seats; Closed: New Year&#39;s Day and the third Thursday of August; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shinjuku-yomoda-soba-shinjuku-nishiguchi-ten-4059",
+   "name": "Yomoda Soba Shinjuku nishiguchi ten",
+   "jp": "よもだそば 新宿西口店",
+   "lat": 35.688753,
+   "lng": 139.697187,
+   "address": "東京都新宿区西新宿1-15-7 新宿西口ライフビル 1F",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "Tabelog average: - ¥999 - ¥999",
+   "reservation": "none",
+   "res_note": "Tabelog: no reservations",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1304/A130401/13254059/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 650,
+    "url": "https://tabelog.com/en/tokyo/A1304/A130401/13254059/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13254059/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/yomodasoba",
+    "https://weekly.ascii.jp/elem/000/004/082/4082481/"
+   ],
+   "why": "Soba/udon shop, Tabelog 3.44 (650 reviews); opens 07:00",
+   "notes": "Cash only (per Tabelog); 14 seats; Hours per Tabelog, check last order times",
+   "near": [
+    "shinjuku_east",
+    "nishi_shinjuku",
+    "shinjuku_gyoen"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  }
+ ]
+}

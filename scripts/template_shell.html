@@ -232,6 +232,7 @@
     *{animation:none!important;transition:none!important}
     html{scroll-behavior:auto}
   }
+{{FOOD_CSS}}
 </style>
 </head>
 <body>
@@ -254,6 +255,7 @@
       <button data-t="flights">✈️ Flights</button>
       <button data-t="kyoto">⛩️ Kyoto</button>
       <button data-t="tokyo">🗼 Tokyo</button>
+      <button data-t="food">🍜 Food</button>
       <button id="todayBtn" class="todaybtn" type="button">📍 Today</button>
     </div>
 
@@ -364,9 +366,11 @@
 {{TOKYO_DAYS}}
     </section>
 
+{{FOOD_SECTION}}
     <footer>Built from japan_plan · Nov 2026 · Times &amp; details from your spreadsheet, cross-checked against Kyoto_Itinerary_Sources / Tokyo_Itinerary_Sources · Tap a day, tap a stop, tap a map</footer>
   </div>
 
+<script type="application/json" id="food-data">{{FOOD_DATA}}</script>
 <script>
 (function(){
   const btns=document.querySelectorAll('.nav button[data-t]');
@@ -486,6 +490,7 @@
     addEventListener('resize', init); init(); frame();
   }
 })();
+{{FOOD_JS}}
 </script>
 </body>
 </html>

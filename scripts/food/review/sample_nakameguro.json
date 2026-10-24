@@ -1,0 +1,894 @@
+[
+ {
+  "id": "naka-yakitori-suehirogari",
+  "name": "Yakitori Suehiro Gari",
+  "jp": "焼鳥スエヒロガリ",
+  "lat": 35.643414,
+  "lng": 139.697784,
+  "address": "東京都目黒区上目黒3-6-4",
+  "price": 3,
+  "reservation": "required",
+  "hours": {
+   "mon": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ],
+   "tue": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "23:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.52,
+   "reviews": 574,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13180172/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shimo-yuzuki",
+  "name": "yuzuki",
+  "jp": "yuzuki",
+  "lat": 35.663184,
+  "lng": 139.668678,
+  "address": "東京都世田谷区北沢2-33-6 グリーンテラス 2F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "16:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "16:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "16:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "16:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "16:00"
+    ],
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.46,
+   "reviews": 303,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13233925/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "naka-trasparente",
+  "name": "TRASPARENTE Nakameguro ten",
+  "jp": "トラスパレンテ 中目黒店",
+  "lat": 35.642608,
+  "lng": 139.698473,
+  "address": "東京都目黒区上目黒2-12-11 1F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.76,
+   "reviews": 1236,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13187231/",
+   "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "shimo-sunday-brunch",
+  "name": "Sunday Brunch Shimokitazawa ten",
+  "jp": "サンデーブランチ 下北沢店",
+  "lat": 35.662994,
+  "lng": 139.666803,
+  "address": "東京都世田谷区北沢2-29-2 フェニキアビル 2F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "19:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.52,
+   "reviews": 443,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13004596/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shimo-tetra-tokyo",
+  "name": "Tetra Tokyo",
+  "jp": "啼寅東京",
+  "lat": 35.658441,
+  "lng": 139.667084,
+  "address": "東京都世田谷区代沢5-29-9 1F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.55,
+   "reviews": 293,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13260580/",
+   "award": null
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "naka-teuchi-asama",
+  "name": "Teuchi Asama",
+  "jp": "手打ち あさま",
+  "lat": 35.642685,
+  "lng": 139.698107,
+  "address": "東京都目黒区上目黒2-13-7 ハイべール上目黒",
+  "price": 2,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "15:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.68,
+   "reviews": 525,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13302326/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "naka-bar-portillo",
+  "name": "Bar Portillo de sal y amor",
+  "jp": "バル ポルティージョ",
+  "lat": 35.647213,
+  "lng": 139.697669,
+  "address": "東京都目黒区青葉台1-19-12 エスセナーリオ青葉台 103",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [],
+   "tue": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:30"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.59,
+   "reviews": 982,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13232995/",
+   "award": "Tabelog Spanish \"Tabelog 100\" 2026"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "naka-kunsei-apartment",
+  "name": "nakameguro Kunsei apartment",
+  "jp": "nakameguro 燻製 apartment",
+  "lat": 35.644592,
+  "lng": 139.702309,
+  "address": "東京都目黒区中目黒1-1-52",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.5,
+   "reviews": 941,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13146060/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "naka-kushi-wakamaro",
+  "name": "Kushi Wakamaro Honten",
+  "jp": "串若丸 本店",
+  "lat": 35.645358,
+  "lng": 139.698287,
+  "address": "東京都目黒区上目黒1-19-2",
+  "price": 2,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.56,
+   "reviews": 781,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003193/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shimo-mixture-bakery",
+  "name": "Mixture",
+  "jp": "ミクスチャー",
+  "lat": 35.664724,
+  "lng": 139.666323,
+  "address": "東京都世田谷区北沢3-31-5",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:30",
+     "20:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.63,
+   "reviews": 477,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13024853/",
+   "award": null
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "shimo-shone-soba",
+  "name": "Shone",
+  "jp": "正音",
+  "lat": 35.663142,
+  "lng": 139.666254,
+  "address": "東京都世田谷区北沢2-28-1 慶水ビル 1F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "20:30"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.47,
+   "reviews": 234,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13166303/",
+   "award": null
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "naka-miyabi-an",
+  "name": "Miyabi An",
+  "jp": "雅庵",
+  "lat": 35.64757,
+  "lng": 139.692128,
+  "address": "東京都目黒区東山1-13-4",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.81,
+   "reviews": 791,
+   "url": "https://tabelog.com/en/tokyo/A1317/A131701/13073813/",
+   "award": null
+  },
+  "confidence": "high"
+ },
+ {
+  "id": "shimo-rakumi",
+  "name": "Rakumi",
+  "jp": "うまいもの 楽味",
+  "lat": 35.661073,
+  "lng": 139.668,
+  "address": "東京都世田谷区北沢2-12-11 島田ビル B1F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [],
+   "tue": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:30",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.58,
+   "reviews": 130,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13007052/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shimo-pizzeria-eight",
+  "name": "Pizzeria Eight Shimokitazawa",
+  "jp": "ピッツェリアエイト 下北沢",
+  "lat": 35.661274,
+  "lng": 139.668812,
+  "address": "東京都世田谷区北沢2-11-15 ミカン下北A街区 1F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.46,
+   "reviews": 642,
+   "url": "https://tabelog.com/en/tokyo/A1318/A131802/13268127/",
+   "award": null
+  },
+  "confidence": "medium"
+ }
+]

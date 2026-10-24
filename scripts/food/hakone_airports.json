@@ -1,0 +1,4279 @@
+{
+ "anchors": [
+  {
+   "id": "hakone_yumoto",
+   "name": "Hakone-Yumoto Station and shopping street",
+   "jp": "箱根湯本駅",
+   "lat": 35.2332,
+   "lng": 139.10347,
+   "note": "OSM station node (Nominatim). Also near Hakone Yuryo onsen. Shops close early; after ~19:00 only a handful of places are open."
+  },
+  {
+   "id": "gora",
+   "name": "Gora Station / Gora Park / Hakone Tozan cable car",
+   "jp": "強羅駅",
+   "lat": 35.25064,
+   "lng": 139.04822,
+   "note": "OSM station node. Miyanoshita bakeries (Picot, Watanabe) are ~1.2 km down the line."
+  },
+  {
+   "id": "owakudani",
+   "name": "Owakudani Station (Hakone Ropeway)",
+   "jp": "大涌谷駅",
+   "lat": 35.24442,
+   "lng": 139.01958,
+   "note": "OSM station node. Food only inside the station building / Kurotamago-kan complex, roughly 09:00-16:30; nothing open in the evening. Togendai (end of ropeway) is 2+ km away and not covered."
+  },
+  {
+   "id": "moto_hakone",
+   "name": "Moto-Hakone port and Lake Ashi lakefront (Hakone Shrine street)",
+   "jp": "元箱根港",
+   "lat": 35.20283,
+   "lng": 139.0306,
+   "note": "OSM Motohakone Port ferry terminal. Hakone Shrine is ~0.5 km. Hakone Sekisho (Hakone-machi) is ~1.6 km south and not covered. The famous Amazake-chaya is at Hatajuku, ~5 km away, so it is NOT included."
+  },
+  {
+   "id": "haneda_t3",
+   "name": "Haneda Airport Terminal 3 (International)",
+   "jp": "羽田空港第3ターミナル",
+   "lat": 35.54501,
+   "lng": 139.76704,
+   "note": "OSM T3 station node. Covers 4F Edo Koji (Edo Market Place), 3F departures lobby, 5F Tokyo Poptown and Haneda Airport Garden. Airside (post-security 3F) venues flagged in notes."
+  },
+  {
+   "id": "narita_t1",
+   "name": "Narita Airport Terminal 1 (Air China departs T1 South Wing 4F)",
+   "jp": "成田空港第1ターミナル",
+   "lat": 35.7631,
+   "lng": 140.38637,
+   "note": "OSM T1 terminal node. Air China = Terminal 1 South Wing 4F per narita-airport.jp/en/flight/airline-search/cca/. Landside (4F/5F, before security) and airside (3F, after security) both listed; airside flagged in notes."
+  }
+ ],
+ "venues": [
+  {
+   "id": "hakone-hatsuhana",
+   "name": "Hatsu Hana Honten (yam soba)",
+   "jp": "はつ花そば 本店",
+   "lat": 35.231135,
+   "lng": 139.100198,
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 2271,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14002450/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本635",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "~¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; lunch queues common",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14002450/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14002450/",
+    "https://www.hakone.or.jp/468",
+    "https://www.hakonenavi.jp/feature/11818"
+   ],
+   "why": "Hakone's best-known soba: natural yam (jinenjo) mixed with egg and buckwheat only, no water. Order the jinenjo soba.",
+   "notes": "Closed Wed (day before/after if Wed is a holiday). 8-10 min walk from station, 0.4 km.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-kikukawa-shoten",
+   "name": "Kikukawa Shoten (Hakone manju)",
+   "jp": "菊川商店",
+   "lat": 35.232931,
+   "lng": 139.103744,
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 897,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14006390/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets EAST \"Tabelog 100\" 2026"
+   },
+   "address": "神奈川県足柄下郡箱根町湯本706-17",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "~¥80/manju",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14006390/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14006390/",
+    "https://www.hakone.or.jp/2924",
+    "https://www.hakonenavi.jp/feature/8503"
+   ],
+   "why": "Showa-era shop by the station selling castella-style Hakone manju baked in front of you, ~¥80 each. Eat-walk snack.",
+   "notes": "Closed Thu plus irregular days (see Instagram). Manju sales start 10:00 until sold out. hakone.or.jp lists 8:00-19:00 so hours differ by source; Tabelog used.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-cha-no-chimoto",
+   "name": "Cha no Chimoto (wagashi cafe)",
+   "jp": "茶のちもと",
+   "lat": 35.231582,
+   "lng": 139.100689,
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 487,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14036099/",
+    "award": "Tabelog Japanese traditional sweets・Cafe featuring Japanese sweets EAST \"Tabelog 100\" 2026"
+   },
+   "address": "神奈川県足柄下郡箱根町湯本690",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "~¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "Reservations accepted but not required; walk-ins seated if space",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "16:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14036099/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14036099/",
+    "https://www.hakonenavi.jp/feature/6877",
+    "https://www.hakonenavi.jp/feature/8503"
+   ],
+   "why": "Modern wagashi and tea cafe, Tabelog 100 EAST 2026 (Japanese sweets/cafe). Matcha and seasonal sweets set.",
+   "notes": "Last order 16:00 (17:00 Sat/Sun/hol). Closed New Year's Day and a few days a year. 5 min walk.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "hakone-manju-nanohana",
+   "name": "Manju-ya Nanohana",
+   "jp": "まんじゅう屋 菜の花",
+   "lat": 35.232531,
+   "lng": 139.10286,
+   "tabelog": {
+    "score": 3.21,
+    "reviews": 280,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14005175/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本705",
+   "cat": "street-food-market",
+   "price": 1,
+   "price_note": "~¥100-300",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:30",
+      "17:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:30",
+      "17:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:30",
+      "17:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:30",
+      "17:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:30",
+      "17:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:30",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:30",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14005175/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14005175/",
+    "https://www.hakonenavi.jp/feature/24036",
+    "https://www.hakonenavi.jp/feature/17139"
+   ],
+   "why": "Steamed onsen manju made in the shopfront on the main street, plus gelato; black sesame manju is the reviewers' pick.",
+   "notes": "Irregular closing days. Take-away.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "hakone-sagamiya",
+   "name": "Hakone Sagamiya (nuts and sweets)",
+   "jp": "箱根Sagamiya",
+   "lat": 35.233243,
+   "lng": 139.104239,
+   "tabelog": {
+    "score": 3.67,
+    "reviews": 400,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14031326/",
+    "award": "Tabelog Sweets EAST \"Tabelog 100\" 2026"
+   },
+   "address": "神奈川県足柄下郡箱根町湯本706-35",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "~¥500-1,000",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "16:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14031326/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14031326/",
+    "https://www.hakonenavi.jp/feature/6877"
+   ],
+   "why": "Shop 1 min from the station; Tabelog 3.67. Nuts-and-sweets specialist (hakonenavi lists it as a 5-star nut vessel).",
+   "notes": "Hours from Tabelog only; no closed day listed.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-cafe-station",
+   "name": "Bakery & Delicatessen Hakone Cafe (inside station)",
+   "jp": "ベーカリー＆デリカテッセン 箱根カフェ",
+   "lat": 35.233144,
+   "lng": 139.103493,
+   "tabelog": {
+    "score": 3.31,
+    "reviews": 184,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14023880/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本707 湯本駅構内",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14023880/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14023880/",
+    "https://www.hakonenavi.jp/feature/24453",
+    "https://www.hakonenavi.jp/feature/6877"
+   ],
+   "why": "Station-concourse bakery cafe where you can watch trains; easy coffee and bread stop before/after the Romancecar.",
+   "notes": "Tabelog hours used (10-17 weekdays, 10-19 weekends); hakonenavi snippet suggested earlier opening but not verified. Maintenance closures occasionally.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-roman-tei",
+   "name": "Hakone Roman-tei Yumoto (cafe)",
+   "jp": "箱根浪漫亭 湯本店",
+   "lat": 35.231573,
+   "lng": 139.101055,
+   "tabelog": {
+    "score": 3.37,
+    "reviews": 89,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14059120/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本690",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "~¥2,000-2,999",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14059120/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14059120/",
+    "https://www.hakonenavi.jp/feature/6877"
+   ],
+   "why": "Cafe known for its chestnut Mont Blanc; 5 min from the station.",
+   "notes": "Closed Wed and Thu. Last order 16:00.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-kinosuke",
+   "name": "Kinosuke (charcoal-grilled seafood izakaya)",
+   "jp": "喜之助",
+   "lat": 35.23209,
+   "lng": 139.102181,
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 192,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14066693/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本703-19",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "lunch ~¥2-3k / dinner ~¥3-5k",
+   "reservation": "recommended",
+   "res_note": "Call ahead; Japanese phone only",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14066693/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14066693/",
+    "https://www.hakonenavi.jp/feature/7420",
+    "https://www.hakonenavi.jp/spot/1286"
+   ],
+   "why": "Charcoal-grilled seafood and local dishes, 3.44 on Tabelog from 190+ reviews. One of few evening choices near the station.",
+   "notes": "Lunch L.O. 14:00; dinner L.O. 21:30. No closed day listed. Reserve via 050-5263-9277.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "hakone-suzuka",
+   "name": "Hakone Izakaya Suzuka",
+   "jp": "箱根居酒屋 鈴鹿",
+   "lat": 35.232336,
+   "lng": 139.102235,
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 71,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14026460/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本703-12",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "~¥3,000-3,999",
+   "reservation": "recommended",
+   "res_note": "Tabelog: reservations via website; phone line listed closed",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14026460/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14026460/",
+    "https://www.hakonenavi.jp/feature/7420"
+   ],
+   "why": "Red-lantern izakaya 1 min from the station; cheap dishes like beef tataki with ponzu. One of the few places still open late.",
+   "notes": "Hakonenavi (2020 article) said open to 03:00; Tabelog says 23:00 - Tabelog used. Closed Wed/Thu. Small, may be hard for 4.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "hakone-akatsukian",
+   "name": "Hakone Akatsuki-an Honten Akatsuki-tei (soba)",
+   "jp": "箱根暁庵本店 暁亭",
+   "lat": 35.227051,
+   "lng": 139.092996,
+   "tabelog": {
+    "score": 3.47,
+    "reviews": 183,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14008090/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本茶屋182-7",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ~¥2k / dinner ~¥3k",
+   "reservation": "recommended",
+   "res_note": "Evenings only per Tabelog; book by phone at shop (0460-85-6763 or 0460-85-7330, confirm)",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14008090/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14008090/",
+    "https://www.hakonenavi.jp/feature/11818",
+    "https://www.hakonenavi.jp/feature/17139"
+   ],
+   "why": "Nihachi soba with a house blend of whole buckwheat, in a registered cultural-property building; open into the evening.",
+   "notes": "Last order 19:30. About 1.2 km (15-18 min) from station; orange bus runs there. Check closed days (Tabelog lists none).",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "hakone-gora-brewery-public-house",
+   "name": "Gora Brewery Public House",
+   "jp": "GORA BREWERY PUBLIC HOUSE",
+   "lat": 35.232384,
+   "lng": 139.100271,
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 156,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14094704/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町湯本740",
+   "cat": "other",
+   "price": 3,
+   "price_note": "lunch ~¥2-3k / dinner ~¥3-4k",
+   "reservation": "recommended",
+   "res_note": "Tabelog net reservation",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14094704/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14094704/",
+    "https://www.hakonenavi.jp/feature/18903",
+    "https://www.hakonenavi.jp/feature/17139"
+   ],
+   "why": "Craft brewery restaurant (pizza, grill, game) moved to Yumoto in 2024; Tabelog 3.46.",
+   "notes": "Last order food 20:00, drinks 20:30. Not the same as Gora Brewery & Grill in Gora.",
+   "near": [
+    "hakone_yumoto"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-tenku-no-terrace",
+   "name": "Hakone Tenku no Terrace (cafe)",
+   "jp": "はこね天空のテラス",
+   "lat": 35.250493,
+   "lng": 139.049046,
+   "tabelog": {
+    "score": 3.43,
+    "reviews": 154,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14015682/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-694",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under 1,000-2,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14015682/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14015682/",
+    "https://www.hakonenavi.jp/feature/24453",
+    "https://www.hakonenavi.jp/feature/8503"
+   ],
+   "why": "Terrace cafe 1 min from Gora Station: amazake baked cheesecake, katsu sandwiches, view of the Daimonji hill.",
+   "notes": "Former name 銀かつ工房 (Ginkatsu Koubou) per Tabelog. Confirm current name and operation.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "hakone-mori-no-pancake",
+   "name": "Hakone no Mori no Pancake",
+   "jp": "箱根の森のパンケーキ",
+   "lat": 35.249809,
+   "lng": 139.047623,
+   "tabelog": {
+    "score": 3.26,
+    "reviews": 59,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14087709/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-407",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14087709/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14087709/",
+    "https://www.hakonenavi.jp/feature/19857"
+   ],
+   "why": "Fluffy pancakes halfway up Koen-zaka, 2 min from Gora Station. Tabelog 3.26, so a sweet stop, not a destination.",
+   "notes": "Closed Thu; last order 16:00; seasonal closures in summer/winter possible. 2nd-floor shop.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-chaseki",
+   "name": "Chaseki (Japanese tea cafe)",
+   "jp": "茶石",
+   "lat": 35.249119,
+   "lng": 139.046792,
+   "tabelog": {
+    "score": 3.34,
+    "reviews": 60,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14088474/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-307",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under 1,000-1,999 yen",
+   "reservation": "recommended",
+   "res_note": "Reserve if possible, seating is limited",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14088474/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14088474/",
+    "https://www.hakonenavi.jp/feature/19857"
+   ],
+   "why": "Japanese tea specialist 5 min from Gora Station, near Gora Park; few seats.",
+   "notes": "Closed Thu and 1st/3rd Wed; last order 16:30. Small.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-godai-fukuan",
+   "name": "Hakone Soba Godai Fuku-an",
+   "jp": "箱根そば 五代福庵",
+   "lat": 35.249957,
+   "lng": 139.048095,
+   "tabelog": {
+    "score": 3.33,
+    "reviews": 60,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14092084/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-276",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "~2,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14092084/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14092084/",
+    "https://www.hakonenavi.jp/feature/22322"
+   ],
+   "why": "Juwari (100% buckwheat) soba two minutes from Gora Station.",
+   "notes": "Closed Tue; last order 17:00; seasonal closures possible.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "ok"
+  },
+  {
+   "id": "hakone-itoh-dining-nobu",
+   "name": "ITOH DINING by NOBU (teppanyaki)",
+   "jp": "ITOH DINING by NOBU",
+   "lat": 35.249533,
+   "lng": 139.044991,
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 265,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14039980/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-64",
+   "cat": "other",
+   "price": 4,
+   "price_note": "lunch ~4-8k / dinner ~10k+ yen",
+   "reservation": "required",
+   "res_note": "Book via Tabelog/phone; open year-round",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14039980/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14039980/",
+    "https://www.hakonenavi.jp/spot/1290",
+    "https://www.hakonenavi.jp/feature/18903"
+   ],
+   "why": "Wagyu teppanyaki with Nobu-style dishes; best-rated Gora restaurant on Tabelog (3.57). Splurge.",
+   "notes": "Open daily (hakonenavi: lunch 11:30-15:00, dinner 17:00-21:00). 8 min walk (0.3 km straight line).",
+   "near": [
+    "gora"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-gora-brewery-grill",
+   "name": "Gora Brewery & Grill",
+   "jp": "GORA BREWERY & GRILL",
+   "lat": 35.247561,
+   "lng": 139.046437,
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 185,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14067843/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300-72",
+   "cat": "other",
+   "price": 3,
+   "price_note": "~4-8k yen",
+   "reservation": "recommended",
+   "res_note": "Reservation recommended",
+   "hours": {
+    "mon": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14067843/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14067843/",
+    "https://www.hakonenavi.jp/feature/22322",
+    "https://www.hakonenavi.jp/feature/18903"
+   ],
+   "why": "Brewery restaurant with house craft beer and grill dishes; open through the afternoon when most Gora places shut.",
+   "notes": "Last order food 20:00, drinks 20:30. Open year-round. 10 min walk.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-picot",
+   "name": "Bakery & Sweets Picot (Fujiya Hotel)",
+   "jp": "ベーカリー＆スイーツ ピコット",
+   "lat": 35.244487,
+   "lng": 139.05956,
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 812,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14007490/",
+    "award": "Tabelog Bread EAST \"Tabelog 100\" 2026"
+   },
+   "address": "神奈川県足柄下郡箱根町宮ノ下359 富士屋ホテル",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "~500-1,500 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14007490/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14007490/",
+    "https://www.hakonenavi.jp/feature/24036",
+    "https://www.hakonenavi.jp/feature/24453"
+   ],
+   "why": "Fujiya Hotel bakery, Tabelog 3.68: apple pie, curry bread, brioche. Early opening makes it a rare morning option.",
+   "notes": "About 1.2 km (Miyanoshita) from Gora Station, a Tozan train stop plus a walk. Shorter 16:00 close applies only Jan-Mar 2026, not Nov.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "hakone-watanabe-bakery",
+   "name": "Watanabe Bakery",
+   "jp": "渡邊ベーカリー",
+   "lat": 35.244595,
+   "lng": 139.0584,
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 788,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14003548/",
+    "award": "Tabelog Bread EAST \"Tabelog 100\" 2026"
+   },
+   "address": "神奈川県足柄下郡箱根町宮ノ下343-3",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under 1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14003548/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14003548/",
+    "https://www.hakonenavi.jp/feature/24036",
+    "https://www.hakonenavi.jp/feature/24453"
+   ],
+   "why": "Meiji-era Miyanoshita bakery using spring water; hot onsen stew bread is the take-away favourite.",
+   "notes": "Closed Wednesdays and the 1st, 3rd and 5th Tuesday of each month (3 Nov and 17 Nov 2026 closed). Temporary closures possible.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "hakone-cu-mo",
+   "name": "cu-mo Hakone (cloud sweets cafe)",
+   "jp": "cu-mo 箱根",
+   "lat": 35.246671,
+   "lng": 139.03555,
+   "tabelog": {
+    "score": 3.14,
+    "reviews": 95,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14080168/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町強羅1300 箱根ロープウェイ早雲山駅",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under 1,000-1,500 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "16:45"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14080168/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14080168/",
+    "https://www.hakonenavi.jp/feature/24036"
+   ],
+   "why": "Cloud-themed cafe at Sounzan ropeway station, top of the cable car; quick sweets and drinks with foot bath.",
+   "notes": "Winter closure possible (snow). Tabelog hours 09:30-16:45 daily.",
+   "near": [
+    "gora"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "owakudani-kitchen",
+   "name": "OWAKUDANI KITCHEN (Owakudani Station 2F)",
+   "jp": "OWAKUDANI KITCHEN",
+   "lat": 35.244239,
+   "lng": 139.019915,
+   "tabelog": {
+    "score": 3.4,
+    "reviews": 217,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14013990/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町仙石原1251 大涌谷駅 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "No reservations",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14013990/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14013990/",
+    "https://www.hakonenavi.jp/spot/834",
+    "https://www.hakonenavi.jp/area/owakudani/"
+   ],
+   "why": "Curry and hamburger-steak canteen on the station 2F; Tabelog 3.40 from ~195 reviews. The sit-down option here.",
+   "notes": "Last order 15:30; no closed day. Formerly Owakudani Eki Shokudo. Depends on the ropeway running (volcanic gas or wind can suspend it - check status).",
+   "near": [
+    "owakudani"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "owakudani-wakuwaku",
+   "name": "WAKUWAKU KITCHEN & CAFE (Kurotamago-kan)",
+   "jp": "WAKUWAKU KITCHEN&CAFE",
+   "lat": 35.243706,
+   "lng": 139.019533,
+   "tabelog": {
+    "score": 3.28,
+    "reviews": 72,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14077837/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町仙石原1251 大涌谷くろたまご館",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14077837/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14077837/",
+    "https://www.hakonenavi.jp/spot/21775"
+   ],
+   "why": "Cafe in the Kurotamago-kan building overlooking the steam vents.",
+   "notes": "Tabelog 3.28. Kurotamago-kan shop itself closes ~16:20 (seasonal).",
+   "near": [
+    "owakudani"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "owakudani-kurotamago-kan",
+   "name": "Owakudani Kurotamago-kan (black eggs, curry bread)",
+   "jp": "大涌谷 くろたまご館",
+   "lat": 35.243706,
+   "lng": 139.019533,
+   "tabelog": null,
+   "address": "神奈川県足柄下郡箱根町仙石原1251",
+   "cat": "street-food-market",
+   "price": 1,
+   "price_note": "~500-1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "16:20"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hakonenavi.jp/spot/21775",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.hakonenavi.jp/area/owakudani/",
+    "https://www.hakonenavi.jp/feature/24036"
+   ],
+   "why": "The famous black eggs boiled in the hot spring pools (bagged), plus curry bread and ice cream.",
+   "notes": "Not on Tabelog as a restaurant; tourist classic but the main food stop here. Hours vary by season (hakonenavi: shop 9:00-16:15, eggs to 16:20; no closed day). Coordinates are the building (same as Wakuwaku listing).",
+   "near": [
+    "owakudani"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "owakudani-tani-no-marche",
+   "name": "Tani no Marche (Owakudani Station 1F)",
+   "jp": "谷のマルシェ",
+   "lat": 35.244239,
+   "lng": 139.019915,
+   "tabelog": null,
+   "address": "神奈川県足柄下郡箱根町仙石原1251 大涌谷駅1F",
+   "cat": "street-food-market",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.hakonenavi.jp/spot/834",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.hakonenavi.jp/spot/834",
+    "https://www.hakonenavi.jp/area/owakudani/"
+   ],
+   "why": "Food and drink counter on the station ground floor: sweets, drinks and snacks beside the ropeway platform.",
+   "notes": "Not on Tabelog; hours from hakonenavi (FOOD&DRINK 10:00-16:00). Coordinates = station building (same as Owakudani Kitchen listing).",
+   "near": [
+    "owakudani"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "motohakone-ashinoko-terrace",
+   "name": "Ashinoko Terrace (La Terrazza Ashinoko)",
+   "jp": "ラ・テラッツァ 芦ノ湖",
+   "lat": 35.203644,
+   "lng": 139.030788,
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 1350,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14009281/",
+    "award": "Tabelog Pizza  \"Tabelog 100\" 2021"
+   },
+   "address": "神奈川県足柄下郡箱根町元箱根61",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "lunch ~2-3k / dinner ~3-4k yen",
+   "reservation": "recommended",
+   "res_note": "Book on Tabelog; weekday lunch can fill",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14009281/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14009281/",
+    "https://www.hakonenavi.jp/feature/21056",
+    "https://www.hakonenavi.jp/feature/8503"
+   ],
+   "why": "Wood-fired Neapolitan pizza on the lakefront by the boat pier, Tabelog 3.55; the best dinner option in Moto-Hakone.",
+   "notes": "Closed 2nd and 4th Tuesday (Monday is open). Dinner last entry 18:45, closes 20:00. Pizza all day.",
+   "near": [
+    "moto_hakone"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "motohakone-bakery-table",
+   "name": "Bakery & Table Hakone",
+   "jp": "Bakery & Table 箱根",
+   "lat": 35.201767,
+   "lng": 139.030935,
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1263,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14051671/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町元箱根9-1",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14051671/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14051671/",
+    "https://www.hakonenavi.jp/spot/1299",
+    "https://www.hakonenavi.jp/feature/21056"
+   ],
+   "why": "Big lakeside bakery with a foot bath, cafe and 3F coffee bar; Tabelog 3.59 from 1,200+ reviews. Opens early.",
+   "notes": "1F bakery 9:00-17:00, 2F cafe 9:00-17:00 (LO 16:30), 3F 10:00-16:00. No closed day (hakonenavi).",
+   "near": [
+    "moto_hakone"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "motohakone-cheese-terrace",
+   "name": "Hakone Cheese Terrace",
+   "jp": "箱根チーズテラス",
+   "lat": 35.203614,
+   "lng": 139.031282,
+   "tabelog": {
+    "score": 3.51,
+    "reviews": 240,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14076578/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町元箱根54",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14076578/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14076578/",
+    "https://www.hakonenavi.jp/feature/24036"
+   ],
+   "why": "Cup-sized Basque cheesecake and cheese sweets on the lakeshore, Tabelog 3.51.",
+   "notes": "Irregular closing days (不定休); check official site or call 0460-83-9007 before visiting.",
+   "near": [
+    "moto_hakone"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "ok"
+  },
+  {
+   "id": "motohakone-karatto",
+   "name": "Hakone Karaage KARATTO",
+   "jp": "箱根唐揚げKARATTO",
+   "lat": 35.201753,
+   "lng": 139.031177,
+   "tabelog": {
+    "score": 3.25,
+    "reviews": 83,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14065564/",
+    "award": null
+   },
+   "address": "神奈川県足柄下郡箱根町元箱根10",
+   "cat": "street-food-market",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14065564/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14065564/",
+    "https://www.hakonenavi.jp/feature/21056"
+   ],
+   "why": "Karaage fried-chicken stand near the pier; has won a karaage award per hakonenavi.",
+   "notes": "Closed Wed; last order 15:30; closes when sold out.",
+   "near": [
+    "moto_hakone"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "motohakone-rosage",
+   "name": "Salon de The Rosage (Flower Cafe Losage, Yama no Hotel)",
+   "jp": "サロン・ド・テ ロザージュ",
+   "lat": 35.203494,
+   "lng": 139.022685,
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 645,
+    "url": "https://tabelog.com/en/kanagawa/A1410/A141001/14002271/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "address": "神奈川県足柄下郡箱根町元箱根80 山のホテル 別館",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "~2,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/kanagawa/A1410/A141001/14002271/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/kanagawa/A1410/A141001/14002271/",
+    "https://www.hakonenavi.jp/feature/26090"
+   ],
+   "why": "Hotel salon with cakes and tea in the Yama no Hotel garden, Tabelog 3.64 from 645 reviews.",
+   "notes": "Last order 16:00. JP name taken from the hakonenavi lunch roundup; Tabelog romanises it as Losage. 0.7 km walk.",
+   "near": [
+    "moto_hakone"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-ariso-sushi-edokoji",
+   "name": "Ariso Sushi (Edo Koji, 24h conveyor sushi)",
+   "jp": "ありそ鮨し",
+   "lat": 35.544113,
+   "lng": 139.770241,
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 312,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13117603/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 国際線ターミナル　４Ｆ",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "~4-6k yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00053.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13117603/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00053.html"
+   ],
+   "why": "24-hour sushi counter on Edo Koji 4F (Tabelog 3.45): tuna, Fukui sweet shrimp. A solid first meal after a late landing.",
+   "notes": "Landside 4F Edo Koji (before security). 24h; drinks only 02:00-03:00 (Tabelog says 02:00-04:00). Late-night surcharge reported by reviewers.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-ariso-sushi-natural-tuna",
+   "name": "Ariso Sushi, natural tuna (Edo Koji north)",
+   "jp": "天然本まぐろ ありそ鮨し",
+   "lat": 35.545757,
+   "lng": 139.768488,
+   "tabelog": {
+    "score": 3.41,
+    "reviews": 116,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13226225/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 羽田空港国際線ターミナル 4F 北側",
+   "cat": "sushi",
+   "price": 3,
+   "price_note": "~3-5k yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00079.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13226225/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00079.html"
+   ],
+   "why": "Smaller Ariso counter with natural bluefin; Tabelog 3.41 from ~116 reviews.",
+   "notes": "4F north side, landside. Non-smoking; take-out possible.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-setagaya-ramen",
+   "name": "Setagaya Ramen (Edo Koji, 24h)",
+   "jp": "せたが屋（ラーメン）",
+   "lat": 35.545,
+   "lng": 139.7694,
+   "tabelog": null,
+   "address": "東京都大田区羽田空港2-6-5 国際線旅客ターミナル4F 江戸小路",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "~1,000-1,500 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00056.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00056.html",
+    "https://www.setaga-ya.com/"
+   ],
+   "why": "24-hour shoyu/tonkotsu-fish ramen counter on 4F Edo Koji; a standard post-midnight ramen at Haneda.",
+   "notes": "24 seats, landside 4F. Night maintenance may temporarily close it. Not on Tabelog in my checks: rating unverified; coordinates = Edo Koji 4F centroid.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-rokurinsha",
+   "name": "Rokurinsha Haneda (tsukemen, airside)",
+   "jp": "六厘舎",
+   "lat": 35.547538,
+   "lng": 139.768128,
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 702,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13167738/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 東京スカイキッチン 3F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "walk-in-queue",
+   "res_note": "Ticket machine; queues at meal peaks",
+   "hours": {
+    "mon": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "tue": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "wed": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "thu": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "fri": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "sat": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ],
+    "sun": [
+     [
+      "04:00",
+      "25:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00088.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13167738/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00088.html"
+   ],
+   "why": "Tokyo's famed tsukemen shop, Tabelog 3.57 from 700 ratings; thick fish-and-pork dipping broth.",
+   "notes": "AIRSIDE 3F (after security) - not reachable on arrival Sun 8 Nov; use before departure (e.g. Jai Fri 20). Open 04:00-01:30 (official lists 25:30).",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-tsurutontan",
+   "name": "Tsurutontan Haneda (udon)",
+   "jp": "麺匠の心つくし つるとんたん",
+   "lat": 35.54545,
+   "lng": 139.769211,
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 1269,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13117663/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2丁目6-5 国際線旅客ターミナル４F 江戸小路",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00087.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13117663/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00087.html"
+   ],
+   "why": "Huge bowl udon (Tabelog 3.46 from 1,260+ reviews), English menu; open from 6:00 to 23:00.",
+   "notes": "4F Edo Koji, landside. Last order 22:30.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-katsusen",
+   "name": "Waton Katsusen (tonkatsu)",
+   "jp": "和豚 かつ仙",
+   "lat": 35.545396,
+   "lng": 139.769196,
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 229,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13117600/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 国際線旅客ターミナル４F　江戸小路",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "~2,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00090.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13117600/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00090.html"
+   ],
+   "why": "Tonkatsu on Edo Koji, Tabelog 3.45 from 229 reviews.",
+   "notes": "4F Edo Koji, landside. Last order 22:30. 26 seats.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "haneda-nanrinka",
+   "name": "Nan Rinka (Chinese)",
+   "jp": "南琳華",
+   "lat": 35.544822,
+   "lng": 139.769667,
+   "tabelog": {
+    "score": 3.3,
+    "reviews": 125,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13117658/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 国際線旅客ターミナル４F　江戸小路",
+   "cat": "other",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00080.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13117658/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00080.html",
+    "https://nangokusyuka.co.jp/store/nanrinka.html"
+   ],
+   "why": "Chinese restaurant on Edo Koji; grilled gyoza are the order.",
+   "notes": "Shortened hours 11:00-21:30 (L.O. 21:00) in effect per official site; normal 10:00-23:00 (L.O. 22:30). Confirm before trip. Weekday lunch 11:30-15:30.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "haneda-suginoko",
+   "name": "Suginoko (Japanese izakaya, 24h)",
+   "jp": "日本の味 すぎのこ",
+   "lat": 35.544394,
+   "lng": 139.769468,
+   "tabelog": {
+    "score": 3.42,
+    "reviews": 209,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13117655/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2丁目6-5 国際線旅客ターミナル４F 江戸小路",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00082.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13117655/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00082.html"
+   ],
+   "why": "24-hour set-meal and izakaya counter at the end of Edo Koji, Tabelog 3.42 from 210 reviews; alcohol available.",
+   "notes": "44 seats, 4F landside. Open 24h per official site and Tabelog.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "haneda-yoshinoya",
+   "name": "Yoshinoya Haneda T3 (24h)",
+   "jp": "吉野家",
+   "lat": 35.546132,
+   "lng": 139.768405,
+   "tabelog": {
+    "score": 3.24,
+    "reviews": 311,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13172187/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-6-5 国際旅客ターミナルビル 4F",
+   "cat": "other",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00065.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13172187/",
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00065.html"
+   ],
+   "why": "24-hour gyudon chain outlet, cheapest hot meal at the terminal (Tabelog 3.24).",
+   "notes": "4F Edo Koji, landside.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-hyakuzen",
+   "name": "Hyakuzen (seasonal Japanese teishoku)",
+   "jp": "日本の旬の味 百膳",
+   "lat": 35.545,
+   "lng": 139.7694,
+   "tabelog": null,
+   "address": "東京都大田区羽田空港2-6-5 国際線旅客ターミナル4F 江戸小路",
+   "cat": "kaiseki-teishoku",
+   "price": 2,
+   "price_note": "~1,500-2,500 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00081.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00081.html",
+    "http://www.hyakuzen.jp/"
+   ],
+   "why": "Japanese set meals on Edo Koji, open 8:00-23:00 (last order 22:00); good for breakfast to late dinner.",
+   "notes": "67 seats, 4F landside. No Tabelog rating checked; coordinates = Edo Koji 4F centroid.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-yakiniku-champion",
+   "name": "Yakiniku Champion (Edo Koji)",
+   "jp": "焼肉チャンピオン",
+   "lat": 35.545,
+   "lng": 139.7694,
+   "tabelog": null,
+   "address": "東京都大田区羽田空港2-6-5 国際線旅客ターミナル4F 江戸小路",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "~2-4k yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00071.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00071.html",
+    "http://www.yakiniku-champion.com/"
+   ],
+   "why": "Yakiniku set meals on Edo Koji from 7:30 to 23:00; a sit-down meat dinner after landing.",
+   "notes": "30 seats, 4F landside. Last order 21:20. Not rated on Tabelog in my checks; coordinates = Edo Koji 4F centroid.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-uogashi-nihonichi",
+   "name": "Uogashi Nihon-ichi (standing-style sushi, airside, 24h)",
+   "jp": "魚がし日本一",
+   "lat": 35.54754,
+   "lng": 139.76813,
+   "tabelog": null,
+   "address": "東京都大田区羽田空港2-6-5 国際線ターミナル3F 出国後エリア",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "~2-4k yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00067.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00067.html",
+    "https://www.susinippan.co.jp/"
+   ],
+   "why": "Cheap standing-style sushi chain, open 24h airside; tuna-led plates for 2-4k yen.",
+   "notes": "AIRSIDE 3F, after security: only for departures (Jai Fri 20, or anyone flying). Can carry on board. Coordinates = airside 3F restaurant area.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-tailwind",
+   "name": "Tailwind (Royal Park Hotel buffet restaurant, 3F departures)",
+   "jp": "テイルウィンド",
+   "lat": 35.5455,
+   "lng": 139.7685,
+   "tabelog": null,
+   "address": "東京都大田区羽田空港2-6-5 国際線ターミナル3F 出発ロビー",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "~2,000 yen and up",
+   "reservation": "recommended",
+   "res_note": "Private-room courses need booking",
+   "hours": {
+    "mon": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "06:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00061.html",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tokyo-haneda.com/text/shop_and_dine/detail/tenant_00061.html",
+    "https://www.the-royalpark.jp/the/tokyohaneda/restaurant/"
+   ],
+   "why": "Hotel-run restaurant on the departures lobby: breakfast buffet 6-10, lunch, dinner to 23:00.",
+   "notes": "3F departures lobby, landside. Last order 22:00. Menu switches by time of day. Coordinates = 3F lobby approx.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "haneda-hanayama-udon",
+   "name": "Hanayama Udon (Haneda Airport Garden)",
+   "jp": "花山うどん",
+   "lat": 35.544162,
+   "lng": 139.765115,
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 508,
+    "url": "https://tabelog.com/en/tokyo/A1315/A131504/13278423/",
+    "award": null
+   },
+   "address": "東京都大田区羽田空港2-7-1 羽田エアポートガーデン 1F",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "~2,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in; queues at lunch",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1315/A131504/13278423/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1315/A131504/13278423/",
+    "https://www.hanayamaudon.co.jp/haneda/"
+   ],
+   "why": "Gunma-style wide udon with tempura; Tabelog 3.57, highest-rated udon around T3.",
+   "notes": "Haneda Airport Garden 1F, directly linked to T3 by walkway. Last order food lunch 15:00, dinner 21:30. Closed mid-afternoon.",
+   "near": [
+    "haneda_t3"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-tomita-mentan",
+   "name": "Matsudo Tomita Mentan (tsukemen, Tomita direct shop)",
+   "jp": "松戸富田麺旦",
+   "lat": 35.763763,
+   "lng": 140.383735,
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 636,
+    "url": "https://tabelog.com/en/chiba/A1204/A120403/12058569/",
+    "award": null
+   },
+   "address": "千葉県成田市三里塚御料牧場1-1 成田空港第1旅客ターミナルビル 4F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "~1,000-1,200 yen",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; queues around meal times",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1nc4f_tomita/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120403/12058569/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1nc4f_tomita/"
+   ],
+   "why": "Airport branch of Chiba's famed Chuka Soba Tomita; thick seafood-pork tsukemen, Tabelog 3.57 from ~600 reviews.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F. Last order 20:30. Ticket machine.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "narita-ichikakuya",
+   "name": "Ichikakuya (Yokohama iekei ramen)",
+   "jp": "横浜家系ラーメン 壱角家",
+   "lat": 35.76411,
+   "lng": 140.383545,
+   "tabelog": {
+    "score": 3.29,
+    "reviews": 73,
+    "url": "https://tabelog.com/en/chiba/A1204/A120403/12056194/",
+    "award": null
+   },
+   "address": "千葉県成田市三里塚字御料牧場1-1 成田国際空港 第一ターミナル中央ビル新館 5F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_ichikakuya_91/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120403/12056194/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_ichikakuya_91/"
+   ],
+   "why": "Pork-bone shoyu iekei ramen with free rice; plane-spotting seats on 5F. Tabelog 3.29.",
+   "notes": "Landside (before security) - available while waiting for check-in. 5F. Official site lists last order 20:00, Tabelog 20:30 (closes 21:00); used 20:30.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-mugimaru-udon",
+   "name": "Kineya Mugimaru (self-service udon)",
+   "jp": "自家製麺 杵屋麦丸",
+   "lat": 35.763972,
+   "lng": 140.383265,
+   "tabelog": {
+    "score": 3.25,
+    "reviews": 195,
+    "url": "https://tabelog.com/en/chiba/A1204/A120401/12003465/",
+    "award": null
+   },
+   "address": "千葉県成田市古込1 新東京国際空港　第１ターミナル　５Ｆ",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_t00003/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120401/12003465/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_t00003/"
+   ],
+   "why": "Fresh-made udon with tempura and onigiri, kitchen halal-certified; kake udon from about 540 yen. Tabelog 3.25.",
+   "notes": "Landside (before security) - available while waiting for check-in. 5F, plane-viewing seats, self-service. Last order 20:30 (Tabelog lists 21:00).",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "narita-keisei-yuzen",
+   "name": "Keisei Yuzen (Japanese teishoku)",
+   "jp": "京成友膳",
+   "lat": 35.763887,
+   "lng": 140.384644,
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 201,
+    "url": "https://tabelog.com/en/chiba/A1204/A120401/12001209/",
+    "award": null
+   },
+   "address": "千葉県成田市古込1 新東京国際空港　第１ターミナル　４Ｆ",
+   "cat": "kaiseki-teishoku",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "recommended",
+   "res_note": "Reservations accepted",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t00008/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120401/12001209/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t00008/"
+   ],
+   "why": "Family-style set-meal restaurant: sashimi and tempura gozen, grilled fish sets; Tabelog 3.44, multilingual menu.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F. Last order 20:30. Baby chairs, groups OK.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "narita-ippudo",
+   "name": "IPPUDO Narita Airport (airside)",
+   "jp": "一風堂",
+   "lat": 35.763602,
+   "lng": 140.385935,
+   "tabelog": {
+    "score": 3.34,
+    "reviews": 138,
+    "url": "https://tabelog.com/en/chiba/A1204/A120401/12044770/",
+    "award": null
+   },
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル3F 出国手続き後エリア",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "~1,000-2,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1_ippudou/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120401/12044770/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1_ippudou/"
+   ],
+   "why": "Hakata tonkotsu ramen chain outlet airside on the central building 3F; Tabelog 3.34.",
+   "notes": "AIRSIDE 3F (after security/immigration). Air China check-in is T1 South Wing 4F, so eat landside first if you want to, then go through. Central building 3F. Last order 20:30.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "narita-tatsu-craft-beer",
+   "name": "TATSU Japanese Grill and Craft Beer (airside)",
+   "jp": "JAPANESE GRILL & CRAFT BEER TATSU",
+   "lat": 35.763692,
+   "lng": 140.384032,
+   "tabelog": {
+    "score": 3.27,
+    "reviews": 73,
+    "url": "https://tabelog.com/en/chiba/A1204/A120401/12043388/",
+    "award": null
+   },
+   "address": "千葉県成田市三里塚字御料牧場1-1 第1ターミナル中央ビル 3F",
+   "cat": "bar",
+   "price": 2,
+   "price_note": "~1,000-1,999 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb03_t0000d/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/chiba/A1204/A120401/12043388/",
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb03_t0000d/"
+   ],
+   "why": "Craft beer bar with grilled dishes and udon airside; Tabelog 3.27. Good for a last beer before boarding.",
+   "notes": "AIRSIDE 3F (after security/immigration). Air China check-in is T1 South Wing 4F, so eat landside first if you want to, then go through. Hours conflict: narita-airport.jp says 07:30-20:30 LO, Tabelog says 08:00-19:00 (LO 18:30). Used the shorter one.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-yanma-yakisuki",
+   "name": "Nikuryori Yakisuki Yanma (yakisuki wagyu)",
+   "jp": "肉料理 やきすき やんま",
+   "lat": 35.7639,
+   "lng": 140.384,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル4F",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "~3-8k yen",
+   "reservation": "recommended",
+   "res_note": "Reservations accepted (see yanma.info)",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t000ft/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t000ft/",
+    "http://yanma.info/"
+   ],
+   "why": "Wagyu and Matsusaka beef cooked sukiyaki-style on an iron plate at the table; Wagyu shoulder ~2,800, Matsusaka sirloin ~8,000.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F, plane-view seats, power outlets. Last order 19:30 - tight if you must clear check-in by 19:00. No Tabelog rating checked. Coordinates = 4F centroid.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-misaki-kaiten-sushi",
+   "name": "Kaiten Sushi Misaki (conveyor sushi)",
+   "jp": "回転寿司みさき",
+   "lat": 35.764,
+   "lng": 140.38355,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル5F",
+   "cat": "sushi",
+   "price": 2,
+   "price_note": "~1,500-3,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_t00004/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb05_t00004/",
+    "https://www.narita-airport.jp/en/shop/shop-search/t1cb05_t00004/"
+   ],
+   "why": "Conveyor sushi from 176 yen a plate, with Toyosu-sourced neta; vegetarian kappa roll available.",
+   "notes": "Landside (before security) - available while waiting for check-in. 5F, plane viewing. Last order 20:30. Operator listing only (narita-airport.jp JA+EN); Tabelog 3.08 per search snippet, not opened. Coordinates = 5F centroid.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-saboten",
+   "name": "Tonkatsu Shinjuku Saboten",
+   "jp": "とんかつ新宿さぼてん",
+   "lat": 35.7639,
+   "lng": 140.384,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル4F",
+   "cat": "tonkatsu-fry",
+   "price": 2,
+   "price_note": "~1,500-2,500 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t000fv/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t000fv/",
+    "https://www.narita-airport.jp/en/shop/shop-search/t1cb04_t000fv/"
+   ],
+   "why": "Tonkatsu chain set meals, with kenbi-ton pork and cabbage refills; plane-view seats.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F. Weekends and holidays from 10:00. Last order 20:30. Operator listing only; Tabelog 3.07 per search snippet, not opened. Coordinates = 4F centroid.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "minor"
+  },
+  {
+   "id": "narita-kawatoyo",
+   "name": "Kawatoyo Narita Airport (unagi)",
+   "jp": "川豊 成田空港店",
+   "lat": 35.7639,
+   "lng": 140.384,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル4F",
+   "cat": "unagi-tempura",
+   "price": 3,
+   "price_note": "~4,500-6,300 yen",
+   "reservation": "none",
+   "res_note": "Walk-in (main shop in town queues; airport branch usually shorter)",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1nc4f_kwty/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1nc4f_kwty/",
+    "https://www.narita-airport.jp/en/shop/shop-search/t1nc4f_kwty/"
+   ],
+   "why": "Airport branch of Narita's old eel house (founded 1910): unaju take ~4,500 yen, white-grilled eel ~4,650. Narita is eel country.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F. Last order 20:30. Operator listing only; no Tabelog page opened. Coordinates = 4F centroid.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-mitsumoto-tei",
+   "name": "Mitsumoto-tei (yoshoku, airside)",
+   "jp": "三本亭",
+   "lat": 35.7636,
+   "lng": 140.38593,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル3F 出国後",
+   "cat": "western-yoshoku",
+   "price": 2,
+   "price_note": "~1,200-2,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1_mitsumoto/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1_mitsumoto/",
+    "https://www.narita-airport.jp/en/shop/shop-search/t1_mitsumoto/"
+   ],
+   "why": "Japanese-style Western food (curry, omurice, hamburg) airside on central building 3F.",
+   "notes": "AIRSIDE 3F (after security/immigration). Air China check-in is T1 South Wing 4F, so eat landside first if you want to, then go through. Last order 20:30. Operator listing only. Coordinates = airside 3F central.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "narita-mcdonalds-4f",
+   "name": "McDonald's Terminal 1 4F",
+   "jp": "マクドナルド 成田空港第1ターミナル4F店",
+   "lat": 35.7639,
+   "lng": 140.384,
+   "tabelog": null,
+   "address": "千葉県成田市成田国際空港 第1ターミナル 中央ビル4F",
+   "cat": "other",
+   "price": 1,
+   "price_note": "under 1,000 yen",
+   "reservation": "none",
+   "res_note": "Walk-in",
+   "hours": {
+    "mon": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "06:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t0001d/",
+   "hours_checked": "2026-10-23",
+   "other_ratings": {},
+   "sources": [
+    "https://www.narita-airport.jp/ja/shop/shop-search/t1cb04_t0001d/",
+    "https://www.narita-airport.jp/en/shop/shop-search/t1cb04_t0001d/"
+   ],
+   "why": "Cheap, fast landside fallback from 06:30; takeaway possible.",
+   "notes": "Landside (before security) - available while waiting for check-in. 4F. Last order 21:30. Operator listing only. Coordinates = 4F centroid.",
+   "near": [
+    "narita_t1"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  }
+ ]
+}

@@ -1,0 +1,6889 @@
+{
+ "anchors": [
+  {
+   "id": "shimokitazawa",
+   "name": "Shimokitazawa Station",
+   "jp": "下北沢駅",
+   "lat": 35.661528,
+   "lng": 139.667361,
+   "note": "Tue 17 Nov 10:30 onwards; Odakyu/Keio Inokashira; coords from ja.wikipedia"
+  },
+  {
+   "id": "nakameguro",
+   "name": "Naka-Meguro Station",
+   "jp": "中目黒駅",
+   "lat": 35.644306,
+   "lng": 139.699187,
+   "note": "Tue 17 Nov 14:30 onwards plus dinner/drinks; Meguro River, Daikanyama side; coords from en.wikipedia"
+  }
+ ],
+ "venues": [
+  {
+   "id": "shimo-kalpasi",
+   "name": "Curry Spice Gelateria KALPASI",
+   "jp": "Curry Spice Gelateria KALPASI",
+   "lat": 35.660917,
+   "lng": 139.668101,
+   "address": "東京都世田谷区北沢2-12-2 サウスウェーブ下北沢 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; queue at peak lunch.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13247887/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.83,
+    "reviews": 2134,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13247887/",
+    "award": "Tabelog Curry TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13247887/",
+    "https://retty.me/restaurant/100001545820/"
+   ],
+   "why": "Spice curry plus gelato at a 12-seat counter; Tabelog Curry 100. Order the aigake (two curries).",
+   "notes": "Cash only. Closed Thu. Last order 20:00. Counter seats only, so a group of 4 should split or wait.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-kyu-yamutei",
+   "name": "Kyu Yamu Tei Shimokita sou",
+   "jp": "旧ヤム邸  シモキタ荘",
+   "lat": 35.658428,
+   "lng": 139.667073,
+   "address": "東京都世田谷区代沢5-29-9 ナイスビル 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13211142/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.81,
+    "reviews": 2288,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13211142/",
+    "award": "Tabelog Curry TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13211142/",
+    "https://retty.me/restaurant/100001351998/",
+    "https://rurubu.jp/andmore/spot/80114387"
+   ],
+   "why": "Osaka spice-curry shop in a renovated old house; keema curry with soup to pour over at the end. Tabelog Curry 100.",
+   "notes": "Tuesday is lunch only. 12 seats. Often queues at weekends.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-men-to-mirai",
+   "name": "Junteuchi Men to Mirai",
+   "jp": "純手打ち 麺と未来",
+   "lat": 35.663568,
+   "lng": 139.668651,
+   "address": "東京都世田谷区北沢3-25-1 シャトルヒエイ1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,500",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "17:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13221486/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 2072,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13221486/",
+    "award": "Tabelog Ramen TOKYO \"Tabelog 100\" 2020"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13221486/",
+    "https://retty.me/restaurant/100001417892/"
+   ],
+   "why": "Thick hand-cut noodles made in-house each morning, salt or soy; Tabelog Ramen 100 (2020).",
+   "notes": "7 counter seats, ticket machine, cash only. Sat/Sun/holidays 11:30-17:00 until sold out.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-kotetsu",
+   "name": "Chuka Soba Kotetsu",
+   "jp": "中華そば こてつ",
+   "lat": 35.664629,
+   "lng": 139.666343,
+   "address": "東京都世田谷区北沢2-39-13",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13198320/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 1022,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13198320/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13198320/",
+    "https://retty.me/restaurant/100001291523/"
+   ],
+   "why": "Old-style shoyu chuka soba at an 8-seat counter; Tabelog 3.73 from 1,000+ reviews. Closed Tuesday.",
+   "notes": "Counter only, cash only. Last order 14:50 / 20:50.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-pannya",
+   "name": "Pannya CAFE CURRY",
+   "jp": "般゜若 PANNYA CAFE CURRY",
+   "lat": 35.663034,
+   "lng": 139.668836,
+   "address": "東京都世田谷区北沢2-33-6 スズキビル1Ｆ",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "16:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "16:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13215255/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 1502,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13215255/",
+    "award": "Tabelog Curry TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13215255/",
+    "https://retty.me/restaurant/100001387516/"
+   ],
+   "why": "Cafe-style Japanese-Indian curry with changing daily plates; Tabelog Curry 100.",
+   "notes": "Closed Wed (may open on holidays). Mon/Tue lunch only. Cash only.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-trois-chambres",
+   "name": "Café Trois Chambres",
+   "jp": "トロワ・シャンブル",
+   "lat": 35.659255,
+   "lng": 139.667357,
+   "address": "東京都世田谷区代沢5-36-14 湯浅ビル 2F",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:30",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13013091/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 855,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13013091/",
+    "award": "Tabelog Kissaten \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/",
+    "https://retty.me/restaurant/100000015194/"
+   ],
+   "why": "Long-running Shimokitazawa kissaten, 32 seats, Tabelog Kissaten 100. Toast and cake with coffee.",
+   "notes": "Cash only. Smoking allowed. Retty lists a later closing time; Tabelog shows 20:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-naochan-ramen",
+   "name": "Naochan Ramen",
+   "jp": "なおちゃんラーメン",
+   "lat": 35.66106,
+   "lng": 139.667789,
+   "address": "東京都世田谷区北沢2-12-7",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13269168/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 581,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13269168/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13269168/",
+    "https://retty.me/restaurant/100001294723/",
+    "https://san-tatsu.jp/spots/267595/"
+   ],
+   "why": "12-seat counter ramen shop near the station, open all day until the soup runs out.",
+   "notes": "Soup can sell out early. Other sites differ on closing days; Tabelog says not fixed.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-tori-soba-salt",
+   "name": "Tori Soba Salt",
+   "jp": "鶏そば そると",
+   "lat": 35.659279,
+   "lng": 139.667247,
+   "address": "東京都世田谷区代沢5-36-13 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "25:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13153756/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 1126,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13153756/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13153756/",
+    "https://san-tatsu.jp/spots/256583/"
+   ],
+   "why": "Salt chicken-broth ramen, open until 01:00 daily, so a good late bowl. 14 seats.",
+   "notes": "Cash only. Closes early if sold out.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-acquolina",
+   "name": "GELATERIA ACQUOLINA",
+   "jp": "ジェラテリア アクオリーナ",
+   "lat": 35.638016,
+   "lng": 139.691051,
+   "address": "東京都目黒区五本木1-11-10",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [],
+    "wed": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13141364/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.86,
+    "reviews": 1785,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13141364/",
+    "award": "Tabelog Ice cream gelato \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13141364/",
+    "https://retty.me/restaurant/100000453446/"
+   ],
+   "why": "Small gelateria near Yutenji, Tabelog Ice cream 100; seasonal flavours, 8 seats.",
+   "notes": "Closed Mon/Tue. Opens 13:00. Retty lists later weekday closing than Tabelog.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-kushi-wakamaro",
+   "name": "Kushi Wakamaro Honten",
+   "jp": "串若丸 本店",
+   "lat": 35.645358,
+   "lng": 139.698287,
+   "address": "東京都目黒区上目黒1-19-2",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "dinner average JPY 3,000-3,999 (Tabelog); reviewers JPY 6,000-7,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13003193/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 781,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003193/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13003193/",
+    "https://retty.me/restaurant/100000012622/"
+   ],
+   "why": "Neighbourhood yakitori and kushiyaki bar 2 min from the station, open until 23:00.",
+   "notes": "Retty shows closing 24:00; Tabelog 23:00 used.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "naka-yakitori-suehirogari",
+   "name": "Yakitori Suehiro Gari",
+   "jp": "焼鳥スエヒロガリ",
+   "lat": 35.643414,
+   "lng": 139.697784,
+   "address": "東京都目黒区上目黒3-6-4",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "¥4,000-4,999",
+   "reservation": "required",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13180172/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 574,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13180172/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13180172/",
+    "https://retty.me/restaurant/100001222196/"
+   ],
+   "why": "Counter yakitori, 14 seats, popular yakitori shop on Retty.",
+   "notes": "L.O. 23:00. Fully reservation-only, two seatings. Sunday open; irregular closures (不定休). Hours per official site; Tabelog shows 13:00-23:30 - verify.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "naka-kitchen-panchi",
+   "name": "Kitchen Pan Chi",
+   "jp": "キッチン パンチ",
+   "lat": 35.642795,
+   "lng": 139.699138,
+   "address": "東京都目黒区上目黒2-7-10",
+   "cat": "western-yoshoku",
+   "price": 1,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13018284/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 1148,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13018284/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13018284/",
+    "https://retty.me/restaurant/100000038168/"
+   ],
+   "why": "Tiny yoshoku diner: omurice with beef tongue, hamburg steak. Write your name on the list outside.",
+   "notes": "Closed Sun/Mon/holidays. Cash only. Lunch and early dinner only.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-dashin-soan",
+   "name": "Dashin Soan",
+   "jp": "打心蕎庵",
+   "lat": 35.655843,
+   "lng": 139.668702,
+   "address": "東京都世田谷区代沢3-7-14",
+   "cat": "soba-udon",
+   "price": 3,
+   "price_note": "lunch ¥3-4k / dinner ¥8k+ with drinks",
+   "reservation": "recommended",
+   "res_note": "Tabelog net reservation available.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13028732/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.7,
+    "reviews": 1091,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13028732/",
+    "award": "Tabelog Soba (Buckwheat noodles) EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13028732/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/dashinsoan",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine"
+   ],
+   "why": "Hand-made soba in a big house 9 min from the station; 3.70 from 1,000+ Tabelog reviews, also Tabelog Soba 100.",
+   "notes": "Closed Tue. 50 seats. Sources disagree on a mid-afternoon break; Tabelog shows 11:30-21:30 straight.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-curry-no-mise-hachigatsu",
+   "name": "Curry no Mise Hachigatsu",
+   "jp": "カレーの店 八月",
+   "lat": 35.659469,
+   "lng": 139.667631,
+   "address": "東京都世田谷区北沢2-14-19",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13246576/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.69,
+    "reviews": 795,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13246576/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13246576/",
+    "https://r.gnavi.co.jp/fddy5yse0000/"
+   ],
+   "why": "Small curry shop, 9 seats, around 800 Tabelog reviews; steady local queue.",
+   "notes": "Cash only. Gurunavi lists shorter hours (to 20:30); Tabelog used.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-nasu-oyaji",
+   "name": "Nasu Oyaji",
+   "jp": "茄子おやじ",
+   "lat": 35.65928,
+   "lng": 139.66688,
+   "address": "東京都世田谷区代沢5-36-8 アルファビル 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13001385/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.65,
+    "reviews": 1144,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13001385/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13001385/",
+    "https://san-tatsu.jp/spots/151987/",
+    "https://macaro-ni.jp/18580?page=4"
+   ],
+   "why": "Long-running old-style curry rice shop, 3.65 from 1,100+ reviews; macaro-ni scores it 4.2.",
+   "notes": "Cash only. Other sites list 12:00 open; Tabelog 11:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-mixture-bakery",
+   "name": "Mixture",
+   "jp": "ミクスチャー",
+   "lat": 35.664724,
+   "lng": 139.666323,
+   "address": "東京都世田谷区北沢3-31-5",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13024853/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.63,
+    "reviews": 477,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13024853/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13024853/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/cafe-kissaten",
+    "https://tabelog.com/matome/15727/"
+   ],
+   "why": "Bakery cafe opening 07:30 daily, one of the few early Shimokitazawa breakfasts: bread set with egg and drink.",
+   "notes": "Morning set around ¥600-700. Last order 19:30. Irregular closures.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shimo-ponipirika",
+   "name": "Ponipirika",
+   "jp": "ポニピリカ",
+   "lat": 35.662491,
+   "lng": 139.669437,
+   "address": "東京都世田谷区北沢2-8-8 赤煉瓦ビル 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13164953/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 944,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13164953/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13164953/",
+    "https://san-tatsu.jp/spots/143078/"
+   ],
+   "why": "Hokkaido-style soup curry on the 2nd floor near the station; 3.60 from 944 reviews.",
+   "notes": "Hours differ by site; Tabelog 11:00-21:30. Irregular closures.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-202-curry-do",
+   "name": "202 Curry Do",
+   "jp": "202カリー堂",
+   "lat": 35.661421,
+   "lng": 139.665698,
+   "address": "東京都世田谷区代田5-34-21 ハイランド 2F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13266529/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 886,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13266529/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13266529/",
+    "https://san-tatsu.jp/spots/153949/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/cafe-kissaten"
+   ],
+   "why": "Soup-curry and cafe near the station, open 10:00 to 20:00 per Tabelog.",
+   "notes": "Other sources say 9:00 open and Wednesday closed; Tabelog says daily 10:00-20:00. Check before going.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-nanbantei",
+   "name": "Nanban Tei Shimokitazawa ten",
+   "jp": "なんばん亭 下北沢店",
+   "lat": 35.660758,
+   "lng": 139.667909,
+   "address": "東京都世田谷区北沢2-12-3 石川ビル 2F",
+   "cat": "okonomiyaki-monja",
+   "price": 3,
+   "price_note": "lunch ¥2-3k / dinner ¥3-4k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13037445/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 731,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13037445/",
+    "award": "Tabelog Okonomiyaki \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13037445/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine"
+   ],
+   "why": "Cube-shaped okonomiyaki and teppan izakaya 2 min from the station; Tabelog Okonomiyaki 100 (2025).",
+   "notes": "Weekday dinner only from 17:00; weekends from 11:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-akari",
+   "name": "Tori to Sakana to Sumibiyaki Akari",
+   "jp": "鶏と魚と炭火焼き 燈",
+   "lat": 35.660382,
+   "lng": 139.667582,
+   "address": "東京都世田谷区北沢2-13-4 第2伊奈ビル 1F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "¥5,000-5,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "14:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "14:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13237179/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 634,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13237179/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13237179/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine"
+   ],
+   "why": "Charcoal-grilled chicken and fish izakaya, wood interior, 53 seats; open to midnight.",
+   "notes": "Hours match Hamoni (Mon-Fri 16:00, Sat 14:00). Irregular closures.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-curry-no-wakusei",
+   "name": "Curry no Wakusei",
+   "jp": "カレーの惑星",
+   "lat": 35.663208,
+   "lng": 139.669045,
+   "address": "東京都世田谷区北沢2-33-11 SY-Iビル 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13296119/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 421,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13296119/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13296119/",
+    "https://dime.jp/genre/849676/"
+   ],
+   "why": "Spice curry near Kitazawa, Tabelog 3.59 from 420 reviews; Time Out Tokyo and Dime list it.",
+   "notes": "Other sites list 19:30-20:00 closing; Tabelog L.O. 20:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-rakumi",
+   "name": "Rakumi",
+   "jp": "うまいもの 楽味",
+   "lat": 35.661073,
+   "lng": 139.668,
+   "address": "東京都世田谷区北沢2-12-11 島田ビル B1F",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "¥6,000-7,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13007052/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 130,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13007052/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13007052/",
+    "https://retty.me/theme/101008300/"
+   ],
+   "why": "Seasonal fish and vegetable Japanese izakaya about 1 min from the station; steady local trade.",
+   "notes": "Closed Mondays and the 1st and 3rd Sundays of each month (15 Nov 2026 closed). L.O. food 22:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shimo-ten-to-sen",
+   "name": "Spice Ramen Ten to Sen. Shimokitazawa ten",
+   "jp": "スパイスラーメン 点と線. 下北沢店",
+   "lat": 35.664809,
+   "lng": 139.666104,
+   "address": "東京都世田谷区北沢3-34-2",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13275868/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 376,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13275868/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13275868/",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/spice-ramen-tentosen"
+   ],
+   "why": "Spice ramen with burdock and roast pork, Time Out Tokyo pick; 13 seats.",
+   "notes": "Weekday split 15:00-17:00 break.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-cosmos-soup-curry",
+   "name": "Mutenka Yakuzen Soup Curry COSMOS",
+   "jp": "無添加薬膳スープカレー COSMOS",
+   "lat": 35.659247,
+   "lng": 139.667625,
+   "address": "東京都世田谷区北沢2-1-8 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13219569/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 411,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13219569/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13219569/",
+    "https://macaro-ni.jp/29521?page=2"
+   ],
+   "why": "Additive-free medicinal-herb soup curry, 30 seats, noon to 23:00.",
+   "notes": "Tabelog L.O. 22:30. Other sites list closing 23:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-nishinba",
+   "name": "Nishinba",
+   "jp": "にしんば",
+   "lat": 35.662319,
+   "lng": 139.669225,
+   "address": "東京都世田谷区北沢2-9-20",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "¥3,000-3,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [],
+    "fri": [
+     [
+      "16:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "14:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "14:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13007298/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 406,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13007298/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13007298/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine"
+   ],
+   "why": "Long-running local sake and seafood izakaya, 40 seats; weekends from 14:00.",
+   "notes": "Tabelog: 2 to 4 closed days a month between Mon and Thu, so Wed/Thu treated as closed here.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-rokkaku",
+   "name": "Shimokita Rokkaku",
+   "jp": "下北六角",
+   "lat": 35.661315,
+   "lng": 139.668247,
+   "address": "東京都世田谷区北沢2-11-15 ミカン下北 A街区 205",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "lunch ¥1-2k / dinner ¥4-5k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13269450/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 758,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13269450/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13269450/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine",
+    "https://retty.me/theme/101008300/"
+   ],
+   "why": "Fish izakaya by the station with a cheap lunch; open year round.",
+   "notes": "Lunch no reservations; dinner L.O. 22:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-gen-soba-roan",
+   "name": "Gen Soba Roan",
+   "jp": "玄蕎麦 路庵",
+   "lat": 35.658415,
+   "lng": 139.668353,
+   "address": "東京都世田谷区代沢2-28-9",
+   "cat": "soba-udon",
+   "price": 2,
+   "price_note": "lunch ¥1-2k / dinner ¥2-3k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "21:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13175265/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 265,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13175265/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13175265/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/washoku-japanese-cuisine"
+   ],
+   "why": "Soba and tempura, 17 seats, closed Sun/Mon.",
+   "notes": "Open until sold out.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-ogawa-coffee-lab",
+   "name": "OGAWA COFFEE LABORATORY Shimokitazawa",
+   "jp": "OGAWA COFFEE LABORATORY 下北沢",
+   "lat": 35.663348,
+   "lng": 139.669874,
+   "address": "東京都世田谷区北沢3-19-20 reload 1-1",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13260375/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 266,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13260375/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13260375/",
+    "https://hamoni.jp/area/tokyo/setagaya/shimokitazawa/list/cafe-kissaten"
+   ],
+   "why": "Kyoto-roaster coffee stand and tasting counter, 11 seats, from 09:00 daily.",
+   "notes": "Last order 19:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-bear-pond",
+   "name": "BEAR POND ESPRESSO",
+   "jp": "ベアポンド エスプレッソ",
+   "lat": 35.663991,
+   "lng": 139.667908,
+   "address": "東京都世田谷区北沢2-36-12 １Ｆ",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "17:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13093829/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 289,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13093829/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13093829/",
+    "https://www.lifehacker.jp/article/130301bearpond02/"
+   ],
+   "why": "NY-style espresso bar in a former sweet shop; often full, takeaway common.",
+   "notes": "Cash only. Opens 11:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-ramen-kashira",
+   "name": "Ramen Kashira",
+   "jp": "らーめん 頭",
+   "lat": 35.66088,
+   "lng": 139.667678,
+   "address": "東京都世田谷区北沢2-12-6 福田ビル　１Ｆ",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13045855/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.29,
+    "reviews": 207,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13045855/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13045855/",
+    "https://r.gnavi.co.jp/f2r2k85u0000/"
+   ],
+   "why": "Kurume-style tonkotsu ramen open until 06:00 (07:00 Fri/Sat; capped to 30:00 in data); local late-night regular. Score is modest.",
+   "notes": "Cash only. Lower Tabelog score (3.29) but one of few real after-midnight options.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-mintei",
+   "name": "Mintei",
+   "jp": "珉亭",
+   "lat": 35.662506,
+   "lng": 139.66946,
+   "address": "東京都世田谷区北沢2-8-8",
+   "cat": "other",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations; queues at lunch.",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13001826/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 2090,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13001826/",
+    "award": "Tabelog Chinese TOKYO \"Tabelog 100\" 2023"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13001826/",
+    "https://macaro-ni.jp/76283",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20171028/133469.html"
+   ],
+   "why": "Showa-era Chinese diner (gyoza, ramen), Tabelog Chinese 100 (2023), 2,000+ reviews.",
+   "notes": "Closed Mon. Cash only. Earlier TV listing gave later closing; Tabelog 20:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-kissa-hitofusa",
+   "name": "Kissa Hitofusa",
+   "jp": "喫茶 一房",
+   "lat": 35.66031,
+   "lng": 139.666499,
+   "address": "東京都世田谷区北沢2-21-26 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "13:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13283909/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.57,
+    "reviews": 172,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13283909/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13283909/",
+    "https://www.nap-camp.com/mag/53439"
+   ],
+   "why": "Daytime kissaten run by a snack bar, fruit sandwich and coffee, 7 counter seats.",
+   "notes": "Opens 13:00. Closed Tue. Cash only.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-seirinkan",
+   "name": "Seirinkan",
+   "jp": "聖林館",
+   "lat": 35.642886,
+   "lng": 139.699048,
+   "address": "東京都目黒区上目黒2-6-4",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "¥4,000-4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:00"
+     ],
+     [
+      "18:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13003188/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.73,
+    "reviews": 2994,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003188/",
+    "award": "Tabelog Pizza \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13003188/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/seirinkan",
+    "https://retty.me/theme/200278918/"
+   ],
+   "why": "Pioneering Nakameguro pizzeria, 3.73 from ~3,000 reviews; Tabelog Pizza 100 (2025).",
+   "notes": "Marinara-style pizzas, limited menu. Sells out; closing times vary by source.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-ramen-break-beats",
+   "name": "Ramen Break Beats",
+   "jp": "Ramen Break Beats",
+   "lat": 35.633524,
+   "lng": 139.698777,
+   "address": "東京都目黒区目黒4-21-19 アイビーハイツ 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "required",
+   "res_note": "Reservation/slot system per Tabelog; see official social media.",
+   "hours": {
+    "mon": [],
+    "tue": [],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13267329/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.84,
+    "reviews": 1542,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13267329/",
+    "award": "Tabelog Ramen TOKYO \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13267329/",
+    "https://hitosara.com/0033000226/",
+    "https://san-tatsu.jp/spots/170397/"
+   ],
+   "why": "Famed ramen shop (Tabelog Ramen 100), 8 seats, near Yutenji; booking system.",
+   "notes": "Sources conflict on hours/booking; Tabelog Wed-Sat 11:30-15:00. Check Instagram/X.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-cacao-et-paris",
+   "name": "Patisserie Cacao et Paris",
+   "jp": "パティスリー カカオエット・パリ",
+   "lat": 35.647004,
+   "lng": 139.694262,
+   "address": "東京都目黒区東山1-9-6",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13039525/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.77,
+    "reviews": 931,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13039525/",
+    "award": "Tabelog Sweets TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13039525/",
+    "https://www.hotpepper.jp/strJ000951314/"
+   ],
+   "why": "Patisserie in Tabelog Sweets 100 (2026), 3 eat-in seats; mostly takeaway cakes.",
+   "notes": "Closed Tue/Wed. Other sites differ on days.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-johann",
+   "name": "JOHANN Honten",
+   "jp": "ヨハン 本店",
+   "lat": 35.645784,
+   "lng": 139.698572,
+   "address": "東京都目黒区上目黒1-18-15",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "18:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13003450/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1073,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003450/",
+    "award": "Tabelog Sweets TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13003450/",
+    "https://macaro-ni.jp/56430"
+   ],
+   "why": "Cheesecake-only shop since 1978 near the Meguro River; Tabelog Sweets 100.",
+   "notes": "Takeaway only. Oct-Mar closes 18:00 per Tabelog.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-kunsei-apartment",
+   "name": "nakameguro Kunsei apartment",
+   "jp": "nakameguro 燻製 apartment",
+   "lat": 35.644592,
+   "lng": 139.702309,
+   "address": "東京都目黒区中目黒1-1-52",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "¥5,000-5,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sat": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ],
+    "sun": [
+     [
+      "17:00",
+      "23:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13146060/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.5,
+    "reviews": 941,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13146060/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13146060/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/ナカメグロ燻製アパートメント-nakameguro-燻製-apartment"
+   ],
+   "why": "Homemade smoked dishes in a house-style dining room, 50 seats.",
+   "notes": "Time Out lists to 25:00; Tabelog L.O. 23:00 close 23:30 used.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "naka-cafe-facon",
+   "name": "CAFÉ FAÇON Nakameguro honten",
+   "jp": "カフェ ファソン 中目黒本店",
+   "lat": 35.644713,
+   "lng": 139.697974,
+   "address": "東京都目黒区上目黒3-8-3 千陽中目黒ビル・アネックス 3F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13056736/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 1523,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13056736/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13056736/",
+    "https://coffee-labo.co.jp/?p=11313"
+   ],
+   "why": "Station-side cafe, Tabelog Cafe 100 (2025); morning menu on weekdays.",
+   "notes": "Last order 21:30. Weekday morning set until noon per macaro-ni.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-trasparente",
+   "name": "TRASPARENTE Nakameguro ten",
+   "jp": "トラスパレンテ 中目黒店",
+   "lat": 35.642608,
+   "lng": 139.698473,
+   "address": "東京都目黒区上目黒2-12-11 1F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "17:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13187231/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.76,
+    "reviews": 1236,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13187231/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13187231/",
+    "https://rurubu.jp/andmore/spot/80126760",
+    "https://san-tatsu.jp/spots/140610/"
+   ],
+   "why": "Bakery cafe, Tabelog Bread 100 (2026), 16 seats; opens 09:00.",
+   "notes": "Tue closes 17:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "naka-nakame-no-teppen",
+   "name": "Nakame no Teppen Honten",
+   "jp": "なかめのてっぺん 本店",
+   "lat": 35.644097,
+   "lng": 139.697716,
+   "address": "東京都目黒区上目黒3-9-5 プラージュメグロ　１Ｆ",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "¥4,000-4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "tue": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "wed": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "thu": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "fri": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ],
+    "sun": [
+     [
+      "18:00",
+      "29:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13031351/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 923,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13031351/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13031351/",
+    "https://hamoni.jp/shop/rHG7mTECgKHeW0HZH9H0",
+    "https://hitosara.com/0010002863/"
+   ],
+   "why": "Irori-grill izakaya with fish from Toyosu, open 18:00 to 05:00 daily; very late option.",
+   "notes": "Last food order 04:00. Tabelog score 3.46 with 900+ reviews.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-oniyanma",
+   "name": "Oniyanma Nakameguro ten",
+   "jp": "おにやんま 中目黒店",
+   "lat": 35.644642,
+   "lng": 139.698496,
+   "address": "東京都目黒区上目黒3-3-1 1F",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "07:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13199054/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.62,
+    "reviews": 1936,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13199054/",
+    "award": "Tabelog Udon (Wheat noodles) EAST \"Tabelog 100\" 2024"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13199054/",
+    "https://hamoni.jp/area/tokyo/meguro/shops/udon",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/washoku-japanese-cuisine"
+   ],
+   "why": "Counter-only udon opening 07:00, ticket machine at the door; a rare real breakfast near the station. Tabelog Udon 100.",
+   "notes": "12 counter seats. Tabelog 07:00-22:30; Hamoni 07:00-23:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-jazzy-beats",
+   "name": "Ramen Jazzy Beats",
+   "jp": "Ramen Jazzy Beats",
+   "lat": 35.642784,
+   "lng": 139.697256,
+   "address": "東京都目黒区上目黒3-5-25",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13299883/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 1040,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13299883/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13299883/",
+    "https://www.timeout.com/tokyo/restaurants/ramen-jazzy-beats",
+    "https://hamoni.jp/en/area/tokyo/meguro/nakameguro/shops/chinese"
+   ],
+   "why": "Clear shoyu and salt ramen under the Toyoko tracks, 9 counter seats, 3.68 from 1,000+ reviews.",
+   "notes": "Open year-round. Time Out lists dinner to 22:00; Tabelog 17:30-22:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-menya-mikan",
+   "name": "Menya Mikan",
+   "jp": "麺や みかん",
+   "lat": 35.641354,
+   "lng": 139.697458,
+   "address": "東京都目黒区上目黒2-18-9",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13295731/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.72,
+    "reviews": 1046,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13295731/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13295731/",
+    "https://san-tatsu.jp/spots/405489/",
+    "https://hamoni.jp/en/area/tokyo/meguro/nakameguro/shops/chinese"
+   ],
+   "why": "Chuka soba shop opened April 2024, 3.72 from 1,000+ reviews, open all day 10:00-21:00.",
+   "notes": "Closed Wed. First Friday of the month has an afternoon break.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-teuchi-asama",
+   "name": "Teuchi Asama",
+   "jp": "手打ち あさま",
+   "lat": 35.642685,
+   "lng": 139.698107,
+   "address": "東京都目黒区上目黒2-13-7 ハイべール上目黒",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13302326/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 525,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13302326/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13302326/",
+    "https://guide.michelin.com/jp/ja/tokyo-region/tokyo/restaurant/teuchi-asama"
+   ],
+   "why": "Hand-made noodles, 9 seats, in the Michelin Guide ramen list.",
+   "notes": "Closed Thu. Open until sold out; lunch only. Michelin page does not take bookings.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "naka-pai-men",
+   "name": "Pai Men Nakameguro ten",
+   "jp": "百麺 中目黒店",
+   "lat": 35.646252,
+   "lng": 139.697092,
+   "address": "東京都目黒区青葉台1-30-6 キャッスルマンション青葉台 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13003459/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 1038,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003459/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13003459/",
+    "https://retty.me/restaurant/100000005893/"
+   ],
+   "why": "Tonkotsu ramen near Daikanyama, open to 02:00 per Tabelog (24:00 per Retty), 3.56 from 1,000 reviews.",
+   "notes": "Cash only. Tabelog 11:30-26:00 used; Retty shows 24:00 close.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-ore-ryu-shio",
+   "name": "Ore Ryu Shio Ramen Nakameguro ten",
+   "jp": "俺流塩らーめん 中目黒店",
+   "lat": 35.647352,
+   "lng": 139.695061,
+   "address": "東京都目黒区青葉台1-28-11 ブルックスビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "06:00"
+     ],
+     [
+      "11:00",
+      "30:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13131972/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.09,
+    "reviews": 400,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13131972/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13131972/",
+    "https://tabelog.com/matome/4038/"
+   ],
+   "why": "Salt ramen open until 06:00 daily; a late-night standby. Tabelog score is modest (3.09).",
+   "notes": "Tabelog hours show 11:00-24:00 and 00:00-06:00 daily, treated as open continuously. Included for after-midnight coverage only.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-criollo",
+   "name": "Criollo Nakameguro ten",
+   "jp": "クリオロ 中目黒店",
+   "lat": 35.644374,
+   "lng": 139.699641,
+   "address": "東京都目黒区上目黒1-23-1 中目黒アリーナ103",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13077927/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.78,
+    "reviews": 1347,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13077927/",
+    "award": "Tabelog Sweets TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13077927/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets"
+   ],
+   "why": "Takeaway patisserie and chocolate by the station, Tabelog Sweets 100 (2026); long weekend queues.",
+   "notes": "No eat-in. Hamoni lists 11:00-20:00 or 19:00; Tabelog 19:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-green-bean-to-bar",
+   "name": "Green Bean to Bar Chocolate | Nakameguro",
+   "jp": "グリーン ビーン トゥ バー チョコレート",
+   "lat": 35.648897,
+   "lng": 139.694077,
+   "address": "東京都目黒区青葉台2-16-11",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13188866/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.64,
+    "reviews": 778,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13188866/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13188866/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets"
+   ],
+   "why": "Bean-to-bar chocolate cafe on the river path, 34 seats, 10:00-20:00.",
+   "notes": "Hours match Hamoni.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-princess-tart",
+   "name": "Princess tart Nakameguro",
+   "jp": "Princess tart 中目黒",
+   "lat": 35.644239,
+   "lng": 139.700013,
+   "address": "東京都目黒区上目黒1-26-1 中目黒アトラスタワーアネックス 1F",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13301075/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 448,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13301075/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13301075/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets"
+   ],
+   "why": "Tart shop with 10 eat-in seats beside the station.",
+   "notes": "Hamoni: weekdays 11:00, weekends 10:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-im-donut",
+   "name": "I'm donut ? Nakameguro ten",
+   "jp": "I'm donut ? 中目黒店",
+   "lat": 35.644621,
+   "lng": 139.6993,
+   "address": "東京都目黒区上目黒1-22-10",
+   "cat": "bakery-sweets",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13269567/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 1549,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13269567/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13269567/",
+    "https://www.gltjp.com/ja/directory/item/17321/"
+   ],
+   "why": "Fresh-donut shop, 3.66 from 1,500+ reviews; queues at the door.",
+   "notes": "Takeaway only. Sources conflict on opening (09:00 vs 11:00); Tabelog 09:00-19:00. Irregular closing.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "naka-moksha-chai",
+   "name": "Cafe Moksha Chai Nakameguro",
+   "jp": "カフェ モクシャチャイ 中目黒",
+   "lat": 35.647269,
+   "lng": 139.694398,
+   "address": "東京都目黒区東山1-3-6 クレール東山 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-2,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13244115/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 352,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13244115/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13244115/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/cafe-kissaten"
+   ],
+   "why": "Chai cafe with 29 seats, 10:30-19:00.",
+   "notes": "Hamoni 11:00-18:30 or 10:30-19:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-epulor",
+   "name": "epulor",
+   "jp": "epulor",
+   "lat": 35.647047,
+   "lng": 139.697706,
+   "address": "東京都目黒区青葉台1-19-10 エスセナーリオ青葉台 1F",
+   "cat": "cafe-kissaten",
+   "price": 3,
+   "price_note": "¥3,000-3,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13232490/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 408,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13232490/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13232490/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/cafe-kissaten"
+   ],
+   "why": "Cafe and wine bar open from 11:00 to midnight, 20 seats; closed Mon.",
+   "notes": "Hamoni lists 11:00-24:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-daco",
+   "name": "Daco Nakameguro",
+   "jp": "dacō 中目黒",
+   "lat": 35.645117,
+   "lng": 139.70057,
+   "address": "東京都目黒区上目黒1-3-18",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "wed": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "20:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13300052/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 730,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13300052/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13300052/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/washoku-japanese-cuisine"
+   ],
+   "why": "Bakery cafe, 60 seats, from the I'm donut group.",
+   "notes": "Irregular closing. 10:00-20:00 per Tabelog and Hamoni.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "naka-miyabi-an",
+   "name": "Miyabi An",
+   "jp": "雅庵",
+   "lat": 35.64757,
+   "lng": 139.692128,
+   "address": "東京都目黒区東山1-13-4",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "wagashi/cafe, Tabelog reviewer average JPY 1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "17:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13073813/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.81,
+    "reviews": 791,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13073813/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13073813/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/sweets"
+   ],
+   "why": "Japanese confectionery halfway to Ikejiri; 3.81 from 790 reviews.",
+   "notes": "Closed Tue. Takeaway. Hamoni lists 10:00-18:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "minor"
+  },
+  {
+   "id": "naka-flour-water",
+   "name": "flour+water Nakameguro",
+   "jp": "flour+water 中目黒",
+   "lat": 35.646381,
+   "lng": 139.696762,
+   "address": "東京都目黒区青葉台1-30-10",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13269899/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.6,
+    "reviews": 877,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13269899/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13269899/",
+    "https://hamoni.jp/area/tokyo/meguro/nakameguro/list/bakery"
+   ],
+   "why": "Bakery (09:00-16:00), brunch tickets 09:00-14:00 and a bar from 16:00; 877 reviews.",
+   "notes": "Brunch tickets are limited. Tabelog parsed hours treat 10:00-23:00; bakery from 09:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-bakery-lounge-sawamura",
+   "name": "Bakery Lounge Sawamura Nakameguro",
+   "jp": "ベーカリーラウンジ 沢村 中目黒",
+   "lat": 35.648328,
+   "lng": 139.695391,
+   "address": "東京都目黒区青葉台1-13-6",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13291078/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 313,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13291078/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13291078/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/bakery-lounge-sawamura-nakameguro"
+   ],
+   "why": "Bakery lounge opening 08:00 with morning, lunch and dinner menus until 22:30.",
+   "notes": "Last order 22:00.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "naka-onibus-coffee",
+   "name": "ONIBUS COFFEE NAKAMEGURO Nakameguro ten",
+   "jp": "オニバスコーヒー 中目黒店",
+   "lat": 35.643184,
+   "lng": 139.698041,
+   "address": "東京都目黒区上目黒2-14-1",
+   "cat": "cafe-kissaten",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "tue": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "wed": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "thu": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "fri": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sat": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ],
+    "sun": [
+     [
+      "09:00",
+      "18:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13191293/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 485,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13191293/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13191293/",
+    "https://www.enjoytokyo.jp/article/109989/"
+   ],
+   "why": "Roasting coffee stand in an old house near the station; Tabelog 3.58 from 485 reviews.",
+   "notes": "Two Nakameguro shops exist; this is the one on Tabelog 13191293.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-bar-portillo",
+   "name": "Bar Portillo de sal y amor",
+   "jp": "バル ポルティージョ",
+   "lat": 35.647213,
+   "lng": 139.697669,
+   "address": "東京都目黒区青葉台1-19-12 エスセナーリオ青葉台 103",
+   "cat": "other",
+   "price": 3,
+   "price_note": "lunch ¥2-3k / dinner ¥6-8k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [],
+    "tue": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13232995/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 982,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13232995/",
+    "award": "Tabelog Spanish \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13232995/",
+    "https://aumo.jp/articles/46482"
+   ],
+   "why": "Spanish bar under the Michelin-listed Pablo group; Tabelog Spanish 100 (2026). Lunch paella, tapas dinner.",
+   "notes": "Closed Mon. Last order 21:30 (lunch paella 14:00).",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "ok"
+  },
+  {
+   "id": "naka-city-bakery",
+   "name": "THE CITY BAKERY NAKAMEGURO",
+   "jp": "ザ シティ ベーカリー NAKAMEGURO",
+   "lat": 35.644,
+   "lng": 139.69851,
+   "address": "東京都目黒区上目黒3-4-15 中目黒高架下",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13202330/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.32,
+    "reviews": 522,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13202330/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13202330/",
+    "https://wanderlog.com/place/details/1072584"
+   ],
+   "why": "Bakery cafe under the tracks by the station, open 07:30; useful for early breakfast. Tabelog 3.32.",
+   "notes": "Lower score; included for morning coverage. 34 seats.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "daikan-ivy-place",
+   "name": "IVY PLACE",
+   "jp": "IVY PLACE",
+   "lat": 35.649366,
+   "lng": 139.699951,
+   "address": "東京都渋谷区猿楽町16-15 DAIKANYAMA T-SITE GARDEN",
+   "cat": "cafe-kissaten",
+   "price": 3,
+   "price_note": "breakfast/lunch ¥2-3k / dinner ¥5-6k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "18:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "11:30"
+     ],
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1303/A130303/13134309/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.68,
+    "reviews": 4270,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13134309/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13134309/",
+    "https://rurubu.jp/andmore/article/21835"
+   ],
+   "why": "Daikanyama cafe-restaurant with breakfast from 08:00, 4,000+ Tabelog reviews; popular with locals.",
+   "notes": "Breakfast 08:00-11:30, lunch to 16:00, dinner from 18:00 (17:30 weekends). Busy; book weekends.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "daikan-hillside-pantry",
+   "name": "HILLSIDE PANTRY Daikanyama",
+   "jp": "ヒルサイドパントリー 代官山",
+   "lat": 35.648725,
+   "lng": 139.700121,
+   "address": "東京都渋谷区猿楽町18-12 ヒルサイドテラスＧ棟　Ｂ１Ｆ",
+   "cat": "bakery-sweets",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "tue": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "fri": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:00",
+      "19:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1303/A130303/13002071/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.75,
+    "reviews": 1071,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13002071/",
+    "award": "Tabelog Bread TOKYO \"Tabelog 100\" 2026"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13002071/",
+    "https://hamoni.jp/shop/G2qsuiVO9wFrjF6RFpYx"
+   ],
+   "why": "Bakery and deli at Hillside Terrace, 3.75 from 1,000+ reviews; 26 seats.",
+   "notes": "Closed Wed (open if holiday).",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "daikan-caffe-michelangelo",
+   "name": "caffe Michelangelo",
+   "jp": "カフェ・ミケランジェロ",
+   "lat": 35.648597,
+   "lng": 139.699435,
+   "address": "東京都渋谷区猿楽町29-3",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥2,000-2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "10:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "10:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1303/A130303/13003369/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 1724,
+    "url": "https://tabelog.com/en/tokyo/A1303/A130303/13003369/",
+    "award": "Tabelog Cafe EAST \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1303/A130303/13003369/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/caffe-michelangelo"
+   ],
+   "why": "Italian-style cafe in Daikanyama, 3.66 from 1,700 reviews, open to 22:00.",
+   "notes": "Closed Wed. Cash not required.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-motsuyaki-ban",
+   "name": "Motsuyaki Ban Shimokitazawa ten",
+   "jp": "もつ焼き ばん 下北沢店",
+   "lat": 35.659504,
+   "lng": 139.667071,
+   "address": "東京都世田谷区北沢2-15-3 中村ビル 1F",
+   "cat": "izakaya",
+   "price": 1,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "04:00"
+     ],
+     [
+      "11:30",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13251328/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 300,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13251328/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13251328/",
+    "https://retty.me/theme/200243774/"
+   ],
+   "why": "Old-style motsuyaki (grilled offal) and sour bar, 100 seats; Retty shows it open 11:30 to 04:00.",
+   "notes": "Cash only. Tabelog shows 11:30-24:00 plus 00:00-04:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-tetra-tokyo",
+   "name": "Tetra Tokyo",
+   "jp": "啼寅東京",
+   "lat": 35.658441,
+   "lng": 139.667084,
+   "address": "東京都世田谷区代沢5-29-9 1F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "¥4,000-4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "16:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13260580/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 293,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13260580/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13260580/",
+    "https://retty.me/theme/100125100/"
+   ],
+   "why": "Offal and yakitori counter izakaya, 23 seats; shown on a Retty Shimokitazawa izakaya list.",
+   "notes": "Coordinates to re-check against Google pin (embed centre 35.658433,139.664887).",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shimo-hansamu",
+   "name": "Soba to Tori Hansamu Shimokitazawa",
+   "jp": "蕎麦と鶏 はんさむ 下北沢",
+   "lat": 35.663495,
+   "lng": 139.668752,
+   "address": "東京都世田谷区北沢3-25-1 MTビル102",
+   "cat": "izakaya",
+   "price": 3,
+   "price_note": "dinner ¥3,000-3,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:30",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13198102/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.44,
+    "reviews": 276,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13198102/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13198102/",
+    "https://retty.me/theme/100125100/"
+   ],
+   "why": "Charcoal chicken and hand-made soba izakaya; open all day on weekends.",
+   "notes": "Retty lists to 24:30 with L.O. 23:30; Tabelog 23:00 used.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-la-befana",
+   "name": "La Befana Shimokitazawa",
+   "jp": "ラ・ベファーナ 下北沢",
+   "lat": 35.661706,
+   "lng": 139.665508,
+   "address": "東京都世田谷区代田5-31-3",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "dinner ¥4,000-4,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "15:30"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13001387/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 461,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13001387/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13001387/",
+    "https://retty.me/theme/200243781/"
+   ],
+   "why": "Neapolitan pizzeria near the station, 54 seats.",
+   "notes": "Dinner L.O. 22:00. Retty shows dinner 17:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-sunday-brunch",
+   "name": "Sunday Brunch Shimokitazawa ten",
+   "jp": "サンデーブランチ 下北沢店",
+   "lat": 35.662994,
+   "lng": 139.666803,
+   "address": "東京都世田谷区北沢2-29-2 フェニキアビル 2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "19:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13004596/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.52,
+    "reviews": 443,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13004596/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13004596/",
+    "https://retty.me/theme/200243781/"
+   ],
+   "why": "Pancake and brunch cafe, 60 seats, open until 19:30.",
+   "notes": "Retty lists to 21:00; Tabelog 19:30 used.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "shimo-kaimen-mikawa",
+   "name": "Kaimen Mikawa",
+   "jp": "貝麺 みかわ",
+   "lat": 35.661745,
+   "lng": 139.66685,
+   "address": "東京都世田谷区北沢2-25-4",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "No reservations.",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13258958/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.66,
+    "reviews": 923,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13258958/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13258958/",
+    "https://retty.me/theme/200243789/",
+    "https://retty.me/theme/101955800/"
+   ],
+   "why": "Shellfish-broth ramen at a 7-seat counter by the old north exit; ticket machine outside.",
+   "notes": "11:00-15:00 and 17:00-20:00 (Retty to 20:00).",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-ramen-gen",
+   "name": "Ramen Gen",
+   "jp": "らーめん 玄",
+   "lat": 35.663364,
+   "lng": 139.665823,
+   "address": "東京都世田谷区北沢2-28-7 エルフェアシティ下北沢2 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "wed": [],
+    "thu": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "14:30"
+     ],
+     [
+      "17:00",
+      "20:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13237219/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.58,
+    "reviews": 518,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13237219/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13237219/",
+    "https://retty.me/theme/101955800/"
+   ],
+   "why": "Counter-only ramen shop run by a former Jiro Meguro assistant; closed Wednesday.",
+   "notes": "8 seats, cash only.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-daruma-taishi-mugen",
+   "name": "Daruma Taishi Mugen Shimokitazawa ten",
+   "jp": "だるま大使 無限 下北沢店",
+   "lat": 35.661793,
+   "lng": 139.66807,
+   "address": "東京都世田谷区北沢2-10-10",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "27:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13292370/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.56,
+    "reviews": 360,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13292370/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13292370/",
+    "https://retty.me/theme/101955800/"
+   ],
+   "why": "Tonkotsu ramen from Takasaki, open to 03:00 Fri/Sat; opened Dec 2023.",
+   "notes": "Retty lists 10:30-22:30; Tabelog 11:00-23:00 (to 03:00 Fri/Sat). Treat late hours as unconfirmed.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-ichiran",
+   "name": "Ichiran Shimokitazawa ten",
+   "jp": "一蘭 下北沢店",
+   "lat": 35.660257,
+   "lng": 139.667585,
+   "address": "東京都世田谷区北沢2-14-10 阿部ビル 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "tue": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "wed": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "thu": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "fri": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sat": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ],
+    "sun": [
+     [
+      "00:00",
+      "24:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13120180/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.09,
+    "reviews": 265,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13120180/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13120180/",
+    "https://retty.me/theme/101955800/"
+   ],
+   "why": "Open 24 hours; booth ramen chain. Included for 24h coverage only, not a local favourite.",
+   "notes": "Tabelog score 3.09. Ticket vending machine.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "shimo-tenma-ya",
+   "name": "Tenma Ya Shimokitazawa ten",
+   "jp": "天馬屋 下北沢店",
+   "lat": 35.661014,
+   "lng": 139.668224,
+   "address": "東京都世田谷区北沢2-12-12 桑田ビル 1F",
+   "cat": "curry",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "21:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13163101/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.45,
+    "reviews": 276,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13163101/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13163101/",
+    "https://retty.me/theme/200243789/"
+   ],
+   "why": "Bakery plus curry and sandwich cafe, 32 seats, open all day to 21:00.",
+   "notes": "Retty weekday 11:30-21:30. Open year-round.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-yuzuki",
+   "name": "yuzuki",
+   "jp": "yuzuki",
+   "lat": 35.663184,
+   "lng": 139.668678,
+   "address": "東京都世田谷区北沢2-33-6 グリーンテラス 2F",
+   "cat": "izakaya",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:30",
+      "16:00"
+     ],
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13233925/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 303,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13233925/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13233925/",
+    "https://retty.me/theme/200243789/"
+   ],
+   "why": "Home-style set meals by day, izakaya at night, 18 seats.",
+   "notes": "Retty shows a shorter schedule (to 22:00); Tabelog hours used.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true,
+   "audit": "wrong"
+  },
+  {
+   "id": "shimo-shin-taipei",
+   "name": "Shin Taipei Shimokitazawa honten",
+   "jp": "新台北 下北沢本店",
+   "lat": 35.661421,
+   "lng": 139.668984,
+   "address": "東京都世田谷区北沢2-6-5 ルイビル 1F",
+   "cat": "other",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "26:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:30",
+      "26:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13002010/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.48,
+    "reviews": 496,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13002010/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13002010/",
+    "https://gurunavi.com/ja/g812901/rev/rst"
+   ],
+   "why": "Taiwanese restaurant open to 02:00, 45 seats; good late meal.",
+   "notes": "Last order 01:00. Gurunavi matches Tabelog hours.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-hiroki",
+   "name": "HIROKI Shimokitazawa ten",
+   "jp": "ヒロキ 下北沢店",
+   "lat": 35.660102,
+   "lng": 139.667861,
+   "address": "東京都世田谷区北沢2-14-14 ハニー下北沢 1F",
+   "cat": "okonomiyaki-monja",
+   "price": 2,
+   "price_note": "¥2,000-2,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "tue": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "wed": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "thu": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "fri": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "21:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13001391/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.47,
+    "reviews": 524,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13001391/",
+    "award": "Tabelog Okonomiyaki \"Tabelog 100\" 2019"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13001391/",
+    "https://aumo.jp/articles/19762"
+   ],
+   "why": "Okonomiyaki and teppan, Tabelog Okonomiyaki 100 (2019), 16 seats.",
+   "notes": "Cash only. Aumo/Retty list to 22:00-22:30; Tabelog 21:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "shimo-et-coffeehouse",
+   "name": "Et -THE CULTURAL COFFEEHOUSE-",
+   "jp": "Et -THE CULTURAL COFFEEHOUSE-",
+   "lat": 35.660139,
+   "lng": 139.665047,
+   "address": "東京都世田谷区北沢2-22-3 下北パークフロント 1～2F",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "07:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13304657/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.53,
+    "reviews": 301,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13304657/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13304657/",
+    "https://rurubu.jp/andmore/spot/80134125"
+   ],
+   "why": "Large cafe opening 07:30, 74 seats; one of the earliest in Shimokitazawa.",
+   "notes": "Time Out says 08:00 open; Tabelog and Rurubu 07:30.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": false
+  },
+  {
+   "id": "shimo-brooklyn-roasting",
+   "name": "Brooklyn Roasting Company Shimokitazawa ten",
+   "jp": "ブルックリン ロースティング カンパニー 下北沢店",
+   "lat": 35.661153,
+   "lng": 139.669003,
+   "address": "東京都世田谷区北沢2-6-2 ミカン下北B街区 B101",
+   "cat": "cafe-kissaten",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "none",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "tue": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "wed": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "08:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13273962/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.49,
+    "reviews": 374,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13273962/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13273962/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/brooklynroastingcompany-shimokitazawa"
+   ],
+   "why": "Roastery cafe opening 08:00 with American breakfast, under the Mikan station complex.",
+   "notes": "100 seats. Time Out lists 08:00-22:00.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "high",
+   "local_pick": false
+  },
+  {
+   "id": "shimo-pizzeria-eight",
+   "name": "Pizzeria Eight Shimokitazawa",
+   "jp": "ピッツェリアエイト 下北沢",
+   "lat": 35.661274,
+   "lng": 139.668812,
+   "address": "東京都世田谷区北沢2-11-15 ミカン下北A街区 1F",
+   "cat": "western-yoshoku",
+   "price": 3,
+   "price_note": "¥3,000-3,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "23:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1318/A131802/13268127/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.46,
+    "reviews": 642,
+    "url": "https://tabelog.com/en/tokyo/A1318/A131802/13268127/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13268127/",
+    "https://resemom.jp/release/prtimes/20220329/80513.html"
+   ],
+   "why": "Wood-fired pizza and fresh pasta under the tracks at Mikan Shimokita, 130 seats.",
+   "notes": "Open year-round, 11:00-23:00. Press release is from the 2022 opening.",
+   "near": [
+    "shimokitazawa"
+   ],
+   "confidence": "medium",
+   "local_pick": false,
+   "audit": "wrong"
+  },
+  {
+   "id": "naka-chuka-soba-murata",
+   "name": "Chuka Soba Murata",
+   "jp": "中華そば むら田",
+   "lat": 35.638174,
+   "lng": 139.704748,
+   "address": "東京都目黒区中目黒2-7-14 ニックハイム中目黒 1F",
+   "cat": "ramen",
+   "price": 1,
+   "price_note": "under ¥1,000",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:15",
+      "16:00"
+     ],
+     [
+      "18:30",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13154917/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 444,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13154917/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13154917/",
+    "https://retty.me/theme/200278771/"
+   ],
+   "why": "Chuka soba shop, 8 seats, closed Tuesday; Retty ramen lists include it.",
+   "notes": "Retty shows closed Monday; Tabelog shows closed Tuesday. Check.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-na-camo-guro",
+   "name": "Na Camo guro",
+   "jp": "Na Camo guro",
+   "lat": 35.644722,
+   "lng": 139.699181,
+   "address": "東京都目黒区上目黒1-20-5 エーワンビル 2F",
+   "cat": "yakitori-grill",
+   "price": 3,
+   "price_note": "dinner ¥4-5k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:30"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13188190/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.59,
+    "reviews": 1498,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13188190/",
+    "award": "Tabelog toriryori \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13188190/",
+    "https://retty.me/theme/200278735/"
+   ],
+   "why": "Chicken specialist, Tabelog Chicken 100 (2025), 38 seats, 1,500 reviews.",
+   "notes": "Retty shows Mon closed; Tabelog open Mon. Lunch weekends only.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-beef-kitchen",
+   "name": "Beef Kitchen Nakameguro honten",
+   "jp": "ビーフキッチン 中目黒本店",
+   "lat": 35.641355,
+   "lng": 139.696336,
+   "address": "東京都目黒区上目黒2-44-8 ロ・カーサ上目黒 B1F",
+   "cat": "yakiniku",
+   "price": 3,
+   "price_note": "dinner ¥8-10k / lunch ¥2-3k",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "tue": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "wed": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "thu": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "fri": [
+     [
+      "17:00",
+      "23:00"
+     ]
+    ],
+    "sat": [
+     [
+      "12:00",
+      "23:00"
+     ]
+    ],
+    "sun": [
+     [
+      "12:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13054178/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.61,
+    "reviews": 2007,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13054178/",
+    "award": "Tabelog yakiniku TOKYO \"Tabelog 100\" 2025"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13054178/",
+    "https://retty.me/theme/200278858/"
+   ],
+   "why": "Yakiniku, Tabelog Yakiniku 100, 2,000+ reviews; a Retty favourite.",
+   "notes": "Book ahead. Lunch weekdays 11:30-14:00 per Retty.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  },
+  {
+   "id": "naka-menya-kureizu",
+   "name": "Menya Kureizu Nakameguro",
+   "jp": "麺屋 栩羚廚 中目黒",
+   "lat": 35.642851,
+   "lng": 139.698387,
+   "address": "東京都目黒区上目黒2-13-4 1F",
+   "cat": "ramen",
+   "price": 2,
+   "price_note": "¥1,000-1,999",
+   "reservation": "walk-in-queue",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "tue": [],
+    "wed": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sat": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ],
+    "sun": [
+     [
+      "11:00",
+      "15:00"
+     ],
+     [
+      "17:00",
+      "22:00"
+     ]
+    ]
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13306705/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.55,
+    "reviews": 239,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13306705/",
+    "award": null
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13306705/",
+    "https://retty.me/theme/200278735/"
+   ],
+   "why": "Ramen with split lunch/dinner service, 11 counter seats; Retty includes it.",
+   "notes": "Closed Tue. Retty 11:00-15:00 and 17:00-22:00 daily.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "high",
+   "local_pick": true
+  },
+  {
+   "id": "naka-udon-buzenbo",
+   "name": "Udon Buzenbo",
+   "jp": "うどん豊前房",
+   "lat": 35.648323,
+   "lng": 139.692041,
+   "address": "東京都目黒区東山1-11-15 中目黒 ARK-II 1F",
+   "cat": "soba-udon",
+   "price": 1,
+   "price_note": "¥1,000-1,999",
+   "reservation": "recommended",
+   "res_note": "",
+   "hours": {
+    "mon": [
+     [
+      "11:45",
+      "14:30"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "tue": [
+     [
+      "11:45",
+      "14:30"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "wed": [
+     [
+      "11:45",
+      "14:30"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "thu": [
+     [
+      "11:45",
+      "14:30"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "fri": [
+     [
+      "11:45",
+      "14:30"
+     ],
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "sat": [
+     [
+      "18:00",
+      "21:00"
+     ]
+    ],
+    "sun": []
+   },
+   "hours_source": "https://tabelog.com/en/tokyo/A1317/A131701/13003158/",
+   "hours_checked": "2026-10-23",
+   "tabelog": {
+    "score": 3.54,
+    "reviews": 339,
+    "url": "https://tabelog.com/en/tokyo/A1317/A131701/13003158/",
+    "award": "Tabelog Udon (Wheat noodles) TOKYO \"Tabelog 100\" 2020"
+   },
+   "other_ratings": {},
+   "sources": [
+    "https://tabelog.com/en/tokyo/A1317/A131701/13003158/",
+    "https://retty.me/theme/200278735/"
+   ],
+   "why": "Udon cafe, Tabelog Udon 100; closed Sunday.",
+   "notes": "Dinner to 21:00 per Tabelog, 23:00 per Retty. Weekday lunch.",
+   "near": [
+    "nakameguro"
+   ],
+   "confidence": "medium",
+   "local_pick": true
+  }
+ ]
+}

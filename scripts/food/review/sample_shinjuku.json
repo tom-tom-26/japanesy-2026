@@ -1,0 +1,879 @@
+[
+ {
+  "id": "shinjuku-sakaba-tsumugi-do-shinjuku-ten-8476",
+  "name": "Sakaba Tsumugi Do Shinjuku ten",
+  "jp": "酒場つむぎ堂 新宿店",
+  "lat": 35.695795,
+  "lng": 139.696947,
+  "address": "東京都新宿区西新宿7-18-18 新宿税理士ビル 別館 1F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "13:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.48,
+   "reviews": 1299,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13268476/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-uoshin-shinjuku-ten-5198",
+  "name": "Uoshin Shinjuku ten",
+  "jp": "魚真 新宿店",
+  "lat": 35.689778,
+  "lng": 139.702403,
+  "address": "東京都新宿区新宿3-35-5 2F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.52,
+   "reviews": 839,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13115198/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-tonkatsu-niimura-honten-0847",
+  "name": "Tonkatsu Niimura Honten",
+  "jp": "とんかつ にいむら 本店",
+  "lat": 35.694603,
+  "lng": 139.7012,
+  "address": "東京都新宿区歌舞伎町1-23-10",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:30",
+     "26:30"
+    ]
+   ],
+   "fri": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "30:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.49,
+   "reviews": 980,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13010847/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-coffee-times-9046",
+  "name": "Coffee Times",
+  "jp": "珈琲 タイムス",
+  "lat": 35.690229,
+  "lng": 139.702459,
+  "address": "東京都新宿区新宿3-35-11 タイムスビル 1F",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.54,
+   "reviews": 593,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13059046/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-fuuunji-shinjuku-honten-4091",
+  "name": "Fuuunji Shinjuku honten",
+  "jp": "風雲児 新宿本店",
+  "lat": 35.686843,
+  "lng": 139.696648,
+  "address": "東京都渋谷区代々木2-14-3 北斗第一ビルB1F",
+  "price": 1,
+  "reservation": "walk-in-queue",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.76,
+   "reviews": 5433,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13044091/",
+   "award": "Tabelog 100 Ramen TOKYO (latest 2025)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-cafe-aaliya-2089",
+  "name": "CAFE AALIYA",
+  "jp": "CAFE AALIYA",
+  "lat": 35.690506,
+  "lng": 139.704781,
+  "address": "東京都新宿区新宿3-1-17 山本ビルＢ１Ｆ",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "20:30"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "20:30"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "20:30"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "20:30"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "20:30"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.75,
+   "reviews": 3490,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13012089/",
+   "award": "Tabelog 100 Cafe EAST (latest 2025)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-miso-ya-hachiro-shoten-shinjuku-ten-3862",
+  "name": "Miso-ya Hachiro Shoten Shinjuku ten",
+  "jp": "味噌屋 八郎商店 新宿店",
+  "lat": 35.696395,
+  "lng": 139.698343,
+  "address": "東京都新宿区西新宿7-5-5 プラザ西新宿 102",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.65,
+   "reviews": 1731,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13093862/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-robata-yaki-zekkouchou-teppen-shinjuku-t-5373",
+  "name": "Robata Yaki Zekkouchou Teppen Shinjuku ten",
+  "jp": "ろばた焼き 絶好調てっぺん 新宿店",
+  "lat": 35.688724,
+  "lng": 139.696896,
+  "address": "東京都新宿区西新宿1-14-5 浅田ビル 3F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "23:30"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.54,
+   "reviews": 414,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13255373/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-yomoda-soba-shinjuku-nishiguchi-ten-4059",
+  "name": "Yomoda Soba Shinjuku nishiguchi ten",
+  "jp": "よもだそば 新宿西口店",
+  "lat": 35.688753,
+  "lng": 139.697187,
+  "address": "東京都新宿区西新宿1-15-7 新宿西口ライフビル 1F",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.44,
+   "reviews": 650,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13254059/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-mendou-nishiki-shinjuku-kabukichou-ten-7169",
+  "name": "Mendou Nishiki Shinjuku kabukichou ten",
+  "jp": "麺堂にしき 新宿歌舞伎町店",
+  "lat": 35.694809,
+  "lng": 139.702666,
+  "address": "東京都新宿区歌舞伎町1-11-3",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "tue": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "wed": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "thu": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "fri": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "sat": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ],
+   "sun": [
+    [
+     "18:00",
+     "30:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.65,
+   "reviews": 915,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13257169/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-spicy-curry-house-hangetsu-1678",
+  "name": "Spicy Curry House Hangetsu",
+  "jp": "スパイシーカリーハウス半月",
+  "lat": 35.697844,
+  "lng": 139.697933,
+  "address": "東京都新宿区西新宿7-6-9 コンフォート・セゾン 1F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "16:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.79,
+   "reviews": 1665,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13211678/",
+   "award": "Tabelog 100 Curry TOKYO (latest 2026)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-nishio-san-6389",
+  "name": "Nishio San",
+  "jp": "西尾さん",
+  "lat": 35.689794,
+  "lng": 139.706429,
+  "address": "東京都新宿区新宿3-1-32 新宿ビル３号 Ｂ１Ｆ",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "14:00",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.62,
+   "reviews": 651,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13026389/",
+   "award": "Tabelog 100 izakaya EAST (latest 2026)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-osaka-ya-0947",
+  "name": "Osaka Ya",
+  "jp": "大阪家",
+  "lat": 35.694065,
+  "lng": 139.701441,
+  "address": "東京都新宿区歌舞伎町1-17-12 第一浅川ビル B1F",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "30:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.44,
+   "reviews": 403,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13010947/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "shinjuku-ika-center-shinjuku-sohonten-8669",
+  "name": "Ika Center Shinjuku Sohonten",
+  "jp": "イカセンター新宿総本店",
+  "lat": 35.694387,
+  "lng": 139.698347,
+  "address": "東京都新宿区西新宿7-10-13 ガイアビル 4F・5F",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:30",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.49,
+   "reviews": 1092,
+   "url": "https://tabelog.com/en/tokyo/A1304/A130401/13048669/",
+   "award": null
+  },
+  "confidence": "medium"
+ }
+]

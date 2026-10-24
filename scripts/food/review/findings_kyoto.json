@@ -1,0 +1,345 @@
+[
+ {
+  "id": "kyoto-bar-kya-honkan",
+  "verdict": "minor",
+  "issues": [
+    "Exists: aumo (updated 2026-07-06) lists bar K家 本館 at 六角通御幸町西入ル八百屋町103, matching file address.",
+    "Hours: Tabelog re-fetch gives Mon/Wed-Sun 18:00-02:00, Tue closed (matches file). Savor Japan (machine-translated, undated) gives Fri/Sat 18:00-03:00, file has 26:00 close for Fri/Sat. Unresolved.",
+    "Coordinates not verified: neither Tabelog nor Savor gives coordinates; no independent map confirmation.",
+    "Savor Japan lists address with 105 instead of 103 (aumo and file say 103)."
+  ],
+  "corrected": {},
+  "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260201/26001147/",
+    "https://savorjapan.com/0006068305",
+    "https://savorjapan.com/0006068305/map",
+    "https://aumo.jp/articles/24260"
+  ]
+ },
+ {
+  "id": "kyoto-fukunaga901",
+  "verdict": "minor",
+  "issues": [
+    "Closing time: file says 19:30; leafkyoto (dated 2025-08-27) and Joinpearl (Aug 2026) say 10:00-20:00 with last order 19:30. Tabelog re-fetch says 10:00-19:30. Majority: close 20:00, LO 19:30.",
+    "Closed days follow the Kyoto Station Building schedule (not a fixed weekday); file omits this from notes.",
+    "Coordinates confirmed: Joinpearl directions link 34.985763, 135.757835 (within ~1.2 m of file).",
+    "Tabelog re-fetch reports 573 reviews (file 572), score 3.63 matches."
+  ],
+  "corrected": {
+    "hours": {
+      "mon": [["10:00", "20:00"]], "tue": [["10:00", "20:00"]], "wed": [["10:00", "20:00"]], "thu": [["10:00", "20:00"]],
+      "fri": [["10:00", "20:00"]], "sat": [["10:00", "20:00"]], "sun": [["10:00", "20:00"]]
+    }
+  },
+  "sources": [
+    "https://tabelog.com/en/kyoto/A2601/A260101/26030973/",
+    "https://joinpearl.co/restaurants/kyoto/fukunaga901",
+    "https://www.leafkyoto.net/en/240115-kyotostation-cafe/page/2/",
+    "https://www.walkerplus.com/article/226133/",
+    "https://aumo.jp/articles/57822"
+  ]
+ },
+ {
+  "id": "kyoto-yoshida-yama-seseri",
+  "verdict": "minor",
+  "issues": [
+    "Hours and score match Tabelog re-fetch (Mon-Fri 17:00-23:00, Sat/Sun closed; 3.64 / 235 reviews).",
+    "No non-Tabelog page opened; existence, hours and coordinates unconfirmed independently. Search budget exhausted, so cannot mark ok."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260101/26030970/"]
+ },
+ {
+  "id": "kyoto-kamogawa-seimenjo",
+  "verdict": "minor",
+  "issues": [
+    "Price tier: Tabelog shows average '- JPY 999' but review-based band JPY 1,000-1,999, which is tier 2 under the brief's per-person bands. File says 1.",
+    "Hours (11:00-21:00 daily) and score 3.33 / 107 match Tabelog re-fetch.",
+    "No non-Tabelog page opened; coordinates unverified (Tabelog has no coordinates)."
+  ],
+  "corrected": {"price": 2},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260301/26034220/"]
+ },
+ {
+  "id": "kyoto-kagizen-yoshifusa-shijou",
+  "verdict": "minor",
+  "issues": [
+    "Hours match Tabelog re-fetch (Tue-Sun 10:00-18:00, Mon closed; café last order 17:30). Score 3.78 / 1950 matches.",
+    "No non-Tabelog page opened; coordinates unverified. Search budget exhausted."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260301/26001887/"]
+ },
+ {
+  "id": "kyoto-inari-futaba",
+  "verdict": "minor",
+  "issues": [
+    "Hours (Mon/Tue/Fri-Sun 09:00-18:00, Wed/Thu closed) and score 3.65 / 407 match Tabelog re-fetch.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260601/26007559/"]
+ },
+ {
+  "id": "kyoto-bar-atlantis-pontochou",
+  "verdict": "minor",
+  "issues": [
+    "Hours 17:00-01:00 (= 25:00) daily match Tabelog; seasonal 18:00-25:00 applies only May 1-Oct 15, so Nov uses 17:00-25:00 as file has.",
+    "Price: review-based band JPY 3,000-3,999 plus 500 yen table charge; file says 2. Tier 3 is arguably closer.",
+    "Score 3.51 / 167 matches. No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"price": 3},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26000936/"]
+ },
+ {
+  "id": "kyoto-kyoto-beer-lab",
+  "verdict": "wrong",
+  "issues": [
+    "Hours wrong per Tabelog re-fetch: listed open all 7 days 13:00-23:00 with no closed day. File has closed Mon-Fri and 13:00-21:00 Sat/Sun only.",
+    "Score 3.47 / 147 matches. Tabelog notes 'Hours and closed days may change'. Non-Tabelog check still needed before trusting the corrected hours."
+  ],
+  "corrected": {
+    "hours": {
+      "mon": [["13:00", "23:00"]], "tue": [["13:00", "23:00"]], "wed": [["13:00", "23:00"]], "thu": [["13:00", "23:00"]],
+      "fri": [["13:00", "23:00"]], "sat": [["13:00", "23:00"]], "sun": [["13:00", "23:00"]]
+    }
+  },
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260101/26030571/"]
+ },
+ {
+  "id": "kyoto-alkaa",
+  "verdict": "minor",
+  "issues": [
+    "Hours (Mon-Thu/Sat/Sun 15:00-24:00, Fri 18:00-24:00) and score 3.40 / 67 match Tabelog re-fetch.",
+    "Closed days 'Not fixed' (announced on Instagram); file does not note this. Budget band 6,000-7,999 implies tier 3 (matches file).",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260101/26037554/"]
+ },
+ {
+  "id": "kyoto-iroha-karuta-kyoto-ekimae",
+  "verdict": "wrong",
+  "issues": [
+    "Hours incomplete per Tabelog re-fetch: a breakfast window 07:00-09:30 (last entry 09:00) is missing from every day. This is the main gap for the 07:00-09:00 coverage requirement.",
+    "Sunday closes earlier: Tabelog says 17:00-23:00 (L.O. 22:15), file has 24:00.",
+    "Score 3.32 / 77 matches. Dinner budget band 2,000-2,999 on Tabelog; review average 5,000-5,999 (tier 2 vs 3 ambiguous)."
+  ],
+  "corrected": {
+    "hours": {
+      "mon": [["07:00", "09:30"], ["17:00", "24:00"]], "tue": [["07:00", "09:30"], ["17:00", "24:00"]],
+      "wed": [["07:00", "09:30"], ["17:00", "24:00"]], "thu": [["07:00", "09:30"], ["17:00", "24:00"]],
+      "fri": [["07:00", "09:30"], ["17:00", "24:00"]], "sat": [["07:00", "09:30"], ["17:00", "24:00"]],
+      "sun": [["07:00", "09:30"], ["17:00", "23:00"]]
+    }
+  },
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260101/26000792/"]
+ },
+ {
+  "id": "kyoto-bar-gaudi",
+  "verdict": "wrong",
+  "issues": [
+    "Opening time wrong: Tabelog re-fetch says 15:00 (file 16:00) for Tue-Sat, with last order food 22:30 / drinks 23:00.",
+    "Sunday hours wrong: Tabelog 15:00-22:00 (file 16:00-23:30). Monday closed matches.",
+    "Closed occasionally on Sundays and during Obon/New Year (not in notes). Score 3.46 / 76 and Hyakumeiten 2025 match."
+  ],
+  "corrected": {
+    "hours": {
+      "mon": [], "tue": [["15:00", "23:30"]], "wed": [["15:00", "23:30"]], "thu": [["15:00", "23:30"]],
+      "fri": [["15:00", "23:30"]], "sat": [["15:00", "23:30"]], "sun": [["15:00", "22:00"]]
+    }
+  },
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26030939/"]
+ },
+ {
+  "id": "kyoto-shinpuku-saikan",
+  "verdict": "minor",
+  "issues": [
+    "Hours (Mon/Tue/Thu-Sun 09:00-20:00, Wed closed; last order 19:30 per Tabelog) and score 3.59 match Tabelog re-fetch.",
+    "Review count 4,358 on Tabelog vs 4,354 in file (count drift, not material).",
+    "Price tier 1 borderline: Tabelog review band JPY 1,000-1,999; file says 1 (<1000). Suggest 2 unless a non-Tabelog source shows sub-1000 bowls.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"price": 2},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260101/26000791/"]
+ },
+ {
+  "id": "kyoto-menya-inoichi",
+  "verdict": "minor",
+  "issues": [
+    "Hours (11:00-14:30 and 17:30-21:00, daily) and score 3.71 / 1150 match Tabelog re-fetch.",
+    "Tabelog lists closed days as 'Not fixed'; file omits this from notes.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26032368/"]
+ },
+ {
+  "id": "kyoto-gion-tokuya",
+  "verdict": "minor",
+  "issues": [
+    "Hours (12:00-18:00 daily, open until sold out) and score 3.76 / 2251 match Tabelog re-fetch.",
+    "Closed days 'Not fixed', announced on official website; file does not note this.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260301/26002075/"]
+ },
+ {
+  "id": "kyoto-nijo-wakasaya",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Central Kyoto'); Tabelog gives 京都府京都市中京区寺町通二条下ル榎木町67.",
+    "Hours match Tabelog (Mon/Tue/Thu-Sun 10:30-17:00, LO 16:30; Wed closed). Score 3.69 / 558 matches.",
+    "Closed days 'Not fixed' per Tabelog; not in notes. No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市中京区寺町通二条下ル榎木町67"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26022589/"]
+ },
+ {
+  "id": "kinkakuji-mimatsu",
+  "verdict": "minor",
+  "issues": [
+    "Address is a vague placeholder ('Kinkaku-ji / Kitano area'); Tabelog gives 京都府京都市上京区紙屋川町1038-27.",
+    "Hours match Tabelog exactly (Thu closed, Wed lunch only). Score 3.40 matches; review count 100 on Tabelog vs 99 in file.",
+    "Price tier 1 borderline: Tabelog review band JPY 1,000-1,999 (listed average '- JPY 999').",
+    "No non-Tabelog page opened; coordinates unverified. Coordinates 35.027554,135.733322 are close to Sawaya's but not identical."
+  ],
+  "corrected": {"address": "京都府京都市上京区紙屋川町1038-27"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260501/26036928/"]
+ },
+ {
+  "id": "kyoto-sakenonki-bingo",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Central Kyoto'); Tabelog gives 京都府京都市中京区西錦小路266.",
+    "Hours (16:00-23:00 daily, LO 22:00 food / 22:30 drinks) and score 3.56 / 327 match Tabelog. Dinner budget JPY 3,000-3,999 supports tier 3.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市中京区西錦小路266"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26035047/"]
+ },
+ {
+  "id": "kinkakuji-futaba",
+  "verdict": "minor",
+  "issues": [
+    "Address is a vague placeholder ('Kinkaku-ji / Kitano area'); Tabelog gives 京都府京都市上京区真盛町719.",
+    "Hours (11:00-17:00, Wed closed; LO 16:40) and score 3.47 / 151 match Tabelog. Budget JPY 1,000-1,999 supports tier 2.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市上京区真盛町719"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260501/26007628/"]
+ },
+ {
+  "id": "arashiyama-tea-room-kiki",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Arashiyama/Saga, Kyoto'); Tabelog gives 京都府京都市右京区嵯峨天龍寺車道町1-1.",
+    "Hours (10:30-18:00 daily, LO 16:30) and score 3.40 / 128 match Tabelog. Closed days 'Not fixed' per Tabelog.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市右京区嵯峨天龍寺車道町1-1"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260403/26036648/"]
+ },
+ {
+  "id": "kyoto-inoda-sanjo",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Central Kyoto'); Tabelog gives 京都府京都市中京区三条通堺町東入ル桝屋町69.",
+    "Hours (10:00-19:00 daily, LO 18:30) match. Tabelog says some Sundays/public holidays open at 09:00 (not in file). Score 3.30 / 370 matches.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市中京区三条通堺町東入ル桝屋町69"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260202/26000413/"]
+ },
+ {
+  "id": "kyoto-ryuho",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Central Kyoto'); Tabelog gives 京都府京都市中京区新京極町通六角東入ル北側桜乃町450.",
+    "Hours (Mon/Tue/Fri-Sun 11:30-16:00, Wed/Thu closed) and score 3.48 / 249 match Tabelog. Budget JPY 1,000-1,999 supports tier 2.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市中京区新京極町通六角東入ル北側桜乃町450"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26005202/"]
+ },
+ {
+  "id": "kyoto-maeda-muromachi",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Central Kyoto'); Tabelog gives 京都府京都市中京区蛸薬師通烏丸西入橋弁慶町236.",
+    "Hours (07:00-18:00 daily, LO 17:30) and score 3.53 / 1199 (Tabelog 1,200) match. Budget JPY 1,000-1,999 supports tier 2.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市中京区蛸薬師通烏丸西入橋弁慶町236"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26001559/"]
+ },
+ {
+  "id": "kinkakuji-sawaya",
+  "verdict": "minor",
+  "issues": [
+    "Address is a vague placeholder; Tabelog gives 京都府京都市上京区北野天満宮前西入紙屋川町838-7.",
+    "Coordinates 35.027599,135.735199 are IDENTICAL to kinkakuji-sora-wa-kimagure in this file. One of the two is likely mis-geocoded or they share a building; needs map check.",
+    "Hours (Mon/Tue/Fri-Sun 09:00-17:00, Wed/Thu closed) match Tabelog, but Tabelog also says closed on the 26th of each month (not in file). Score 3.75 / 1186 matches.",
+    "No non-Tabelog page opened."
+  ],
+  "corrected": {"address": "京都府京都市上京区北野天満宮前西入紙屋川町838-7"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260501/26001539/"]
+ },
+ {
+  "id": "arashiyama-itsuki-chaya",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Arashiyama/Saga, Kyoto'); Tabelog gives 京都府京都市右京区嵯峨中ノ島町 官有地10.",
+    "Hours (10:00-19:15 daily) match Tabelog 10:00-19:15 (LO 18:00). Score 3.48 / 290 (Tabelog 291). Budget JPY 4,000-4,999 supports tier 3.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市右京区嵯峨中ノ島町 官有地10"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260403/26025547/"]
+ },
+ {
+  "id": "arashiyama-unashu",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Arashiyama/Saga, Kyoto'); Tabelog gives 京都府京都市右京区嵯峨天龍寺車道町25.",
+    "Hours match Tabelog (Wed 11:00-16:00, other days 11:00-19:00, Mon/Tue/Thu-Sun). Score 3.38 / 64 matches. Budget tier 3 consistent.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市右京区嵯峨天龍寺車道町25"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260403/26040926/"]
+ },
+ {
+  "id": "kyoto-bar-rocking-chair",
+  "verdict": "minor",
+  "issues": [
+    "Address is English-only and loose; Tabelog gives 京都府京都市下京区御幸町通仏光寺下る橘町434-2.",
+    "Hours 17:00-01:00 (LO 00:30) and Tuesday closed match Tabelog. Score 3.87 / 544 matches. Budget tier 3 consistent.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市下京区御幸町通仏光寺下る橘町434-2"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260201/26007698/"]
+ },
+ {
+  "id": "kinkakuji-sora-wa-kimagure",
+  "verdict": "minor",
+  "issues": [
+    "Address is a vague placeholder; Tabelog gives 京都府京都市上京区北野天満宮前西入ル紙屋川町838.",
+    "Coordinates 35.027599,135.735199 are IDENTICAL to kinkakuji-sawaya. Needs map check (see Sawaya).",
+    "Hours (lunch 12:00-14:00, dinner 18:00-22:00, Wed closed) and score 3.38 / 56 match Tabelog. Price tier 1 consistent with '- JPY 999'.",
+    "No non-Tabelog page opened."
+  ],
+  "corrected": {"address": "京都府京都市上京区北野天満宮前西入ル紙屋川町838"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260501/26008555/"]
+ },
+ {
+  "id": "arashiyama-pan-to-espresso",
+  "verdict": "minor",
+  "issues": [
+    "Address is a placeholder ('Arashiyama/Saga, Kyoto'); Tabelog gives 京都府京都市右京区嵯峨天龍寺芒ノ馬場町45-15.",
+    "Hours (08:00-18:00 daily, LO 17:00) and score 3.39 / 653 (Tabelog 654) match. Closed days 'Not fixed'.",
+    "No non-Tabelog page opened; coordinates unverified."
+  ],
+  "corrected": {"address": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町45-15"},
+  "sources": ["https://tabelog.com/en/kyoto/A2601/A260403/26032681/"]
+ }
+]

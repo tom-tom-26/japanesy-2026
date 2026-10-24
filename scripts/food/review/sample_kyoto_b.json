@@ -1,0 +1,855 @@
+[
+ {
+  "id": "kyoto-nijo-wakasaya",
+  "name": "Nijo Wakasaya Teramachi",
+  "jp": "二條若狭屋 寺町店",
+  "lat": 35.013382,
+  "lng": 135.767517,
+  "address": "Central Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "17:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.69,
+   "reviews": 558,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26022589/",
+   "award": "Tabelog 100 WEST (2023, 2026)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kinkakuji-mimatsu",
+  "name": "Mimatsu",
+  "jp": "麺処 美松",
+  "lat": 35.027554,
+  "lng": 135.733322,
+  "address": "Kinkaku-ji / Kitano area, Kyoto",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:30",
+     "14:30"
+    ]
+   ],
+   "thu": [],
+   "fri": [
+    [
+     "10:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "14:30"
+    ],
+    [
+     "17:00",
+     "20:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.4,
+   "reviews": 99,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260501/26036928/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-sakenonki-bingo",
+  "name": "Sakenonki Bingo",
+  "jp": "酒呑気 びんご",
+  "lat": 35.004822,
+  "lng": 135.75618,
+  "address": "Central Kyoto",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "23:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.56,
+   "reviews": 327,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26035047/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kinkakuji-futaba",
+  "name": "Kamishichiken Futaba",
+  "jp": "上七軒 ふた葉",
+  "lat": 35.030193,
+  "lng": 135.73851,
+  "address": "Kinkaku-ji / Kitano area, Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.47,
+   "reviews": 151,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260501/26007628/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "arashiyama-tea-room-kiki",
+  "name": "TEA ROOM KIKI Kyoto Arashiyama Honten",
+  "jp": "TEA ROOM KIKI 京都・嵐山本店",
+  "lat": 35.016682,
+  "lng": 135.680664,
+  "address": "Arashiyama/Saga, Kyoto",
+  "price": 2,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:30",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.4,
+   "reviews": 128,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260403/26036648/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-inoda-sanjo",
+  "name": "Inoda Coffee Sanjo",
+  "jp": "イノダコーヒ 三条支店",
+  "lat": 35.008484,
+  "lng": 135.763611,
+  "address": "Central Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.3,
+   "reviews": 370,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260202/26000413/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-ryuho",
+  "name": "Ryuho",
+  "jp": "龍鳳",
+  "lat": 35.006989,
+  "lng": 135.769836,
+  "address": "Central Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "16:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "11:30",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "16:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.48,
+   "reviews": 249,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26005202/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-maeda-muromachi",
+  "name": "Maeda Coffee Muromachi Honten",
+  "jp": "前田珈琲 室町本店",
+  "lat": 35.006313,
+  "lng": 135.758942,
+  "address": "Central Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.53,
+   "reviews": 1199,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26001559/",
+   "award": "Tabelog Kissaten 100 (2021, 2022)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kinkakuji-sawaya",
+  "name": "Awamochidokoro Sawaya",
+  "jp": "あわもちどころ さわや",
+  "lat": 35.027599,
+  "lng": 135.735199,
+  "address": "Kinkaku-ji / Kitano area, Kyoto",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.75,
+   "reviews": 1186,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260501/26001539/",
+   "award": "Tabelog 100 WEST sweets/wagashi (2018-2026)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "arashiyama-itsuki-chaya",
+  "name": "Gokoku Houjou no Ochaya Gohan Itsuki Chaya Arashiyama Honten",
+  "jp": "五穀豊穣のお茶屋ごはん五木茶屋 嵐山本店",
+  "lat": 35.012196,
+  "lng": 135.678238,
+  "address": "Arashiyama/Saga, Kyoto",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "19:15"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.48,
+   "reviews": 290,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260403/26025547/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "arashiyama-unashu",
+  "name": "Arashiyama Unashu",
+  "jp": "嵐山 うな秀",
+  "lat": 35.018589,
+  "lng": 135.680573,
+  "address": "Arashiyama/Saga, Kyoto",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.38,
+   "reviews": 64,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260403/26040926/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kyoto-bar-rocking-chair",
+  "name": "Bar Rocking Chair",
+  "jp": "ロッキングチェア",
+  "lat": 35.000648,
+  "lng": 135.766403,
+  "address": "Gokomachi-dori Bukkoji sagaru, Shimogyo-ku",
+  "price": 3,
+  "reservation": "recommended",
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "tue": [],
+   "wed": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "25:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.87,
+   "reviews": 544,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260201/26007698/",
+   "award": "Tabelog Bar 100 (2022)"
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "kinkakuji-sora-wa-kimagure",
+  "name": "Sora wa Kimagure",
+  "jp": "そらはキマグレ",
+  "lat": 35.027599,
+  "lng": 135.735199,
+  "address": "Kinkaku-ji / Kitano area, Kyoto",
+  "price": 1,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "wed": [],
+   "thu": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "14:00"
+    ],
+    [
+     "18:00",
+     "22:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.38,
+   "reviews": 56,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260501/26008555/",
+   "award": null
+  },
+  "confidence": "medium"
+ },
+ {
+  "id": "arashiyama-pan-to-espresso",
+  "name": "Pan to Espresso to Arashiyama Teien",
+  "jp": "パンとエスプレッソと嵐山庭園",
+  "lat": 35.014816,
+  "lng": 135.674919,
+  "address": "Arashiyama/Saga, Kyoto",
+  "price": 2,
+  "reservation": "none",
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "tabelog": {
+   "score": 3.39,
+   "reviews": 653,
+   "url": "https://tabelog.com/en/kyoto/A2601/A260403/26032681/",
+   "award": null
+  },
+  "confidence": "medium"
+ }
+]
