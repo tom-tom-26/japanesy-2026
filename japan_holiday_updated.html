@@ -282,7 +282,6 @@
   .fx-links a:hover{text-decoration:underline}
   .fx-more{display:block;margin:16px auto 0;border:1px solid var(--line);background:var(--soft);color:#fff;padding:10px 22px;border-radius:999px;font:600 .9rem var(--sans);cursor:pointer}
   .fx-foot{margin-top:18px;color:var(--slate);font-size:.78rem;max-width:80ch}
-  #fxMap .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.55)}
   .fm{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-size:15px;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.5);background:#ff5a7a}
   .fm[data-p="1"]{background:#3fe0a5}.fm[data-p="2"]{background:#5fb0f2}.fm[data-p="3"]{background:#f2c14e}.fm[data-p="4"]{background:#a05bff}
   .fm.closed{opacity:.45;filter:grayscale(.8)}
@@ -1208,7 +1207,7 @@
           <details class="ev" data-map="Kabukicho, Shinjuku Tokyo">
             <summary>
               <span class="time">Eve<span class="dur"></span></span>
-              <span class="place">Last night as a pair</span>
+              <span class="place">Last night as a trio</span>
               <span class="chev">›</span>
             </summary>
             <div class="ev-detail">
@@ -1537,8 +1536,9 @@
     }
     function initMap(){
       map = L.map('fxMap',{zoomControl:true}).setView([35.69,139.70],14);
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
-        attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+      const esri='https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+      L.tileLayer(esri+'World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,maxNativeZoom:16,attribution:'Tiles &copy; Esri, HERE, Garmin, OpenStreetMap contributors'}).addTo(map);
+      L.tileLayer(esri+'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,maxNativeZoom:16}).addTo(map);
       cluster = L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:42,spiderfyOnMaxZoom:true});
       map.addLayer(cluster);
       mapReady = true;

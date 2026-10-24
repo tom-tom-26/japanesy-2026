@@ -521,7 +521,7 @@ TOKYO = {
      "map": "Kabukicho, Shinjuku Tokyo",
      "time": "Eve",
      "dur": "",
-     "place": "Last night as a pair",
+     "place": "Last night as a trio",
      "notes": "An easy Kabukicho izakaya + a final Golden Gai round.",
      "extras": [],
      "alt": None

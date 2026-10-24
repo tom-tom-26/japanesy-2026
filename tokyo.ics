@@ -606,13 +606,13 @@ UID:d9-e3-20261120@tokyo-itinerary.japanesy2026
 DTSTAMP:20260731T000000Z
 DTSTART;TZID=Asia/Tokyo:20261120T190000
 DTEND;TZID=Asia/Tokyo:20261120T210000
-SUMMARY:Last night as a pair
+SUMMARY:Last night as a trio
 LOCATION:Kabukicho\, Shinjuku City\, Tokyo
 DESCRIPTION:An easy Kabukicho izakaya + a final Golden Gai round.\nMap: htt
  ps://www.google.com/maps/search/?api=1&query=Golden+Gai+Shinjuku
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Last night as a pair
+DESCRIPTION:Last night as a trio
 TRIGGER:-PT30M
 END:VALARM
 END:VEVENT

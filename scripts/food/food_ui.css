@@ -48,7 +48,6 @@
   .fx-links a:hover{text-decoration:underline}
   .fx-more{display:block;margin:16px auto 0;border:1px solid var(--line);background:var(--soft);color:#fff;padding:10px 22px;border-radius:999px;font:600 .9rem var(--sans);cursor:pointer}
   .fx-foot{margin-top:18px;color:var(--slate);font-size:.78rem;max-width:80ch}
-  #fxMap .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.55)}
   .fm{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-size:15px;border:2px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.5);background:#ff5a7a}
   .fm[data-p="1"]{background:#3fe0a5}.fm[data-p="2"]{background:#5fb0f2}.fm[data-p="3"]{background:#f2c14e}.fm[data-p="4"]{background:#a05bff}
   .fm.closed{opacity:.45;filter:grayscale(.8)}

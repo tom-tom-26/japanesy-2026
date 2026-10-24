@@ -118,7 +118,7 @@ Built for Mandeep, Tom, Josh & Jai. Base is **Shinjuku / Kabukicho** (per the ac
 *   **Late morning (Mandeep, Tom & Josh) — pick one, both deliberately low-key:**
     *   **Option A — Old-town wander (no trains-heavy day):** **Yanaka / Yanesen** — one of the few districts to survive WWII bombing, so it keeps its shitamachi feel. Walk **Nippori Station → Yanaka Ginza** shopping street (street-food, "cat town") → **Nezu Shrine** (a mini corridor of red torii) → finish at Sendagi. Low-key, ~half a day.
     *   **Option B — Second day-trip:** **Kamakura** — the seaside temple town ~1 hr from Tokyo Station (JR Yokosuka Line, ~¥920). The **Great Buddha at Kotoku-in** (11.3 m bronze, standing since 1252; you can go inside for ¥50) + **Hase-dera** (Kannon hall, sea-view terrace, Benten cave), 5 min apart via the little Enoden line. Only pick this if the group still has day-trip energy after Hakone.
-*   **Evening:** Last night as a pair — an easy Kabukicho izakaya + a final Golden Gai round.
+*   **Evening:** Last night as a trio — an easy Kabukicho izakaya + a final Golden Gai round.
 *   **Transit/Logistics Note:** Keep Jai's checkout/bag logistics sorted the night before so the morning airport run is clean. Option A (Yanaka) is walking, not hauling across the city; save Option B (Kamakura) only if legs are fresh.
 
 ---

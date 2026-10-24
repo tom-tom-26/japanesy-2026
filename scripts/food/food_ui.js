@@ -122,8 +122,9 @@
     }
     function initMap(){
       map = L.map('fxMap',{zoomControl:true}).setView([35.69,139.70],14);
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
-        attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+      const esri='https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+      L.tileLayer(esri+'World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,maxNativeZoom:16,attribution:'Tiles &copy; Esri, HERE, Garmin, OpenStreetMap contributors'}).addTo(map);
+      L.tileLayer(esri+'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,maxNativeZoom:16}).addTo(map);
       cluster = L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:42,spiderfyOnMaxZoom:true});
       map.addLayer(cluster);
       mapReady = true;

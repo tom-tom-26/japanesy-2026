@@ -238,7 +238,7 @@ EVENTS = [
       "Map A: " + maps("Yanaka Ginza Tokyo"),
       "Map B: " + maps("Kotoku-in Great Buddha Kamakura")]),
     (9, 3, "20261120", "190000", "210000",
-     "Last night as a pair",
+     "Last night as a trio",
      "Kabukicho, Shinjuku City, Tokyo",
      ["An easy Kabukicho izakaya + a final Golden Gai round.",
       "Map: " + maps("Golden Gai Shinjuku")]),
